@@ -1,0 +1,133 @@
+{
+  "title": "ทำไมท้องฟ้าตอนกลางวันถึงเป็นสีฟ้า",
+  "format": "why_question",
+  "scenes": [
+    {
+      "id": 1,
+      "narration": "เคยสงสัยไหม ทำไมท้องฟ้าตอนกลางวันถึงเป็นสีฟ้า?",
+      "visual": "A low-angle shot of a bright blue sky with soft white clouds, sun shining at the top.",
+      "emphasis_words": [
+        "ทำไม",
+        "สีฟ้า"
+      ],
+      "claims": [
+        "We see the daytime sky as blue."
+      ]
+    },
+    {
+      "id": 2,
+      "narration": "ทั้งที่จริงๆ แล้ว แสงจากดวงอาทิตย์ที่ส่องลงมาเป็นสีขาว",
+      "visual": "A close-up of a prism splitting white sunlight into a colorful rainbow spectrum.",
+      "emphasis_words": [
+        "แสงจากดวงอาทิตย์",
+        "สีขาว"
+      ],
+      "claims": [
+        "Sunlight is composed of all colors of the rainbow, which combine to look white."
+      ]
+    },
+    {
+      "id": 3,
+      "narration": "แต่เมื่อแสงนี้เดินทางผ่านชั้นบรรยากาศโลกของเรา",
+      "visual": "A wide shot of planet Earth from space, showing the thin, glowing blue atmosphere.",
+      "emphasis_words": [
+        "ชั้นบรรยากาศ"
+      ],
+      "claims": [
+        "Sunlight travels through Earth's atmosphere."
+      ]
+    },
+    {
+      "id": 4,
+      "narration": "มันจะต้องชนเข้ากับโมเลกุลของก๊าซต่างๆ",
+      "visual": "A 3D animation of light rays hitting tiny gas molecules in the air.",
+      "emphasis_words": [
+        "ชน",
+        "โมเลกุล"
+      ],
+      "claims": [
+        "Earth's atmosphere is made of gases and particles."
+      ]
+    },
+    {
+      "id": 5,
+      "narration": "เปรียบเหมือนเราสาดน้ำใส่ตะแกรงถี่ๆ",
+      "visual": "A close-up of water being splashed onto a fine metal mesh screen, droplets scattering.",
+      "emphasis_words": [
+        "สาดน้ำ",
+        "ตะแกรง"
+      ],
+      "claims": []
+    },
+    {
+      "id": 6,
+      "narration": "แสงสีแดงและสีเหลืองที่มีคลื่นยาว จะเดินทางผ่านไปได้ง่ายๆ",
+      "visual": "An animation showing long, smooth red and yellow light waves passing easily through obstacles.",
+      "emphasis_words": [
+        "สีแดง",
+        "ผ่านไปได้"
+      ],
+      "claims": [
+        "Longer wavelengths of light like red and yellow pass through the atmosphere with less scattering."
+      ]
+    },
+    {
+      "id": 7,
+      "narration": "แต่แสงสีน้ำเงินที่มีคลื่นสั้นและถี่กว่า",
+      "visual": "An animation showing short, rapid blue light waves bouncing intensely off particles.",
+      "emphasis_words": [
+        "สีน้ำเงิน",
+        "คลื่นสั้น"
+      ],
+      "claims": [
+        "Blue light has shorter and smaller wavelengths."
+      ]
+    },
+    {
+      "id": 8,
+      "narration": "จะชนและกระเจิงไปทั่วทุกทิศทางในอากาศ",
+      "visual": "A wide-angle view of the atmosphere filled with glowing blue particles scattering everywhere.",
+      "emphasis_words": [
+        "กระเจิง",
+        "ทุกทิศทาง"
+      ],
+      "claims": [
+        "Rayleigh scattering: Shorter wavelengths (blue) scatter more than longer wavelengths when hitting atmospheric particles."
+      ]
+    },
+    {
+      "id": 9,
+      "narration": "แสงสีน้ำเงินนี้จึงฟุ้งกระจายเต็มท้องฟ้าและเข้าตาเรา",
+      "visual": "A close-up of a person's eye reflecting a beautiful blue sky.",
+      "emphasis_words": [
+        "ฟุ้งกระจาย",
+        "เข้าตาเรา"
+      ],
+      "claims": [
+        "We see the sky as blue because blue light is scattered in all directions by the tiny molecules of air in Earth's atmosphere."
+      ]
+    },
+    {
+      "id": 10,
+      "narration": "จนกลายเป็นสีสันที่เราเห็นอยู่ทุกวัน",
+      "visual": "A time-lapse of a beautiful blue sky over a green park during the day.",
+      "emphasis_words": [
+        "สีสัน",
+        "ทุกวัน"
+      ],
+      "claims": []
+    },
+    {
+      "id": 11,
+      "narration": "และนั่นคือสาเหตุที่ทำให้เราต้องถามตัวเองว่า...",
+      "visual": "A person looking up at the sky with a curious expression, camera slowly tilting up.",
+      "emphasis_words": [
+        "สาเหตุ",
+        "ถามตัวเอง"
+      ],
+      "claims": []
+    }
+  ],
+  "loop_note": "ประโยคสุดท้ายจบด้วยคำว่า 'และนั่นคือสาเหตุที่ทำให้เราต้องถามตัวเองว่า...' ซึ่งจะเชื่อมต่อกับประโยคเริ่มต้นที่เป็น Hook 'เคยสงสัยไหม ทำไมท้องฟ้าตอนกลางวันถึงเป็นสีฟ้า?' ได้อย่างราบรื่นและน่าติดตามเมื่อเล่นวนซ้ำ",
+  "hook_used": "เคยสงสัยไหม ทำไมท้องฟ้าตอนกลางวันถึงเป็นสีฟ้า?"
+}

@@ -1,0 +1,11 @@
+# ค่าประมาณ ปรับตามที่ทดสอบจริงบนแอป (UI ของแอปเปลี่ยนได้)
+canvas: { width: 1080, height: 1920 }
+unsafe:
+  top_percent: 10
+  bottom_percent: 25      # ชื่อช่อง/caption/ปุ่ม
+  right_percent: 15       # ปุ่มไลก์ คอมเมนต์ แชร์
+subject_zone: "กลาง 60% ของเฟรม"
+subtitle_zone: "ค่อนล่าง เหนือ bottom unsafe"
+subtitle_margin_v: 520    # ระยะห่างจากขอบล่าง (ประมาณ 27% ของความสูง 1920px เพื่อให้อยู่เหนือ bottom unsafe 25%)
+subtitle_margin_l: 80
+subtitle_margin_r: 180    # เว้นขอบขวา 15% ไม่ให้ชนปุ่มไลก์/แชร์

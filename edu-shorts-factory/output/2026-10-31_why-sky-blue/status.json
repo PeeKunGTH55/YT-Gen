@@ -1,0 +1,113 @@
+{
+  "folder": "2026-10-31_why-sky-blue",
+  "status": "published",
+  "history": [
+    {
+      "status": "scripted",
+      "timestamp": "2026-10-31T21:40:03+07:00",
+      "note": "สร้างบท 9 ฉาก พร้อมคัดเลือก Hook สำเร็จ"
+    },
+    {
+      "status": "scripted",
+      "timestamp": "2026-10-31T21:40:22+07:00",
+      "note": "สร้างบท 9 ฉาก พร้อมคัดเลือก Hook สำเร็จ"
+    },
+    {
+      "status": "factchecked",
+      "timestamp": "2026-10-31T21:40:22+07:00",
+      "note": "ผ่านการตรวจข้อเท็จจริงในรอบที่ 1"
+    },
+    {
+      "status": "assets_ready",
+      "timestamp": "2026-10-31T21:40:25+07:00",
+      "note": "เตรียมไฟล์เสียงและภาพประกอบครบ 9 ฉาก"
+    },
+    {
+      "status": "rendered",
+      "timestamp": "2026-10-31T21:40:47+07:00",
+      "note": "เรนเดอร์ final.mp4 และสร้าง meta.json สำเร็จ (ความยาว 29.95 วินาที)"
+    },
+    {
+      "status": "approved",
+      "timestamp": "2026-10-31T21:40:47+07:00",
+      "note": "อนุมัติอัตโนมัติ (require_approval=false หรือสั่ง --approve-now)"
+    },
+    {
+      "status": "published",
+      "timestamp": "2026-10-31T21:40:47+07:00",
+      "note": "เผยแพร่สำเร็จผ่านโหมด manual_export"
+    },
+    {
+      "status": "scripted",
+      "timestamp": "2026-10-31T21:58:00+07:00",
+      "note": "สร้างบท 9 ฉาก พร้อมคัดเลือก Hook สำเร็จ"
+    },
+    {
+      "status": "factchecked",
+      "timestamp": "2026-10-31T21:58:00+07:00",
+      "note": "ผ่านการตรวจข้อเท็จจริงในรอบที่ 1"
+    },
+    {
+      "status": "assets_ready",
+      "timestamp": "2026-10-31T21:58:02+07:00",
+      "note": "เตรียมไฟล์เสียงและภาพประกอบครบ 9 ฉาก (provider=placeholder)"
+    },
+    {
+      "status": "rendered",
+      "timestamp": "2026-10-31T21:58:23+07:00",
+      "note": "เรนเดอร์ final.mp4 (motion=ken_burns) และสร้าง meta.json สำเร็จ"
+    },
+    {
+      "status": "approved",
+      "timestamp": "2026-10-31T21:58:23+07:00",
+      "note": "อนุมัติอัตโนมัติ (require_approval=false หรือสั่ง --approve-now)"
+    },
+    {
+      "status": "published",
+      "timestamp": "2026-10-31T21:58:23+07:00",
+      "note": "เผยแพร่สำเร็จผ่านโหมด manual_export"
+    },
+    {
+      "status": "scripted",
+      "timestamp": "2026-10-31T22:31:06+07:00",
+      "note": "สร้างบท 11 ฉาก พร้อมคัดเลือก Hook สำเร็จ"
+    },
+    {
+      "status": "factchecked",
+      "timestamp": "2026-10-31T22:34:18+07:00",
+      "note": "ผ่านการตรวจข้อเท็จจริงในรอบที่ 1"
+    },
+    {
+      "status": "assets_ready",
+      "timestamp": "2026-10-31T22:45:32+07:00",
+      "note": "เตรียมไฟล์เสียงและภาพประกอบครบ 11 ฉาก (provider=nano_banana)"
+    },
+    {
+      "status": "rendered",
+      "timestamp": "2026-10-31T22:52:29+07:00",
+      "note": "เรนเดอร์ final.mp4 (motion=veo) และสร้าง meta.json สำเร็จ"
+    },
+    {
+      "status": "approved",
+      "timestamp": "2026-10-31T22:52:31+07:00",
+      "note": "อนุมัติอัตโนมัติ (require_approval=false หรือสั่ง --approve-now)"
+    },
+    {
+      "status": "published",
+      "timestamp": "2026-10-31T22:52:32+07:00",
+      "note": "เผยแพร่สำเร็จผ่านโหมด manual_export"
+    }
+  ],
+  "updated_at": "2026-10-31T22:52:32+07:00",
+  "topic_id": "1",
+  "title": "ทำไมท้องฟ้าตอนกลางวันถึงเป็นสีฟ้า",
+  "format": "why_question",
+  "publish_result": {
+    "mode": "manual_export",
+    "platforms": [
+      "youtube_manual",
+      "tiktok_manual"
+    ],
+    "bundle_file": "D:\\P\\video\\edu-shorts-factory\\output\\2026-10-31_why-sky-blue\\publish_bundle.json"
+  }
+}

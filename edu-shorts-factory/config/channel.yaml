@@ -1,0 +1,39 @@
+channel:
+  language: th
+  audience: "ทุกวัย (เด็ก 8 ขวบถึงผู้สูงอายุ)"
+  tone: "เป็นกันเอง เรียบง่าย ไม่เว่อร์"
+
+video:
+  resolution: 1080x1920        # 9:16
+  fps: 30
+  codec: h264
+  audio: aac
+  motion_mode: veo             # veo (สร้างวิดีโอเคลื่อนไหวจากภาพด้วย Vertex AI Veo) | ken_burns (ซูมภาพด้วย FFmpeg)
+  veo_model: veo-2.0-generate-001
+  duration_sec: { target_min: 25, target_max: 45, hard_max: 60 }
+  scene_length_sec: { min: 2, max: 4 }
+  scenes: { min: 8, max: 12 }
+  hook_window_sec: 2           # ต้องมีภาพ+เสียงดึงดูดภายใน 2 วินาที
+  loop_ending: true            # ประโยคจบเชื่อมกลับ hook
+
+audio:
+  tts_speed: 1.1               # 1.05-1.15
+  trim_silence_between_sentences: true
+  bgm_volume_ratio: 0.12       # 10-15% ของเสียงพากย์
+
+subtitles:
+  words_per_chunk: [3, 6]
+  font_name: "Tahoma"          # เปลี่ยนเป็น Sarabun หรือ Kanit ได้ถ้าติดตั้งไว้ใน assets/fonts
+  font_size: 64
+  primary_color: "&H00FFFFFF"  # สีขาว (ASS BGR format)
+  highlight_color: "&H0000D7FF" # สีเหลืองทองสำหรับคำเน้น (BGR: 00-D7-FF)
+  outline_color: "&H00000000"  # ขอบดำ
+  outline_width: 4
+  highlight_keywords: true
+  tokenizer: pythainlp
+
+workflow:
+  require_approval: true       # ปลดเป็น false เมื่อพร้อม
+  posts_per_day: 1
+  ai_label: true               # ติดป้ายเนื้อหา AI ทุกแพลตฟอร์ม
+  factcheck_max_retries: 2     # จำนวนรอบสูงสุดที่แก้บทและตรวจซ้ำอัตโนมัติ

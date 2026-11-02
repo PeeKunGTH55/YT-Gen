@@ -1,0 +1,30 @@
+default_provider: tokenme
+speed: 1.1
+trim_silence: true
+silence_threshold_db: -40
+min_silence_ms: 150
+
+providers:
+  tokenme:
+    base_url: "https://api.tokenme.limited/api/v1"
+    user_agent: "edu-shorts-factory/1.0"
+    model: "paxa/paxa-tts-flash-v2"
+    voice: "mooping"
+    response_format: "mp3"
+
+  edge_tts:
+    voice: "th-TH-PremwadeeNeural"
+    rate: "+10%"
+    pitch: "+0Hz"
+
+  botnoi:
+    speaker_id: "1"
+    volume: 1.0
+    speed: 1.1
+    type_media: "wav"
+
+  elevenlabs:
+    model_id: "eleven_multilingual_v2"
+    stability: 0.55
+    similarity_boost: 0.75
+    style: 0.15
