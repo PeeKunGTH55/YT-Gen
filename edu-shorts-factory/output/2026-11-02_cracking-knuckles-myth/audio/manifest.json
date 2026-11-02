@@ -1,0 +1,71 @@
+{
+  "provider": "tokenme",
+  "total_duration_sec": 35.253,
+  "narration_file": "narration.wav",
+  "scenes": [
+    {
+      "scene_id": 1,
+      "file": "scene_01.wav",
+      "narration": "เคยสงสัยไหมว่า หักนิ้วบ่อยๆ แต่ทำไมข้อกลับไม่ได้เสื่อมจริง?",
+      "duration_sec": 4.879,
+      "start_sec": 0.0,
+      "end_sec": 4.879
+    },
+    {
+      "scene_id": 2,
+      "file": "scene_02.wav",
+      "narration": "เสียงดัง 'ป๊อก' นั้น ไม่ใช่กระดูกขูดกันนะ",
+      "duration_sec": 3.302,
+      "start_sec": 4.879,
+      "end_sec": 8.181
+    },
+    {
+      "scene_id": 3,
+      "file": "scene_03.wav",
+      "narration": "แต่มันคือฟองแก๊สในข้อต่อที่แตกตัว เหมือนเราบีบพลาสติกกันกระแทกเล่น",
+      "duration_sec": 5.126,
+      "start_sec": 8.181,
+      "end_sec": 13.307
+    },
+    {
+      "scene_id": 4,
+      "file": "scene_04.wav",
+      "narration": "ซึ่งแพทย์ยืนยันแล้วว่าไม่ได้ทำให้ข้ออักเสบหรือมือสั่น",
+      "duration_sec": 3.877,
+      "start_sec": 13.307,
+      "end_sec": 17.184
+    },
+    {
+      "scene_id": 5,
+      "file": "scene_05.wav",
+      "narration": "แล้วเคยเอะใจไหมว่า ถ้ามันไม่อันตราย ทำไมบางคนหักแล้วถึงยังเจ็บข้ออยู่?",
+      "duration_sec": 5.709,
+      "start_sec": 17.184,
+      "end_sec": 22.893
+    },
+    {
+      "scene_id": 6,
+      "file": "scene_06.wav",
+      "narration": "นั่นเพราะการหักแรงเกินไป อาจทำให้เส้นเอ็นรอบข้ออักเสบแทน",
+      "duration_sec": 4.546,
+      "start_sec": 22.893,
+      "end_sec": 27.439
+    },
+    {
+      "scene_id": 7,
+      "file": "scene_07.wav",
+      "narration": "รู้อย่างนี้แล้ว ครั้งหน้าถ้าเมื่อยมือ ลองเปลี่ยนมายืดนิ้วเบาๆ ดีกว่า",
+      "duration_sec": 4.933,
+      "start_sec": 27.439,
+      "end_sec": 32.372
+    },
+    {
+      "scene_id": 8,
+      "file": "scene_08.wav",
+      "narration": "จะได้ไม่ต้องมานั่งกังวลจนต้องกลับมาคิดว่า...",
+      "duration_sec": 2.881,
+      "start_sec": 32.372,
+      "end_sec": 35.253
+    }
+  ]
+}

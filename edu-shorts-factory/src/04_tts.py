@@ -67,7 +67,7 @@ def synth_tokenme_tts(
         "user_agent", "edu-shorts-factory/1.0"
     )
     model = os.getenv("TOKENME_MODEL") or cfg.get("model", "paxa/paxa-tts-flash-v2")
-    voice = os.getenv("TOKENME_VOICE") or cfg.get("voice", "mooping")
+    voice = os.getenv("TOKENME_VOICE") or cfg.get("voice", "bualoi")
     response_format = cfg.get("response_format", "mp3")
 
     client = OpenAI(
@@ -89,14 +89,18 @@ def convert_to_wav_and_trim(
     input_audio: Path,
     output_wav: Path,
     trim_silence: bool = True,
-    threshold_db: int = -40,
+    threshold_db: int = -35,
+    speed: float = 1.12,
 ) -> None:
     af_filters = []
     if trim_silence:
         af_filters.append(
-            f"silenceremove=start_periods=1:start_silence=0.05:start_threshold={threshold_db}dB,"
-            f"areverse,silenceremove=start_periods=1:start_silence=0.08:start_threshold={threshold_db}dB,areverse"
+            f"silenceremove=start_periods=1:start_silence=0.02:start_threshold={threshold_db}dB,"
+            f"areverse,silenceremove=start_periods=1:start_silence=0.03:start_threshold={threshold_db}dB,areverse"
         )
+    if abs(speed - 1.0) > 0.01:
+        clamped = max(0.5, min(2.0, speed))
+        af_filters.append(f"atempo={clamped:.2f}")
     cmd = [get_ffmpeg_bin(), "-y", "-i", str(input_audio)]
     if af_filters:
         cmd.extend(["-af", ",".join(af_filters)])
@@ -143,7 +147,7 @@ def synth_scene_audio(
         tmp_mp3 = scene_wav.with_suffix(".mp3")
         try:
             synth_tokenme_tts(text, tmp_mp3, voices_cfg)
-            convert_to_wav_and_trim(tmp_mp3, scene_wav, trim_silence, threshold_db)
+            convert_to_wav_and_trim(tmp_mp3, scene_wav, trim_silence, threshold_db, speed=speed)
             tmp_mp3.unlink(missing_ok=True)
             return
         except Exception as exc:

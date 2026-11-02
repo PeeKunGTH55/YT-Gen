@@ -1,0 +1,87 @@
+{
+  "folder": "2026-11-02_cracking-knuckles-myth",
+  "status": "published",
+  "history": [
+    {
+      "status": "scripted",
+      "timestamp": "2026-11-02T11:37:55+07:00",
+      "note": "สร้างบท 8 ฉาก พร้อมคัดเลือก Hook สำเร็จ"
+    },
+    {
+      "status": "factchecked",
+      "timestamp": "2026-11-02T11:38:35+07:00",
+      "note": "ผ่านการตรวจข้อเท็จจริงในรอบที่ 1"
+    },
+    {
+      "status": "scripted",
+      "timestamp": "2026-11-02T11:40:40+07:00",
+      "note": "สร้างบท 8 ฉาก พร้อมคัดเลือก Hook สำเร็จ"
+    },
+    {
+      "status": "factchecked",
+      "timestamp": "2026-11-02T11:41:29+07:00",
+      "note": "ผ่านการตรวจข้อเท็จจริงในรอบที่ 1"
+    },
+    {
+      "status": "assets_ready",
+      "timestamp": "2026-11-02T11:41:48+07:00",
+      "note": "เตรียมไฟล์เสียงและภาพประกอบครบ 8 ฉาก (provider=nano_banana)"
+    },
+    {
+      "status": "assets_ready",
+      "timestamp": "2026-11-02T11:45:16+07:00",
+      "note": "เตรียมไฟล์เสียงและภาพประกอบครบ 8 ฉาก (provider=nano_banana)"
+    },
+    {
+      "status": "rendered",
+      "timestamp": "2026-11-02T11:46:26+07:00",
+      "note": "เรนเดอร์ final.mp4 (motion=veo) และสร้าง meta.json สำเร็จ"
+    },
+    {
+      "status": "awaiting_approval",
+      "timestamp": "2026-11-02T11:47:19+07:00",
+      "note": "ส่งคลิปเข้า Telegram เพื่อรออนุมัติแล้ว"
+    },
+    {
+      "status": "approved",
+      "timestamp": "2026-11-02T14:47:27+07:00",
+      "note": "อนุมัติผ่านปุ่มกด Telegram"
+    },
+    {
+      "status": "published",
+      "timestamp": "2026-11-02T14:47:27+07:00",
+      "note": "เผยแพร่สำเร็จผ่านโหมด manual_export"
+    },
+    {
+      "status": "approved",
+      "timestamp": "2026-11-02T15:00:14+07:00",
+      "note": "อนุมัติผ่านปุ่มกด Telegram"
+    },
+    {
+      "status": "published",
+      "timestamp": "2026-11-02T15:00:14+07:00",
+      "note": "เผยแพร่สำเร็จผ่านโหมด manual_export"
+    },
+    {
+      "status": "approved",
+      "timestamp": "2026-11-02T15:00:45+07:00",
+      "note": "อนุมัติผ่านปุ่มกด Telegram"
+    },
+    {
+      "status": "published",
+      "timestamp": "2026-11-02T15:00:51+07:00",
+      "note": "เผยแพร่สำเร็จผ่านโหมด direct_api"
+    }
+  ],
+  "updated_at": "2026-11-02T15:00:51+07:00",
+  "topic_id": "6",
+  "title": "ความเข้าใจผิดเรื่องการหักนิ้ว",
+  "format": "why_question",
+  "publish_result": {
+    "mode": "direct_api",
+    "platforms": [
+      "youtube"
+    ],
+    "youtube_url": "https://youtube.com/shorts/T4lSYuJxmBI"
+  }
+}

@@ -23,13 +23,13 @@ def send_telegram_review(
     meta = json.loads(meta_file.read_text(encoding="utf-8")) if meta_file.exists() else {}
 
     yt_title = meta.get("youtube", {}).get("title", clip_path.name)
-    tt_caption = meta.get("tiktok", {}).get("caption", "")
+    yt_desc = meta.get("youtube", {}).get("description", "")
 
     caption_text = (
-        f"[ตรวจอนุมัติคลิปสั้น]\n"
+        f"[ตรวจอนุมัติ YouTube Shorts]\n"
         f"โฟลเดอร์: {clip_path.name}\n"
-        f"YouTube: {yt_title}\n"
-        f"TikTok: {tt_caption}"
+        f"ชื่อคลิป: {yt_title}\n\n"
+        f"คำอธิบาย:\n{yt_desc}"
     )[:1000]
 
     reply_markup = {
@@ -42,7 +42,8 @@ def send_telegram_review(
     }
 
     url = f"https://api.telegram.org/bot{bot_token}/sendVideo"
-    with httpx.Client(timeout=120.0) as client:
+    transport = httpx.HTTPTransport(local_address="0.0.0.0")
+    with httpx.Client(transport=transport, timeout=120.0) as client:
         with final_mp4.open("rb") as vf:
             resp = client.post(
                 url,
@@ -67,7 +68,8 @@ def poll_telegram_decision(
     deadline = time.time() + max(0, wait_seconds)
     offset = 0
 
-    with httpx.Client(timeout=35.0) as client:
+    transport = httpx.HTTPTransport(local_address="0.0.0.0")
+    with httpx.Client(transport=transport, timeout=35.0) as client:
         while True:
             resp = client.get(
                 f"https://api.telegram.org/bot{bot_token}/getUpdates",
@@ -140,14 +142,14 @@ def run_review(
         return "awaiting_approval"
 
     cur_status = read_status(clip_path).get("status")
-    if not check_only and cur_status != "awaiting_approval":
+    if not check_only:
         send_telegram_review(clip_path, bot_token, chat_id)
         update_status(
             clip_path,
             "awaiting_approval",
             note="ส่งคลิปเข้า Telegram เพื่อรออนุมัติแล้ว",
         )
-        print(f"[08_review] ส่งคลิป {clip_path.name} เข้า Telegram แล้ว")
+        print(f"[08_review] ส่งคลิป {clip_path.name} เข้า Telegram (@sorap_yt_gen_bot) แล้ว")
 
     if check_only or wait_seconds > 0:
         decision = poll_telegram_decision(clip_path, bot_token, wait_seconds=wait_seconds)

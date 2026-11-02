@@ -4,130 +4,89 @@
   "scenes": [
     {
       "id": 1,
-      "narration": "เคยสงสัยไหม ทำไมท้องฟ้าตอนกลางวันถึงเป็นสีฟ้า?",
-      "visual": "A low-angle shot of a bright blue sky with soft white clouds, sun shining at the top.",
+      "narration": "คุณเคยสงสัยไหม ทำไมท้องฟ้าตอนกลางวันถึงเป็นสีฟ้า ทั้งที่แสงอาทิตย์เป็นสีขาว?",
+      "visual": "A low-angle shot of a bright blue sky with soft white clouds and a bright white sunbeam.",
       "emphasis_words": [
-        "ทำไม",
-        "สีฟ้า"
+        "คุณเคยสงสัยไหม",
+        "สีฟ้า",
+        "สีขาว"
       ],
       "claims": [
-        "We see the daytime sky as blue."
+        "Sunlight appears white while the daytime sky looks blue."
       ]
     },
     {
       "id": 2,
-      "narration": "ทั้งที่จริงๆ แล้ว แสงจากดวงอาทิตย์ที่ส่องลงมาเป็นสีขาว",
-      "visual": "A close-up of a prism splitting white sunlight into a colorful rainbow spectrum.",
+      "narration": "ความจริงแล้วแสงสีขาวซ่อนสีรุ้งไว้ข้างใน และพุ่งเข้ามาชนก๊าซในชั้นบรรยากาศโลก",
+      "visual": "A beam of white sunlight entering Earth's atmosphere and colliding with tiny gas molecules.",
       "emphasis_words": [
-        "แสงจากดวงอาทิตย์",
-        "สีขาว"
+        "ซ่อนสีรุ้ง",
+        "ชั้นบรรยากาศโลก"
       ],
       "claims": [
-        "Sunlight is composed of all colors of the rainbow, which combine to look white."
+        "Sunlight is composed of multiple wavelengths and collides with gas molecules in Earth's atmosphere."
       ]
     },
     {
       "id": 3,
-      "narration": "แต่เมื่อแสงนี้เดินทางผ่านชั้นบรรยากาศโลกของเรา",
-      "visual": "A wide shot of planet Earth from space, showing the thin, glowing blue atmosphere.",
+      "narration": "เหมือนเราสาดน้ำผ่านตะแกรง คลื่นแสงยาวอย่างสีแดงจะพุ่งผ่านไปง่าย แต่คลื่นสั้นอย่างสีฟ้าจะชนแล้วกระเจิงไปทั่ว",
+      "visual": "A close-up of blue light waves scattering in all directions while longer red waves pass straight through.",
       "emphasis_words": [
-        "ชั้นบรรยากาศ"
+        "สาดน้ำผ่านตะแกรง",
+        "สีฟ้า",
+        "กระเจิงไปทั่ว"
       ],
       "claims": [
-        "Sunlight travels through Earth's atmosphere."
+        "Blue light has shorter wavelengths, causing it to scatter more than red light (Rayleigh scattering)."
       ]
     },
     {
       "id": 4,
-      "narration": "มันจะต้องชนเข้ากับโมเลกุลของก๊าซต่างๆ",
-      "visual": "A 3D animation of light rays hitting tiny gas molecules in the air.",
+      "narration": "แต่เดี๋ยวก่อน แล้วทำไมฟ้าไม่เป็นสีม่วงล่ะ ทั้งที่สีม่วงคลื่นสั้นกว่าสีฟ้าเสียอีก?",
+      "visual": "A transition from a blue sky to a violet sky with a large question mark in the center.",
       "emphasis_words": [
-        "ชน",
-        "โมเลกุล"
+        "ทำไมฟ้าไม่เป็นสีม่วง",
+        "คลื่นสั้นกว่า"
       ],
       "claims": [
-        "Earth's atmosphere is made of gases and particles."
+        "Violet light has an even shorter wavelength than blue light."
       ]
     },
     {
       "id": 5,
-      "narration": "เปรียบเหมือนเราสาดน้ำใส่ตะแกรงถี่ๆ",
-      "visual": "A close-up of water being splashed onto a fine metal mesh screen, droplets scattering.",
+      "narration": "นั่นเพราะดวงตาของมนุษย์เรา มีเซลล์รับแสงที่ไวต่อสีฟ้ามากกว่าสีม่วงหลายเท่า",
+      "visual": "An anatomical diagram of a human eye showing photoreceptors reacting strongly to blue light waves.",
       "emphasis_words": [
-        "สาดน้ำ",
-        "ตะแกรง"
+        "ดวงตาของมนุษย์",
+        "ไวต่อสีฟ้า"
       ],
-      "claims": []
+      "claims": [
+        "Human eyes have cone receptors that are more sensitive to blue wavelengths than violet wavelengths."
+      ]
     },
     {
       "id": 6,
-      "narration": "แสงสีแดงและสีเหลืองที่มีคลื่นยาว จะเดินทางผ่านไปได้ง่ายๆ",
-      "visual": "An animation showing long, smooth red and yellow light waves passing easily through obstacles.",
+      "narration": "แสงสีฟ้าที่ฟุ้งกระจายอยู่เต็มอากาศ จึงชนะขาดและกลายเป็นสีท้องฟ้าที่เราเห็นทุกวัน",
+      "visual": "A person looking up at a bright blue sky, with glowing blue light particles filling the air around them.",
       "emphasis_words": [
-        "สีแดง",
-        "ผ่านไปได้"
+        "ฟุ้งกระจาย",
+        "เห็นทุกวัน"
       ],
       "claims": [
-        "Longer wavelengths of light like red and yellow pass through the atmosphere with less scattering."
+        "Human perception registers the scattered blue light in the atmosphere, making the sky appear blue."
       ]
     },
     {
       "id": 7,
-      "narration": "แต่แสงสีน้ำเงินที่มีคลื่นสั้นและถี่กว่า",
-      "visual": "An animation showing short, rapid blue light waves bouncing intensely off particles.",
+      "narration": "จนทำให้หลายคนอดถามตัวเองไม่ได้ทุกครั้งที่แหงนมองฟ้าว่า...",
+      "visual": "The camera tilts up toward the bright daytime sky, preparing to loop seamlessly.",
       "emphasis_words": [
-        "สีน้ำเงิน",
-        "คลื่นสั้น"
-      ],
-      "claims": [
-        "Blue light has shorter and smaller wavelengths."
-      ]
-    },
-    {
-      "id": 8,
-      "narration": "จะชนและกระเจิงไปทั่วทุกทิศทางในอากาศ",
-      "visual": "A wide-angle view of the atmosphere filled with glowing blue particles scattering everywhere.",
-      "emphasis_words": [
-        "กระเจิง",
-        "ทุกทิศทาง"
-      ],
-      "claims": [
-        "Rayleigh scattering: Shorter wavelengths (blue) scatter more than longer wavelengths when hitting atmospheric particles."
-      ]
-    },
-    {
-      "id": 9,
-      "narration": "แสงสีน้ำเงินนี้จึงฟุ้งกระจายเต็มท้องฟ้าและเข้าตาเรา",
-      "visual": "A close-up of a person's eye reflecting a beautiful blue sky.",
-      "emphasis_words": [
-        "ฟุ้งกระจาย",
-        "เข้าตาเรา"
-      ],
-      "claims": [
-        "We see the sky as blue because blue light is scattered in all directions by the tiny molecules of air in Earth's atmosphere."
-      ]
-    },
-    {
-      "id": 10,
-      "narration": "จนกลายเป็นสีสันที่เราเห็นอยู่ทุกวัน",
-      "visual": "A time-lapse of a beautiful blue sky over a green park during the day.",
-      "emphasis_words": [
-        "สีสัน",
-        "ทุกวัน"
-      ],
-      "claims": []
-    },
-    {
-      "id": 11,
-      "narration": "และนั่นคือสาเหตุที่ทำให้เราต้องถามตัวเองว่า...",
-      "visual": "A person looking up at the sky with a curious expression, camera slowly tilting up.",
-      "emphasis_words": [
-        "สาเหตุ",
-        "ถามตัวเอง"
+        "อดถามตัวเองไม่ได้",
+        "แหงนมองฟ้า"
       ],
       "claims": []
     }
   ],
-  "loop_note": "ประโยคสุดท้ายจบด้วยคำว่า 'และนั่นคือสาเหตุที่ทำให้เราต้องถามตัวเองว่า...' ซึ่งจะเชื่อมต่อกับประโยคเริ่มต้นที่เป็น Hook 'เคยสงสัยไหม ทำไมท้องฟ้าตอนกลางวันถึงเป็นสีฟ้า?' ได้อย่างราบรื่นและน่าติดตามเมื่อเล่นวนซ้ำ",
-  "hook_used": "เคยสงสัยไหม ทำไมท้องฟ้าตอนกลางวันถึงเป็นสีฟ้า?"
+  "loop_note": "ฉากที่ 7 จบด้วย 'จนทำให้หลายคนอดถามตัวเองไม่ได้ทุกครั้งที่แหงนมองฟ้าว่า...' เชื่อมกลับเข้าฉากที่ 1 'คุณเคยสงสัยไหม ทำไมท้องฟ้าตอนกลางวันถึงเป็นสีฟ้า...' ได้อย่างเป็นธรรมชาติ",
+  "hook_used": "คุณเคยสงสัยไหม ทำไมท้องฟ้าตอนกลางวันถึงเป็นสีฟ้า ทั้งที่แสงอาทิตย์เป็นสีขาว?"
 }

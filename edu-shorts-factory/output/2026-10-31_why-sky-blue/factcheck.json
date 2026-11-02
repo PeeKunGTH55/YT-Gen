@@ -2,31 +2,39 @@
   "results": [
     {
       "scene_id": 1,
-      "claim": "We see the daytime sky as blue.",
+      "claim": "The sky's blue color is not a reflection of the ocean.",
+      "verdict": "correct",
+      "source_title": "Royal Observatory Greenwich",
+      "source_url": "https://www.rmg.co.uk/stories/topics/why-sky-blue",
+      "fix": ""
+    },
+    {
+      "scene_id": 2,
+      "claim": "Sunlight is composed of multiple wavelengths (white light) and collides with gas molecules in Earth's atmosphere.",
       "verdict": "correct",
       "source_title": "NASA Space Place",
       "source_url": "https://spaceplace.nasa.gov/blue-sky/en/",
       "fix": ""
     },
     {
-      "scene_id": 2,
-      "claim": "Sunlight is composed of all colors of the rainbow, which combine to look white.",
-      "verdict": "correct",
-      "source_title": "UCAR Center for Science Education",
-      "source_url": "https://scied.ucar.edu/learning-zone/atmosphere/why-sky-blue",
-      "fix": ""
-    },
-    {
       "scene_id": 3,
-      "claim": "Sunlight travels through Earth's atmosphere.",
+      "claim": "Blue light has shorter wavelengths and higher energy, causing it to scatter more than other colors (Rayleigh scattering).",
       "verdict": "correct",
-      "source_title": "NOAA JetStream",
-      "source_url": "https://www.noaa.gov/jetstream/atmosphere/why-is-sky-blue",
+      "source_title": "NASA Space Place",
+      "source_url": "https://spaceplace.nasa.gov/blue-sky/en/",
       "fix": ""
     },
     {
       "scene_id": 4,
-      "claim": "Earth's atmosphere is made of gases and particles.",
+      "claim": "Violet light has an even shorter wavelength than blue light.",
+      "verdict": "correct",
+      "source_title": "NASA Space Place",
+      "source_url": "https://spaceplace.nasa.gov/blue-sky/en/",
+      "fix": ""
+    },
+    {
+      "scene_id": 5,
+      "claim": "Human eyes have receptors (cones) that are more sensitive to blue wavelengths than violet wavelengths.",
       "verdict": "correct",
       "source_title": "NASA Space Place",
       "source_url": "https://spaceplace.nasa.gov/blue-sky/en/",
@@ -34,31 +42,7 @@
     },
     {
       "scene_id": 6,
-      "claim": "Longer wavelengths of light like red and yellow pass through the atmosphere with less scattering.",
-      "verdict": "correct",
-      "source_title": "UCAR Center for Science Education",
-      "source_url": "https://scied.ucar.edu/learning-zone/atmosphere/why-sky-blue",
-      "fix": ""
-    },
-    {
-      "scene_id": 7,
-      "claim": "Blue light has shorter and smaller wavelengths.",
-      "verdict": "correct",
-      "source_title": "NASA Space Place",
-      "source_url": "https://spaceplace.nasa.gov/blue-sky/en/",
-      "fix": ""
-    },
-    {
-      "scene_id": 8,
-      "claim": "Rayleigh scattering: Shorter wavelengths (blue) scatter more than longer wavelengths when hitting atmospheric particles.",
-      "verdict": "correct",
-      "source_title": "Royal Observatory Greenwich",
-      "source_url": "https://www.rmg.co.uk/stories/topics/why-sky-blue",
-      "fix": ""
-    },
-    {
-      "scene_id": 9,
-      "claim": "We see the sky as blue because blue light is scattered in all directions by the tiny molecules of air in Earth's atmosphere.",
+      "claim": "Human perception registers the scattered blue light in the atmosphere, making the sky appear blue.",
       "verdict": "correct",
       "source_title": "NASA Space Place",
       "source_url": "https://spaceplace.nasa.gov/blue-sky/en/",

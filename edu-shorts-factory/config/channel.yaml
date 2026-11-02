@@ -8,18 +8,18 @@ video:
   fps: 30
   codec: h264
   audio: aac
-  motion_mode: veo             # veo (สร้างวิดีโอเคลื่อนไหวจากภาพด้วย Vertex AI Veo) | ken_burns (ซูมภาพด้วย FFmpeg)
-  veo_model: veo-2.0-generate-001
-  duration_sec: { target_min: 25, target_max: 45, hard_max: 60 }
-  scene_length_sec: { min: 2, max: 4 }
-  scenes: { min: 8, max: 12 }
+  motion_mode: veo             # veo | veo_hook_only (ใช้ Veo เฉพาะฉาก 1 และ 4 ที่เหลือใช้ Ken Burns) | ken_burns
+  veo_model: veo-3.1-fast-generate-001
+  duration_sec: { target_min: 20, target_max: 32, hard_max: 60 }
+  scene_length_sec: { min: 2, max: 3.5 }
+  scenes: { min: 7, max: 9 }
   hook_window_sec: 2           # ต้องมีภาพ+เสียงดึงดูดภายใน 2 วินาที
   loop_ending: true            # ประโยคจบเชื่อมกลับ hook
 
 audio:
-  tts_speed: 1.1               # 1.05-1.15
+  tts_speed: 1.12              # เร่งจังหวะให้กระชับไม่เนือย
   trim_silence_between_sentences: true
-  bgm_volume_ratio: 0.12       # 10-15% ของเสียงพากย์
+  bgm_volume_ratio: 0.16       # 16% ของเสียงพากย์ให้ได้ยินจังหวะสดใสชัดเจน
 
 subtitles:
   words_per_chunk: [3, 6]
@@ -36,4 +36,5 @@ workflow:
   require_approval: true       # ปลดเป็น false เมื่อพร้อม
   posts_per_day: 1
   ai_label: true               # ติดป้ายเนื้อหา AI ทุกแพลตฟอร์ม
+  made_for_kids: false         # false = "No, it's not made for kids" (เปิดคอมเมนต์และการแจ้งเตือนได้ปกติ)
   factcheck_max_retries: 2     # จำนวนรอบสูงสุดที่แก้บทและตรวจซ้ำอัตโนมัติ

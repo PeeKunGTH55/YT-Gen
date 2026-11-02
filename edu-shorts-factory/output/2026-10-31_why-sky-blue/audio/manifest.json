@@ -1,95 +1,63 @@
 {
   "provider": "tokenme",
-  "total_duration_sec": 39.738,
+  "total_duration_sec": 43.734,
   "narration_file": "narration.wav",
   "scenes": [
     {
       "scene_id": 1,
       "file": "scene_01.wav",
-      "narration": "เคยสงสัยไหม ทำไมท้องฟ้าตอนกลางวันถึงเป็นสีฟ้า?",
-      "duration_sec": 4.049,
+      "narration": "คุณเคยสงสัยไหม ทำไมท้องฟ้าตอนกลางวันถึงเป็นสีฟ้า ทั้งที่แสงอาทิตย์เป็นสีขาว?",
+      "duration_sec": 6.047,
       "start_sec": 0.0,
-      "end_sec": 4.049
+      "end_sec": 6.047
     },
     {
       "scene_id": 2,
       "file": "scene_02.wav",
-      "narration": "ทั้งที่จริงๆ แล้ว แสงจากดวงอาทิตย์ที่ส่องลงมาเป็นสีขาว",
-      "duration_sec": 4.5,
-      "start_sec": 4.049,
-      "end_sec": 8.549
+      "narration": "ความจริงแล้วแสงสีขาวซ่อนสีรุ้งไว้ข้างใน และพุ่งเข้ามาชนก๊าซในชั้นบรรยากาศโลก",
+      "duration_sec": 6.294,
+      "start_sec": 6.047,
+      "end_sec": 12.341
     },
     {
       "scene_id": 3,
       "file": "scene_03.wav",
-      "narration": "แต่เมื่อแสงนี้เดินทางผ่านชั้นบรรยากาศโลกของเรา",
-      "duration_sec": 3.601,
-      "start_sec": 8.549,
-      "end_sec": 12.15
+      "narration": "เหมือนเราสาดน้ำผ่านตะแกรง คลื่นแสงยาวอย่างสีแดงจะพุ่งผ่านไปง่าย แต่คลื่นสั้นอย่างสีฟ้าจะชนแล้วกระเจิงไปทั่ว",
+      "duration_sec": 8.687,
+      "start_sec": 12.341,
+      "end_sec": 21.028
     },
     {
       "scene_id": 4,
       "file": "scene_04.wav",
-      "narration": "มันจะต้องชนเข้ากับโมเลกุลของก๊าซต่างๆ",
-      "duration_sec": 2.876,
-      "start_sec": 12.15,
-      "end_sec": 15.026
+      "narration": "แต่เดี๋ยวก่อน แล้วทำไมฟ้าไม่เป็นสีม่วงล่ะ ทั้งที่สีม่วงคลื่นสั้นกว่าสีฟ้าเสียอีก?",
+      "duration_sec": 5.803,
+      "start_sec": 21.028,
+      "end_sec": 26.831
     },
     {
       "scene_id": 5,
       "file": "scene_05.wav",
-      "narration": "เปรียบเหมือนเราสาดน้ำใส่ตะแกรงถี่ๆ",
-      "duration_sec": 2.706,
-      "start_sec": 15.026,
-      "end_sec": 17.732
+      "narration": "นั่นเพราะดวงตาของมนุษย์เรา มีเซลล์รับแสงที่ไวต่อสีฟ้ามากกว่าสีม่วงหลายเท่า",
+      "duration_sec": 5.963,
+      "start_sec": 26.831,
+      "end_sec": 32.794
     },
     {
       "scene_id": 6,
       "file": "scene_06.wav",
-      "narration": "แสงสีแดงและสีเหลืองที่มีคลื่นยาว จะเดินทางผ่านไปได้ง่ายๆ",
-      "duration_sec": 5.209,
-      "start_sec": 17.732,
-      "end_sec": 22.941
+      "narration": "แสงสีฟ้าที่ฟุ้งกระจายอยู่เต็มอากาศ จึงชนะขาดและกลายเป็นสีท้องฟ้าที่เราเห็นทุกวัน",
+      "duration_sec": 6.619,
+      "start_sec": 32.794,
+      "end_sec": 39.413
     },
     {
       "scene_id": 7,
       "file": "scene_07.wav",
-      "narration": "แต่แสงสีน้ำเงินที่มีคลื่นสั้นและถี่กว่า",
-      "duration_sec": 3.206,
-      "start_sec": 22.941,
-      "end_sec": 26.147
-    },
-    {
-      "scene_id": 8,
-      "file": "scene_08.wav",
-      "narration": "จะชนและกระเจิงไปทั่วทุกทิศทางในอากาศ",
-      "duration_sec": 2.872,
-      "start_sec": 26.147,
-      "end_sec": 29.019
-    },
-    {
-      "scene_id": 9,
-      "file": "scene_09.wav",
-      "narration": "แสงสีน้ำเงินนี้จึงฟุ้งกระจายเต็มท้องฟ้าและเข้าตาเรา",
-      "duration_sec": 4.461,
-      "start_sec": 29.019,
-      "end_sec": 33.48
-    },
-    {
-      "scene_id": 10,
-      "file": "scene_10.wav",
-      "narration": "จนกลายเป็นสีสันที่เราเห็นอยู่ทุกวัน",
-      "duration_sec": 2.682,
-      "start_sec": 33.48,
-      "end_sec": 36.162
-    },
-    {
-      "scene_id": 11,
-      "file": "scene_11.wav",
-      "narration": "และนั่นคือสาเหตุที่ทำให้เราต้องถามตัวเองว่า...",
-      "duration_sec": 3.576,
-      "start_sec": 36.162,
-      "end_sec": 39.738
+      "narration": "จนทำให้หลายคนอดถามตัวเองไม่ได้ทุกครั้งที่แหงนมองฟ้าว่า...",
+      "duration_sec": 4.321,
+      "start_sec": 39.413,
+      "end_sec": 43.734
     }
   ]
 }

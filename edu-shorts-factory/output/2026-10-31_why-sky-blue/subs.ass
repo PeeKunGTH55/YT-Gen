@@ -8,30 +8,32 @@ ScaledBorderAndShadow: yes
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default,Tahoma,64,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,2,2,80,180,520,1
+Style: Default,Tahoma,64,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,2,5,100,100,680,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.00,0:00:02.88,Default,,0,0,0,,เคยสงสัยไหม{\c&H0000D7FF&\fscx108\fscy108}ทำไม{\c&H00FFFFFF&\fscx100\fscy100}ท้องฟ้าตอนกลางวัน
-Dialogue: 0,0:00:02.88,0:00:04.05,Default,,0,0,0,,ถึงเป็น{\c&H0000D7FF&\fscx108\fscy108}สีฟ้า{\c&H00FFFFFF&\fscx100\fscy100}?
-Dialogue: 0,0:00:04.05,0:00:06.82,Default,,0,0,0,,ทั้งที่จริงๆแล้ว{\c&H0000D7FF&\fscx108\fscy108}แสงจากดวงอาทิตย์{\c&H00FFFFFF&\fscx100\fscy100}
-Dialogue: 0,0:00:06.82,0:00:08.55,Default,,0,0,0,,ที่ส่องลงมาเป็น{\c&H0000D7FF&\fscx108\fscy108}สีขาว{\c&H00FFFFFF&\fscx100\fscy100}
-Dialogue: 0,0:00:08.55,0:00:10.51,Default,,0,0,0,,แต่เมื่อแสงนี้เดินทางผ่าน
-Dialogue: 0,0:00:10.51,0:00:12.15,Default,,0,0,0,,{\c&H0000D7FF&\fscx108\fscy108}ชั้นบรรยากาศ{\c&H00FFFFFF&\fscx100\fscy100}โลกของเรา
-Dialogue: 0,0:00:12.15,0:00:14.09,Default,,0,0,0,,มันจะต้อง{\c&H0000D7FF&\fscx108\fscy108}ชน{\c&H00FFFFFF&\fscx100\fscy100}เข้ากับ{\c&H0000D7FF&\fscx108\fscy108}โมเลกุล{\c&H00FFFFFF&\fscx100\fscy100}
-Dialogue: 0,0:00:14.09,0:00:15.03,Default,,0,0,0,,ของก๊าซต่างๆ
-Dialogue: 0,0:00:15.03,0:00:16.46,Default,,0,0,0,,เปรียบเหมือนเราสาด
-Dialogue: 0,0:00:16.46,0:00:17.73,Default,,0,0,0,,น้ำใส่{\c&H0000D7FF&\fscx108\fscy108}ตะแกรง{\c&H00FFFFFF&\fscx100\fscy100}ถี่ๆ
-Dialogue: 0,0:00:17.73,0:00:20.01,Default,,0,0,0,,แสง{\c&H0000D7FF&\fscx108\fscy108}สีแดง{\c&H00FFFFFF&\fscx100\fscy100}และสีเหลืองที่มี
-Dialogue: 0,0:00:20.01,0:00:21.33,Default,,0,0,0,,คลื่นยาวจะเดิน
-Dialogue: 0,0:00:21.33,0:00:22.94,Default,,0,0,0,,ทาง{\c&H0000D7FF&\fscx108\fscy108}ผ่านไปได้{\c&H00FFFFFF&\fscx100\fscy100}ง่ายๆ
-Dialogue: 0,0:00:22.94,0:00:25.32,Default,,0,0,0,,แต่แสง{\c&H0000D7FF&\fscx108\fscy108}สีน้ำเงิน{\c&H00FFFFFF&\fscx100\fscy100}ที่มี{\c&H0000D7FF&\fscx108\fscy108}คลื่นสั้น{\c&H00FFFFFF&\fscx100\fscy100}
-Dialogue: 0,0:00:25.32,0:00:26.15,Default,,0,0,0,,และถี่กว่า
-Dialogue: 0,0:00:26.15,0:00:27.26,Default,,0,0,0,,จะชนและ{\c&H0000D7FF&\fscx108\fscy108}กระเจิง{\c&H00FFFFFF&\fscx100\fscy100}
-Dialogue: 0,0:00:27.26,0:00:29.02,Default,,0,0,0,,ไปทั่ว{\c&H0000D7FF&\fscx108\fscy108}ทุกทิศทาง{\c&H00FFFFFF&\fscx100\fscy100}ในอากาศ
-Dialogue: 0,0:00:29.02,0:00:31.82,Default,,0,0,0,,แสงสีน้ำเงินนี้จึง{\c&H0000D7FF&\fscx108\fscy108}ฟุ้งกระจาย{\c&H00FFFFFF&\fscx100\fscy100}เต็ม
-Dialogue: 0,0:00:31.82,0:00:33.48,Default,,0,0,0,,ท้องฟ้าและ{\c&H0000D7FF&\fscx108\fscy108}เข้าตาเรา{\c&H00FFFFFF&\fscx100\fscy100}
-Dialogue: 0,0:00:33.48,0:00:34.86,Default,,0,0,0,,จนกลายเป็น{\c&H0000D7FF&\fscx108\fscy108}สีสัน{\c&H00FFFFFF&\fscx100\fscy100}ที่
-Dialogue: 0,0:00:34.86,0:00:36.16,Default,,0,0,0,,เราเห็นอยู่{\c&H0000D7FF&\fscx108\fscy108}ทุกวัน{\c&H00FFFFFF&\fscx100\fscy100}
-Dialogue: 0,0:00:36.16,0:00:38.03,Default,,0,0,0,,และนั่นคือ{\c&H0000D7FF&\fscx108\fscy108}สาเหตุ{\c&H00FFFFFF&\fscx100\fscy100}ที่ทำให้
-Dialogue: 0,0:00:38.03,0:00:39.74,Default,,0,0,0,,เราต้อง{\c&H0000D7FF&\fscx108\fscy108}ถามตัวเอง{\c&H00FFFFFF&\fscx100\fscy100}ว่า...
+Dialogue: 0,0:00:00.00,0:00:02.04,Default,,0,0,0,,{\an5\pos(540,1200)}{\c&H0000D7FF&\fscx108\fscy108}คุณเคยสงสัยไหม{\c&H00FFFFFF&\fscx100\fscy100}ทำไมท้องฟ้า
+Dialogue: 0,0:00:02.04,0:00:04.41,Default,,0,0,0,,{\an5\pos(540,1200)}ตอนกลางวันถึงเป็น{\c&H0000D7FF&\fscx108\fscy108}สีฟ้า{\c&H00FFFFFF&\fscx100\fscy100}ทั้งที่
+Dialogue: 0,0:00:04.41,0:00:06.05,Default,,0,0,0,,{\an5\pos(540,1200)}แสงอาทิตย์เป็น{\c&H0000D7FF&\fscx108\fscy108}สีขาว{\c&H00FFFFFF&\fscx100\fscy100}?
+Dialogue: 0,0:00:06.05,0:00:08.06,Default,,0,0,0,,{\an5\pos(540,1200)}ความจริงแล้วแสงสีขาวซ่อน
+Dialogue: 0,0:00:08.06,0:00:09.91,Default,,0,0,0,,{\an5\pos(540,1200)}สีรุ้งไว้ข้างในและพุ่ง
+Dialogue: 0,0:00:09.91,0:00:10.91,Default,,0,0,0,,{\an5\pos(540,1200)}เข้ามาชนก๊าซ
+Dialogue: 0,0:00:10.91,0:00:12.34,Default,,0,0,0,,{\an5\pos(540,1200)}ใน{\c&H0000D7FF&\fscx108\fscy108}ชั้นบรรยากาศโลก{\c&H00FFFFFF&\fscx100\fscy100}
+Dialogue: 0,0:00:12.34,0:00:14.41,Default,,0,0,0,,{\an5\pos(540,1200)}เหมือนเรา{\c&H0000D7FF&\fscx108\fscy108}สาดน้ำผ่านตะแกรง{\c&H00FFFFFF&\fscx100\fscy100}
+Dialogue: 0,0:00:14.41,0:00:16.31,Default,,0,0,0,,{\an5\pos(540,1200)}คลื่นแสงยาวอย่างสีแดงจะ
+Dialogue: 0,0:00:16.31,0:00:18.46,Default,,0,0,0,,{\an5\pos(540,1200)}พุ่งผ่านไปง่ายแต่คลื่นสั้น
+Dialogue: 0,0:00:18.46,0:00:19.95,Default,,0,0,0,,{\an5\pos(540,1200)}อย่าง{\c&H0000D7FF&\fscx108\fscy108}สีฟ้า{\c&H00FFFFFF&\fscx100\fscy100}จะชนแล้ว
+Dialogue: 0,0:00:19.95,0:00:21.03,Default,,0,0,0,,{\an5\pos(540,1200)}{\c&H0000D7FF&\fscx108\fscy108}กระเจิงไปทั่ว{\c&H00FFFFFF&\fscx100\fscy100}
+Dialogue: 0,0:00:21.03,0:00:23.01,Default,,0,0,0,,{\an5\pos(540,1200)}แต่เดี๋ยวก่อนแล้วทำไมฟ้าไม่
+Dialogue: 0,0:00:23.01,0:00:25.58,Default,,0,0,0,,{\an5\pos(540,1200)}เป็นสีม่วงล่ะทั้งที่สีม่วงคลื่นสั้น
+Dialogue: 0,0:00:25.58,0:00:26.83,Default,,0,0,0,,{\an5\pos(540,1200)}กว่าสีฟ้าเสียอีก?
+Dialogue: 0,0:00:26.83,0:00:28.95,Default,,0,0,0,,{\an5\pos(540,1200)}นั่นเพราะ{\c&H0000D7FF&\fscx108\fscy108}ดวงตาของมนุษย์{\c&H00FFFFFF&\fscx100\fscy100}เรา
+Dialogue: 0,0:00:28.95,0:00:30.43,Default,,0,0,0,,{\an5\pos(540,1200)}มีเซลล์รับแสงที่ไว
+Dialogue: 0,0:00:30.43,0:00:32.79,Default,,0,0,0,,{\an5\pos(540,1200)}ต่อสีฟ้ามากกว่าสีม่วงหลายเท่า
+Dialogue: 0,0:00:32.79,0:00:34.89,Default,,0,0,0,,{\an5\pos(540,1200)}แสงสีฟ้าที่{\c&H0000D7FF&\fscx108\fscy108}ฟุ้งกระจาย{\c&H00FFFFFF&\fscx100\fscy100}อยู่
+Dialogue: 0,0:00:34.89,0:00:36.65,Default,,0,0,0,,{\an5\pos(540,1200)}เต็มอากาศจึงชนะขาดและ
+Dialogue: 0,0:00:36.65,0:00:38.07,Default,,0,0,0,,{\an5\pos(540,1200)}กลายเป็นสีท้องฟ้า
+Dialogue: 0,0:00:38.07,0:00:39.41,Default,,0,0,0,,{\an5\pos(540,1200)}ที่เรา{\c&H0000D7FF&\fscx108\fscy108}เห็นทุกวัน{\c&H00FFFFFF&\fscx100\fscy100}
+Dialogue: 0,0:00:39.41,0:00:40.78,Default,,0,0,0,,{\an5\pos(540,1200)}จนทำให้หลายคนอดถาม
+Dialogue: 0,0:00:40.78,0:00:43.05,Default,,0,0,0,,{\an5\pos(540,1200)}ตัวเองไม่ได้ทุกครั้งที่แหงนมอง
+Dialogue: 0,0:00:43.05,0:00:43.73,Default,,0,0,0,,{\an5\pos(540,1200)}ฟ้าว่า...

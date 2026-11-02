@@ -12,7 +12,8 @@ import httpx
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-from utils.paths import DATA_DIR, load_yaml, resolve_clip_dir
+from dotenv import load_dotenv
+from utils.paths import DATA_DIR, ROOT_DIR, load_yaml, resolve_clip_dir
 from utils.status import read_status, update_status
 
 
@@ -56,10 +57,11 @@ def verify_publish_checklist(clip_path: Path) -> dict[str, Any]:
 
 
 def upload_youtube_direct(final_mp4: Path, meta: dict[str, Any]) -> str:
-    token_file = Path(os.getenv("YOUTUBE_TOKEN_FILE", "youtube_token.json"))
+    token_env = os.getenv("YOUTUBE_TOKEN_FILE", "youtube_token.json")
+    token_file = Path(token_env) if Path(token_env).is_absolute() else (ROOT_DIR / token_env)
     if not token_file.exists():
         raise FileNotFoundError(
-            f"ไม่พบไฟล์ OAuth token สำหรับ YouTube ({token_file}) กรุณาตั้งค่าหรือใช้โหมด manual_export"
+            f"ไม่พบไฟล์ OAuth token สำหรับ YouTube ({token_file}) กรุณารัน python src/setup_youtube_auth.py ก่อน"
         )
 
     from google.oauth2.credentials import Credentials
@@ -71,6 +73,10 @@ def upload_youtube_direct(final_mp4: Path, meta: dict[str, Any]) -> str:
     )
     youtube = build("youtube", "v3", credentials=creds)
 
+    channel_cfg = load_yaml("channel.yaml")
+    made_for_kids = bool(
+        channel_cfg.get("workflow", {}).get("made_for_kids", False)
+    )
     yt_meta = meta.get("youtube", {})
     body = {
         "snippet": {
@@ -83,6 +89,7 @@ def upload_youtube_direct(final_mp4: Path, meta: dict[str, Any]) -> str:
         },
         "status": {
             "privacyStatus": "public",
+            "selfDeclaredMadeForKids": made_for_kids,
             "selfDeclaredMadeWithAi": True,
         },
     }
@@ -143,6 +150,7 @@ def append_performance_log(clip_path: Path, platforms: list[str]) -> None:
 
 
 def run_publish(clip_dir: str | Path, mock: bool = False) -> dict[str, Any]:
+    load_dotenv(ROOT_DIR / ".env", override=True)
     clip_path = resolve_clip_dir(clip_dir)
     meta = verify_publish_checklist(clip_path)
     final_mp4 = clip_path / "final.mp4"

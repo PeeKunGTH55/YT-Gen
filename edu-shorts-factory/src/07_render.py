@@ -72,6 +72,8 @@ def generate_scene_video_with_veo(
             config=types.GenerateVideosConfig(
                 aspect_ratio="9:16",
                 number_of_videos=1,
+                duration_seconds=4,
+                generate_audio=False,
             ),
         )
         while not operation.done:
@@ -225,7 +227,7 @@ def run_render(clip_dir: str | Path, mock: bool = False) -> Path:
         if mock
         else (os.getenv("VIDEO_MOTION_MODE") or video_cfg.get("motion_mode", "veo")).lower()
     )
-    veo_model = os.getenv("VEO_MODEL") or video_cfg.get("veo_model", "veo-2.0-generate-001")
+    veo_model = os.getenv("VEO_MODEL") or video_cfg.get("veo_model", "veo-3.1-fast-generate-001")
 
     script_data = json.loads(script_file.read_text(encoding="utf-8")) if script_file.exists() else {}
     visual_by_id = {
@@ -237,7 +239,7 @@ def run_render(clip_dir: str | Path, mock: bool = False) -> Path:
     temp_dir = clip_path / "segments"
     veo_dir = clip_path / "veo_clips"
     temp_dir.mkdir(parents=True, exist_ok=True)
-    if motion_mode == "veo":
+    if motion_mode in ("veo", "veo_hook_only"):
         veo_dir.mkdir(parents=True, exist_ok=True)
 
     scenes_manifest = manifest.get("scenes", [])
@@ -252,7 +254,10 @@ def run_render(clip_dir: str | Path, mock: bool = False) -> Path:
             raise FileNotFoundError(f"ไม่พบภาพฉาก {img_path} กรุณารัน 05_images.py ก่อน")
 
         seg_path = temp_dir / f"seg_{sid:02d}.mp4"
-        if motion_mode == "veo":
+        use_veo = motion_mode == "veo" or (
+            motion_mode == "veo_hook_only" and idx in (1, 4)
+        )
+        if use_veo:
             raw_veo = veo_dir / f"veo_{sid:02d}.mp4"
             print(
                 f"[07_render] กำลังสร้างวิดีโอ Veo ฉากที่ {idx}/{total_scenes} ({raw_veo.name})...",

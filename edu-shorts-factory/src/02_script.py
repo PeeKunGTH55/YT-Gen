@@ -116,10 +116,8 @@ def build_mock_script(title: str, fmt: str, hook: str) -> dict[str, Any]:
     }
 
 
-def select_topic_row(topic_id: str | None) -> dict[str, str]:
+def select_topic_row(topic_id: str | None, mock: bool = False) -> dict[str, str]:
     rows = read_topics_csv()
-    if not rows:
-        raise RuntimeError("ไม่พบหัวข้อใน data/topics.csv กรุณารัน 01_topics.py ก่อน")
 
     if topic_id is not None:
         for r in rows:
@@ -130,7 +128,18 @@ def select_topic_row(topic_id: str | None) -> dict[str, str]:
     for r in rows:
         if r.get("status", "idea") == "idea":
             return r
-    return rows[0]
+
+    # หากหัวข้อที่สถานะเป็น idea หมดแล้ว ให้เรียก 01_topics คิดหัวข้อใหม่เพิ่มอัตโนมัติ
+    print("[02_script] หัวข้อในคลังถูกใช้หมดแล้ว กำลังให้ AI คิดหัวข้อใหม่เพิ่มอัตโนมัติ...", flush=True)
+    import importlib
+
+    mod_01 = importlib.import_module("01_topics")
+    mod_01.run_topics(mock=mock)
+    rows = read_topics_csv()
+    for r in rows:
+        if r.get("status", "idea") == "idea":
+            return r
+    raise RuntimeError("ไม่สามารถสร้างหัวข้อใหม่ลง data/topics.csv ได้")
 
 
 def run_script(
@@ -145,7 +154,7 @@ def run_script(
             st = json.loads(status_file.read_text(encoding="utf-8"))
             topic_id = str(st.get("topic_id", topic_id or "1"))
 
-    row = select_topic_row(topic_id)
+    row = select_topic_row(topic_id, mock=mock)
     tid = row["id"]
     title = row["title"]
     slug = row.get("slug") or f"topic-{tid}"

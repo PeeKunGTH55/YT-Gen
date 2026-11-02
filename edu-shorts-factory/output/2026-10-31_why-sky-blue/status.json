@@ -96,18 +96,67 @@
       "status": "published",
       "timestamp": "2026-10-31T22:52:32+07:00",
       "note": "เผยแพร่สำเร็จผ่านโหมด manual_export"
+    },
+    {
+      "status": "scripted",
+      "timestamp": "2026-11-02T10:21:10+07:00",
+      "note": "สร้างบท 7 ฉาก พร้อมคัดเลือก Hook สำเร็จ"
+    },
+    {
+      "status": "factchecked",
+      "timestamp": "2026-11-02T10:21:56+07:00",
+      "note": "ผ่านการตรวจข้อเท็จจริงในรอบที่ 1"
+    },
+    {
+      "status": "assets_ready",
+      "timestamp": "2026-11-02T10:25:47+07:00",
+      "note": "เตรียมไฟล์เสียงและภาพประกอบครบ 7 ฉาก (provider=nano_banana)"
+    },
+    {
+      "status": "rendered",
+      "timestamp": "2026-11-02T10:29:53+07:00",
+      "note": "เรนเดอร์ final.mp4 (motion=veo) และสร้าง meta.json สำเร็จ"
+    },
+    {
+      "status": "awaiting_approval",
+      "timestamp": "2026-11-02T10:30:44+07:00",
+      "note": "ส่งคลิปเข้า Telegram เพื่อรออนุมัติแล้ว"
+    },
+    {
+      "status": "rendered",
+      "timestamp": "2026-11-02T11:17:48+07:00",
+      "note": "เรนเดอร์ final.mp4 (motion=veo) และสร้าง meta.json สำเร็จ"
+    },
+    {
+      "status": "awaiting_approval",
+      "timestamp": "2026-11-02T11:17:59+07:00",
+      "note": "ส่งคลิปเข้า Telegram เพื่อรออนุมัติแล้ว"
+    },
+    {
+      "status": "approved",
+      "timestamp": "2026-11-02T11:29:53+07:00",
+      "note": "ผลอนุมัติจาก Telegram: approved"
+    },
+    {
+      "status": "published",
+      "timestamp": "2026-11-02T11:31:11+07:00",
+      "note": "เผยแพร่สำเร็จผ่านโหมด manual_export"
+    },
+    {
+      "status": "published",
+      "timestamp": "2026-11-02T14:49:34+07:00",
+      "note": "เผยแพร่สำเร็จผ่านโหมด direct_api"
     }
   ],
-  "updated_at": "2026-10-31T22:52:32+07:00",
+  "updated_at": "2026-11-02T14:49:34+07:00",
   "topic_id": "1",
   "title": "ทำไมท้องฟ้าตอนกลางวันถึงเป็นสีฟ้า",
   "format": "why_question",
   "publish_result": {
-    "mode": "manual_export",
+    "mode": "direct_api",
     "platforms": [
-      "youtube_manual",
-      "tiktok_manual"
+      "youtube"
     ],
-    "bundle_file": "D:\\P\\video\\edu-shorts-factory\\output\\2026-10-31_why-sky-blue\\publish_bundle.json"
+    "youtube_url": "https://youtube.com/shorts/zJIJApdChDE"
   }
 }

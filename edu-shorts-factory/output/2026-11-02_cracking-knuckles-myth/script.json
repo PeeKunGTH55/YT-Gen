@@ -1,0 +1,98 @@
+{
+  "title": "ความเข้าใจผิดเรื่องการหักนิ้ว",
+  "format": "why_question",
+  "scenes": [
+    {
+      "id": 1,
+      "narration": "เคยสงสัยไหมว่า หักนิ้วบ่อยๆ แต่ทำไมข้อกลับไม่ได้เสื่อมจริง?",
+      "visual": "Close-up of a person's hands about to crack their knuckles, warm lighting, centered.",
+      "emphasis_words": [
+        "เคยสงสัยไหม",
+        "ไม่ได้เสื่อมจริง"
+      ],
+      "claims": [
+        "Knuckle cracking does not cause arthritis or joint degeneration."
+      ]
+    },
+    {
+      "id": 2,
+      "narration": "เสียงดัง 'ป๊อก' นั้น ไม่ใช่กระดูกขูดกันนะ",
+      "visual": "X-ray style animation of hand joints with a glowing pop effect, centered.",
+      "emphasis_words": [
+        "ไม่ใช่กระดูกขูดกัน"
+      ],
+      "claims": [
+        "The popping sound is not from bones rubbing together."
+      ]
+    },
+    {
+      "id": 3,
+      "narration": "แต่มันคือฟองแก๊สในข้อต่อที่แตกตัว เหมือนเราบีบพลาสติกกันกระแทกเล่น",
+      "visual": "A hand popping bubbles on a sheet of plastic bubble wrap, extreme close-up.",
+      "emphasis_words": [
+        "ฟองแก๊สแตกตัว",
+        "พลาสติกกันกระแทก"
+      ],
+      "claims": [
+        "The sound is caused by the rapid release of gas bubbles in synovial fluid."
+      ]
+    },
+    {
+      "id": 4,
+      "narration": "ซึ่งแพทย์ยืนยันแล้วว่าไม่ได้ทำให้ข้ออักเสบหรือมือสั่น",
+      "visual": "A friendly doctor in a white coat smiling and shaking head 'no', clean medical background.",
+      "emphasis_words": [
+        "ไม่ได้ทำให้ข้ออักเสบ"
+      ],
+      "claims": [
+        "Medical studies show knuckle cracking does not cause arthritis or hand tremors."
+      ]
+    },
+    {
+      "id": 5,
+      "narration": "แล้วเคยเอะใจไหมว่า ถ้ามันไม่อันตราย ทำไมบางคนหักแล้วถึงยังเจ็บข้ออยู่?",
+      "visual": "A person looking confused, holding their hand with a question mark graphic floating above.",
+      "emphasis_words": [
+        "ทำไมบางคน",
+        "ยังเจ็บข้อ"
+      ],
+      "claims": [
+        "Some people experience pain after cracking knuckles."
+      ]
+    },
+    {
+      "id": 6,
+      "narration": "นั่นเพราะการหักแรงเกินไป อาจทำให้เส้นเอ็นรอบข้ออักเสบแทน",
+      "visual": "Anatomical 3D model of hand ligaments glowing red to indicate mild strain or inflammation.",
+      "emphasis_words": [
+        "เส้นเอ็นรอบข้อ",
+        "อักเสบแทน"
+      ],
+      "claims": [
+        "Forceful cracking can cause temporary ligament strain or soft tissue injury."
+      ]
+    },
+    {
+      "id": 7,
+      "narration": "รู้อย่างนี้แล้ว ครั้งหน้าถ้าเมื่อยมือ ลองเปลี่ยนมายืดนิ้วเบาๆ ดีกว่า",
+      "visual": "A person gently stretching their fingers and massaging their hand, relaxed atmosphere.",
+      "emphasis_words": [
+        "ยืดนิ้วเบาๆ"
+      ],
+      "claims": [
+        "Stretching is a safer alternative to relieve finger tension."
+      ]
+    },
+    {
+      "id": 8,
+      "narration": "จะได้ไม่ต้องมานั่งกังวลจนต้องกลับมาคิดว่า...",
+      "visual": "A seamless transition back to the first frame of hands ready to crack knuckles.",
+      "emphasis_words": [
+        "กลับมาคิด"
+      ],
+      "claims": []
+    }
+  ],
+  "loop_note": "ประโยคจบในฉากที่ 8 'จะได้ไม่ต้องมานั่งกังวลจนต้องกลับมาคิดว่า...' จะเชื่อมต่อกับประโยคเริ่มต้นในฉากที่ 1 'เคยสงสัยไหมว่า หักนิ้วบ่อยๆ แต่ทำไมข้อกลับไม่ได้เสื่อมจริง?' ได้ทันทีอย่างลื่นไหลและไร้รอยต่อ",
+  "hook_used": "เคยสงสัยไหมว่า หักนิ้วบ่อยๆ แต่ทำไมข้อกลับไม่ได้เสื่อมจริง?"
+}

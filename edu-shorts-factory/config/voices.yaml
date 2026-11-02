@@ -1,15 +1,24 @@
 default_provider: tokenme
-speed: 1.1
+speed: 1.12
 trim_silence: true
-silence_threshold_db: -40
+silence_threshold_db: -35
 min_silence_ms: 150
+
+# รายชื่อเสียงทั้งหมดของ paxa/paxa-tts-flash-v2 ที่ทดสอบแล้ว (เรียงตามความสดใส):
+# 1. bualoi      (หญิง - โทนเสียงสูง สดใส คมชัด เหมาะกับ Shorts ที่สุด คะแนนความสดใส 9/10)
+# 2. mooping     (ชาย  - โทนขี้เล่น สดใส กระฉับกระเฉง คะแนนความสดใส 8/10)
+# 3. tomyum      (หญิง - โทนใส นุ่มนวล เป็นกันเอง คะแนนความสดใส 7/10)
+# 4. khaoniao    (ชาย  - โทนสุขุม นิ่ง ฟังสบาย คะแนนความสดใส 6/10)
+# 5. tubtimkrob  (หญิง - โทนอบอุ่น นุ่มลึก คะแนนความสดใส 5/10)
+# 6. krongkraeng (ชาย  - โทนทุ้มต่ำ ขรึม คะแนนความสดใส 4/10)
+# 7. panang      (ชาย  - โทนทุ้มลึก กังวาน คะแนนความสดใส 3/10)
 
 providers:
   tokenme:
     base_url: "https://api.tokenme.limited/api/v1"
     user_agent: "edu-shorts-factory/1.0"
     model: "paxa/paxa-tts-flash-v2"
-    voice: "mooping"
+    voice: "bualoi"
     response_format: "mp3"
 
   edge_tts:

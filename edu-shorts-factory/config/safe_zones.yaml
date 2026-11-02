@@ -1,11 +1,13 @@
-# ค่าประมาณ ปรับตามที่ทดสอบจริงบนแอป (UI ของแอปเปลี่ยนได้)
+# ค่าตำแหน่งสำหรับ YouTube Shorts (1080x1920)
 canvas: { width: 1080, height: 1920 }
 unsafe:
   top_percent: 10
-  bottom_percent: 25      # ชื่อช่อง/caption/ปุ่ม
+  bottom_percent: 25      # ชื่อช่อง/title/ปุ่ม Shorts
   right_percent: 15       # ปุ่มไลก์ คอมเมนต์ แชร์
 subject_zone: "กลาง 60% ของเฟรม"
-subtitle_zone: "ค่อนล่าง เหนือ bottom unsafe"
-subtitle_margin_v: 520    # ระยะห่างจากขอบล่าง (ประมาณ 27% ของความสูง 1920px เพื่อให้อยู่เหนือ bottom unsafe 25%)
-subtitle_margin_l: 80
-subtitle_margin_r: 180    # เว้นขอบขวา 15% ไม่ให้ชนปุ่มไลก์/แชร์
+subtitle_zone: "กึ่งกลางจอแนวนอน (X=540) ค่อนลงมาที่ Y=1200"
+subtitle_pos_x: 540       # กึ่งกลางแนวนอนเป๊ะ (1080 / 2)
+subtitle_pos_y: 1200      # กึ่งกลางค่อนล่าง อยู่เหนือ UI ด้านล่างและไม่บังหน้าตัวละคร
+subtitle_margin_v: 680
+subtitle_margin_l: 100    # ซ้าย-ขวาเท่ากันเพื่อให้จัดกึ่งกลางเป๊ะ
+subtitle_margin_r: 100

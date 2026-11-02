@@ -1,0 +1,63 @@
+{
+  "results": [
+    {
+      "scene_id": 1,
+      "claim": "Knuckle cracking does not cause arthritis or joint degeneration.",
+      "verdict": "correct",
+      "source_title": "Harvard Health Publishing - Knuckle cracking: Annoying and harmful, or just annoying?",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG3ysOM7gqLZp8NLjt-xLQv0I4yyjScWspiGcBjTIN6mLtEKWHEYLvLLn_uxLDdK8VO6ZZes44WMPan0vQVbjfZ0iBA6XcoRvFei3YYQVFsxmwAOxpPgspceVDzKvuHNISLDouV_hi7sN0q-pQLRiD2GBddZMbcFYcF2_FTV6BlqCDEkcp4HSi8tZh0fumwH0FewiNb",
+      "fix": ""
+    },
+    {
+      "scene_id": 2,
+      "claim": "The popping sound is not from bones rubbing together.",
+      "verdict": "correct",
+      "source_title": "Harvard Health Publishing - Knuckle cracking: Annoying and harmful, or just annoying?",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG3ysOM7gqLZp8NLjt-xLQv0I4yyjScWspiGcBjTIN6mLtEKWHEYLvLLn_uxLDdK8VO6ZZes44WMPan0vQVbjfZ0iBA6XcoRvFei3YYQVFsxmwAOxpPgspceVDzKvuHNISLDouV_hi7sN0q-pQLRiD2GBddZMbcFYcF2_FTV6BlqCDEkcp4HSi8tZh0fumwH0FewiNb",
+      "fix": ""
+    },
+    {
+      "scene_id": 3,
+      "claim": "The sound is caused by the rapid release of gas bubbles in synovial fluid.",
+      "verdict": "correct",
+      "source_title": "PLOS ONE - Real-Time Visualization of Joint Cavitation",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG3ysOM7gqLZp8NLjt-xLQv0I4yyjScWspiGcBjTIN6mLtEKWHEYLvLLn_uxLDdK8VO6ZZes44WMPan0vQVbjfZ0iBA6XcoRvFei3YYQVFsxmwAOxpPgspceVDzKvuHNISLDouV_hi7sN0q-pQLRiD2GBddZMbcFYcF2_FTV6BlqCDEkcp4HSi8tZh0fumwH0FewiNb",
+      "fix": ""
+    },
+    {
+      "scene_id": 4,
+      "claim": "Medical studies show knuckle cracking does not cause arthritis or hand tremors.",
+      "verdict": "correct",
+      "source_title": "Harvard Health Publishing - Knuckle cracking: Annoying and harmful, or just annoying?",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG3ysOM7gqLZp8NLjt-xLQv0I4yyjScWspiGcBjTIN6mLtEKWHEYLvLLn_uxLDdK8VO6ZZes44WMPan0vQVbjfZ0iBA6XcoRvFei3YYQVFsxmwAOxpPgspceVDzKvuHNISLDouV_hi7sN0q-pQLRiD2GBddZMbcFYcF2_FTV6BlqCDEkcp4HSi8tZh0fumwH0FewiNb",
+      "fix": ""
+    },
+    {
+      "scene_id": 5,
+      "claim": "Some people experience pain after cracking knuckles.",
+      "verdict": "correct",
+      "source_title": "Harvard Health Publishing - Knuckle cracking: Annoying and harmful, or just annoying?",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG3ysOM7gqLZp8NLjt-xLQv0I4yyjScWspiGcBjTIN6mLtEKWHEYLvLLn_uxLDdK8VO6ZZes44WMPan0vQVbjfZ0iBA6XcoRvFei3YYQVFsxmwAOxpPgspceVDzKvuHNISLDouV_hi7sN0q-pQLRiD2GBddZMbcFYcF2_FTV6BlqCDEkcp4HSi8tZh0fumwH0FewiNb",
+      "fix": ""
+    },
+    {
+      "scene_id": 6,
+      "claim": "Forceful cracking can cause temporary ligament strain or soft tissue injury.",
+      "verdict": "correct",
+      "source_title": "Harvard Health Publishing - Knuckle cracking: Annoying and harmful, or just annoying?",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG3ysOM7gqLZp8NLjt-xLQv0I4yyjScWspiGcBjTIN6mLtEKWHEYLvLLn_uxLDdK8VO6ZZes44WMPan0vQVbjfZ0iBA6XcoRvFei3YYQVFsxmwAOxpPgspceVDzKvuHNISLDouV_hi7sN0q-pQLRiD2GBddZMbcFYcF2_FTV6BlqCDEkcp4HSi8tZh0fumwH0FewiNb",
+      "fix": ""
+    },
+    {
+      "scene_id": 7,
+      "claim": "Stretching is a safer alternative to relieve finger tension.",
+      "verdict": "correct",
+      "source_title": "Harvard Health Publishing - Knuckle cracking: Annoying and harmful, or just annoying?",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG3ysOM7gqLZp8NLjt-xLQv0I4yyjScWspiGcBjTIN6mLtEKWHEYLvLLn_uxLDdK8VO6ZZes44WMPan0vQVbjfZ0iBA6XcoRvFei3YYQVFsxmwAOxpPgspceVDzKvuHNISLDouV_hi7sN0q-pQLRiD2GBddZMbcFYcF2_FTV6BlqCDEkcp4HSi8tZh0fumwH0FewiNb",
+      "fix": ""
+    }
+  ],
+  "analogy_check": "ok",
+  "overall": "pass",
+  "attempt": 1
+}

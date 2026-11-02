@@ -1,0 +1,35 @@
+﻿[Script Info]
+Title: Edu Shorts Thai Subtitles
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 1
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Tahoma,64,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,2,5,100,100,680,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:01.80,Default,,0,0,0,,{\an5\pos(540,1200)}{\c&H0000D7FF&\fscx108\fscy108}เคยสงสัยไหม{\c&H00FFFFFF&\fscx100\fscy100}ว่าหักนิ้ว
+Dialogue: 0,0:00:01.80,0:00:03.68,Default,,0,0,0,,{\an5\pos(540,1200)}บ่อยๆแต่ทำไมข้อกลับไม่
+Dialogue: 0,0:00:03.68,0:00:04.88,Default,,0,0,0,,{\an5\pos(540,1200)}ได้เสื่อมจริง?
+Dialogue: 0,0:00:04.88,0:00:06.70,Default,,0,0,0,,{\an5\pos(540,1200)}เสียงดัง'ป๊อก'นั้นไม่
+Dialogue: 0,0:00:06.70,0:00:08.18,Default,,0,0,0,,{\an5\pos(540,1200)}ใช่กระดูกขูดกันนะ
+Dialogue: 0,0:00:08.18,0:00:09.60,Default,,0,0,0,,{\an5\pos(540,1200)}แต่มันคือฟองแก๊สใน
+Dialogue: 0,0:00:09.60,0:00:11.73,Default,,0,0,0,,{\an5\pos(540,1200)}ข้อต่อที่แตกตัวเหมือนเราบีบ
+Dialogue: 0,0:00:11.73,0:00:13.31,Default,,0,0,0,,{\an5\pos(540,1200)}{\c&H0000D7FF&\fscx108\fscy108}พลาสติกกันกระแทก{\c&H00FFFFFF&\fscx100\fscy100}เล่น
+Dialogue: 0,0:00:13.31,0:00:15.72,Default,,0,0,0,,{\an5\pos(540,1200)}ซึ่งแพทย์ยืนยันแล้วว่าไม่ได้ทำให้
+Dialogue: 0,0:00:15.72,0:00:17.18,Default,,0,0,0,,{\an5\pos(540,1200)}ข้ออักเสบหรือมือสั่น
+Dialogue: 0,0:00:17.18,0:00:18.95,Default,,0,0,0,,{\an5\pos(540,1200)}แล้วเคยเอะใจไหมว่าถ้า
+Dialogue: 0,0:00:18.95,0:00:21.05,Default,,0,0,0,,{\an5\pos(540,1200)}มันไม่อันตราย{\c&H0000D7FF&\fscx108\fscy108}ทำไมบางคน{\c&H00FFFFFF&\fscx100\fscy100}หัก
+Dialogue: 0,0:00:21.05,0:00:21.89,Default,,0,0,0,,{\an5\pos(540,1200)}แล้วถึงยัง
+Dialogue: 0,0:00:21.89,0:00:22.89,Default,,0,0,0,,{\an5\pos(540,1200)}เจ็บข้ออยู่?
+Dialogue: 0,0:00:22.89,0:00:25.12,Default,,0,0,0,,{\an5\pos(540,1200)}นั่นเพราะการหักแรงเกินไปอาจ
+Dialogue: 0,0:00:25.12,0:00:27.44,Default,,0,0,0,,{\an5\pos(540,1200)}ทำให้{\c&H0000D7FF&\fscx108\fscy108}เส้นเอ็นรอบข้อ{\c&H00FFFFFF&\fscx100\fscy100}{\c&H0000D7FF&\fscx108\fscy108}อักเสบแทน{\c&H00FFFFFF&\fscx100\fscy100}
+Dialogue: 0,0:00:27.44,0:00:29.94,Default,,0,0,0,,{\an5\pos(540,1200)}รู้อย่างนี้แล้วครั้งหน้าถ้าเมื่อย
+Dialogue: 0,0:00:29.94,0:00:31.61,Default,,0,0,0,,{\an5\pos(540,1200)}มือลองเปลี่ยนมายืดนิ้ว
+Dialogue: 0,0:00:31.61,0:00:32.37,Default,,0,0,0,,{\an5\pos(540,1200)}เบาๆดีกว่า
+Dialogue: 0,0:00:32.37,0:00:33.88,Default,,0,0,0,,{\an5\pos(540,1200)}จะได้ไม่ต้องมานั่งกังวล
+Dialogue: 0,0:00:33.88,0:00:35.25,Default,,0,0,0,,{\an5\pos(540,1200)}จนต้อง{\c&H0000D7FF&\fscx108\fscy108}กลับมาคิด{\c&H00FFFFFF&\fscx100\fscy100}ว่า...

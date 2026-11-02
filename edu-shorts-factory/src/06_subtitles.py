@@ -88,9 +88,9 @@ def build_ass_header(channel_cfg: dict[str, Any], safe_cfg: dict[str, Any]) -> s
     outline_color = sub_cfg.get("outline_color", "&H00000000")
     outline_width = int(sub_cfg.get("outline_width", 4))
 
-    margin_l = int(safe_cfg.get("subtitle_margin_l", 80))
-    margin_r = int(safe_cfg.get("subtitle_margin_r", 180))
-    margin_v = int(safe_cfg.get("subtitle_margin_v", 520))
+    margin_l = int(safe_cfg.get("subtitle_margin_l", 100))
+    margin_r = int(safe_cfg.get("subtitle_margin_r", 100))
+    margin_v = int(safe_cfg.get("subtitle_margin_v", 680))
 
     return f"""[Script Info]
 Title: Edu Shorts Thai Subtitles
@@ -102,7 +102,7 @@ ScaledBorderAndShadow: yes
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default,{font_name},{font_size},{primary_color},&H000000FF,{outline_color},&H80000000,-1,0,0,0,100,100,0,0,1,{outline_width},2,2,{margin_l},{margin_r},{margin_v},1
+Style: Default,{font_name},{font_size},{primary_color},&H000000FF,{outline_color},&H80000000,-1,0,0,0,100,100,0,0,1,{outline_width},2,5,{margin_l},{margin_r},{margin_v},1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -137,6 +137,8 @@ def run_subtitles(clip_dir: str | Path) -> Path:
     }
 
     ass_lines = [build_ass_header(channel_cfg, safe_cfg).rstrip()]
+    pos_x = int(safe_cfg.get("subtitle_pos_x", 540))
+    pos_y = int(safe_cfg.get("subtitle_pos_y", 1180))
     event_count = 0
 
     for m_scene in manifest_data.get("scenes", []):
@@ -169,8 +171,9 @@ def run_subtitles(clip_dir: str | Path) -> Path:
                 if do_highlight
                 else chunk
             )
+            pos_tag = f"{{\\an5\\pos({pos_x},{pos_y})}}"
             ass_lines.append(
-                f"Dialogue: 0,{format_ass_time(cursor)},{format_ass_time(c_end)},Default,,0,0,0,,{styled_text}"
+                f"Dialogue: 0,{format_ass_time(cursor)},{format_ass_time(c_end)},Default,,0,0,0,,{pos_tag}{styled_text}"
             )
             cursor = c_end
             event_count += 1

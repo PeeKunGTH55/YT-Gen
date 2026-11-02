@@ -36,7 +36,8 @@ def run_pipeline(
         clip_path = resolve_clip_dir(clip)
     else:
         rows = read_topics_csv()
-        if not rows and auto:
+        has_idea = any(r.get("status", "idea") == "idea" for r in rows)
+        if not has_idea and topic_id is None:
             mod_01.run_topics(mock=mock)
         clip_path = mod_02.run_script(topic_id=topic_id, mock=mock)
 
