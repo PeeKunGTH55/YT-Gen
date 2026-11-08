@@ -1,0 +1,68 @@
+{
+  "title": "ทำไมแมวถึงครางครืดๆ ในลำคอ?",
+  "format": "why_question",
+  "scenes": [
+    {
+      "id": 1,
+      "narration": "แมวครางครืดๆ ไม่ใช่เพราะฟิน แต่บางทีมันกำลังเจ็บปางตาย!",
+      "visual": "Close-up of a domestic cat purring with its eyes closed, looking slightly tense, vertical 9:16 aspect ratio.",
+      "emphasis_words": [
+        "ไม่ใช่เพราะฟิน",
+        "เจ็บปางตาย"
+      ],
+      "claims": [
+        "Cats purr not only when they are happy, but also when they are injured, stressed, or in pain as a self-soothing mechanism."
+      ]
+    },
+    {
+      "id": 2,
+      "narration": "เสียงครืดๆ นี้เกิดจากการสั่นสะเทือนของกล้ามเนื้อกล่องเสียง",
+      "visual": "Graphic animation showing sound waves vibrating from a cat's throat, vertical 9:16 aspect ratio.",
+      "emphasis_words": [
+        "สั่นสะเทือน",
+        "กล่องเสียง"
+      ],
+      "claims": [
+        "Purring is produced by the laryngeal muscles and diaphragm vibrating at a specific frequency."
+      ]
+    },
+    {
+      "id": 3,
+      "narration": "มันทำงานเหมือน 'ปุ่มรีเซ็ต' ร่างกาย ช่วยซ่อมแซมกระดูกและแผลให้หายไวขึ้น",
+      "visual": "A split screen: a smartphone showing a glowing 'Reset' button, and a cat stretching its body, vertical 9:16 aspect ratio.",
+      "emphasis_words": [
+        "ปุ่มรีเซ็ต",
+        "ซ่อมแซมกระดูก"
+      ],
+      "claims": [
+        "Cat purr frequencies (between 25 and 150 Hz) have therapeutic effects that can improve bone density and promote tissue healing."
+      ]
+    },
+    {
+      "id": 4,
+      "narration": "แถมยังช่วยหลั่งสารเอ็นโดรฟินเพื่อลดความเครียดและบรรเทาความเจ็บปวด",
+      "visual": "A cat resting comfortably with soft glowing green aura representing healing energy, vertical 9:16 aspect ratio.",
+      "emphasis_words": [
+        "เอ็นโดรฟิน",
+        "ลดความเครียด"
+      ],
+      "claims": [
+        "Purring triggers the release of endorphins in a cat's brain, which helps reduce pain and manage stress."
+      ]
+    },
+    {
+      "id": 5,
+      "narration": "ดังนั้น ถ้าเห็นน้องครางตอนป่วยหรือบาดเจ็บ จำไว้เลยว่า...",
+      "visual": "A close-up of a cat's face looking directly into the camera with a mysterious expression, vertical 9:16 aspect ratio.",
+      "emphasis_words": [
+        "ครางตอนป่วย",
+        "จำไว้เลยว่า"
+      ],
+      "claims": [
+        "Cats use purring to self-heal and calm themselves during illness or trauma."
+      ]
+    }
+  ],
+  "loop_note": "ประโยคจบในฉากที่ 5 ลงท้ายด้วยคำว่า 'จำไว้เลยว่า...' ซึ่งจะเชื่อมโยงกับประโยคเปิดในฉากที่ 1 คือ 'แมวครางครืดๆ ไม่ใช่เพราะฟิน...' ได้อย่างลื่นไหลและทำให้คนดูรู้สึกอยากดูซ้ำ",
+  "hook_used": "แมวครางครืดๆ ไม่ใช่เพราะฟิน แต่บางทีมันกำลังเจ็บปางตาย!"
+}

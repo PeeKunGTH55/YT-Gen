@@ -1,0 +1,67 @@
+{
+  "title": "ทำไมเราถึงขนลุกเวลาหนาวหรือกลัว?",
+  "format": "why_question",
+  "scenes": [
+    {
+      "id": 1,
+      "narration": "เราไม่มีขนหนาเหมือนลิง แต่ทำไมร่างกายยังพยายามตั้งขนให้ฟู?!",
+      "visual": "Close-up of human arm skin with goosebumps forming, vertical 9:16 aspect ratio.",
+      "emphasis_words": [
+        "ไม่มีขนหนา",
+        "ตั้งขนให้ฟู"
+      ],
+      "claims": [
+        "Goosebumps are a physiological reaction inherited from evolutionary ancestors."
+      ]
+    },
+    {
+      "id": 2,
+      "narration": "สมองสั่งให้กล้ามเนื้อจิ๋วที่โคนขนหดตัวเพื่อกักเก็บความร้อนเวลาหนาว",
+      "visual": "3D animation of a hair follicle on skin, showing the arrector pili muscle contracting, 9:16.",
+      "emphasis_words": [
+        "กล้ามเนื้อจิ๋ว",
+        "กักเก็บความร้อน"
+      ],
+      "claims": [
+        "Arrector pili muscles contract to cause goosebumps (piloerection) to trap heat."
+      ]
+    },
+    {
+      "id": 3,
+      "narration": "และตอนกลัว มันจะพองตัวเหมือนแมวขู่ศัตรู เพื่อให้เราดูตัวใหญ่ขึ้น",
+      "visual": "A fluffy cat puffing up its fur in a defensive stance, side-by-side with a startled human, 9:16.",
+      "emphasis_words": [
+        "แมวขู่ศัตรู",
+        "ตัวใหญ่ขึ้น"
+      ],
+      "claims": [
+        "Piloerection in animals/humans during fear is a defense mechanism to appear larger."
+      ]
+    },
+    {
+      "id": 4,
+      "narration": "นี่คือสัญชาตญาณเอาตัวรอดโบราณที่ยังหลงเหลืออยู่",
+      "visual": "Silhouette of an ancient caveman standing in a cold, misty forest, 9:16.",
+      "emphasis_words": [
+        "เอาตัวรอดโบราณ",
+        "หลงเหลืออยู่"
+      ],
+      "claims": [
+        "Goosebumps are a vestigial reflex in humans."
+      ]
+    },
+    {
+      "id": 5,
+      "narration": "ซึ่งชวนให้คิดทุกครั้งว่า...",
+      "visual": "Transition back to the close-up of human skin, preparing for the loop, 9:16.",
+      "emphasis_words": [
+        "ชวนให้คิด"
+      ],
+      "claims": [
+        "The loop transition connects the vestigial nature back to the hook question."
+      ]
+    }
+  ],
+  "loop_note": "ประโยคจบ 'ซึ่งชวนให้คิดทุกครั้งว่า...' จะเชื่อมโยงกลับไปที่ประโยคเปิด 'เราไม่มีขนหนาเหมือนลิง...' ทำให้เกิดการวนลูปของคลิปอย่างต่อเนื่องและเป็นธรรมชาติ",
+  "hook_used": "เราไม่มีขนหนาเหมือนลิง แต่ทำไมร่างกายยังพยายามตั้งขนให้ฟู?!"
+}

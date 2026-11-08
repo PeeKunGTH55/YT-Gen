@@ -1,0 +1,28 @@
+﻿[Script Info]
+Title: Edu Shorts Thai Subtitles
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 1
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Tahoma,64,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,2,5,100,100,680,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:01.41,Default,,0,0,0,,{\an5\pos(540,1200)}แค่อ่านคำว่า"{\c&H0000D7FF&\fscx108\fscy108}หาว{\c&H00FFFFFF&\fscx100\fscy100}
+Dialogue: 0,0:00:01.41,0:00:03.44,Default,,0,0,0,,{\an5\pos(540,1200)}"ตอนนี้ร่างกายคุณก็อยาก
+Dialogue: 0,0:00:03.44,0:00:04.94,Default,,0,0,0,,{\an5\pos(540,1200)}{\c&H0000D7FF&\fscx108\fscy108}หาว{\c&H00FFFFFF&\fscx100\fscy100}ตามแล้วใช่ไหม?
+Dialogue: 0,0:00:04.94,0:00:06.64,Default,,0,0,0,,{\an5\pos(540,1200)}นี่{\c&H0000D7FF&\fscx108\fscy108}ไม่ใช่เรื่องบังเอิญ{\c&H00FFFFFF&\fscx100\fscy100}แต่
+Dialogue: 0,0:00:06.64,0:00:09.07,Default,,0,0,0,,{\an5\pos(540,1200)}นักวิทยาศาสตร์คาดว่าอาจเกี่ยวข้องกับ
+Dialogue: 0,0:00:09.07,0:00:10.49,Default,,0,0,0,,{\an5\pos(540,1200)}'{\c&H0000D7FF&\fscx108\fscy108}เซลล์กระจกเงา{\c&H00FFFFFF&\fscx100\fscy100}'ในสมอง
+Dialogue: 0,0:00:10.49,0:00:13.11,Default,,0,0,0,,{\an5\pos(540,1200)}มันทำหน้าที่เหมือน'{\c&H0000D7FF&\fscx108\fscy108}ไวไฟความรู้สึก{\c&H00FFFFFF&\fscx100\fscy100}
+Dialogue: 0,0:00:13.11,0:00:15.42,Default,,0,0,0,,{\an5\pos(540,1200)}'คอย{\c&H0000D7FF&\fscx108\fscy108}เลียนแบบ{\c&H00FFFFFF&\fscx100\fscy100}พฤติกรรมคนตรงหน้า
+Dialogue: 0,0:00:15.42,0:00:17.24,Default,,0,0,0,,{\an5\pos(540,1200)}หนึ่งในทฤษฎีเชื่อว่ายิ่ง
+Dialogue: 0,0:00:17.24,0:00:19.97,Default,,0,0,0,,{\an5\pos(540,1200)}คุณมี{\c&H0000D7FF&\fscx108\fscy108}ความรู้สึกร่วม{\c&H00FFFFFF&\fscx100\fscy100}กับเขามากเท่าไหร่
+Dialogue: 0,0:00:19.97,0:00:21.03,Default,,0,0,0,,{\an5\pos(540,1200)}ก็อาจจะยิ่งหาว
+Dialogue: 0,0:00:21.03,0:00:22.47,Default,,0,0,0,,{\an5\pos(540,1200)}ตามง่ายขึ้นเท่านั้น
+Dialogue: 0,0:00:22.47,0:00:24.85,Default,,0,0,0,,{\an5\pos(540,1200)}ดังนั้นถ้าตอนนี้คุณเริ่มอ้า
+Dialogue: 0,0:00:24.85,0:00:26.69,Default,,0,0,0,,{\an5\pos(540,1200)}ปากกว้าง...{\c&H0000D7FF&\fscx108\fscy108}ก็เพราะ{\c&H00FFFFFF&\fscx100\fscy100}...

@@ -1,0 +1,92 @@
+{
+  "title": "ตู้ไมโครเวฟอุ่นอาหารให้ร้อนจากข้างในได้อย่างไร",
+  "format": "how_it_works",
+  "scenes": [
+    {
+      "id": 1,
+      "narration": "เคยสงสัยไหมว่า ทำไมจานยังเย็นแต่แกงข้างในร้อนจัดเวลาเข้าไมโครเวฟ?",
+      "visual": "A hand safely holding the rim of a ceramic bowl filled with steaming hot soup inside a microwave.",
+      "emphasis_words": [
+        "จานยังเย็น",
+        "แกงข้างในร้อนจัด"
+      ],
+      "claims": [
+        "Microwaves can heat food while leaving the container relatively cool."
+      ]
+    },
+    {
+      "id": 2,
+      "narration": "นั่นเพราะไมโครเวฟไม่ได้ปล่อยความร้อนใส่จาน แต่ปล่อยคลื่นวิทยุความถี่สูงพุ่งตรงไปที่โมเลกุลน้ำในอาหาร",
+      "visual": "3D animation of invisible electromagnetic waves passing through a ceramic plate and targeting water molecules inside the food.",
+      "emphasis_words": [
+        "คลื่นวิทยุความถี่สูง",
+        "โมเลกุลน้ำ"
+      ],
+      "claims": [
+        "Microwaves use high-frequency radio waves.",
+        "These waves target water molecules in the food."
+      ]
+    },
+    {
+      "id": 3,
+      "narration": "เปรียบเหมือนการเขย่าขวดน้ำแรงๆ จนเกิดความร้อนสะสม คลื่นนี้จะสั่งให้โมเลกุลน้ำสั่นสะเทือนเสียดสีกันนับล้านครั้งต่อวินาที",
+      "visual": "Split screen: one side showing a hand shaking a water bottle rapidly, the other side showing water molecules vibrating and generating red heat glow.",
+      "emphasis_words": [
+        "เขย่าขวดน้ำ",
+        "สั่นสะเทือนเสียดสีกัน"
+      ],
+      "claims": [
+        "The electromagnetic waves cause water molecules to vibrate and rotate rapidly.",
+        "Friction between vibrating molecules generates heat."
+      ]
+    },
+    {
+      "id": 4,
+      "narration": "แล้วทำไมจานกระเบื้องทั่วไปถึงไม่ร้อนไปด้วยล่ะ?",
+      "visual": "Close-up of a dry ceramic plate inside the microwave with waves passing right through it without any reaction.",
+      "emphasis_words": [
+        "จานกระเบื้อง",
+        "ไม่ร้อน"
+      ],
+      "claims": [
+        "Dry ceramic and glass materials do not contain water molecules and are mostly transparent to microwaves."
+      ]
+    },
+    {
+      "id": 5,
+      "narration": "ก็เพราะจานไม่มีโมเลกุลน้ำให้คลื่นไปเขย่า คลื่นจึงทะลุผ่านไปเลยโดยไม่สร้างความร้อน",
+      "visual": "Animation showing waves passing through the dry plate structure without causing vibration, then hitting the wet food on top.",
+      "emphasis_words": [
+        "ไม่มีโมเลกุลน้ำ",
+        "ทะลุผ่านไปเลย"
+      ],
+      "claims": [
+        "Materials without water or polar molecules do not absorb microwave energy and do not heat up directly."
+      ]
+    },
+    {
+      "id": 6,
+      "narration": "ความร้อนจึงเกิดขึ้นที่โมเลกุลน้ำในอาหารชั้นนอก แล้วค่อยๆ นำความร้อนแผ่กระจายเข้าไปสู่ด้านใน",
+      "visual": "Thermal camera view of a bowl of soup, showing the center glowing red/hot first, then spreading outward.",
+      "emphasis_words": [
+        "น้ำข้างในอาหาร",
+        "แผ่ออกมา"
+      ],
+      "claims": [
+        "ความร้อนจึงเกิดขึ้นที่โมเลกุลน้ำในอาหารชั้นนอก แล้วค่อยๆ นำความร้อนแผ่กระจายเข้าไปสู่ด้านใน"
+      ]
+    },
+    {
+      "id": 7,
+      "narration": "นี่จึงเป็นเหตุผลที่ทำให้เราต้องกลับมาตั้งคำถามทุกครั้งที่อุ่นอาหารว่า...",
+      "visual": "Zoom in on the steam rising from the hot soup inside the cool bowl, transitioning smoothly back to Scene 1.",
+      "emphasis_words": [
+        "ตั้งคำถาม",
+        "ทุกครั้งที่อุ่นอาหาร"
+      ],
+      "claims": []
+    }
+  ],
+  "loop_note": "ประโยคจบในฉากที่ 7 'นี่จึงเป็นเหตุผลที่ทำให้เราต้องกลับมาตั้งคำถามทุกครั้งที่อุ่นอาหารว่า...' จะเชื่อมต่อกับประโยคเริ่มต้นในฉากที่ 1 'เคยสงสัยไหมว่า ทำไมจานยังเย็นแต่แกงข้างในร้อนจัด...' ได้อย่างราบรื่นและเป็นลูปที่สมบูรณ์",
+  "hook_used": "เคยสงสัยไหมว่า ทำไมจานยังเย็นแต่แกงข้างในร้อนจัด"
+}

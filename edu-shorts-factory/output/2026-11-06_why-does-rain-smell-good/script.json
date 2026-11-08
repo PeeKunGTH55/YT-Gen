@@ -1,0 +1,68 @@
+{
+  "title": "ทำไมกลิ่นฝนตกใหม่ๆ ถึงหอมสดชื่น?",
+  "format": "why_question",
+  "scenes": [
+    {
+      "id": 1,
+      "narration": "กลิ่นดินหอมๆ ตอนฝนตกใหม่ๆ... ที่แท้มันคือกลิ่นตดของแบคทีเรีย!",
+      "visual": "Close-up of a person deeply inhaling fresh air in a rainy forest, vertical 9:16.",
+      "emphasis_words": [
+        "กลิ่นดินหอมๆ",
+        "กลิ่นตดของแบคทีเรีย"
+      ],
+      "claims": [
+        "The smell of rain (petrichor) is partly caused by geosmin, an organic compound produced by soil bacteria like Actinomycetes."
+      ]
+    },
+    {
+      "id": 2,
+      "narration": "เจ้าสารนี้ชื่อว่า 'จีออสมีน' จะฟุ้งกระจายออกมาทันทีที่เม็ดฝนตกกระทบดินแห้งๆ",
+      "visual": "Macro shot of raindrops hitting dry soil, releasing tiny mist particles, vertical 9:16.",
+      "emphasis_words": [
+        "จีออสมีน",
+        "ตกกระทบดินแห้ง"
+      ],
+      "claims": [
+        "Geosmin is released into the air as aerosols when rain falls on dry soil."
+      ]
+    },
+    {
+      "id": 3,
+      "narration": "มันจะพุ่งตัวขึ้นฟ้า เหมือนฟองซ่าในน้ำอัดลมตอนเราเปิดขวดเลยล่ะ!",
+      "visual": "Close-up of bubbles rapidly rising in a freshly opened glass of soda, vertical 9:16.",
+      "emphasis_words": [
+        "พุ่งตัวขึ้นฟ้า",
+        "ฟองซ่า"
+      ],
+      "claims": [
+        "The mechanism of aerosol release from soil is physically similar to the effervescence in carbonated drinks."
+      ]
+    },
+    {
+      "id": 4,
+      "narration": "รู้ไหมว่า จมูกมนุษย์เราไวต่อกลิ่นนี้มาก! แม้เจือจางแค่หนึ่งในล้านล้านส่วน เราก็ยังได้กลิ่น!",
+      "visual": "Extreme close-up of a human nose smelling a wet green leaf, soft focus background, vertical 9:16.",
+      "emphasis_words": [
+        "ไวต่อกลิ่น",
+        "หนึ่งในล้านล้านส่วน"
+      ],
+      "claims": [
+        "Humans are extremely sensitive to geosmin, able to detect it at concentrations of just a few parts per trillion (ppt)."
+      ]
+    },
+    {
+      "id": 5,
+      "narration": "นั่นเลยเป็นเหตุผลว่า พอฝนเริ่มตกปุ๊บ จมูกเราก็พร้อมสูด...",
+      "visual": "A person looking up at the sky as the first raindrops start to fall, vertical 9:16.",
+      "emphasis_words": [
+        "ฝนเริ่มตกปุ๊บ",
+        "พร้อมสูด"
+      ],
+      "claims": [
+        "The onset of rain triggers the release and immediate detection of geosmin by humans."
+      ]
+    }
+  ],
+  "loop_note": "ประโยคสุดท้ายจบด้วยคำว่า 'พร้อมสูด...' ซึ่งจะเชื่อมโยงกลับไปที่ประโยคแรกของคลิปคือ 'กลิ่นดินหอมๆ ตอนฝนตกใหม่ๆ...' ทำให้เกิดการวนลูปแบบไร้รอยต่อและน่าติดตาม (พร้อมสูด... กลิ่นดินหอมๆ ตอนฝนตกใหม่ๆ...)",
+  "hook_used": "กลิ่นดินหอมๆ ตอนฝนตกใหม่ๆ... ที่แท้มันคือกลิ่นตดของแบคทีเรีย!"
+}

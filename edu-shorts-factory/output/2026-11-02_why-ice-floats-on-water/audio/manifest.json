@@ -1,0 +1,63 @@
+{
+  "provider": "tokenme",
+  "total_duration_sec": 30.975,
+  "narration_file": "narration.wav",
+  "scenes": [
+    {
+      "scene_id": 1,
+      "file": "scene_01.wav",
+      "narration": "เคยสงสัยไหม? ทำไมน้ำแข็งที่เป็นของแข็ง กลับลอยน้ำแทนที่จะจม",
+      "duration_sec": 5.213,
+      "start_sec": 0.0,
+      "end_sec": 5.213
+    },
+    {
+      "scene_id": 2,
+      "file": "scene_02.wav",
+      "narration": "ปกติแล้ว ของแข็งต้องหนาแน่นกว่าและจมลงก้นแก้ว",
+      "duration_sec": 4.268,
+      "start_sec": 5.213,
+      "end_sec": 9.481
+    },
+    {
+      "scene_id": 3,
+      "file": "scene_03.wav",
+      "narration": "แต่น้ำพิเศษกว่านั้น! เมื่อแข็งตัว โมเลกุลจะขยายตัวออก",
+      "duration_sec": 4.309,
+      "start_sec": 9.481,
+      "end_sec": 13.79
+    },
+    {
+      "scene_id": 4,
+      "file": "scene_04.wav",
+      "narration": "เกิดเป็นโครงสร้างหกเหลี่ยมมีช่องว่าง คล้ายฟองน้ำพองลม",
+      "duration_sec": 4.34,
+      "start_sec": 13.79,
+      "end_sec": 18.13
+    },
+    {
+      "scene_id": 5,
+      "file": "scene_05.wav",
+      "narration": "แล้วถ้าวันหนึ่ง น้ำแข็งเกิดจมน้ำขึ้นมาล่ะ? โลกจะเป็นอย่างไร?",
+      "duration_sec": 4.438,
+      "start_sec": 18.13,
+      "end_sec": 22.568
+    },
+    {
+      "scene_id": 6,
+      "file": "scene_06.wav",
+      "narration": "สัตว์น้ำคงแข็งตายหมด เพราะไม่มีแผ่นน้ำแข็งช่วยบังลมหนาว",
+      "duration_sec": 4.148,
+      "start_sec": 22.568,
+      "end_sec": 26.716
+    },
+    {
+      "scene_id": 7,
+      "file": "scene_07.wav",
+      "narration": "นี่คือความลับธรรมชาติสุดเจ๋ง ที่ชวนให้เรากลับมาคิดว่า...",
+      "duration_sec": 4.259,
+      "start_sec": 26.716,
+      "end_sec": 30.975
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "provider": "tokenme",
+  "total_duration_sec": 26.694,
+  "narration_file": "narration.wav",
+  "scenes": [
+    {
+      "scene_id": 1,
+      "file": "scene_01.wav",
+      "narration": "แค่อ่านคำว่า \"หาว\" ตอนนี้ ร่างกายคุณก็อยากหาวตามแล้วใช่ไหม?",
+      "duration_sec": 4.944,
+      "start_sec": 0.0,
+      "end_sec": 4.944
+    },
+    {
+      "scene_id": 2,
+      "file": "scene_02.wav",
+      "narration": "นี่ไม่ใช่เรื่องบังเอิญ แต่นักวิทยาศาสตร์คาดว่าอาจเกี่ยวข้องกับ 'เซลล์กระจกเงา' ในสมอง",
+      "duration_sec": 5.548,
+      "start_sec": 4.944,
+      "end_sec": 10.492
+    },
+    {
+      "scene_id": 3,
+      "file": "scene_03.wav",
+      "narration": "มันทำหน้าที่เหมือน 'ไวไฟความรู้สึก' คอยเลียนแบบพฤติกรรมคนตรงหน้า",
+      "duration_sec": 4.927,
+      "start_sec": 10.492,
+      "end_sec": 15.419
+    },
+    {
+      "scene_id": 4,
+      "file": "scene_04.wav",
+      "narration": "หนึ่งในทฤษฎีเชื่อว่า ยิ่งคุณมีความรู้สึกร่วมกับเขามากเท่าไหร่ ก็อาจจะยิ่งหาวตามง่ายขึ้นเท่านั้น",
+      "duration_sec": 7.054,
+      "start_sec": 15.419,
+      "end_sec": 22.473
+    },
+    {
+      "scene_id": 5,
+      "file": "scene_05.wav",
+      "narration": "ดังนั้น ถ้าตอนนี้คุณเริ่มอ้าปากกว้าง... ก็เพราะ...",
+      "duration_sec": 4.221,
+      "start_sec": 22.473,
+      "end_sec": 26.694
+    }
+  ]
+}

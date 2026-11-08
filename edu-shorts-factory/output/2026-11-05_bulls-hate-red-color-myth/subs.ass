@@ -1,0 +1,28 @@
+﻿[Script Info]
+Title: Edu Shorts Thai Subtitles
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 1
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Tahoma,64,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,2,5,100,100,680,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:02.44,Default,,0,0,0,,{\an5\pos(540,1200)}{\c&H0000D7FF&\fscx108\fscy108}เลิกเชื่อ{\c&H00FFFFFF&\fscx100\fscy100}ว่าวัวกระทิงเกลียด
+Dialogue: 0,0:00:02.44,0:00:03.79,Default,,0,0,0,,{\an5\pos(540,1200)}สีแดงเพราะจริงๆ
+Dialogue: 0,0:00:03.79,0:00:05.06,Default,,0,0,0,,{\an5\pos(540,1200)}มัน{\c&H0000D7FF&\fscx108\fscy108}ตาบอดสีนี้{\c&H00FFFFFF&\fscx100\fscy100}!
+Dialogue: 0,0:00:05.06,0:00:07.46,Default,,0,0,0,,{\an5\pos(540,1200)}ดวงตาของวัว{\c&H0000D7FF&\fscx108\fscy108}ไม่มีตัวรับแสง{\c&H00FFFFFF&\fscx100\fscy100}
+Dialogue: 0,0:00:07.46,0:00:09.96,Default,,0,0,0,,{\an5\pos(540,1200)}สีแดงทำให้มันเห็นสีแดงเป็น
+Dialogue: 0,0:00:09.96,0:00:11.21,Default,,0,0,0,,{\an5\pos(540,1200)}แค่{\c&H0000D7FF&\fscx108\fscy108}สีเทาหม่นๆ{\c&H00FFFFFF&\fscx100\fscy100}
+Dialogue: 0,0:00:11.21,0:00:13.04,Default,,0,0,0,,{\an5\pos(540,1200)}มันก็เหมือนเราโบกผ้าขี้ริ้ว
+Dialogue: 0,0:00:13.04,0:00:14.46,Default,,0,0,0,,{\an5\pos(540,1200)}สีเทาใส่{\c&H0000D7FF&\fscx108\fscy108}สุนัข{\c&H00FFFFFF&\fscx100\fscy100}นั่นแหละ
+Dialogue: 0,0:00:14.46,0:00:16.54,Default,,0,0,0,,{\an5\pos(540,1200)}สิ่งที่ทำให้กระทิง{\c&H0000D7FF&\fscx108\fscy108}พุ่งชาร์จ{\c&H00FFFFFF&\fscx100\fscy100}
+Dialogue: 0,0:00:16.54,0:00:18.23,Default,,0,0,0,,{\an5\pos(540,1200)}คือการ{\c&H0000D7FF&\fscx108\fscy108}สะบัดพริ้วไหว{\c&H00FFFFFF&\fscx100\fscy100}ของ
+Dialogue: 0,0:00:18.23,0:00:19.24,Default,,0,0,0,,{\an5\pos(540,1200)}ผืนผ้าต่างหาก
+Dialogue: 0,0:00:19.24,0:00:20.94,Default,,0,0,0,,{\an5\pos(540,1200)}ดังนั้นไม่ว่าผ้าจะสี
+Dialogue: 0,0:00:20.94,0:00:22.56,Default,,0,0,0,,{\an5\pos(540,1200)}อะไรก็โดนขวิดได้หมด
+Dialogue: 0,0:00:22.56,0:00:24.27,Default,,0,0,0,,{\an5\pos(540,1200)}{\c&H0000D7FF&\fscx108\fscy108}เพราะฉะนั้นเราควร{\c&H00FFFFFF&\fscx100\fscy100}...

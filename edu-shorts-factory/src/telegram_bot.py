@@ -3,11 +3,13 @@ from __future__ import annotations
 import importlib
 import json
 import os
+import re
 import subprocess
 import sys
+import threading
 import time
 import traceback
-from datetime import date
+from datetime import date, datetime
 from pathlib import Path
 from typing import Any
 import httpx
@@ -18,7 +20,16 @@ sys.path.insert(0, str(ROOT_DIR / "src"))
 load_dotenv(ROOT_DIR / ".env")
 
 from utils.llm import call_llm_json
-from utils.paths import LOGS_DIR, OUTPUT_DIR, ensure_base_dirs, slugify
+from utils.paths import (
+    LOGS_DIR,
+    OUTPUT_DIR,
+    add_custom_rule,
+    ensure_base_dirs,
+    get_custom_rules_prompt,
+    load_custom_rules,
+    load_yaml,
+    slugify,
+)
 from utils.status import read_status, read_topics_csv, update_status, write_topics_csv
 
 mod_01 = importlib.import_module("01_topics")
@@ -123,10 +134,15 @@ def build_channel_context() -> str:
             ],
         }
 
+    channel_cfg = load_yaml("channel.yaml")
+    daily_sched = channel_cfg.get("workflow", {}).get("daily_schedule", {})
+
     return json.dumps(
         {
             "current_voice": os.getenv("TOKENME_VOICE", "bualoi"),
             "available_voices": AVAILABLE_VOICES,
+            "global_custom_rules": load_custom_rules(),
+            "daily_schedule": daily_sched,
             "topics_in_queue": topics_summary,
             "latest_clip": latest_info,
         },
@@ -182,15 +198,23 @@ def converse_and_route(user_text: str) -> dict[str, Any]:
     return res
 
 
-def send_topic_proposal(bot_token: str, chat_id: str, row: dict[str, str]) -> None:
+def send_topic_proposal(
+    bot_token: str,
+    chat_id: str,
+    row: dict[str, str],
+    is_daily: bool = False,
+    daily_index: str = "",
+) -> None:
     tid = row["id"]
     title = row["title"]
     cat = row.get("category", "ความรู้รอบตัว")
     fmt = row.get("format", "why_question")
     hook = row.get("hook") or f"คุณเคยสงสัยไหม {title}?"
 
+    idx_label = f" ({daily_index})" if daily_index else ""
+    header = f"[ขออนุมัติหัวข้อคลิปประจำวัน{idx_label}]" if is_daily else "[ขออนุมัติหัวข้อก่อนสร้างคลิป]"
     text = (
-        f"[ขออนุมัติหัวข้อก่อนสร้างคลิป]\n"
+        f"{header}\n"
         f"รหัสหัวข้อ: #{tid}\n"
         f"หัวข้อ: {title}\n"
         f"หมวดหมู่: {cat} ({fmt})\n"
@@ -214,17 +238,73 @@ def send_topic_proposal(bot_token: str, chat_id: str, row: dict[str, str]) -> No
     send_message(bot_token, chat_id, text, reply_markup=markup)
 
 
+def get_or_replenish_idea_topics(count: int = 1) -> list[dict[str, str]]:
+    rows = read_topics_csv()
+    available = [r for r in rows if r.get("status", "idea") == "idea"]
+    if len(available) < count:
+        mod_01.run_topics()
+        rows = read_topics_csv()
+        available = [r for r in rows if r.get("status", "idea") == "idea"]
+    return available[:count]
+
+
 def get_or_replenish_next_idea_topic() -> dict[str, str]:
-    rows = read_topics_csv()
-    for r in rows:
-        if r.get("status", "idea") == "idea":
-            return r
-    mod_01.run_topics()
-    rows = read_topics_csv()
-    for r in rows:
-        if r.get("status", "idea") == "idea":
-            return r
+    topics = get_or_replenish_idea_topics(count=1)
+    if topics:
+        return topics[0]
     raise RuntimeError("ไม่สามารถดึงหัวข้อใหม่จากคลังได้")
+
+
+def daily_schedule_worker(bot_token: str, chat_id: str) -> None:
+    last_sent_date = ""
+    while True:
+        try:
+            channel_cfg = load_yaml("channel.yaml")
+            sched = channel_cfg.get("workflow", {}).get("daily_schedule", {})
+            enabled = bool(sched.get("enabled", True))
+            sched_time = str(sched.get("time", "10:00")).strip()
+            batch_count = int(sched.get("batch_count", 3))
+            mode = str(sched.get("mode", "topic_approval")).strip()
+
+            now = datetime.now()
+            today_str = now.strftime("%Y-%m-%d")
+            now_hhmm = now.strftime("%H:%M")
+
+            if enabled and now_hhmm == sched_time and last_sent_date != today_str:
+                last_sent_date = today_str
+                print(
+                    f"[daily_schedule] ถึงเวลา {sched_time} น. ส่ง {batch_count} หัวข้อประจำวันเข้า Telegram...",
+                    flush=True,
+                )
+                topics = get_or_replenish_idea_topics(count=batch_count)
+                if mode == "clip_approval":
+                    send_message(
+                        bot_token,
+                        chat_id,
+                        f"[แจ้งเตือนเวลา {sched_time} น.] ถึงเวลาผลิตคลิปประจำวัน (ทั้งหมด {len(topics)} คลิป) กำลังสร้างคลิปตามลำดับครับ...",
+                    )
+                    for r in topics:
+                        run_full_generation_for_topic(bot_token, chat_id, r["id"])
+                        time.sleep(1)
+                else:
+                    send_message(
+                        bot_token,
+                        chat_id,
+                        f"[แจ้งเตือนเวลา {sched_time} น.] ถึงเวลาอนุมัติคลิปประจำวัน (เป้าหมาย {len(topics)} คลิป)\n"
+                        f"กรุณาตรวจสอบและกดอนุมัติหัวข้อที่ต้องการสร้างคลิปด้านล่างนี้ได้เลยครับ:",
+                    )
+                    for idx, r in enumerate(topics, start=1):
+                        send_topic_proposal(
+                            bot_token,
+                            chat_id,
+                            r,
+                            is_daily=True,
+                            daily_index=f"{idx}/{len(topics)}",
+                        )
+                        time.sleep(0.5)
+        except Exception as exc:
+            print(f"[daily_schedule] ขัดข้อง: {exc}", flush=True)
+        time.sleep(25)
 
 
 def run_full_generation_for_topic(bot_token: str, chat_id: str, topic_id: str) -> None:
@@ -238,13 +318,27 @@ def run_full_generation_for_topic(bot_token: str, chat_id: str, topic_id: str) -
         chat_id,
         f"รับการอนุมัติหัวข้อ \"{title}\" กำลังผลิตคลิปจนเสร็จ (เสร็จแล้วจะส่งวิดีโอพร้อมปุ่มอนุมัติโพสต์ให้ทันทีครับ)...",
     )
-    clip_path = mod_02.run_script(topic_id=str(topic_id))
-    mod_03.run_factcheck(clip_path)
-    mod_04.run_tts(clip_path)
-    mod_05.run_images(clip_path)
-    mod_06.run_subtitles(clip_path)
-    mod_07.run_render(clip_path)
-    mod_08.run_review(clip_path)
+    try:
+        clip_path = mod_02.run_script(topic_id=str(topic_id))
+        mod_03.run_factcheck(clip_path)
+        mod_04.run_tts(clip_path)
+        mod_05.run_images(clip_path)
+        mod_06.run_subtitles(clip_path)
+        mod_07.run_render(clip_path)
+        review_st = mod_08.run_review(clip_path)
+        if review_st == "approved":
+            res = mod_09.run_publish(clip_path)
+            success_msg = f"🎉 [QC ตรวจผ่านฉลุย] เผยแพร่/ตั้งเวลาสำเร็จ!\nลิงก์: {res.get('youtube_url', '')}"
+            if res.get("scheduled_at"):
+                success_msg += f"\n⏰ กำหนดปล่อย: {res['scheduled_at']}"
+            send_message(bot_token, chat_id, success_msg)
+    except Exception as exc:
+        traceback.print_exc()
+        send_message(
+            bot_token,
+            chat_id,
+            f"❌ เกิดข้อผิดพลาดขณะผลิตคลิป \"{title}\":\n{exc}\n\n👉 ระบบบันทึกไฟล์ที่เสร็จแล้วไว้ สามารถกดลองต่อได้ครับ",
+        )
 
 
 def handle_callback(
@@ -316,6 +410,43 @@ def handle_callback(
 
 
 def handle_text_message(bot_token: str, chat_id: str, text: str) -> None:
+    clean_text = text.strip().strip('"\'')
+    if clean_text.startswith("จำไว้ใช้กับทุกคลิป") and ":" in clean_text:
+        new_rule = clean_text.split(":", 1)[1].strip()
+        if new_rule:
+            all_rules = add_custom_rule(new_rule)
+            rule_list_text = "\n".join(f"{i+1}. {r}" for i, r in enumerate(all_rules))
+            send_message(
+                bot_token,
+                chat_id,
+                f"บันทึกกฎกลางสำหรับทุกคลิปเรียบร้อยแล้ว!\n\n"
+                f"กฎที่เพิ่ม: \"{new_rule}\"\n\n"
+                f"รายการกฎกลางทั้งหมดที่มีผลอยู่ตอนนี้ ({len(all_rules)} ข้อ):\n{rule_list_text}\n\n"
+                f"ทุกคลิปที่สร้างใหม่ต่อจากนี้จะนำกฎนี้ไปใช้เขียนบทเสมอครับ",
+            )
+            return
+
+    time_match = re.search(
+        r"(?:เปลี่ยน|ตั้ง)เวลา(?:ส่ง|โพสต์|ผลิต)?(?:เป็น|\s+)?\s*(\d{1,2}[:.]\d{2})", text
+    )
+    if time_match:
+        raw_t = time_match.group(1).replace(".", ":")
+        parts = raw_t.split(":")
+        new_time = f"{int(parts[0]):02d}:{int(parts[1]):02d}"
+        channel_cfg = load_yaml("channel.yaml")
+        channel_cfg.setdefault("workflow", {}).setdefault("daily_schedule", {})["time"] = new_time
+        import yaml
+
+        (ROOT_DIR / "config" / "channel.yaml").write_text(
+            yaml.dump(channel_cfg, allow_unicode=True, sort_keys=False), encoding="utf-8"
+        )
+        send_message(
+            bot_token,
+            chat_id,
+            f"ตั้งเวลาส่งคลิปประจำวันเป็น {new_time} น. เรียบร้อยแล้วครับ\nเมื่อถึงเวลาจะส่งมาให้ตรวจอนุมัติในแชตนี้อัตโนมัติ",
+        )
+        return
+
     decision = converse_and_route(text)
     reply_text = (decision.get("reply") or "").strip()
     action = decision.get("action", "none")
@@ -373,10 +504,12 @@ def handle_text_message(bot_token: str, chat_id: str, text: str) -> None:
         instruction = decision.get("edit_instruction") or text
         script_file = clip_path / "script.json"
         cur_script = json.loads(script_file.read_text(encoding="utf-8"))
+        custom_rules = get_custom_rules_prompt()
         edit_prompt = (
             f"แก้ไขบท JSON นี้ตามคำสั่งผู้ใช้: \"{instruction}\"\n"
             f"โดยคงจำนวนฉากเดิม ({len(cur_script.get('scenes', []))} ฉาก) เพื่อให้เข้ากับภาพที่มีอยู่แล้ว:\n"
             f"{json.dumps(cur_script, ensure_ascii=False, indent=2)}\n"
+            f"{custom_rules}\n"
             "ตอบกลับเป็น JSON โครงสร้างเดิมเท่านั้น"
         )
         new_script = call_llm_json(edit_prompt)
@@ -406,6 +539,13 @@ def run_bot_loop() -> None:
     allowed_chat = os.getenv("TELEGRAM_CHAT_ID", "").strip()
     if not bot_token:
         raise RuntimeError("ไม่พบ TELEGRAM_BOT_TOKEN ใน .env")
+
+    threading.Thread(
+        target=daily_schedule_worker,
+        args=(bot_token, allowed_chat),
+        daemon=True,
+    ).start()
+    print("[telegram_bot] เริ่มระบบตั้งเวลาส่งงานประจำวัน (ทำงานเบื้องหลัง)...", flush=True)
 
     offset = 0
     print("[telegram_bot] เริ่มระบบ AI Producer (@sorap_yt_gen_bot)...", flush=True)
@@ -439,7 +579,11 @@ def run_bot_loop() -> None:
                     data = cb.get("data", "")
                     chat_id = str(cb.get("message", {}).get("chat", {}).get("id", allowed_chat))
                     if ":" in data:
-                        handle_callback(bot_token, chat_id, cb_id, data)
+                        try:
+                            handle_callback(bot_token, chat_id, cb_id, data)
+                        except Exception as cb_exc:
+                            traceback.print_exc()
+                            send_message(bot_token, chat_id, f"⚠️ การดำเนินการสะดุด: {cb_exc}")
                     continue
 
                 msg = upd.get("message", {})
@@ -459,8 +603,13 @@ def run_bot_loop() -> None:
             print("[telegram_bot] หยุดการทำงาน")
             break
         except Exception as exc:
-            print(f"[telegram_bot] การเชื่อมต่อสะดุด ({exc}) รอ 3 วินาทีแล้วเชื่อมต่อใหม่...", flush=True)
-            time.sleep(3)
+            err_str = str(exc).lower()
+            if any(k in err_str for k in ("timeout", "timed out", "handshake")):
+                # Timeout บน long polling ของ Telegram เป็นภาวะปกติของ socket เมื่อไม่มีข้อความเข้า
+                time.sleep(1)
+            else:
+                print(f"[telegram_bot] การเชื่อมต่อสะดุด ({exc}) รอ 3 วินาทีแล้วเชื่อมต่อใหม่...", flush=True)
+                time.sleep(3)
 
 
 if __name__ == "__main__":

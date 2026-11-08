@@ -1,0 +1,66 @@
+{
+  "title": "ทำไมใบไม้ถึงเปลี่ยนสีช่วงฤดูใบไม้ร่วง?",
+  "format": "why_question",
+  "scenes": [
+    {
+      "id": 1,
+      "narration": "ใบไม้ไม่ได้เพิ่งเปลี่ยนสี แต่สีส้มแดงมันซ่อนอยู่ข้างในตลอดเวลาอยู่แล้ว!",
+      "visual": "Close-up of a green leaf transitioning to bright orange and red, vivid colors, 9:16 aspect ratio.",
+      "emphasis_words": [
+        "ไม่ได้เพิ่งเปลี่ยนสี",
+        "ซ่อนอยู่ข้างใน"
+      ],
+      "claims": [
+        "Carotenoids and flavonoids (yellow/orange pigments) are present in leaves throughout the growing season."
+      ]
+    },
+    {
+      "id": 2,
+      "narration": "ปกติคลอโรฟิลล์สีเขียวจะบดบังสีอื่นไว้เหมือนม่านทึบแสง",
+      "visual": "A thick green curtain sliding open to reveal a bright orange background, 9:16 aspect ratio.",
+      "emphasis_words": [
+        "คลอโรฟิลล์",
+        "ม่านทึบแสง"
+      ],
+      "claims": [
+        "Chlorophyll (green pigment) dominates and masks other pigments during spring and summer."
+      ]
+    },
+    {
+      "id": 3,
+      "narration": "พอหน้าหนาว แดดน้อยลง ต้นไม้หยุดผลิตสีเขียว",
+      "visual": "Sunlight fading over a forest, leaves starting to lose their bright green glow, 9:16 aspect ratio.",
+      "emphasis_words": [
+        "หยุดผลิต"
+      ],
+      "claims": [
+        "Decreasing daylight and temperature in autumn trigger the breakdown of chlorophyll."
+      ]
+    },
+    {
+      "id": 4,
+      "narration": "ม่านสีเขียวจึงหายไป เผยสีส้มเหลืองที่ซ่อนอยู่จริง ๆ",
+      "visual": "A green layer dissolving like mist, revealing beautiful yellow and orange carotenoid pigments underneath, 9:16 aspect ratio.",
+      "emphasis_words": [
+        "หายไป",
+        "เผยสีส้มเหลือง"
+      ],
+      "claims": [
+        "As chlorophyll disappears, the pre-existing carotenoids and xanthophylls become visible."
+      ]
+    },
+    {
+      "id": 5,
+      "narration": "ทำให้เราได้เห็นความจริงที่ว่า...",
+      "visual": "A camera zooming in on a single autumn leaf, preparing to loop, 9:16 aspect ratio.",
+      "emphasis_words": [
+        "ความจริง"
+      ],
+      "claims": [
+        "The cycle of leaf color change is a recurring annual biological process."
+      ]
+    }
+  ],
+  "loop_note": "ประโยคสุดท้ายจบด้วย 'ทำให้เราได้เห็นความจริงที่ว่า...' ซึ่งจะเชื่อมต่อกับประโยคแรกสุด 'ใบไม้ไม่ได้เพิ่งเปลี่ยนสี...' ได้อย่างราบรื่นและเป็นธรรมชาติเมื่อคลิปเล่นซ้ำ",
+  "hook_used": "ใบไม้ไม่ได้เพิ่งเปลี่ยนสี แต่สีส้มแดงมันซ่อนอยู่ข้างในตลอดเวลาอยู่แล้ว!"
+}

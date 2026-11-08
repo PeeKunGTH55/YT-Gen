@@ -1,0 +1,63 @@
+{
+  "provider": "tokenme",
+  "total_duration_sec": 33.928,
+  "narration_file": "narration.wav",
+  "scenes": [
+    {
+      "scene_id": 1,
+      "file": "scene_01.wav",
+      "narration": "คุณเคยสงสัยไหม ทำไมใครๆ ก็บอกว่าหมากฝรั่งจะอยู่ในท้องเราเจ็ดปี?",
+      "duration_sec": 4.969,
+      "start_sec": 0.0,
+      "end_sec": 4.969
+    },
+    {
+      "scene_id": 2,
+      "file": "scene_02.wav",
+      "narration": "ความจริงคือ ร่างกายเราย่อยเนื้อยางของหมากฝรั่งไม่ได้ก็จริง",
+      "duration_sec": 4.421,
+      "start_sec": 4.969,
+      "end_sec": 9.39
+    },
+    {
+      "scene_id": 3,
+      "file": "scene_03.wav",
+      "narration": "แต่มันจะถูกขับถ่ายออกมาเหมือนเมล็ดผลไม้ภายในเวลาไม่กี่วัน",
+      "duration_sec": 4.209,
+      "start_sec": 9.39,
+      "end_sec": 13.599
+    },
+    {
+      "scene_id": 4,
+      "file": "scene_04.wav",
+      "narration": "แล้วเคยคิดไหมว่า ทำไมน้ำย่อยในกระเพาะที่แรงขนาดละลายโลหะได้ ถึงย่อยยางนี้ไม่ได้?",
+      "duration_sec": 6.235,
+      "start_sec": 13.599,
+      "end_sec": 19.834
+    },
+    {
+      "scene_id": 5,
+      "file": "scene_05.wav",
+      "narration": "เพราะโครงสร้างโมเลกุลของยางสังเคราะห์ในหมากฝรั่งมันทนทานเป็นพิเศษ",
+      "duration_sec": 4.193,
+      "start_sec": 19.834,
+      "end_sec": 24.027
+    },
+    {
+      "scene_id": 6,
+      "file": "scene_06.wav",
+      "narration": "ดังนั้น สบายใจได้เลยว่ามันไม่ได้อยู่ยาวนานขนาดนั้น",
+      "duration_sec": 4.151,
+      "start_sec": 24.027,
+      "end_sec": 28.178
+    },
+    {
+      "scene_id": 7,
+      "file": "scene_07.wav",
+      "narration": "แต่ก็น่าแปลกนะ ที่ความเชื่อนี้ยังคงถูกส่งต่อกันมาเรื่อยๆ จนทำให้...",
+      "duration_sec": 5.75,
+      "start_sec": 28.178,
+      "end_sec": 33.928
+    }
+  ]
+}

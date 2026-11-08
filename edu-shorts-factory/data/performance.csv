@@ -13,3 +13,19 @@ clip_folder,topic_id,format,hook_pattern,published_date,platform,views,avg_view_
 2026-11-02_cracking-knuckles-myth,6,why_question,curious_contrast,2026-11-02,youtube_manual,0,0,0,0,initial_publish
 2026-11-02_cracking-knuckles-myth,6,why_question,curious_contrast,2026-11-02,tiktok_manual,0,0,0,0,initial_publish
 2026-11-02_cracking-knuckles-myth,6,why_question,curious_contrast,2026-11-02,youtube,0,0,0,0,initial_publish
+2026-11-02_how-microwave-heats-food,3,how_it_works,curious_contrast,2026-11-02,youtube,0,0,0,0,initial_publish
+2026-11-02_why-ice-floats-on-water,4,why_question,curious_contrast,2026-11-02,youtube,0,0,0,0,initial_publish
+2026-11-03_why-onions-make-you-cry,5,why_question,curious_contrast,2026-11-03,youtube,0,0,0,0,initial_publish
+2026-11-03_brain-ten-percent-myth,7,myth_vs_fact,curious_contrast,2026-11-03,youtube,0,0,0,0,initial_publish
+2026-11-03_lightning-strikes-twice-myth,8,myth_vs_fact,curious_contrast,2026-11-03,youtube,0,0,0,0,initial_publish
+2026-11-04_swallowed-gum-seven-years-myth,11,myth_vs_fact,why_question,2026-11-04,youtube,0,0,0,0,initial_publish
+2026-11-04_goldfish-three-second-memory-myth,10,myth_vs_fact,curious_contrast,2026-11-04,youtube,0,0,0,0,initial_publish
+2026-11-04_reading-in-dark-eyesight-myth,9,myth_vs_fact,curious_contrast,2026-11-04,youtube,0,0,0,0,initial_publish
+2026-11-05_chameleon-color-change-myth,12,myth_vs_fact,relatable_trigger,2026-11-05,youtube,0,0,0,0,scheduled_at: 2026-11-05 11:30:00 (GMT+7)
+2026-11-05_bulls-hate-red-color-myth,14,myth_vs_fact,myth_debunk,2026-11-05,youtube,0,0,0,0,scheduled_at: 2026-11-05 17:30:00 (GMT+7)
+2026-11-05_cold-water-solidifies-fat-myth,15,myth_vs_fact,relatable_trigger,2026-11-05,youtube,0,0,0,0,scheduled_at: 2026-11-05 20:30:00 (GMT+7)
+2026-11-06_sunflowers-always-follow-sun-myth,16,myth_vs_fact,myth_debunk,2026-11-06,youtube,0,0,0,0,scheduled_at: 2026-11-06 17:30:00 (GMT+7)
+2026-11-06_why-is-yawning-contagious,17,why_question,relatable_trigger,2026-11-06,youtube,0,0,0,0,scheduled_at: 2026-11-07 11:30:00 (GMT+7)
+2026-11-07_why-do-we-get-goosebumps,20,why_question,shocking_contrast,2026-11-07,youtube,0,0,0,0,scheduled_at: 2026-11-07 17:30:00 (GMT+7)
+2026-11-07_why-do-cats-purr,21,why_question,shocking_contrast,2026-11-07,youtube,0,0,0,0,scheduled_at: 2026-11-07 20:30:00 (GMT+7)
+2026-11-07_why-leaves-change-color,22,why_question,shocking_contrast,2026-11-07,youtube,0,0,0,0,scheduled_at: 2026-11-08 11:30:00 (GMT+7)

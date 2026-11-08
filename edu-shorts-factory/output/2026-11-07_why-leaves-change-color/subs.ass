@@ -1,0 +1,25 @@
+﻿[Script Info]
+Title: Edu Shorts Thai Subtitles
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 1
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Tahoma,64,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,2,5,100,100,680,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:02.00,Default,,0,0,0,,{\an5\pos(540,1200)}ใบไม้{\c&H0000D7FF&\fscx108\fscy108}ไม่ได้เพิ่งเปลี่ยนสี{\c&H00FFFFFF&\fscx100\fscy100}แต่
+Dialogue: 0,0:00:02.00,0:00:03.79,Default,,0,0,0,,{\an5\pos(540,1200)}สีส้มแดงมัน{\c&H0000D7FF&\fscx108\fscy108}ซ่อนอยู่ข้างใน{\c&H00FFFFFF&\fscx100\fscy100}
+Dialogue: 0,0:00:03.79,0:00:05.01,Default,,0,0,0,,{\an5\pos(540,1200)}ตลอดเวลาอยู่แล้ว!
+Dialogue: 0,0:00:05.01,0:00:07.35,Default,,0,0,0,,{\an5\pos(540,1200)}ปกติ{\c&H0000D7FF&\fscx108\fscy108}คลอโรฟิลล์{\c&H00FFFFFF&\fscx100\fscy100}สีเขียวจะบดบัง
+Dialogue: 0,0:00:07.35,0:00:09.44,Default,,0,0,0,,{\an5\pos(540,1200)}สีอื่นไว้เหมือน{\c&H0000D7FF&\fscx108\fscy108}ม่านทึบแสง{\c&H00FFFFFF&\fscx100\fscy100}
+Dialogue: 0,0:00:09.44,0:00:12.42,Default,,0,0,0,,{\an5\pos(540,1200)}พอหน้าหนาวแดดน้อยลงต้นไม้หยุด
+Dialogue: 0,0:00:12.42,0:00:13.55,Default,,0,0,0,,{\an5\pos(540,1200)}ผลิตสีเขียว
+Dialogue: 0,0:00:13.55,0:00:15.25,Default,,0,0,0,,{\an5\pos(540,1200)}ม่านสีเขียวจึง{\c&H0000D7FF&\fscx108\fscy108}หายไป{\c&H00FFFFFF&\fscx100\fscy100}
+Dialogue: 0,0:00:15.25,0:00:18.01,Default,,0,0,0,,{\an5\pos(540,1200)}{\c&H0000D7FF&\fscx108\fscy108}เผยสีส้มเหลือง{\c&H00FFFFFF&\fscx100\fscy100}ที่ซ่อนอยู่จริง ๆ
+Dialogue: 0,0:00:18.01,0:00:18.75,Default,,0,0,0,,{\an5\pos(540,1200)}ทำให้เราได้
+Dialogue: 0,0:00:18.75,0:00:20.16,Default,,0,0,0,,{\an5\pos(540,1200)}เห็น{\c&H0000D7FF&\fscx108\fscy108}ความจริง{\c&H00FFFFFF&\fscx100\fscy100}ที่ว่า...

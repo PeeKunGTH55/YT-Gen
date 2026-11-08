@@ -1,0 +1,47 @@
+{
+  "provider": "tokenme",
+  "total_duration_sec": 20.157,
+  "narration_file": "narration.wav",
+  "scenes": [
+    {
+      "scene_id": 1,
+      "file": "scene_01.wav",
+      "narration": "ใบไม้ไม่ได้เพิ่งเปลี่ยนสี แต่สีส้มแดงมันซ่อนอยู่ข้างในตลอดเวลาอยู่แล้ว!",
+      "duration_sec": 5.006,
+      "start_sec": 0.0,
+      "end_sec": 5.006
+    },
+    {
+      "scene_id": 2,
+      "file": "scene_02.wav",
+      "narration": "ปกติคลอโรฟิลล์สีเขียวจะบดบังสีอื่นไว้เหมือนม่านทึบแสง",
+      "duration_sec": 4.434,
+      "start_sec": 5.006,
+      "end_sec": 9.44
+    },
+    {
+      "scene_id": 3,
+      "file": "scene_03.wav",
+      "narration": "พอหน้าหนาว แดดน้อยลง ต้นไม้หยุดผลิตสีเขียว",
+      "duration_sec": 4.112,
+      "start_sec": 9.44,
+      "end_sec": 13.552
+    },
+    {
+      "scene_id": 4,
+      "file": "scene_04.wav",
+      "narration": "ม่านสีเขียวจึงหายไป เผยสีส้มเหลืองที่ซ่อนอยู่จริง ๆ",
+      "duration_sec": 4.457,
+      "start_sec": 13.552,
+      "end_sec": 18.009
+    },
+    {
+      "scene_id": 5,
+      "file": "scene_05.wav",
+      "narration": "ทำให้เราได้เห็นความจริงที่ว่า...",
+      "duration_sec": 2.148,
+      "start_sec": 18.009,
+      "end_sec": 20.157
+    }
+  ]
+}

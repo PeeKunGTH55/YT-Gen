@@ -1,0 +1,47 @@
+{
+  "results": [
+    {
+      "scene_id": 1,
+      "claim": "Chameleons do not primarily change color for camouflage.",
+      "verdict": "correct",
+      "source_title": "Selection for Social Signalling Drives the Evolution of Chameleon Colour Change (PLoS Biology)",
+      "source_url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.0060025",
+      "fix": ""
+    },
+    {
+      "scene_id": 2,
+      "claim": "Chameleons change color to regulate temperature and communicate social signals or emotions.",
+      "verdict": "correct",
+      "source_title": "Selection for Social Signalling Drives the Evolution of Chameleon Colour Change (PLoS Biology)",
+      "source_url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.0060025",
+      "fix": ""
+    },
+    {
+      "scene_id": 3,
+      "claim": "Color change in animals can function similarly to human physiological responses like blushing or wearing dark colors for heat absorption.",
+      "verdict": "correct",
+      "source_title": "How Chameleons Change Color (National Geographic)",
+      "source_url": "https://www.nationalgeographic.com/animals/article/chameleon-color-change",
+      "fix": ""
+    },
+    {
+      "scene_id": 4,
+      "claim": "Chameleons change color by reorganizing a lattice of nanocrystals in their skin cells called iridophores.",
+      "verdict": "correct",
+      "source_title": "Photonic crystals cause active colour change in chameleons (Nature Communications)",
+      "source_url": "https://www.nature.com/articles/ncomms7368",
+      "fix": ""
+    },
+    {
+      "scene_id": 5,
+      "claim": "The common belief of camouflage being the primary reason for chameleon color change is a misconception.",
+      "verdict": "correct",
+      "source_title": "Selection for Social Signalling Drives the Evolution of Chameleon Colour Change (PLoS Biology)",
+      "source_url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.0060025",
+      "fix": ""
+    }
+  ],
+  "analogy_check": "ok",
+  "overall": "pass",
+  "attempt": 1
+}

@@ -1,0 +1,83 @@
+{
+  "folder": "2026-11-07_why-do-we-get-goosebumps",
+  "status": "published",
+  "history": [
+    {
+      "status": "scripted",
+      "timestamp": "2026-11-07T10:02:12+07:00",
+      "note": "สร้างบท 5 ฉาก พร้อมคัดเลือก Hook สำเร็จ"
+    },
+    {
+      "status": "factchecked",
+      "timestamp": "2026-11-07T10:03:07+07:00",
+      "note": "ผ่านการตรวจข้อเท็จจริงในรอบที่ 1"
+    },
+    {
+      "status": "assets_ready",
+      "timestamp": "2026-11-07T10:06:42+07:00",
+      "note": "เตรียมไฟล์เสียงและภาพประกอบครบ 5 ฉาก (provider=nano_banana)"
+    },
+    {
+      "status": "rendered",
+      "timestamp": "2026-11-07T10:08:48+07:00",
+      "note": "เรนเดอร์ final.mp4 (motion=veo) และสร้าง meta.json สำเร็จ"
+    },
+    {
+      "status": "approved",
+      "timestamp": "2026-11-07T10:08:48+07:00",
+      "note": "ผ่านการตรวจสอบคุณภาพโดย QC Subagent (คะแนน: 100/85)"
+    },
+    {
+      "status": "published",
+      "timestamp": "2026-11-07T10:08:54+07:00",
+      "note": "เผยแพร่สำเร็จผ่านโหมด direct_api (ตั้งเวลาปล่อย: 2026-11-07 17:30:00 (GMT+7))"
+    }
+  ],
+  "updated_at": "2026-11-07T10:08:54+07:00",
+  "topic_id": "20",
+  "title": "ทำไมเราถึงขนลุกเวลาหนาวหรือกลัว?",
+  "format": "why_question",
+  "qc_report": {
+    "timestamp": "2026-11-07T10:08:48.800733",
+    "clip_folder": "2026-11-07_why-do-we-get-goosebumps",
+    "total_score": 100,
+    "min_pass_score": 85,
+    "passed": true,
+    "decision": "approved",
+    "breakdown": {
+      "hook_quality": {
+        "score": 30,
+        "max": 30
+      },
+      "fact_confidence": {
+        "score": 35,
+        "max": 35
+      },
+      "duration_pacing": {
+        "score": 20,
+        "max": 20,
+        "duration_sec": 20.27
+      },
+      "asset_integrity": {
+        "score": 15,
+        "max": 15
+      }
+    },
+    "violations": [],
+    "strengths": [
+      "Hook สั้นกระชับ ไม่มีคำต้องห้าม",
+      "ข้อมูลวิทยาศาสตร์ถูกต้อง 100% พร้อมแหล่งอ้างอิงชัดเจน",
+      "ความยาวคลิปสมบูรณ์แบบ (20.3s) อยู่ใน Sweet Spot สำหรับ Shorts",
+      "ไฟล์วิดีโอ ซับไตเติล และ Metadata สมบูรณ์ 100%"
+    ],
+    "recommendations": []
+  },
+  "publish_result": {
+    "mode": "direct_api",
+    "platforms": [
+      "youtube"
+    ],
+    "youtube_url": "https://youtube.com/shorts/N6tqUEJ8tRQ",
+    "scheduled_at": "2026-11-07 17:30:00 (GMT+7)"
+  }
+}

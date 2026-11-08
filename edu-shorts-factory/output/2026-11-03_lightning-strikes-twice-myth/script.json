@@ -1,0 +1,89 @@
+{
+  "title": "ฟ้าผ่าที่เดิมซ้ำสองไม่ได้... จริงหรือมั่ว?",
+  "format": "myth_vs_fact",
+  "scenes": [
+    {
+      "id": 1,
+      "narration": "เคยสงสัยไหมว่า ทำไมตึกสูงระฟ้าถึงโดนฟ้าผ่าซ้ำๆ ปีละหลายสิบครั้ง?",
+      "visual": "A tall skyscraper in a dark thunderstorm with a bright lightning bolt striking its metal antenna at the center of the frame.",
+      "emphasis_words": [
+        "เคยสงสัยไหม",
+        "ตึกสูงระฟ้า",
+        "ฟ้าผ่าซ้ำๆ"
+      ],
+      "claims": [
+        "Skyscrapers get struck by lightning multiple times a year."
+      ]
+    },
+    {
+      "id": 2,
+      "narration": "ความเชื่อที่ว่า 'ฟ้าผ่าที่เดิมซ้ำสองไม่ได้' นั้นเป็นเรื่องโกหกคำโตครับ",
+      "visual": "A close-up of a dramatic lightning bolt splitting into multiple branches and hitting the exact same spot on the ground.",
+      "emphasis_words": [
+        "เรื่องโกหก"
+      ],
+      "claims": [
+        "The saying 'lightning never strikes twice' is a myth."
+      ]
+    },
+    {
+      "id": 3,
+      "narration": "เพราะสายฟ้าชอบเลือกเส้นทางที่ต้านทานน้อยที่สุด เหมือนเราเลือกเดินถนนที่โล่งที่สุดนั่นแหละ",
+      "visual": "A split screen showing a person choosing a clear paved path on one side, and electrical current flowing through a conductive wire on the other.",
+      "emphasis_words": [
+        "ต้านทานน้อยที่สุด",
+        "ถนนที่โล่ง"
+      ],
+      "claims": [
+        "Lightning follows the path of least resistance."
+      ]
+    },
+    {
+      "id": 4,
+      "narration": "แล้วทำไมตึกเอ็มไพร์สเตตถึงโดนฟ้าผ่าเฉลี่ยปีละตั้ง 25 ครั้งล่ะ?",
+      "visual": "The iconic Empire State Building in New York City being struck by a massive bolt of lightning during a storm.",
+      "emphasis_words": [
+        "เอ็มไพร์สเตต",
+        "25 ครั้ง"
+      ],
+      "claims": [
+        "The Empire State Building is struck by lightning about 25 times per year on average."
+      ]
+    },
+    {
+      "id": 5,
+      "narration": "ก็เพราะความสูงและโครงสร้างโลหะของมัน เป็นตัวล่อประจุไฟฟ้าชั้นดี",
+      "visual": "A 3D motion graphic showing positive charges accumulating at the top of a metal tower, attracting negative charges from the storm cloud.",
+      "emphasis_words": [
+        "ความสูง",
+        "โครงสร้างโลหะ",
+        "ตัวล่อประจุ"
+      ],
+      "claims": [
+        "Tall, metallic structures conduct electricity and attract lightning strikes."
+      ]
+    },
+    {
+      "id": 6,
+      "narration": "ดังนั้น จุดที่เคยโดนผ่าแล้ว จึงมีโอกาสโดนซ้ำได้ง่ายกว่าจุดอื่นด้วยซ้ำ",
+      "visual": "A digital map of a city showing glowing heat signatures on tall buildings where lightning strikes repeatedly.",
+      "emphasis_words": [
+        "โดนซ้ำได้ง่ายกว่า"
+      ],
+      "claims": [
+        "Locations previously struck by lightning are often highly susceptible to being struck again."
+      ]
+    },
+    {
+      "id": 7,
+      "narration": "จนทำให้หลายคนเริ่มกลับมาตั้งคำถามว่า...",
+      "visual": "A person looking up at a cloudy, dark sky in contemplation, transitioning smoothly back to the beginning.",
+      "emphasis_words": [
+        "ตั้งคำถาม"
+      ],
+      "claims": []
+    }
+  ],
+  "loop_note": "ประโยคสุดท้ายจบด้วย 'จนทำให้หลายคนเริ่มกลับมาตั้งคำถามว่า...' ซึ่งจะเชื่อมต่อกับประโยคเริ่มต้นของคลิป 'เคยสงสัยไหมว่า ทำไมตึกสูงระฟ้าถึงโดนฟ้าผ่าซ้ำๆ...' ได้อย่างลื่นไหลและเป็นลูปที่สมบูรณ์",
+  "hook_used": "เคยสงสัยไหมว่า ทำไมตึกสูงระฟ้าถึงโดนฟ้าผ่าซ้ำๆ ปีละหลายสิบครั้ง?"
+}

@@ -1,0 +1,62 @@
+{
+  "folder": "2026-11-04_swallowed-gum-seven-years-myth",
+  "status": "published",
+  "history": [
+    {
+      "status": "scripted",
+      "timestamp": "2026-11-04T10:45:14+07:00",
+      "note": "สร้างบท 7 ฉาก พร้อมคัดเลือก Hook สำเร็จ"
+    },
+    {
+      "status": "factchecked",
+      "timestamp": "2026-11-04T10:45:51+07:00",
+      "note": "ผ่านการตรวจข้อเท็จจริงในรอบที่ 1"
+    },
+    {
+      "status": "assets_ready",
+      "timestamp": "2026-11-04T10:49:01+07:00",
+      "note": "เตรียมไฟล์เสียงและภาพประกอบครบ 7 ฉาก (provider=nano_banana)"
+    },
+    {
+      "status": "rendered",
+      "timestamp": "2026-11-04T10:52:30+07:00",
+      "note": "เรนเดอร์ final.mp4 (motion=veo) และสร้าง meta.json สำเร็จ"
+    },
+    {
+      "status": "awaiting_approval",
+      "timestamp": "2026-11-04T10:53:22+07:00",
+      "note": "ส่งคลิปเข้า Telegram เพื่อรออนุมัติแล้ว"
+    },
+    {
+      "status": "rendered",
+      "timestamp": "2026-11-04T10:58:58+07:00",
+      "note": "เรนเดอร์ final.mp4 (motion=veo) และสร้าง meta.json สำเร็จ"
+    },
+    {
+      "status": "awaiting_approval",
+      "timestamp": "2026-11-04T10:59:44+07:00",
+      "note": "ส่งคลิปเข้า Telegram เพื่อรออนุมัติแล้ว"
+    },
+    {
+      "status": "approved",
+      "timestamp": "2026-11-04T11:00:01+07:00",
+      "note": "อนุมัติผ่านปุ่มกด Telegram"
+    },
+    {
+      "status": "published",
+      "timestamp": "2026-11-04T11:00:07+07:00",
+      "note": "เผยแพร่สำเร็จผ่านโหมด direct_api"
+    }
+  ],
+  "updated_at": "2026-11-04T11:00:07+07:00",
+  "topic_id": "11",
+  "title": "กลืนหมากฝรั่งลงท้อง จะอยู่ไปอีก 7 ปีจริงไหม?",
+  "format": "myth_vs_fact",
+  "publish_result": {
+    "mode": "direct_api",
+    "platforms": [
+      "youtube"
+    ],
+    "youtube_url": "https://youtube.com/shorts/qBYDRe-u7Hg"
+  }
+}

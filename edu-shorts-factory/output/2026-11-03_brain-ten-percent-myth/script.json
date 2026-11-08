@@ -1,0 +1,92 @@
+{
+  "title": "ความจริงเรื่องสมองมนุษย์ เราใช้แค่ 10% จริงหรือ?",
+  "format": "myth_vs_fact",
+  "scenes": [
+    {
+      "id": 1,
+      "narration": "เคยสงสัยไหมว่า ทำไมตอนเรานอนหลับ สมองกลับทำงานหนักเกือบทุกส่วน",
+      "visual": "A close-up of a person sleeping peacefully in bed, with a glowing, active 3D brain hologram floating above their head.",
+      "emphasis_words": [
+        "นอนหลับ",
+        "ทำงานหนัก"
+      ],
+      "claims": [
+        "During sleep, the brain remains highly active and almost all parts of it show some level of activity."
+      ]
+    },
+    {
+      "id": 2,
+      "narration": "ความเชื่อที่ว่าเราใช้สมองแค่สิบเปอร์เซ็นต์นั้นเป็นเรื่องโกหก!",
+      "visual": "A giant red '10%' text on a screen being shattered by a hammer, revealing a fully glowing brain behind it.",
+      "emphasis_words": [
+        "สิบเปอร์เซ็นต์",
+        "โกหก"
+      ],
+      "claims": [
+        "The 10% brain myth is scientifically false; humans use virtually all parts of their brain."
+      ]
+    },
+    {
+      "id": 3,
+      "narration": "จริงๆ แล้ว สมองเราทำงานตลอดเวลาเหมือนสมาร์ทโฟนที่เปิดแอปเบื้องหลังไว้เพียบ",
+      "visual": "A split screen showing a hand scrolling through many active background apps on a smartphone on one side, and a pulsing neural network on the other.",
+      "emphasis_words": [
+        "สมาร์ทโฟน",
+        "แอปเบื้องหลัง"
+      ],
+      "claims": [
+        "The brain is constantly active, even when we are not actively focusing on a task, similar to background processes in a device."
+      ]
+    },
+    {
+      "id": 4,
+      "narration": "แล้วเคยคิดไหมว่า ถ้าเราใช้แค่สิบเปอร์เซ็นต์จริง สมองส่วนที่เหลือจะมีไว้ทำไม?",
+      "visual": "A confused person looking at a 3D brain model where 90% of it is dark and only 10% is lit up, scratching their head.",
+      "emphasis_words": [
+        "สิบเปอร์เซ็นต์จริง",
+        "ที่เหลือ"
+      ],
+      "claims": [
+        "Evolutionary biology suggests that unused brain tissue would have been eliminated; there is no 'unused' 90%."
+      ]
+    },
+    {
+      "id": 5,
+      "narration": "ผลสแกน MRI ยืนยันว่า ไม่ว่าจะขยับนิ้วหรือคิดเลข สมองแทบทุกส่วนจะสว่างวาบขึ้นมา",
+      "visual": "A colorful fMRI brain scan animation showing different areas lighting up in bright yellow and red as a hand wiggles.",
+      "emphasis_words": [
+        "MRI",
+        "สว่างวาบ"
+      ],
+      "claims": [
+        "fMRI scans show that simple tasks or thoughts activate areas across the entire brain, not just a small portion."
+      ]
+    },
+    {
+      "id": 6,
+      "narration": "แม้แต่ตอนที่เราไม่ได้ทำอะไรเลย สมองก็ยังใช้พลังงานควบคุมร่างกายอยู่ดี",
+      "visual": "A person sitting quietly meditating, with glowing energy lines flowing from their brain down to their heart and lungs.",
+      "emphasis_words": [
+        "ไม่ได้ทำอะไร",
+        "ควบคุมร่างกาย"
+      ],
+      "claims": [
+        "The brain consumes about 20% of the body's energy to maintain basic life support functions even at rest."
+      ]
+    },
+    {
+      "id": 7,
+      "narration": "เพราะสมองทำงานเต็มร้อยตลอดเวลา จนทำให้คุณต้องกลับมาถามตัวเองว่า...",
+      "visual": "The camera zooms in fast on the glowing brain of the sleeping person from Scene 1, transitioning smoothly.",
+      "emphasis_words": [
+        "เต็มร้อย",
+        "ถามตัวเอง"
+      ],
+      "claims": [
+        "The brain operates at 100% capacity over a 24-hour cycle."
+      ]
+    }
+  ],
+  "loop_note": "ประโยคจบในฉากที่ 7 '...จนทำให้คุณต้องกลับมาถามตัวเองว่า...' จะเชื่อมต่อกับประโยคเปิดในฉากที่ 1 'เคยสงสัยไหมว่า ทำไมตอนเรานอนหลับ...' ได้อย่างราบรื่นและเป็นธรรมชาติเมื่อคลิปเล่นวนซ้ำ",
+  "hook_used": "เคยสงสัยไหมว่า ทำไมตอนเรานอนหลับ สมองกลับทำงานหนักเกือบทุกส่วน"
+}

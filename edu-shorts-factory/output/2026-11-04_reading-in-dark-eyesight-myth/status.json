@@ -1,0 +1,52 @@
+{
+  "folder": "2026-11-04_reading-in-dark-eyesight-myth",
+  "status": "published",
+  "history": [
+    {
+      "status": "scripted",
+      "timestamp": "2026-11-04T10:26:44+07:00",
+      "note": "สร้างบท 7 ฉาก พร้อมคัดเลือก Hook สำเร็จ"
+    },
+    {
+      "status": "factchecked",
+      "timestamp": "2026-11-04T10:27:23+07:00",
+      "note": "ผ่านการตรวจข้อเท็จจริงในรอบที่ 1"
+    },
+    {
+      "status": "assets_ready",
+      "timestamp": "2026-11-04T10:30:26+07:00",
+      "note": "เตรียมไฟล์เสียงและภาพประกอบครบ 7 ฉาก (provider=nano_banana)"
+    },
+    {
+      "status": "rendered",
+      "timestamp": "2026-11-04T10:33:09+07:00",
+      "note": "เรนเดอร์ final.mp4 (motion=veo) และสร้าง meta.json สำเร็จ"
+    },
+    {
+      "status": "awaiting_approval",
+      "timestamp": "2026-11-04T10:33:51+07:00",
+      "note": "ส่งคลิปเข้า Telegram เพื่อรออนุมัติแล้ว"
+    },
+    {
+      "status": "approved",
+      "timestamp": "2026-11-04T11:00:27+07:00",
+      "note": "อนุมัติผ่านปุ่มกด Telegram"
+    },
+    {
+      "status": "published",
+      "timestamp": "2026-11-04T11:00:37+07:00",
+      "note": "เผยแพร่สำเร็จผ่านโหมด direct_api"
+    }
+  ],
+  "updated_at": "2026-11-04T11:00:37+07:00",
+  "topic_id": "9",
+  "title": "อ่านหนังสือในที่มืด ทำให้สายตาสั้นถาวรจริงไหม?",
+  "format": "myth_vs_fact",
+  "publish_result": {
+    "mode": "direct_api",
+    "platforms": [
+      "youtube"
+    ],
+    "youtube_url": "https://youtube.com/shorts/wsRJK04prMA"
+  }
+}

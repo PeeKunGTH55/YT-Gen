@@ -1,0 +1,51 @@
+[
+  {
+    "scene_id": 1,
+    "file": "scene_01.png",
+    "provider": "nano_banana",
+    "visual": "A tall skyscraper in a dark thunderstorm with a bright lightning bolt striking its metal antenna at the center of the frame.",
+    "image_prompt": "Vertical 9:16 illustration, main subject centered in the middle 60% of the frame, keep top 10% and bottom 25% mostly empty background. Character: a friendly round-faced curious kid character named \"Nong SongSai\" wearing a bright yellow hoodie, round glasses, navy shorts, short dark hair, expressive eyes, consistent proportions. Scene action: A tall skyscraper in a dark thunderstorm with a bright lightning bolt striking its metal antenna at the center of the frame.. Style: flat vector illustration, soft pastel colors, warm cream and sky blue palette, bold clean outlines, rounded geometric shapes, friendly simple characters, clean minimal background, no text, no letters, no numbers, suitable for all ages, no text, no letters, no numbers, no watermark, no realistic human faces."
+  },
+  {
+    "scene_id": 2,
+    "file": "scene_02.png",
+    "provider": "nano_banana",
+    "visual": "A close-up of a dramatic lightning bolt splitting into multiple branches and hitting the exact same spot on the ground.",
+    "image_prompt": "Vertical 9:16 illustration, main subject centered in the middle 60% of the frame, keep top 10% and bottom 25% mostly empty background. Character: a friendly round-faced curious kid character named \"Nong SongSai\" wearing a bright yellow hoodie, round glasses, navy shorts, short dark hair, expressive eyes, consistent proportions. Scene action: A close-up of a dramatic lightning bolt splitting into multiple branches and hitting the exact same spot on the ground.. Style: flat vector illustration, soft pastel colors, warm cream and sky blue palette, bold clean outlines, rounded geometric shapes, friendly simple characters, clean minimal background, no text, no letters, no numbers, suitable for all ages, no text, no letters, no numbers, no watermark, no realistic human faces."
+  },
+  {
+    "scene_id": 3,
+    "file": "scene_03.png",
+    "provider": "nano_banana",
+    "visual": "A split screen showing a person choosing a clear paved path on one side, and electrical current flowing through a conductive wire on the other.",
+    "image_prompt": "Vertical 9:16 illustration, main subject centered in the middle 60% of the frame, keep top 10% and bottom 25% mostly empty background. Character: a friendly round-faced curious kid character named \"Nong SongSai\" wearing a bright yellow hoodie, round glasses, navy shorts, short dark hair, expressive eyes, consistent proportions. Scene action: A split screen showing a person choosing a clear paved path on one side, and electrical current flowing through a conductive wire on the other.. Style: flat vector illustration, soft pastel colors, warm cream and sky blue palette, bold clean outlines, rounded geometric shapes, friendly simple characters, clean minimal background, no text, no letters, no numbers, suitable for all ages, no text, no letters, no numbers, no watermark, no realistic human faces."
+  },
+  {
+    "scene_id": 4,
+    "file": "scene_04.png",
+    "provider": "nano_banana",
+    "visual": "The iconic Empire State Building in New York City being struck by a massive bolt of lightning during a storm.",
+    "image_prompt": "Vertical 9:16 illustration, main subject centered in the middle 60% of the frame, keep top 10% and bottom 25% mostly empty background. Character: a friendly round-faced curious kid character named \"Nong SongSai\" wearing a bright yellow hoodie, round glasses, navy shorts, short dark hair, expressive eyes, consistent proportions. Scene action: The iconic Empire State Building in New York City being struck by a massive bolt of lightning during a storm.. Style: flat vector illustration, soft pastel colors, warm cream and sky blue palette, bold clean outlines, rounded geometric shapes, friendly simple characters, clean minimal background, no text, no letters, no numbers, suitable for all ages, no text, no letters, no numbers, no watermark, no realistic human faces."
+  },
+  {
+    "scene_id": 5,
+    "file": "scene_05.png",
+    "provider": "nano_banana",
+    "visual": "A 3D motion graphic showing positive charges accumulating at the top of a metal tower, attracting negative charges from the storm cloud.",
+    "image_prompt": "Vertical 9:16 illustration, main subject centered in the middle 60% of the frame, keep top 10% and bottom 25% mostly empty background. Character: a friendly round-faced curious kid character named \"Nong SongSai\" wearing a bright yellow hoodie, round glasses, navy shorts, short dark hair, expressive eyes, consistent proportions. Scene action: A 3D motion graphic showing positive charges accumulating at the top of a metal tower, attracting negative charges from the storm cloud.. Style: flat vector illustration, soft pastel colors, warm cream and sky blue palette, bold clean outlines, rounded geometric shapes, friendly simple characters, clean minimal background, no text, no letters, no numbers, suitable for all ages, no text, no letters, no numbers, no watermark, no realistic human faces."
+  },
+  {
+    "scene_id": 6,
+    "file": "scene_06.png",
+    "provider": "nano_banana",
+    "visual": "A digital map of a city showing glowing heat signatures on tall buildings where lightning strikes repeatedly.",
+    "image_prompt": "Vertical 9:16 illustration, main subject centered in the middle 60% of the frame, keep top 10% and bottom 25% mostly empty background. Character: a friendly round-faced curious kid character named \"Nong SongSai\" wearing a bright yellow hoodie, round glasses, navy shorts, short dark hair, expressive eyes, consistent proportions. Scene action: A digital map of a city showing glowing heat signatures on tall buildings where lightning strikes repeatedly.. Style: flat vector illustration, soft pastel colors, warm cream and sky blue palette, bold clean outlines, rounded geometric shapes, friendly simple characters, clean minimal background, no text, no letters, no numbers, suitable for all ages, no text, no letters, no numbers, no watermark, no realistic human faces."
+  },
+  {
+    "scene_id": 7,
+    "file": "scene_07.png",
+    "provider": "nano_banana",
+    "visual": "A person looking up at a cloudy, dark sky in contemplation, transitioning smoothly back to the beginning.",
+    "image_prompt": "Vertical 9:16 illustration, main subject centered in the middle 60% of the frame, keep top 10% and bottom 25% mostly empty background. Character: a friendly round-faced curious kid character named \"Nong SongSai\" wearing a bright yellow hoodie, round glasses, navy shorts, short dark hair, expressive eyes, consistent proportions. Scene action: A person looking up at a cloudy, dark sky in contemplation, transitioning smoothly back to the beginning.. Style: flat vector illustration, soft pastel colors, warm cream and sky blue palette, bold clean outlines, rounded geometric shapes, friendly simple characters, clean minimal background, no text, no letters, no numbers, suitable for all ages, no text, no letters, no numbers, no watermark, no realistic human faces."
+  }
+]

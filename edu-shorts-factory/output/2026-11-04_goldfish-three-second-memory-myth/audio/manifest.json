@@ -1,0 +1,63 @@
+{
+  "provider": "tokenme",
+  "total_duration_sec": 37.501,
+  "narration_file": "narration.wav",
+  "scenes": [
+    {
+      "scene_id": 1,
+      "file": "scene_01.wav",
+      "narration": "เคยสงสัยไหมว่า ปลาทองในตู้ อาจจำหน้าคุณได้นานกว่าสามเดือน?",
+      "duration_sec": 5.143,
+      "start_sec": 0.0,
+      "end_sec": 5.143
+    },
+    {
+      "scene_id": 2,
+      "file": "scene_02.wav",
+      "narration": "ความเชื่อที่ว่าปลาทองความจำสั้นแค่ 3 วินาทีนั้น... ไม่เป็นความจริงเลยสักนิด!",
+      "duration_sec": 5.561,
+      "start_sec": 5.143,
+      "end_sec": 10.704
+    },
+    {
+      "scene_id": 3,
+      "file": "scene_03.wav",
+      "narration": "งานวิจัยชี้ว่าพวกมันจำได้นานถึง 5 เดือน แถมยังแยกแยะสีและเสียงได้ดีพอๆ กับสุนัขแสนรู้",
+      "duration_sec": 7.252,
+      "start_sec": 10.704,
+      "end_sec": 17.956
+    },
+    {
+      "scene_id": 4,
+      "file": "scene_04.wav",
+      "narration": "แล้วทำไมเราถึงยังเชื่อเรื่องนี้กันอยู่ล่ะ ทั้งที่พวกมันจำเวลาให้อาหารได้แม่นยำขนาดนั้น?",
+      "duration_sec": 5.728,
+      "start_sec": 17.956,
+      "end_sec": 23.684
+    },
+    {
+      "scene_id": 5,
+      "file": "scene_05.wav",
+      "narration": "เพราะสมองขนาดจิ๋วของพวกมันถูกประเมินค่าต่ำไป ทั้งที่จริงๆ มีระบบความจำที่ซับซ้อนมาก",
+      "duration_sec": 6.865,
+      "start_sec": 23.684,
+      "end_sec": 30.549
+    },
+    {
+      "scene_id": 6,
+      "file": "scene_06.wav",
+      "narration": "ดังนั้น ครั้งต่อไปที่คุณเดินผ่านตู้ปลา แล้วเห็นมันว่ายมาหา...",
+      "duration_sec": 5.448,
+      "start_sec": 30.549,
+      "end_sec": 35.997
+    },
+    {
+      "scene_id": 7,
+      "file": "scene_07.wav",
+      "narration": "ลองถามตัวเองดูสิว่า...",
+      "duration_sec": 1.504,
+      "start_sec": 35.997,
+      "end_sec": 37.501
+    }
+  ]
+}

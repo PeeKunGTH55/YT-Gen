@@ -75,7 +75,16 @@ python src/pipeline.py --topic-id 1 --mock
 
 ### 2. รันการผลิตจริงแบบอัตโนมัติ
 ```bash
-# เลือกหัวข้อถัดไปที่สถานะเป็น idea ใน data/topics.csv มาผลิตจนถึงขั้นส่งตรวจ Telegram
+# รันบอท Telegram (คุยโต้ตอบ + ตั้งเวลาส่ง 3 คลิปตอน 10:00 น. อัตโนมัติ)
+start_telegram_bot.bat
+
+# ตั้งค่าให้บอทเปิดทำงานอัตโนมัติเมื่อเปิดเครื่องคอมพิวเตอร์
+install_autostart.bat
+
+# ยกเลิกการเปิดบอทอัตโนมัติเมื่อเปิดเครื่อง
+uninstall_autostart.bat
+
+# เลือกหัวข้อถัดไปที่สถานะเป็น idea ใน data/topics.csv มาผลิตทันที
 python src/pipeline.py --auto
 
 # รันเฉพาะคลิปที่ต้องการตั้งแต่ขั้นที่ค้างอยู่

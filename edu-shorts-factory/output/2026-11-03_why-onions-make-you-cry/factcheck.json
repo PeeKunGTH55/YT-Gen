@@ -1,0 +1,63 @@
+{
+  "results": [
+    {
+      "scene_id": 1,
+      "claim": "Onions cause tearing when cut.",
+      "verdict": "correct",
+      "source_title": "Library of Congress (LOC)",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJsBGNjcEV3Vt_kAQ7aGpM1aB6FM6Nk7s0lR3UhQnAyJXFpIpo_yEKFB3WuljgVuclQYWuHDScnPHZHisqLBjhVEuHKPNTMlKx4-93wYma6h1uuqa67kDe6ZwLkx9_EPP_E_KShAfWqk354PajxH7Wb5zUNXjM41S4zQIJnrbRsohN9JaA7mjCYryc7VFE-F8hP1A8KDvbnQgY6Cn4pb7pTCTLCc2d3T3mrtXh",
+      "fix": ""
+    },
+    {
+      "scene_id": 2,
+      "claim": "Cutting onions ruptures their cellular structure.",
+      "verdict": "correct",
+      "source_title": "Royal Society of Chemistry (RSC)",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFg1L17tx66tZqiO1J2yXuO1_eyFktFL0VDooV_4JfXnWv8QtxtSjIQBAVNlx8ocwwk-rdzAaAV7vc4UwARp74vCqsU_rI4bovLRNAByHad1DQLUam6U-O6TOIRV-9R7fXnLCD7TKbYX_C7pC-2-RDFbbgn8LfXJtVdorNopu7G8yp-inzWOMM5",
+      "fix": ""
+    },
+    {
+      "scene_id": 3,
+      "claim": "Enzymes and amino acid sulfoxides in onions react to form syn-propanethial-S-oxide gas.",
+      "verdict": "correct",
+      "source_title": "National Institutes of Health (NIH) / PubMed",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF28gAxO4NdBZ6Cq32qOdwCe8DxJHDHiliEQI1z3JQL3G6TGGZM5cNbY1PY1d33tYSm0lCrijD-If_jaij079PqgVWplt24kgUONsSvAJyokavzSKSkmI2E14p3Hp6cT1gyqe--0DlP4-4yQw==",
+      "fix": ""
+    },
+    {
+      "scene_id": 4,
+      "claim": "The gas acts as a lachrymatory agent, irritating the eyes similarly to a mild sensory irritant.",
+      "verdict": "correct",
+      "source_title": "Library of Congress (LOC)",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJsBGNjcEV3Vt_kAQ7aGpM1aB6FM6Nk7s0lR3UhQnAyJXFpIpo_yEKFB3WuljgVuclQYWuHDScnPHZHisqLBjhVEuHKPNTMlKx4-93wYma6h1uuqa67kDe6ZwLkx9_EPP_E_KShAfWqk354PajxH7Wb5zUNXjM41S4zQIJnrbRsohN9JaA7mjCYryc7VFE-F8hP1A8KDvbnQgY6Cn4pb7pTCTLCc2d3T3mrtXh",
+      "fix": ""
+    },
+    {
+      "scene_id": 5,
+      "claim": "Chilling onions before cutting is a known method to reduce tearing.",
+      "verdict": "correct",
+      "source_title": "Library of Congress (LOC)",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJsBGNjcEV3Vt_kAQ7aGpM1aB6FM6Nk7s0lR3UhQnAyJXFpIpo_yEKFB3WuljgVuclQYWuHDScnPHZHisqLBjhVEuHKPNTMlKx4-93wYma6h1uuqa67kDe6ZwLkx9_EPP_E_KShAfWqk354PajxH7Wb5zUNXjM41S4zQIJnrbRsohN9JaA7mjCYryc7VFE-F8hP1A8KDvbnQgY6Cn4pb7pTCTLCc2d3T3mrtXh",
+      "fix": ""
+    },
+    {
+      "scene_id": 6,
+      "claim": "Cold temperatures slow down the chemical reaction and enzymatic activity that produces the irritating gas.",
+      "verdict": "correct",
+      "source_title": "Royal Society of Chemistry (RSC)",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFg1L17tx66tZqiO1J2yXuO1_eyFktFL0VDooV_4JfXnWv8QtxtSjIQBAVNlx8ocwwk-rdzAaAV7vc4UwARp74vCqsU_rI4bovLRNAByHad1DQLUam6U-O6TOIRV-9R7fXnLCD7TKbYX_C7pC-2-RDFbbgn8LfXJtVdorNopu7G8yp-inzWOMM5",
+      "fix": ""
+    },
+    {
+      "scene_id": 7,
+      "claim": "The brain triggers reflex tears from the lachrymal glands to flush out the irritant from the eyes.",
+      "verdict": "correct",
+      "source_title": "Library of Congress (LOC)",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJsBGNjcEV3Vt_kAQ7aGpM1aB6FM6Nk7s0lR3UhQnAyJXFpIpo_yEKFB3WuljgVuclQYWuHDScnPHZHisqLBjhVEuHKPNTMlKx4-93wYma6h1uuqa67kDe6ZwLkx9_EPP_E_KShAfWqk354PajxH7Wb5zUNXjM41S4zQIJnrbRsohN9JaA7mjCYryc7VFE-F8hP1A8KDvbnQgY6Cn4pb7pTCTLCc2d3T3mrtXh",
+      "fix": ""
+    }
+  ],
+  "analogy_check": "ok",
+  "overall": "pass",
+  "attempt": 1
+}

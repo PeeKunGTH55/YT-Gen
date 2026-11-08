@@ -1,0 +1,32 @@
+﻿[Script Info]
+Title: Edu Shorts Thai Subtitles
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 1
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Tahoma,64,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,2,5,100,100,680,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:02.10,Default,,0,0,0,,{\an5\pos(540,1200)}เคยสงสัยไหม?{\c&H0000D7FF&\fscx108\fscy108}ทำไมน้ำแข็ง{\c&H00FFFFFF&\fscx100\fscy100}
+Dialogue: 0,0:00:02.10,0:00:03.38,Default,,0,0,0,,{\an5\pos(540,1200)}ที่เป็นของแข็ง
+Dialogue: 0,0:00:03.38,0:00:05.21,Default,,0,0,0,,{\an5\pos(540,1200)}กลับ{\c&H0000D7FF&\fscx108\fscy108}ลอยน้ำ{\c&H00FFFFFF&\fscx100\fscy100}แทนที่จะจม
+Dialogue: 0,0:00:05.21,0:00:08.12,Default,,0,0,0,,{\an5\pos(540,1200)}ปกติแล้ว{\c&H0000D7FF&\fscx108\fscy108}ของแข็ง{\c&H00FFFFFF&\fscx100\fscy100}ต้องหนาแน่นกว่า
+Dialogue: 0,0:00:08.12,0:00:09.48,Default,,0,0,0,,{\an5\pos(540,1200)}และ{\c&H0000D7FF&\fscx108\fscy108}จมลงก้นแก้ว{\c&H00FFFFFF&\fscx100\fscy100}
+Dialogue: 0,0:00:09.48,0:00:11.17,Default,,0,0,0,,{\an5\pos(540,1200)}แต่น้ำ{\c&H0000D7FF&\fscx108\fscy108}พิเศษกว่านั้น{\c&H00FFFFFF&\fscx100\fscy100}!
+Dialogue: 0,0:00:11.17,0:00:13.79,Default,,0,0,0,,{\an5\pos(540,1200)}เมื่อแข็งตัวโมเลกุลจะ{\c&H0000D7FF&\fscx108\fscy108}ขยายตัวออก{\c&H00FFFFFF&\fscx100\fscy100}
+Dialogue: 0,0:00:13.79,0:00:16.79,Default,,0,0,0,,{\an5\pos(540,1200)}เกิดเป็น{\c&H0000D7FF&\fscx108\fscy108}โครงสร้างหกเหลี่ยม{\c&H00FFFFFF&\fscx100\fscy100}มีช่องว่าง
+Dialogue: 0,0:00:16.79,0:00:18.13,Default,,0,0,0,,{\an5\pos(540,1200)}คล้าย{\c&H0000D7FF&\fscx108\fscy108}ฟองน้ำ{\c&H00FFFFFF&\fscx100\fscy100}พองลม
+Dialogue: 0,0:00:18.13,0:00:20.27,Default,,0,0,0,,{\an5\pos(540,1200)}แล้วถ้าวันหนึ่งน้ำแข็งเกิดจม
+Dialogue: 0,0:00:20.27,0:00:21.65,Default,,0,0,0,,{\an5\pos(540,1200)}น้ำขึ้นมาล่ะ?โลกจะ
+Dialogue: 0,0:00:21.65,0:00:22.57,Default,,0,0,0,,{\an5\pos(540,1200)}เป็นอย่างไร?
+Dialogue: 0,0:00:22.57,0:00:24.49,Default,,0,0,0,,{\an5\pos(540,1200)}สัตว์น้ำคง{\c&H0000D7FF&\fscx108\fscy108}แข็งตายหมด{\c&H00FFFFFF&\fscx100\fscy100}เพราะ
+Dialogue: 0,0:00:24.49,0:00:25.18,Default,,0,0,0,,{\an5\pos(540,1200)}ไม่มีแผ่น
+Dialogue: 0,0:00:25.18,0:00:26.72,Default,,0,0,0,,{\an5\pos(540,1200)}น้ำแข็งช่วย{\c&H0000D7FF&\fscx108\fscy108}บังลมหนาว{\c&H00FFFFFF&\fscx100\fscy100}
+Dialogue: 0,0:00:26.72,0:00:28.88,Default,,0,0,0,,{\an5\pos(540,1200)}นี่คือ{\c&H0000D7FF&\fscx108\fscy108}ความลับธรรมชาติ{\c&H00FFFFFF&\fscx100\fscy100}สุดเจ๋ง
+Dialogue: 0,0:00:28.88,0:00:29.81,Default,,0,0,0,,{\an5\pos(540,1200)}ที่ชวนให้เรา
+Dialogue: 0,0:00:29.81,0:00:30.98,Default,,0,0,0,,{\an5\pos(540,1200)}{\c&H0000D7FF&\fscx108\fscy108}กลับมาคิดว่า{\c&H00FFFFFF&\fscx100\fscy100}...

@@ -1,0 +1,47 @@
+{
+  "results": [
+    {
+      "scene_id": 1,
+      "claim": "Carotenoids and flavonoids (yellow/orange pigments) are present in leaves throughout the growing season.",
+      "verdict": "correct",
+      "source_title": "USDA Forest Service",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHXVthQJA014CcTg99mb0gVF8LouECkNukF7s16K3HwCwUAY0jbcSrYQzJHh8-n4OWA43wyCxwmen4L02_xrHjULTUc-iJga2tz6Oc7ElPLI05vMov2Bc9YT2Ce2ajnqq2lXqtdv9slC0deeTUFBrile-KP3efCMSe4IAUsipcLpwKdD9gDDgYfxTOkqeM1GblEqa73QmkLVg==",
+      "fix": ""
+    },
+    {
+      "scene_id": 2,
+      "claim": "Chlorophyll (green pigment) dominates and masks other pigments during spring and summer.",
+      "verdict": "correct",
+      "source_title": "USDA Forest Service",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHXVthQJA014CcTg99mb0gVF8LouECkNukF7s16K3HwCwUAY0jbcSrYQzJHh8-n4OWA43wyCxwmen4L02_xrHjULTUc-iJga2tz6Oc7ElPLI05vMov2Bc9YT2Ce2ajnqq2lXqtdv9slC0deeTUFBrile-KP3efCMSe4IAUsipcLpwKdD9gDDgYfxTOkqeM1GblEqa73QmkLVg==",
+      "fix": ""
+    },
+    {
+      "scene_id": 3,
+      "claim": "Decreasing daylight and temperature in autumn trigger the breakdown of chlorophyll.",
+      "verdict": "correct",
+      "source_title": "USDA Forest Service",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHXVthQJA014CcTg99mb0gVF8LouECkNukF7s16K3HwCwUAY0jbcSrYQzJHh8-n4OWA43wyCxwmen4L02_xrHjULTUc-iJga2tz6Oc7ElPLI05vMov2Bc9YT2Ce2ajnqq2lXqtdv9slC0deeTUFBrile-KP3efCMSe4IAUsipcLpwKdD9gDDgYfxTOkqeM1GblEqa73QmkLVg==",
+      "fix": "พอเข้าฤดูใบไม้ร่วง แดดน้อยลง ต้นไม้หยุดผลิตสีเขียว"
+    },
+    {
+      "scene_id": 4,
+      "claim": "As chlorophyll disappears, the pre-existing carotenoids and xanthophylls become visible.",
+      "verdict": "correct",
+      "source_title": "USDA Forest Service",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHXVthQJA014CcTg99mb0gVF8LouECkNukF7s16K3HwCwUAY0jbcSrYQzJHh8-n4OWA43wyCxwmen4L02_xrHjULTUc-iJga2tz6Oc7ElPLI05vMov2Bc9YT2Ce2ajnqq2lXqtdv9slC0deeTUFBrile-KP3efCMSe4IAUsipcLpwKdD9gDDgYfxTOkqeM1GblEqa73QmkLVg==",
+      "fix": ""
+    },
+    {
+      "scene_id": 5,
+      "claim": "The cycle of leaf color change is a recurring annual biological process.",
+      "verdict": "correct",
+      "source_title": "USDA Forest Service",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHXVthQJA014CcTg99mb0gVF8LouECkNukF7s16K3HwCwUAY0jbcSrYQzJHh8-n4OWA43wyCxwmen4L02_xrHjULTUc-iJga2tz6Oc7ElPLI05vMov2Bc9YT2Ce2ajnqq2lXqtdv9slC0deeTUFBrile-KP3efCMSe4IAUsipcLpwKdD9gDDgYfxTOkqeM1GblEqa73QmkLVg==",
+      "fix": ""
+    }
+  ],
+  "analogy_check": "ok",
+  "overall": "pass",
+  "attempt": 1
+}

@@ -1,0 +1,47 @@
+{
+  "results": [
+    {
+      "scene_id": 1,
+      "claim": "Goosebumps are a physiological reaction inherited from evolutionary ancestors.",
+      "verdict": "correct",
+      "source_title": "The Expression of the Emotions in Man and Animals (Darwin, 1872) / Biology (Campbell & Reece, 2005)",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE3LivvOGq94q7g4ZfvUvUDZFo55Lst4wr4rQgRa54yIBrvM5tZAAknnIj4e3evu_2HneR88Yfjl-umc8GyB_0VyKOwnQX8C_hUgtVkgG74Mp8ZUca3YdLZCgzQAHKWRTWIBKfFaUCh7-07RgF09LR1InNwHxypXVPxRWzq0N225dk9lWdZ8G1vPQ5DxlX0kdnrdStcdNJ2F09CaLvq6K6CmhE=",
+      "fix": ""
+    },
+    {
+      "scene_id": 2,
+      "claim": "Arrector pili muscles contract to cause goosebumps (piloerection) to trap heat.",
+      "verdict": "correct",
+      "source_title": "Guyton and Hall Textbook of Medical Physiology (Hall & Hall, 2020)",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE3LivvOGq94q7g4ZfvUvUDZFo55Lst4wr4rQgRa54yIBrvM5tZAAknnIj4e3evu_2HneR88Yfjl-umc8GyB_0VyKOwnQX8C_hUgtVkgG74Mp8ZUca3YdLZCgzQAHKWRTWIBKfFaUCh7-07RgF09LR1InNwHxypXVPxRWzq0N225dk9lWdZ8G1vPQ5DxlX0kdnrdStcdNJ2F09CaLvq6K6CmhE=",
+      "fix": ""
+    },
+    {
+      "scene_id": 3,
+      "claim": "Piloerection in animals/humans during fear is a defense mechanism to appear larger.",
+      "verdict": "correct",
+      "source_title": "The Expression of the Emotions in Man and Animals (Darwin, 1872)",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE3LivvOGq94q7g4ZfvUvUDZFo55Lst4wr4rQgRa54yIBrvM5tZAAknnIj4e3evu_2HneR88Yfjl-umc8GyB_0VyKOwnQX8C_hUgtVkgG74Mp8ZUca3YdLZCgzQAHKWRTWIBKfFaUCh7-07RgF09LR1InNwHxypXVPxRWzq0N225dk9lWdZ8G1vPQ5DxlX0kdnrdStcdNJ2F09CaLvq6K6CmhE=",
+      "fix": ""
+    },
+    {
+      "scene_id": 4,
+      "claim": "Goosebumps are a vestigial reflex in humans.",
+      "verdict": "correct",
+      "source_title": "Biology (Campbell & Reece, 2005)",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE3LivvOGq94q7g4ZfvUvUDZFo55Lst4wr4rQgRa54yIBrvM5tZAAknnIj4e3evu_2HneR88Yfjl-umc8GyB_0VyKOwnQX8C_hUgtVkgG74Mp8ZUca3YdLZCgzQAHKWRTWIBKfFaUCh7-07RgF09LR1InNwHxypXVPxRWzq0N225dk9lWdZ8G1vPQ5DxlX0kdnrdStcdNJ2F09CaLvq6K6CmhE=",
+      "fix": ""
+    },
+    {
+      "scene_id": 5,
+      "claim": "The loop transition connects the vestigial nature back to the hook question.",
+      "verdict": "correct",
+      "source_title": "Forbes - Video Storytelling and Structure",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGCWbJfPtPT4FdUfCK4661B8P0I86vTz7_1aODPGipsv1K4yg31GBnnKPnaIdHfWeUe8IOnAosvyibsOFBvD0LXTlMQYcSER6PSzT6UAFhj3YTTd65QYk-eTJ1OqvKincIKE8zR6jeM_eK-RiY8DJFKHli7NVVuHHwoSfArPqhxOgqMIlmxt1gfnifUHb2oyiHgcaNWcNY9jLD1MGSpUZtkN-nkB2FsyAqHH8g=",
+      "fix": ""
+    }
+  ],
+  "analogy_check": "ok",
+  "overall": "pass",
+  "attempt": 1
+}

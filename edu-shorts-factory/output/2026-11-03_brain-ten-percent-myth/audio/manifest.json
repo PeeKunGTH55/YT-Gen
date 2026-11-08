@@ -1,0 +1,63 @@
+{
+  "provider": "tokenme",
+  "total_duration_sec": 38.886,
+  "narration_file": "narration.wav",
+  "scenes": [
+    {
+      "scene_id": 1,
+      "file": "scene_01.wav",
+      "narration": "เคยสงสัยไหมว่า ทำไมตอนเรานอนหลับ สมองกลับทำงานหนักเกือบทุกส่วน",
+      "duration_sec": 5.707,
+      "start_sec": 0.0,
+      "end_sec": 5.707
+    },
+    {
+      "scene_id": 2,
+      "file": "scene_02.wav",
+      "narration": "ความเชื่อที่ว่าเราใช้สมองแค่สิบเปอร์เซ็นต์นั้นเป็นเรื่องโกหก!",
+      "duration_sec": 3.922,
+      "start_sec": 5.707,
+      "end_sec": 9.629
+    },
+    {
+      "scene_id": 3,
+      "file": "scene_03.wav",
+      "narration": "จริงๆ แล้ว สมองเราทำงานตลอดเวลาเหมือนสมาร์ทโฟนที่เปิดแอปเบื้องหลังไว้เพียบ",
+      "duration_sec": 5.281,
+      "start_sec": 9.629,
+      "end_sec": 14.91
+    },
+    {
+      "scene_id": 4,
+      "file": "scene_04.wav",
+      "narration": "แล้วเคยคิดไหมว่า ถ้าเราใช้แค่สิบเปอร์เซ็นต์จริง สมองส่วนที่เหลือจะมีไว้ทำไม?",
+      "duration_sec": 5.508,
+      "start_sec": 14.91,
+      "end_sec": 20.418
+    },
+    {
+      "scene_id": 5,
+      "file": "scene_05.wav",
+      "narration": "ผลสแกน MRI ยืนยันว่า ไม่ว่าจะขยับนิ้วหรือคิดเลข สมองแทบทุกส่วนจะสว่างวาบขึ้นมา",
+      "duration_sec": 7.504,
+      "start_sec": 20.418,
+      "end_sec": 27.922
+    },
+    {
+      "scene_id": 6,
+      "file": "scene_06.wav",
+      "narration": "แม้แต่ตอนที่เราไม่ได้ทำอะไรเลย สมองก็ยังใช้พลังงานควบคุมร่างกายอยู่ดี",
+      "duration_sec": 5.613,
+      "start_sec": 27.922,
+      "end_sec": 33.535
+    },
+    {
+      "scene_id": 7,
+      "file": "scene_07.wav",
+      "narration": "เพราะสมองทำงานเต็มร้อยตลอดเวลา จนทำให้คุณต้องกลับมาถามตัวเองว่า...",
+      "duration_sec": 5.351,
+      "start_sec": 33.535,
+      "end_sec": 38.886
+    }
+  ]
+}

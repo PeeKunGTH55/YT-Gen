@@ -1,0 +1,63 @@
+{
+  "results": [
+    {
+      "scene_id": 1,
+      "claim": "During sleep, the brain remains highly active and almost all parts of it show some level of activity.",
+      "verdict": "correct",
+      "source_title": "nih.gov",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF69AHtduc0xmZhPjCx7ybN1umiFuq80QN_Q7QDkNJ96ISq8ciNF-O-WsnHsqvFBuO4nC0R_0_zVhnsSqqkL5VaPKSDnWX71Zoo21bpK-y_D2MB_Ee_n-_bNFETFEoC1iL7NwGT8RNqMNeEUiA=",
+      "fix": ""
+    },
+    {
+      "scene_id": 2,
+      "claim": "The 10% brain myth is scientifically false; humans use virtually all parts of their brain.",
+      "verdict": "correct",
+      "source_title": "psychologytoday.com",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG4ZBGIDNlDzECvuGcAF275DPR5O8lQdmHgLdRFc5I3CPraURS8XoF53qzUt-C2n7CXwWWat9f9a7ca65S4dmd0lQ_gsenPDLZB6roofydpcpozm5_MyxZFgCkDwrR2a3YEnae0X6qcFAaPxUOt90uv12OR-3MlnViouziq8mqkfaJcF9NiiCF9oB3Ml27dGrM8IhrvYgiQxeTNDst0ce-dDoVsRkDzKSrgu0U=",
+      "fix": ""
+    },
+    {
+      "scene_id": 3,
+      "claim": "The brain is constantly active, even when we are not actively focusing on a task, similar to background processes in a device.",
+      "verdict": "correct",
+      "source_title": "frontiersin.org",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGv4-7I55KnDcZtfpWqVqHXGnY2ZdGstp18d1tGcGOfUqkRH03DY1jz6ML8tKzDXtFs6Uynb29pNgVrrcxID49iaQB4IQizJHdG2VdrKAgr9VMyW86bWjZmQ6YBkAltOUJJsxArY2o6bHdCyT0p6pRy4R1pWcSUkHQk1HulTdCO7WKKL3yZZ-CllaW-5DoMQws=",
+      "fix": ""
+    },
+    {
+      "scene_id": 4,
+      "claim": "Evolutionary biology suggests that unused brain tissue would have been eliminated; there is no 'unused' 90%.",
+      "verdict": "correct",
+      "source_title": "wikipedia.org",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVIKwthgs2MFXh_vx2y58xYMuomAuNLSOO2foNwZURhPLzardGHOXFPV0AfYfeIpGnC7AJZugl-uZirUYXaHa5a2AedWW2R7djlvItb4vte-eLTSNI1uQDj1QfmtNOJxqbFNQf-CCTiSVnpYzKuN4M6zKz0g9i",
+      "fix": ""
+    },
+    {
+      "scene_id": 5,
+      "claim": "fMRI scans show that simple tasks or thoughts activate areas across the entire brain, not just a small portion.",
+      "verdict": "correct",
+      "source_title": "nih.gov",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF69AHtduc0xmZhPjCx7ybN1umiFuq80QN_Q7QDkNJ96ISq8ciNF-O-WsnHsqvFBuO4nC0R_0_zVhnsSqqkL5VaPKSDnWX71Zoo21bpK-y_D2MB_Ee_n-_bNFETFEoC1iL7NwGT8RNqMNeEUiA=",
+      "fix": ""
+    },
+    {
+      "scene_id": 6,
+      "claim": "The brain consumes about 20% of the body's energy to maintain basic life support functions even at rest.",
+      "verdict": "correct",
+      "source_title": "news-medical.net",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGcWuWuLj_Fwe1X1K2gqvSvN-cpgmysxtoYRepwS4M7X5rzR1Ko4e4X9sSuzZQ_3OViZ3BBdTNacSomoc1uB4YLMBNu33DwjaqU3OOnfow_hsmGjTx69EMEBaiG2e0mxBTGcVMVOc636ivr6wuMFA3iqcOn8lcP4RWswkncJg6N",
+      "fix": ""
+    },
+    {
+      "scene_id": 7,
+      "claim": "The brain operates at 100% capacity over a 24-hour cycle.",
+      "verdict": "correct",
+      "source_title": "psychologytoday.com",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG4ZBGIDNlDzECvuGcAF275DPR5O8lQdmHgLdRFc5I3CPraURS8XoF53qzUt-C2n7CXwWWat9f9a7ca65S4dmd0lQ_gsenPDLZB6roofydpcpozm5_MyxZFgCkDwrR2a3YEnae0X6qcFAaPxUOt90uv12OR-3MlnViouziq8mqkfaJcF9NiiCF9oB3Ml27dGrM8IhrvYgiQxeTNDst0ce-dDoVsRkDzKSrgu0U=",
+      "fix": ""
+    }
+  ],
+  "analogy_check": "ok",
+  "overall": "pass",
+  "attempt": 1
+}

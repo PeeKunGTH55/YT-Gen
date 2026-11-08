@@ -1,0 +1,69 @@
+{
+  "title": "ไขมันจับตัวเป็นก้อนเพราะน้ำเย็นจริงไหม?",
+  "format": "myth_vs_fact",
+  "scenes": [
+    {
+      "id": 1,
+      "narration": "กินหมูกระทะเสร็จแล้วซดน้ำเย็นเจี๊ยบ ไขมันจะจับตัวเป็นก้อนในท้องไหม?",
+      "visual": "A close-up shot of hot sizzling Thai BBQ (Moo Kratha) with a hand pouring a glass of ice-cold water next to it, 9:16 vertical format.",
+      "emphasis_words": [
+        "หมูกระทะ",
+        "น้ำเย็นเจี๊ยบ",
+        "จับตัวเป็นก้อน"
+      ],
+      "claims": [
+        "Does drinking cold water after eating fat cause fat to solidify in the stomach?"
+      ]
+    },
+    {
+      "id": 2,
+      "narration": "ความจริงคือไม่มีทางครับ เพราะร่างกายเราอุ่นถึง 37 องศา",
+      "visual": "A 3D animation of a human stomach glowing with warm orange light, showing the internal temperature of 37 degrees Celsius.",
+      "emphasis_words": [
+        "ไม่มีทาง",
+        "37 องศา"
+      ],
+      "claims": [
+        "Human body temperature is around 37 degrees Celsius, which quickly warms up ingested cold water."
+      ]
+    },
+    {
+      "id": 3,
+      "narration": "เหมือนเทน้ำมันลงกระทะร้อนๆ น้ำเย็นจะอุ่นขึ้นในทันที",
+      "visual": "A hot frying pan on a stove with a drop of oil spreading quickly, contrasting with a splash of water warming up instantly.",
+      "emphasis_words": [
+        "กระทะร้อนๆ",
+        "อุ่นขึ้นทันที"
+      ],
+      "claims": [
+        "Thermoregulation in the stomach prevents cold water from solidifying fat."
+      ]
+    },
+    {
+      "id": 4,
+      "narration": "น้ำย่อยจะทำงานปกติ ไขมันจึงถูกย่อยและดูดซึมได้ตามธรรมชาติ",
+      "visual": "An abstract clean animation of digestive enzymes breaking down fat molecules smoothly.",
+      "emphasis_words": [
+        "ทำงานปกติ",
+        "ย่อยและดูดซึม"
+      ],
+      "claims": [
+        "Digestive enzymes and bile break down fats regardless of water temperature."
+      ]
+    },
+    {
+      "id": 5,
+      "narration": "สบายใจได้เลยครับ ไม่ว่าจะเพิ่ง...",
+      "visual": "A happy person smiling and holding a glass of cold water, looking relieved, transitioning smoothly back to the first scene.",
+      "emphasis_words": [
+        "สบายใจได้",
+        "ไม่ว่าจะเพิ่ง"
+      ],
+      "claims": [
+        "Drinking cold water after meals is safe and does not cause fat accumulation or solidification."
+      ]
+    }
+  ],
+  "loop_note": "ประโยคจบของฉากที่ 5 'ไม่ว่าจะเพิ่ง...' จะเชื่อมต่อกับประโยคเปิดของฉากที่ 1 'กินหมูกระทะเสร็จแล้วซดน้ำเย็นเจี๊ยบ...' ได้อย่างเนียนและไร้รอยต่อ ทำให้ผู้ดูรู้สึกอยากดูซ้ำอีกรอบ",
+  "hook_used": "กินหมูกระทะเสร็จแล้วซดน้ำเย็นเจี๊ยบ ไขมันจะจับตัวเป็นก้อนในท้องไหม?"
+}

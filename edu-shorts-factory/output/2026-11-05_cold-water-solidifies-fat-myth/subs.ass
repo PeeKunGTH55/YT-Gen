@@ -1,0 +1,26 @@
+﻿[Script Info]
+Title: Edu Shorts Thai Subtitles
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 1
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Tahoma,64,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,2,5,100,100,680,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:01.71,Default,,0,0,0,,{\an5\pos(540,1200)}กิน{\c&H0000D7FF&\fscx108\fscy108}หมูกระทะ{\c&H00FFFFFF&\fscx100\fscy100}เสร็จแล้วซด
+Dialogue: 0,0:00:01.71,0:00:04.05,Default,,0,0,0,,{\an5\pos(540,1200)}{\c&H0000D7FF&\fscx108\fscy108}น้ำเย็นเจี๊ยบ{\c&H00FFFFFF&\fscx100\fscy100}ไขมันจะจับตัวเป็น
+Dialogue: 0,0:00:04.05,0:00:05.14,Default,,0,0,0,,{\an5\pos(540,1200)}ก้อนในท้องไหม?
+Dialogue: 0,0:00:05.14,0:00:07.72,Default,,0,0,0,,{\an5\pos(540,1200)}ความจริงคือ{\c&H0000D7FF&\fscx108\fscy108}ไม่มีทาง{\c&H00FFFFFF&\fscx100\fscy100}ครับเพราะ
+Dialogue: 0,0:00:07.72,0:00:09.84,Default,,0,0,0,,{\an5\pos(540,1200)}ร่างกายเราอุ่นถึง37องศา
+Dialogue: 0,0:00:09.84,0:00:12.16,Default,,0,0,0,,{\an5\pos(540,1200)}เหมือนเทน้ำมันลงกระทะร้อน
+Dialogue: 0,0:00:12.16,0:00:14.48,Default,,0,0,0,,{\an5\pos(540,1200)}ๆน้ำเย็นจะอุ่นขึ้นในทันที
+Dialogue: 0,0:00:14.48,0:00:16.85,Default,,0,0,0,,{\an5\pos(540,1200)}น้ำย่อยจะ{\c&H0000D7FF&\fscx108\fscy108}ทำงานปกติ{\c&H00FFFFFF&\fscx100\fscy100}ไขมันจึง
+Dialogue: 0,0:00:16.85,0:00:17.76,Default,,0,0,0,,{\an5\pos(540,1200)}ถูกย่อยและ
+Dialogue: 0,0:00:17.76,0:00:19.58,Default,,0,0,0,,{\an5\pos(540,1200)}ดูดซึมได้ตามธรรมชาติ
+Dialogue: 0,0:00:19.58,0:00:21.38,Default,,0,0,0,,{\an5\pos(540,1200)}{\c&H0000D7FF&\fscx108\fscy108}สบายใจได้{\c&H00FFFFFF&\fscx100\fscy100}เลยครับไม่ว่า
+Dialogue: 0,0:00:21.38,0:00:22.21,Default,,0,0,0,,{\an5\pos(540,1200)}จะเพิ่ง...

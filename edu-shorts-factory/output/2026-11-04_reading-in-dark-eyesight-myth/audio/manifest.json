@@ -1,0 +1,63 @@
+{
+  "provider": "tokenme",
+  "total_duration_sec": 35.779,
+  "narration_file": "narration.wav",
+  "scenes": [
+    {
+      "scene_id": 1,
+      "file": "scene_01.wav",
+      "narration": "เคยสงสัยไหมว่า อ่านหนังสือในที่มืด อาจไม่ได้ทำให้สายตาสั้นลง?",
+      "duration_sec": 5.178,
+      "start_sec": 0.0,
+      "end_sec": 5.178
+    },
+    {
+      "scene_id": 2,
+      "file": "scene_02.wav",
+      "narration": "ความจริงคือ มันแค่ทำให้กล้ามเนื้อตาทำงานหนักจนล้าชั่วคราวเท่านั้น",
+      "duration_sec": 5.18,
+      "start_sec": 5.178,
+      "end_sec": 10.358
+    },
+    {
+      "scene_id": 3,
+      "file": "scene_03.wav",
+      "narration": "เหมือนเรายกดัมเบลหนักๆ จนแขนล้า แต่แขนเราไม่ได้ยาวขึ้นถาวรซะหน่อย",
+      "duration_sec": 5.567,
+      "start_sec": 10.358,
+      "end_sec": 15.925
+    },
+    {
+      "scene_id": 4,
+      "file": "scene_04.wav",
+      "narration": "แล้วทำไมบางคนยิ่งโตสายตากลับยิ่งสั้นลงเรื่อยๆ ทั้งที่ไม่ได้อ่านในที่มืด?",
+      "duration_sec": 5.551,
+      "start_sec": 15.925,
+      "end_sec": 21.476
+    },
+    {
+      "scene_id": 5,
+      "file": "scene_05.wav",
+      "narration": "เพราะสายตาสั้นเกิดจากพันธุกรรมและพฤติกรรมการจ้องหน้าจอใกล้ๆ เป็นเวลานานต่างหาก",
+      "duration_sec": 5.305,
+      "start_sec": 21.476,
+      "end_sec": 26.781
+    },
+    {
+      "scene_id": 6,
+      "file": "scene_06.wav",
+      "narration": "การพักสายตาทุกยี่สิบนาทีจึงสำคัญที่สุด เพื่อไม่ให้ตาแห้งและล้าสะสม",
+      "duration_sec": 5.731,
+      "start_sec": 26.781,
+      "end_sec": 32.512
+    },
+    {
+      "scene_id": 7,
+      "file": "scene_07.wav",
+      "narration": "ไม่อย่างนั้นคุณอาจต้องกลับมาถามตัวเองอีกครั้งว่า...",
+      "duration_sec": 3.267,
+      "start_sec": 32.512,
+      "end_sec": 35.779
+    }
+  ]
+}

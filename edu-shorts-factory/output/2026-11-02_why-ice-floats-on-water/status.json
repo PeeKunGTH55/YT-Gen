@@ -1,0 +1,125 @@
+{
+  "folder": "2026-11-02_why-ice-floats-on-water",
+  "status": "awaiting_approval",
+  "history": [
+    {
+      "status": "scripted",
+      "timestamp": "2026-11-02T18:54:35+07:00",
+      "note": "สร้างบท 7 ฉาก พร้อมคัดเลือก Hook สำเร็จ"
+    },
+    {
+      "status": "failed_factcheck",
+      "timestamp": "2026-11-02T18:55:19+07:00",
+      "note": "ไม่ผ่านการตรวจข้อเท็จจริง (overall=needs_edit)"
+    },
+    {
+      "status": "scripted",
+      "timestamp": "2026-11-02T19:11:30+07:00",
+      "note": "สร้างบท 7 ฉาก พร้อมคัดเลือก Hook สำเร็จ"
+    },
+    {
+      "status": "factchecked",
+      "timestamp": "2026-11-02T19:12:16+07:00",
+      "note": "ผ่านการตรวจข้อเท็จจริงในรอบที่ 1"
+    },
+    {
+      "status": "assets_ready",
+      "timestamp": "2026-11-02T19:15:33+07:00",
+      "note": "เตรียมไฟล์เสียงและภาพประกอบครบ 7 ฉาก (provider=nano_banana)"
+    },
+    {
+      "status": "rendered",
+      "timestamp": "2026-11-02T19:18:33+07:00",
+      "note": "เรนเดอร์ final.mp4 (motion=veo) และสร้าง meta.json สำเร็จ"
+    },
+    {
+      "status": "awaiting_approval",
+      "timestamp": "2026-11-02T19:26:06+07:00",
+      "note": "ส่งคลิปเข้า Telegram เพื่อรออนุมัติแล้ว"
+    },
+    {
+      "status": "rendered",
+      "timestamp": "2026-11-02T19:37:50+07:00",
+      "note": "เรนเดอร์ final.mp4 (motion=veo) และสร้าง meta.json สำเร็จ"
+    },
+    {
+      "status": "awaiting_approval",
+      "timestamp": "2026-11-02T19:42:54+07:00",
+      "note": "ส่งคลิปเข้า Telegram เพื่อรออนุมัติแล้ว"
+    },
+    {
+      "status": "approved",
+      "timestamp": "2026-11-02T20:22:46+07:00",
+      "note": "อนุมัติผ่านปุ่มกด Telegram"
+    },
+    {
+      "status": "published",
+      "timestamp": "2026-11-02T20:22:52+07:00",
+      "note": "เผยแพร่สำเร็จผ่านโหมด direct_api"
+    },
+    {
+      "status": "awaiting_approval",
+      "timestamp": "2026-11-04T15:36:37+07:00",
+      "note": "ไม่ผ่านเกณฑ์ QC Subagent (คะแนน: 60/85) ส่งให้คนตรวจ"
+    },
+    {
+      "status": "awaiting_approval",
+      "timestamp": "2026-11-04T15:39:37+07:00",
+      "note": "ไม่ผ่านเกณฑ์ QC Subagent (คะแนน: 60/85) ส่งให้คนตรวจ"
+    },
+    {
+      "status": "awaiting_approval",
+      "timestamp": "2026-11-04T15:39:37+07:00",
+      "note": "รออนุมัติ (โหมดทดสอบหรือยังไม่ได้ตั้งค่า TELEGRAM_BOT_TOKEN)"
+    }
+  ],
+  "updated_at": "2026-11-04T15:39:37+07:00",
+  "topic_id": "4",
+  "title": "ทำไมน้ำแข็งถึงลอยน้ำ ทั้งที่ของแข็งทั่วไปจม",
+  "format": "why_question",
+  "publish_result": {
+    "mode": "direct_api",
+    "platforms": [
+      "youtube"
+    ],
+    "youtube_url": "https://youtube.com/shorts/H_2WTaIUF4g"
+  },
+  "qc_report": {
+    "timestamp": "2026-11-04T15:39:37.418852",
+    "clip_folder": "2026-11-02_why-ice-floats-on-water",
+    "total_score": 60,
+    "min_pass_score": 85,
+    "passed": false,
+    "decision": "rejected_by_qc",
+    "breakdown": {
+      "hook_quality": {
+        "score": 0,
+        "max": 30
+      },
+      "fact_confidence": {
+        "score": 35,
+        "max": 35
+      },
+      "duration_pacing": {
+        "score": 10,
+        "max": 20,
+        "duration_sec": 30.93
+      },
+      "asset_integrity": {
+        "score": 15,
+        "max": 15
+      }
+    },
+    "violations": [
+      "Hook ใช้คำต้องห้าม: 'เคยสงสัยไหม' (เสี่ยงคนดูปัดทิ้งสูงมาก)"
+    ],
+    "strengths": [
+      "ไฟล์วิดีโอ ซับไตเติล และ Metadata สมบูรณ์ 100%"
+    ],
+    "recommendations": [
+      "เปลี่ยนประโยคเปิดเป็น Contrast หรือ Shocking Fact ทันที",
+      "ความยาวคลิป 30.9s (สามารถบีบให้สั้นลงเหลือ 22-25s เพื่อดัน Retention เพิ่มได้)",
+      "จำนวนฉาก (7 ฉาก) มากเกินไป แนะนำ 5-6 ฉาก"
+    ]
+  }
+}

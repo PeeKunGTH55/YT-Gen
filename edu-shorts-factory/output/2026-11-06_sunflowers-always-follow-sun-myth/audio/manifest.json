@@ -1,0 +1,47 @@
+{
+  "provider": "tokenme",
+  "total_duration_sec": 20.596,
+  "narration_file": "narration.wav",
+  "scenes": [
+    {
+      "scene_id": 1,
+      "file": "scene_01.wav",
+      "narration": "ทานตะวันไม่ได้หันตามดวงอาทิตย์ตลอดเวลา เลิกเชื่อเรื่องนี้ได้แล้ว!",
+      "duration_sec": 4.436,
+      "start_sec": 0.0,
+      "end_sec": 4.436
+    },
+    {
+      "scene_id": 2,
+      "file": "scene_02.wav",
+      "narration": "เฉพาะทานตะวันเด็กเท่านั้นที่หันตามแดดเพื่อช่วยโต",
+      "duration_sec": 3.58,
+      "start_sec": 4.436,
+      "end_sec": 8.016
+    },
+    {
+      "scene_id": 3,
+      "file": "scene_03.wav",
+      "narration": "พอโตเต็มที่ มันจะหยุดหัน เหมือนผู้ใหญ่ที่กระดูกแข็งแรงแล้ว",
+      "duration_sec": 4.405,
+      "start_sec": 8.016,
+      "end_sec": 12.421
+    },
+    {
+      "scene_id": 4,
+      "file": "scene_04.wav",
+      "narration": "และจะยืนหันหน้าไปทางทิศตะวันออกถาวรเพื่อรับไออุ่นยามเช้า",
+      "duration_sec": 4.159,
+      "start_sec": 12.421,
+      "end_sec": 16.58
+    },
+    {
+      "scene_id": 5,
+      "file": "scene_05.wav",
+      "narration": "ดังนั้น ถ้าคุณเห็นดอกที่บานเต็มที่แล้วจำไว้เลยว่า...",
+      "duration_sec": 4.016,
+      "start_sec": 16.58,
+      "end_sec": 20.596
+    }
+  ]
+}

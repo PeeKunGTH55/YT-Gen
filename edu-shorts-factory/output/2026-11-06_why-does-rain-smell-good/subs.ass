@@ -1,0 +1,32 @@
+﻿[Script Info]
+Title: Edu Shorts Thai Subtitles
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 1
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Tahoma,64,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,2,5,100,100,680,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:01.88,Default,,0,0,0,,{\an5\pos(540,1200)}{\c&H0000D7FF&\fscx108\fscy108}กลิ่นดินหอมๆ{\c&H00FFFFFF&\fscx100\fscy100}ตอนฝนตก
+Dialogue: 0,0:00:01.88,0:00:03.85,Default,,0,0,0,,{\an5\pos(540,1200)}ใหม่ๆ...ที่แท้มันคือ
+Dialogue: 0,0:00:03.85,0:00:05.83,Default,,0,0,0,,{\an5\pos(540,1200)}{\c&H0000D7FF&\fscx108\fscy108}กลิ่นตดของแบคทีเรีย{\c&H00FFFFFF&\fscx100\fscy100}!
+Dialogue: 0,0:00:05.83,0:00:07.65,Default,,0,0,0,,{\an5\pos(540,1200)}เจ้าสารนี้ชื่อว่า'จี
+Dialogue: 0,0:00:07.65,0:00:09.39,Default,,0,0,0,,{\an5\pos(540,1200)}ออสมีน'จะฟุ้งกระจาย
+Dialogue: 0,0:00:09.39,0:00:11.31,Default,,0,0,0,,{\an5\pos(540,1200)}ออกมาทันทีที่เม็ดฝนตก
+Dialogue: 0,0:00:11.31,0:00:12.50,Default,,0,0,0,,{\an5\pos(540,1200)}กระทบดินแห้งๆ
+Dialogue: 0,0:00:12.50,0:00:14.32,Default,,0,0,0,,{\an5\pos(540,1200)}มันจะ{\c&H0000D7FF&\fscx108\fscy108}พุ่งตัวขึ้นฟ้า{\c&H00FFFFFF&\fscx100\fscy100}เหมือน
+Dialogue: 0,0:00:14.32,0:00:15.92,Default,,0,0,0,,{\an5\pos(540,1200)}{\c&H0000D7FF&\fscx108\fscy108}ฟองซ่า{\c&H00FFFFFF&\fscx100\fscy100}ในน้ำอัดลมตอนเรา
+Dialogue: 0,0:00:15.92,0:00:16.94,Default,,0,0,0,,{\an5\pos(540,1200)}เปิดขวดเลยล่ะ!
+Dialogue: 0,0:00:16.94,0:00:18.75,Default,,0,0,0,,{\an5\pos(540,1200)}รู้ไหมว่าจมูกมนุษย์เรา
+Dialogue: 0,0:00:18.75,0:00:20.16,Default,,0,0,0,,{\an5\pos(540,1200)}{\c&H0000D7FF&\fscx108\fscy108}ไวต่อกลิ่น{\c&H00FFFFFF&\fscx100\fscy100}นี้มาก!
+Dialogue: 0,0:00:20.16,0:00:22.14,Default,,0,0,0,,{\an5\pos(540,1200)}แม้เจือจางแค่หนึ่งในล้าน
+Dialogue: 0,0:00:22.14,0:00:23.04,Default,,0,0,0,,{\an5\pos(540,1200)}ล้านส่วนเรา
+Dialogue: 0,0:00:23.04,0:00:24.20,Default,,0,0,0,,{\an5\pos(540,1200)}ก็ยังได้กลิ่น!
+Dialogue: 0,0:00:24.20,0:00:26.12,Default,,0,0,0,,{\an5\pos(540,1200)}นั่นเลยเป็นเหตุผลว่าพอ
+Dialogue: 0,0:00:26.12,0:00:27.87,Default,,0,0,0,,{\an5\pos(540,1200)}{\c&H0000D7FF&\fscx108\fscy108}ฝนเริ่มตกปุ๊บ{\c&H00FFFFFF&\fscx100\fscy100}จมูกเรา
+Dialogue: 0,0:00:27.87,0:00:29.01,Default,,0,0,0,,{\an5\pos(540,1200)}ก็{\c&H0000D7FF&\fscx108\fscy108}พร้อมสูด{\c&H00FFFFFF&\fscx100\fscy100}...

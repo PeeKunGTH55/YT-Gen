@@ -1,0 +1,71 @@
+{
+  "provider": "tokenme",
+  "total_duration_sec": 34.271,
+  "narration_file": "narration.wav",
+  "scenes": [
+    {
+      "scene_id": 1,
+      "file": "scene_01.wav",
+      "narration": "เคยสงสัยไหมว่า หัวหอมไม่มีหัวใจ แต่ทำไมทำให้เราเสียน้ำตาได้ทุกครั้ง",
+      "duration_sec": 6.134,
+      "start_sec": 0.0,
+      "end_sec": 6.134
+    },
+    {
+      "scene_id": 2,
+      "file": "scene_02.wav",
+      "narration": "นั่นเพราะเมื่อเราหั่นหัวหอม เซลล์ของมันจะแตกออก",
+      "duration_sec": 3.553,
+      "start_sec": 6.134,
+      "end_sec": 9.687
+    },
+    {
+      "scene_id": 3,
+      "file": "scene_03.wav",
+      "narration": "ปล่อยเอนไซม์มาผสมกับกรดอะมิโน จนเกิดเป็นแก๊สแสบตาพุ่งขึ้นมา",
+      "duration_sec": 5.046,
+      "start_sec": 9.687,
+      "end_sec": 14.733
+    },
+    {
+      "scene_id": 4,
+      "file": "scene_04.wav",
+      "narration": "แก๊สนี้เหมือนสเปรย์พริกไทยธรรมชาติที่ลอยเข้าตาเรา",
+      "duration_sec": 3.534,
+      "start_sec": 14.733,
+      "end_sec": 18.267
+    },
+    {
+      "scene_id": 5,
+      "file": "scene_05.wav",
+      "narration": "แล้วรู้ไหมว่า ทำไมการแช่ตู้เย็นก่อนหั่น ถึงช่วยหยุดแก๊สนี้ได้?",
+      "duration_sec": 4.652,
+      "start_sec": 18.267,
+      "end_sec": 22.919
+    },
+    {
+      "scene_id": 6,
+      "file": "scene_06.wav",
+      "narration": "เพราะความเย็นจะช่วยชะลอการทำงานของเอนไซม์ให้ช้าลง",
+      "duration_sec": 3.777,
+      "start_sec": 22.919,
+      "end_sec": 26.696
+    },
+    {
+      "scene_id": 7,
+      "file": "scene_07.wav",
+      "narration": "สมองจึงสั่งให้น้ำตาไหลเพื่อล้างแก๊สพิษนี้ออกไป",
+      "duration_sec": 3.633,
+      "start_sec": 26.696,
+      "end_sec": 30.329
+    },
+    {
+      "scene_id": 8,
+      "file": "scene_08.wav",
+      "narration": "ก่อนจะหั่นครั้งต่อไป ลองแช่เย็นดูนะ จะได้ไม่ต้อง...",
+      "duration_sec": 3.942,
+      "start_sec": 30.329,
+      "end_sec": 34.271
+    }
+  ]
+}

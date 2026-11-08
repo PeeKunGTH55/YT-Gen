@@ -1,0 +1,63 @@
+{
+  "provider": "tokenme",
+  "total_duration_sec": 36.509,
+  "narration_file": "narration.wav",
+  "scenes": [
+    {
+      "scene_id": 1,
+      "file": "scene_01.wav",
+      "narration": "เคยสงสัยไหมว่า ทำไมตึกสูงระฟ้าถึงโดนฟ้าผ่าซ้ำๆ ปีละหลายสิบครั้ง?",
+      "duration_sec": 6.058,
+      "start_sec": 0.0,
+      "end_sec": 6.058
+    },
+    {
+      "scene_id": 2,
+      "file": "scene_02.wav",
+      "narration": "ความเชื่อที่ว่า 'ฟ้าผ่าที่เดิมซ้ำสองไม่ได้' นั้นเป็นเรื่องโกหกคำโตครับ",
+      "duration_sec": 5.334,
+      "start_sec": 6.058,
+      "end_sec": 11.392
+    },
+    {
+      "scene_id": 3,
+      "file": "scene_03.wav",
+      "narration": "เพราะสายฟ้าชอบเลือกเส้นทางที่ต้านทานน้อยที่สุด เหมือนเราเลือกเดินถนนที่โล่งที่สุดนั่นแหละ",
+      "duration_sec": 6.49,
+      "start_sec": 11.392,
+      "end_sec": 17.882
+    },
+    {
+      "scene_id": 4,
+      "file": "scene_04.wav",
+      "narration": "แล้วทำไมตึกเอ็มไพร์สเตตถึงโดนฟ้าผ่าเฉลี่ยปีละตั้ง 25 ครั้งล่ะ?",
+      "duration_sec": 4.711,
+      "start_sec": 17.882,
+      "end_sec": 22.593
+    },
+    {
+      "scene_id": 5,
+      "file": "scene_05.wav",
+      "narration": "ก็เพราะความสูงและโครงสร้างโลหะของมัน เป็นตัวล่อประจุไฟฟ้าชั้นดี",
+      "duration_sec": 5.278,
+      "start_sec": 22.593,
+      "end_sec": 27.871
+    },
+    {
+      "scene_id": 6,
+      "file": "scene_06.wav",
+      "narration": "ดังนั้น จุดที่เคยโดนผ่าแล้ว จึงมีโอกาสโดนซ้ำได้ง่ายกว่าจุดอื่นด้วยซ้ำ",
+      "duration_sec": 5.676,
+      "start_sec": 27.871,
+      "end_sec": 33.547
+    },
+    {
+      "scene_id": 7,
+      "file": "scene_07.wav",
+      "narration": "จนทำให้หลายคนเริ่มกลับมาตั้งคำถามว่า...",
+      "duration_sec": 2.962,
+      "start_sec": 33.547,
+      "end_sec": 36.509
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "results": [
+    {
+      "scene_id": 1,
+      "claim": "Yawning can be triggered contagiously just by reading or thinking about it.",
+      "verdict": "correct",
+      "source_title": "livescience.com",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGkHCXa8-pHvWkKkKPT1Hp5apZX3awXwKTHsmvFahYyHaNDn_NM-1zUZlsJFdBHDszgv8onlJLbKGX2cAvAFZYo0BsrZvskfM-75HcPyM-vZTH041SLbEXzJm7EGSGjjIR19wFjpdMOkRAXpWCtxNgV7uwov70K23dl5Rl-rulw",
+      "fix": ""
+    },
+    {
+      "scene_id": 2,
+      "claim": "นี่ไม่ใช่เรื่องบังเอิญ แต่นักวิทยาศาสตร์คาดว่าอาจเกี่ยวข้องกับ 'เซลล์กระจกเงา' ในสมอง",
+      "verdict": "correct",
+      "source_title": "nih.gov",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8nSyuq6Ywv85RYjPIWh1zoQ80nNvaMaRvQEqECcpxMvzmNb27b4iT0AuQOnV1Gdo2lneyenm1GpFwrx_IocORMBaLZdNoOWBCyJUTwBhzXofs9pDLpTIOssQHEz-FjEjGNO3M6LOjfD34RsSY",
+      "fix": ""
+    },
+    {
+      "scene_id": 3,
+      "claim": "Mirror neurons allow humans to unconsciously mimic the actions of others.",
+      "verdict": "correct",
+      "source_title": "nih.gov",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8nSyuq6Ywv85RYjPIWh1zoQ80nNvaMaRvQEqECcpxMvzmNb27b4iT0AuQOnV1Gdo2lneyenm1GpFwrx_IocORMBaLZdNoOWBCyJUTwBhzXofs9pDLpTIOssQHEz-FjEjGNO3M6LOjfD34RsSY",
+      "fix": ""
+    },
+    {
+      "scene_id": 4,
+      "claim": "หนึ่งในทฤษฎีเชื่อว่า ยิ่งคุณมีความรู้สึกร่วมกับเขามากเท่าไหร่ ก็อาจจะยิ่งหาวตามง่ายขึ้นเท่านั้น",
+      "verdict": "correct",
+      "source_title": "psychologytoday.com",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMAdUqF1pJAynaZrDtaRzDsMBWcuWuBJBT6epKZZ3cxk4b6Yco19DRWkIJUjetzzzFtNfrVFvZRJzQFAfjCVJ62WTM1RobwXQ2qkSRfcHXqd_jQ3P1pxlmRb8DyNuE5B0zexK-ydMsk9EWxUh8R6cc-h5xJgpesvbJfB-jXOs5_J6103rh6KEnWNIWYhBSNWyiAGLpkVyjoq8=",
+      "fix": ""
+    },
+    {
+      "scene_id": 5,
+      "claim": "The physical act of yawning is highly contagious through visual and auditory cues.",
+      "verdict": "correct",
+      "source_title": "livescience.com",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGkHCXa8-pHvWkKkKPT1Hp5apZX3awXwKTHsmvFahYyHaNDn_NM-1zUZlsJFdBHDszgv8onlJLbKGX2cAvAFZYo0BsrZvskfM-75HcPyM-vZTH041SLbEXzJm7EGSGjjIR19wFjpdMOkRAXpWCtxNgV7uwov70K23dl5Rl-rulw",
+      "fix": ""
+    }
+  ],
+  "analogy_check": "ok",
+  "overall": "pass",
+  "attempt": 2
+}

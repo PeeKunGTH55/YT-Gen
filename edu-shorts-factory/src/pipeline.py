@@ -7,7 +7,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from utils.paths import resolve_clip_dir
+from utils.paths import load_yaml, resolve_clip_dir
 from utils.status import read_status, read_topics_csv
 
 mod_01 = importlib.import_module("01_topics")
@@ -64,7 +64,9 @@ def run_pipeline(
     if st in ("rendered", "awaiting_approval"):
         st = mod_08.run_review(clip_path, approve_now=approve_now, mock=mock)
 
-    if st == "approved" and (publish or approve_now or auto):
+    channel_cfg = load_yaml("channel.yaml")
+    qc_auto_publish = bool(channel_cfg.get("qc", {}).get("enabled", False))
+    if st == "approved" and (publish or approve_now or auto or qc_auto_publish):
         mod_09.run_publish(clip_path, mock=mock)
 
     print(f"[pipeline] เสร็จสิ้นการทำงานที่โฟลเดอร์: {clip_path} (สถานะ: {read_status(clip_path).get('status')})")

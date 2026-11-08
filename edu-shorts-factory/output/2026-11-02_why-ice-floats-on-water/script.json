@@ -1,0 +1,92 @@
+{
+  "title": "ทำไมน้ำแข็งถึงลอยน้ำ ทั้งที่ของแข็งทั่วไปจม",
+  "format": "why_question",
+  "scenes": [
+    {
+      "id": 1,
+      "narration": "เคยสงสัยไหม? ทำไมน้ำแข็งที่เป็นของแข็ง กลับลอยน้ำแทนที่จะจม",
+      "visual": "A close-up shot of ice cubes floating in a glass of clear water, bubbles rising.",
+      "emphasis_words": [
+        "ทำไมน้ำแข็ง",
+        "ลอยน้ำ"
+      ],
+      "claims": [
+        "Ice floats on liquid water."
+      ]
+    },
+    {
+      "id": 2,
+      "narration": "ปกติแล้ว ของแข็งต้องหนาแน่นกว่าและจมลงก้นแก้ว",
+      "visual": "A heavy metal coin dropping and sinking to the bottom of a glass of water.",
+      "emphasis_words": [
+        "ของแข็ง",
+        "จมลงก้นแก้ว"
+      ],
+      "claims": [
+        "Most solids are denser than their liquid form and sink."
+      ]
+    },
+    {
+      "id": 3,
+      "narration": "แต่น้ำพิเศษกว่านั้น! เมื่อแข็งตัว โมเลกุลจะขยายตัวออก",
+      "visual": "3D animation of water molecules slowing down and expanding as they freeze.",
+      "emphasis_words": [
+        "พิเศษกว่านั้น",
+        "ขยายตัวออก"
+      ],
+      "claims": [
+        "Water expands when it freezes, unlike most other substances."
+      ]
+    },
+    {
+      "id": 4,
+      "narration": "เกิดเป็นโครงสร้างหกเหลี่ยมมีช่องว่าง คล้ายฟองน้ำพองลม",
+      "visual": "A beautiful crystalline honeycomb lattice structure forming, looking like a porous sponge.",
+      "emphasis_words": [
+        "โครงสร้างหกเหลี่ยม",
+        "ฟองน้ำ"
+      ],
+      "claims": [
+        "Ice forms a crystalline lattice structure with empty spaces, making it less dense than liquid water."
+      ]
+    },
+    {
+      "id": 5,
+      "narration": "แล้วถ้าวันหนึ่ง น้ำแข็งเกิดจมน้ำขึ้นมาล่ะ? โลกจะเป็นอย่างไร?",
+      "visual": "A dramatic zoom-in on a frozen ocean with a glowing question mark overlay.",
+      "emphasis_words": [
+        "จมน้ำขึ้นมา",
+        "โลกจะเป็นอย่างไร"
+      ],
+      "claims": [
+        "If ice were denser than water, bodies of water would freeze from the bottom up."
+      ]
+    },
+    {
+      "id": 6,
+      "narration": "สัตว์น้ำคงแข็งตายหมด เพราะไม่มีแผ่นน้ำแข็งช่วยบังลมหนาว",
+      "visual": "A cute cartoon fish swimming safely under a thick layer of ice, protected from the cold wind above.",
+      "emphasis_words": [
+        "แข็งตายหมด",
+        "บังลมหนาว"
+      ],
+      "claims": [
+        "Floating ice acts as an insulator, keeping the water below liquid and allowing aquatic life to survive."
+      ]
+    },
+    {
+      "id": 7,
+      "narration": "นี่คือความลับธรรมชาติสุดเจ๋ง ที่ชวนให้เรากลับมาคิดว่า...",
+      "visual": "The camera pans back to the glass of water with floating ice, transitioning smoothly to the start.",
+      "emphasis_words": [
+        "ความลับธรรมชาติ",
+        "กลับมาคิดว่า"
+      ],
+      "claims": [
+        "The density anomaly of water is crucial for Earth's biosphere."
+      ]
+    }
+  ],
+  "loop_note": "ประโยคสุดท้ายจบด้วยคำว่า 'ชวนให้เรากลับมาคิดว่า...' ซึ่งจะเชื่อมโยงกับประโยคเริ่มต้นของคลิป 'เคยสงสัยไหมว่า...' ได้อย่างลื่นไหลและทำให้เกิดลูปที่สมบูรณ์",
+  "hook_used": "เคยสงสัยไหม? ทำไมน้ำแข็งที่เป็นของแข็ง กลับลอยน้ำแทนที่จะจม"
+}

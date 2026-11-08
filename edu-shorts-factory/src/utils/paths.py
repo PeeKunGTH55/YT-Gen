@@ -110,3 +110,36 @@ def get_ffmpeg_bin() -> str:
     except Exception:
         return "ffmpeg"
 
+
+CUSTOM_RULES_FILE = CONFIG_DIR / "custom_rules.txt"
+
+
+def load_custom_rules() -> list[str]:
+    if not CUSTOM_RULES_FILE.exists():
+        return []
+    lines = [
+        line.strip().lstrip("-* ").strip()
+        for line in CUSTOM_RULES_FILE.read_text(encoding="utf-8").splitlines()
+    ]
+    return [l for l in lines if l]
+
+
+def add_custom_rule(rule: str) -> list[str]:
+    rules = load_custom_rules()
+    cleaned = rule.strip().lstrip("-* ").strip()
+    if cleaned and cleaned not in rules:
+        rules.append(cleaned)
+        CUSTOM_RULES_FILE.write_text(
+            "\n".join(f"- {r}" for r in rules) + "\n", encoding="utf-8"
+        )
+    return rules
+
+
+def get_custom_rules_prompt() -> str:
+    rules = load_custom_rules()
+    if not rules:
+        return ""
+    bullet_list = "\n".join(f"- {r}" for r in rules)
+    return f"\n\nกฎสำคัญเพิ่มเติมที่เจ้าของช่องกำหนด (ต้องปฏิบัติตามอย่างเคร่งครัดในทุกฉาก):\n{bullet_list}\n"
+
+

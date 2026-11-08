@@ -12,8 +12,16 @@ from typing import Any
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
+from dotenv import load_dotenv
 from utils.llm import call_llm_json, get_genai_client
-from utils.paths import ASSETS_DIR, get_ffmpeg_bin, load_yaml, render_prompt, resolve_clip_dir
+from utils.paths import (
+    ASSETS_DIR,
+    ROOT_DIR,
+    get_ffmpeg_bin,
+    load_yaml,
+    render_prompt,
+    resolve_clip_dir,
+)
 from utils.status import update_status
 
 
@@ -37,11 +45,6 @@ def build_mock_metadata(
             ),
             "tags": ["ความรู้รอบตัว", "วิทยาศาสตร์", "สาระน่ารู้", "Shorts", "การศึกษา"],
         },
-        "tiktok": {
-            "caption": f"{title} #ความรู้รอบตัว #วิทยาศาสตร์ใกล้ตัว #สาระน่ารู้ #TikTokUni",
-            "ai_label": True,
-        },
-        "thumbnail_scene_id": 1,
     }
 
 
@@ -217,6 +220,7 @@ def run_render(clip_dir: str | Path, mock: bool = False) -> Path:
     if not subs_file.exists():
         raise FileNotFoundError(f"ไม่พบ {subs_file} กรุณารัน 06_subtitles.py ก่อน")
 
+    load_dotenv(ROOT_DIR / ".env", override=True)
     channel_cfg = load_yaml("channel.yaml")
     video_cfg = channel_cfg.get("video", {})
     fps = int(video_cfg.get("fps", 30))
@@ -227,7 +231,10 @@ def run_render(clip_dir: str | Path, mock: bool = False) -> Path:
         if mock
         else (os.getenv("VIDEO_MOTION_MODE") or video_cfg.get("motion_mode", "veo")).lower()
     )
-    veo_model = os.getenv("VEO_MODEL") or video_cfg.get("veo_model", "veo-3.1-fast-generate-001")
+    veo_model = (
+        os.getenv("VEO_MODEL")
+        or video_cfg.get("veo_model", "veo-3.1-lite-generate-001")
+    )
 
     script_data = json.loads(script_file.read_text(encoding="utf-8")) if script_file.exists() else {}
     visual_by_id = {

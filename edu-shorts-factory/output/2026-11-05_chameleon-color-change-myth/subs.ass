@@ -1,0 +1,29 @@
+﻿[Script Info]
+Title: Edu Shorts Thai Subtitles
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 1
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Tahoma,64,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,2,5,100,100,680,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:02.82,Default,,0,0,0,,{\an5\pos(540,1200)}{\c&H0000D7FF&\fscx108\fscy108}ตำราเรียน{\c&H00FFFFFF&\fscx100\fscy100}บอกว่ากิ้งก่าเปลี่ยนสีเพื่อ
+Dialogue: 0,0:00:02.82,0:00:03.84,Default,,0,0,0,,{\an5\pos(540,1200)}{\c&H0000D7FF&\fscx108\fscy108}พรางตัว{\c&H00FFFFFF&\fscx100\fscy100}...แต่
+Dialogue: 0,0:00:03.84,0:00:05.33,Default,,0,0,0,,{\an5\pos(540,1200)}ความจริง{\c&H0000D7FF&\fscx108\fscy108}โคตรหักมุม{\c&H00FFFFFF&\fscx100\fscy100}!
+Dialogue: 0,0:00:05.33,0:00:07.23,Default,,0,0,0,,{\an5\pos(540,1200)}จริงๆแล้วพวกมันเปลี่ยนสีเพื่อ
+Dialogue: 0,0:00:07.23,0:00:08.27,Default,,0,0,0,,{\an5\pos(540,1200)}{\c&H0000D7FF&\fscx108\fscy108}สื่อสารอารมณ์{\c&H00FFFFFF&\fscx100\fscy100}และ
+Dialogue: 0,0:00:08.27,0:00:09.98,Default,,0,0,0,,{\an5\pos(540,1200)}ปรับ{\c&H0000D7FF&\fscx108\fscy108}อุณหภูมิร่างกาย{\c&H00FFFFFF&\fscx100\fscy100}ต่างหาก
+Dialogue: 0,0:00:09.98,0:00:11.99,Default,,0,0,0,,{\an5\pos(540,1200)}เหมือนเราใส่{\c&H0000D7FF&\fscx108\fscy108}เสื้อกันหนาวสีดำ{\c&H00FFFFFF&\fscx100\fscy100}
+Dialogue: 0,0:00:11.99,0:00:12.93,Default,,0,0,0,,{\an5\pos(540,1200)}ตอนแดดจัดหรือ
+Dialogue: 0,0:00:12.93,0:00:14.52,Default,,0,0,0,,{\an5\pos(540,1200)}{\c&H0000D7FF&\fscx108\fscy108}หน้าแดง{\c&H00FFFFFF&\fscx100\fscy100}ตอนโกรธนั่นแหละ
+Dialogue: 0,0:00:14.52,0:00:16.99,Default,,0,0,0,,{\an5\pos(540,1200)}ผิวหนังมันมีผลึกจิ๋วสะท้อน
+Dialogue: 0,0:00:16.99,0:00:18.71,Default,,0,0,0,,{\an5\pos(540,1200)}แสงแค่{\c&H0000D7FF&\fscx108\fscy108}ขยับช่องว่าง{\c&H00FFFFFF&\fscx100\fscy100}
+Dialogue: 0,0:00:18.71,0:00:20.23,Default,,0,0,0,,{\an5\pos(540,1200)}สีก็เปลี่ยนทันที
+Dialogue: 0,0:00:20.23,0:00:22.10,Default,,0,0,0,,{\an5\pos(540,1200)}ดังนั้นถ้าใครบอกว่ามัน
+Dialogue: 0,0:00:22.10,0:00:24.66,Default,,0,0,0,,{\an5\pos(540,1200)}เปลี่ยนสีเพื่อ{\c&H0000D7FF&\fscx108\fscy108}ซ่อนตัว{\c&H00FFFFFF&\fscx100\fscy100}ให้รู้ไว้
+Dialogue: 0,0:00:24.66,0:00:25.42,Default,,0,0,0,,{\an5\pos(540,1200)}เลยว่า...

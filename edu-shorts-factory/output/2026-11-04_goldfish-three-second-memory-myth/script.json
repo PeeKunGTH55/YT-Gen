@@ -1,0 +1,92 @@
+{
+  "title": "ปลาทองความจำสั้นแค่ 3 วินาทีจริงหรือ?",
+  "format": "myth_vs_fact",
+  "scenes": [
+    {
+      "id": 1,
+      "narration": "เคยสงสัยไหมว่า ปลาทองในตู้ อาจจำหน้าคุณได้นานกว่าสามเดือน?",
+      "visual": "A close-up shot of a bright orange goldfish swimming in a clean glass bowl, looking towards the camera.",
+      "emphasis_words": [
+        "เคยสงสัยไหม",
+        "จำหน้าคุณ",
+        "สามเดือน"
+      ],
+      "claims": [
+        "Goldfish can remember things for up to several months, including human faces."
+      ]
+    },
+    {
+      "id": 2,
+      "narration": "ความเชื่อที่ว่าปลาทองความจำสั้นแค่ 3 วินาทีนั้น... ไม่เป็นความจริงเลยสักนิด!",
+      "visual": "A dramatic red X mark flashing over a cartoon goldfish with a question mark.",
+      "emphasis_words": [
+        "ความจำสั้น",
+        "ไม่เป็นความจริง"
+      ],
+      "claims": [
+        "The 3-second memory span of goldfish is a myth."
+      ]
+    },
+    {
+      "id": 3,
+      "narration": "งานวิจัยชี้ว่าพวกมันจำได้นานถึง 5 เดือน แถมยังแยกแยะสีและเสียงได้ดีพอๆ กับสุนัขแสนรู้",
+      "visual": "A split screen showing a goldfish reacting to a colored light on one side, and a dog sitting on the other side.",
+      "emphasis_words": [
+        "5 เดือน",
+        "แยกแยะสีและเสียง",
+        "สุนัข"
+      ],
+      "claims": [
+        "Scientific research shows goldfish memory lasts up to 5 months.",
+        "Goldfish can distinguish between different colors and sounds."
+      ]
+    },
+    {
+      "id": 4,
+      "narration": "แล้วทำไมเราถึงยังเชื่อเรื่องนี้กันอยู่ล่ะ ทั้งที่พวกมันจำเวลาให้อาหารได้แม่นยำขนาดนั้น?",
+      "visual": "A hand dropping fish food into a tank, with multiple goldfish immediately swimming to the surface.",
+      "emphasis_words": [
+        "ทำไม",
+        "จำเวลาให้อาหาร"
+      ],
+      "claims": [
+        "Goldfish can remember and anticipate feeding times."
+      ]
+    },
+    {
+      "id": 5,
+      "narration": "เพราะสมองขนาดจิ๋วของพวกมันถูกประเมินค่าต่ำไป ทั้งที่จริงๆ มีระบบความจำที่ซับซ้อนมาก",
+      "visual": "A 3D X-ray style animation of a goldfish, highlighting its small but active brain.",
+      "emphasis_words": [
+        "สมองขนาดจิ๋ว",
+        "ซับซ้อนมาก"
+      ],
+      "claims": [
+        "Goldfish have complex memory systems despite their small brain size."
+      ]
+    },
+    {
+      "id": 6,
+      "narration": "ดังนั้น ครั้งต่อไปที่คุณเดินผ่านตู้ปลา แล้วเห็นมันว่ายมาหา...",
+      "visual": "A person's silhouette walking past a large aquarium, and a goldfish swimming closer to the glass.",
+      "emphasis_words": [
+        "เดินผ่านตู้ปลา",
+        "ว่ายมาหา"
+      ],
+      "claims": [
+        "Goldfish can recognize and react to their owners."
+      ]
+    },
+    {
+      "id": 7,
+      "narration": "ลองถามตัวเองดูสิว่า...",
+      "visual": "A close-up of a goldfish staring directly at the viewer, blinking-like movement.",
+      "emphasis_words": [
+        "ลองถามตัวเอง"
+      ],
+      "claims": []
+    }
+  ],
+  "loop_note": "ประโยคจบในฉากที่ 7 'ลองถามตัวเองดูสิว่า...' จะเชื่อมต่อกับประโยคเปิดในฉากที่ 1 'เคยสงสัยไหมว่า...' ได้อย่างราบรื่นและทำให้เกิดการวนลูปแบบไร้รอยต่อ",
+  "hook_used": "เคยสงสัยไหมว่า ปลาทองในตู้ อาจจำหน้าคุณได้นานกว่าสามเดือน?"
+}

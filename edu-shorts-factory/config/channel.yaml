@@ -1,4 +1,6 @@
 channel:
+  name: "NongSongSai (น้องสงสัย)"
+  handle: "@NongSongSai"
   language: th
   audience: "ทุกวัย (เด็ก 8 ขวบถึงผู้สูงอายุ)"
   tone: "เป็นกันเอง เรียบง่าย ไม่เว่อร์"
@@ -9,12 +11,33 @@ video:
   codec: h264
   audio: aac
   motion_mode: veo             # veo | veo_hook_only (ใช้ Veo เฉพาะฉาก 1 และ 4 ที่เหลือใช้ Ken Burns) | ken_burns
-  veo_model: veo-3.1-fast-generate-001
-  duration_sec: { target_min: 20, target_max: 32, hard_max: 60 }
-  scene_length_sec: { min: 2, max: 3.5 }
-  scenes: { min: 7, max: 9 }
+  veo_model: veo-3.1-lite-generate-001
+  duration_sec: { target_min: 20, target_max: 26, hard_max: 32 }
+  scene_length_sec: { min: 2.5, max: 4.5 }
+  scenes: { min: 5, max: 6 }
   hook_window_sec: 2           # ต้องมีภาพ+เสียงดึงดูดภายใน 2 วินาที
   loop_ending: true            # ประโยคจบเชื่อมกลับ hook
+
+qc:
+  enabled: true                # เปิดใช้งานระบบ QC Critic Subagent ตรวจสอบคุณภาพอัตโนมัติ
+  min_pass_score: 85           # คะแนนขั้นต่ำในการผ่านเกณฑ์อนุมัติอัตโนมัติ (0-100)
+  fail_fallback: "telegram"    # หากไม่ผ่าน ให้ส่งเข้า Telegram พร้อมเหตุผลให้คนตัดสินใจ (Option 1A)
+  strict_factcheck: true       # ตรวจสอบว่าต้องมีแหล่งอ้างอิงและไม่มีข้อมูลผิดพลาด 100% (Option 2)
+  focus_on_content: true       # เน้นความถูกต้องของเนื้อหาและกระชับ (Option 4)
+  blacklist_hook_phrases:
+    - "เคยสงสัยไหม"
+    - "คุณเคยสงสัยไหม"
+    - "รู้หรือไม่"
+    - "เคยได้ยินไหม"
+    - "คุณรู้ไหม"
+    - "สวัสดีครับ"
+    - "สวัสดีค่ะ"
+
+schedule:
+  enabled: true                # เปิดใช้งานการตั้งเวลาล่วงหน้าบน YouTube (Option 3)
+  time_slots: ["11:30", "17:30", "20:30"] # เวลาปล่อยคลิปประจำวัน (ICT / UTC+7)
+  timezone_offset_hours: 7     # GMT+7 (ประเทศไทย)
+  min_lead_minutes: 20         # ต้องตั้งล่วงหน้าอย่างน้อย 20 นาทีขึ้นไป
 
 audio:
   tts_speed: 1.12              # เร่งจังหวะให้กระชับไม่เนือย
@@ -34,7 +57,12 @@ subtitles:
 
 workflow:
   require_approval: true       # ปลดเป็น false เมื่อพร้อม
-  posts_per_day: 1
+  posts_per_day: 3             # 3 คลิปต่อวัน
+  daily_schedule:
+    enabled: true
+    time: "10:00"              # เวลาส่งมาขออนุมัติทุกวัน (10.00 น.)
+    batch_count: 3             # ส่งมาให้กดอนุมัติทีเดียว 3 หัวข้อ
+    mode: "topic_approval"     # "topic_approval" = ส่ง 3 หัวข้อมาให้กดอนุมัติก่อนสร้างคลิป | "clip_approval" = สร้างคลิปมารอให้ตรวจก่อนโพสต์
   ai_label: true               # ติดป้ายเนื้อหา AI ทุกแพลตฟอร์ม
   made_for_kids: false         # false = "No, it's not made for kids" (เปิดคอมเมนต์และการแจ้งเตือนได้ปกติ)
   factcheck_max_retries: 2     # จำนวนรอบสูงสุดที่แก้บทและตรวจซ้ำอัตโนมัติ

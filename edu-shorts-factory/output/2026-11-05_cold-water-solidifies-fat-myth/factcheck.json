@@ -1,0 +1,47 @@
+{
+  "results": [
+    {
+      "scene_id": 1,
+      "claim": "Does drinking cold water after eating fat cause fat to solidify in the stomach?",
+      "verdict": "correct",
+      "source_title": "verafiles.org",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEHAbGDiXsQ9sL2c7OvyHpCusxWDbkJ4AK0VvS3ScF99dw-Ly4qaa6aUizzvi3STVjrxMgC4IHSfCVd_05pM3EDYidH9rFmczJs812q7T1ByC9SoQvLgDG75eqzFivRoTdrQmBmK8rDvZOJaoJ8iWvnLF08GmPJd0C4S7ySZ7S1fd5eOi4pjzCXCrD560v3jgFlAesDGZc=",
+      "fix": ""
+    },
+    {
+      "scene_id": 2,
+      "claim": "Human body temperature is around 37 degrees Celsius, which quickly warms up ingested cold water.",
+      "verdict": "correct",
+      "source_title": "trailandkale.com",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF7tyycKeP1WtDK1lyAcSYl_Bou-E6NMRyAlvmbUoa615BN65Vc2laDp0cewRbLboatMAEAy8qDhLRHhSgMKYf2kkeA_NbEKc145kON_jB-APYwYAB6DkWCV27-Ew9eu27auLpODsXLVi851uh8Dw==",
+      "fix": ""
+    },
+    {
+      "scene_id": 3,
+      "claim": "Thermoregulation in the stomach prevents cold water from solidifying fat.",
+      "verdict": "correct",
+      "source_title": "verafiles.org",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEHAbGDiXsQ9sL2c7OvyHpCusxWDbkJ4AK0VvS3ScF99dw-Ly4qaa6aUizzvi3STVjrxMgC4IHSfCVd_05pM3EDYidH9rFmczJs812q7T1ByC9SoQvLgDG75eqzFivRoTdrQmBmK8rDvZOJaoJ8iWvnLF08GmPJd0C4S7ySZ7S1fd5eOi4pjzCXCrD560v3jgFlAesDGZc=",
+      "fix": ""
+    },
+    {
+      "scene_id": 4,
+      "claim": "Digestive enzymes and bile break down fats regardless of water temperature.",
+      "verdict": "correct",
+      "source_title": "verafiles.org",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEHAbGDiXsQ9sL2c7OvyHpCusxWDbkJ4AK0VvS3ScF99dw-Ly4qaa6aUizzvi3STVjrxMgC4IHSfCVd_05pM3EDYidH9rFmczJs812q7T1ByC9SoQvLgDG75eqzFivRoTdrQmBmK8rDvZOJaoJ8iWvnLF08GmPJd0C4S7ySZ7S1fd5eOi4pjzCXCrD560v3jgFlAesDGZc=",
+      "fix": ""
+    },
+    {
+      "scene_id": 5,
+      "claim": "Drinking cold water after meals is safe and does not cause fat accumulation or solidification.",
+      "verdict": "correct",
+      "source_title": "verafiles.org",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEHAbGDiXsQ9sL2c7OvyHpCusxWDbkJ4AK0VvS3ScF99dw-Ly4qaa6aUizzvi3STVjrxMgC4IHSfCVd_05pM3EDYidH9rFmczJs812q7T1ByC9SoQvLgDG75eqzFivRoTdrQmBmK8rDvZOJaoJ8iWvnLF08GmPJd0C4S7ySZ7S1fd5eOi4pjzCXCrD560v3jgFlAesDGZc=",
+      "fix": ""
+    }
+  ],
+  "analogy_check": "ok",
+  "overall": "pass",
+  "attempt": 1
+}

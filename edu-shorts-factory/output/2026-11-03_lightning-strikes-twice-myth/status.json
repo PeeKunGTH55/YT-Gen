@@ -1,0 +1,52 @@
+{
+  "folder": "2026-11-03_lightning-strikes-twice-myth",
+  "status": "published",
+  "history": [
+    {
+      "status": "scripted",
+      "timestamp": "2026-11-03T10:18:27+07:00",
+      "note": "สร้างบท 7 ฉาก พร้อมคัดเลือก Hook สำเร็จ"
+    },
+    {
+      "status": "factchecked",
+      "timestamp": "2026-11-03T10:19:09+07:00",
+      "note": "ผ่านการตรวจข้อเท็จจริงในรอบที่ 1"
+    },
+    {
+      "status": "assets_ready",
+      "timestamp": "2026-11-03T10:22:15+07:00",
+      "note": "เตรียมไฟล์เสียงและภาพประกอบครบ 7 ฉาก (provider=nano_banana)"
+    },
+    {
+      "status": "rendered",
+      "timestamp": "2026-11-03T10:25:00+07:00",
+      "note": "เรนเดอร์ final.mp4 (motion=veo) และสร้าง meta.json สำเร็จ"
+    },
+    {
+      "status": "awaiting_approval",
+      "timestamp": "2026-11-03T10:25:56+07:00",
+      "note": "ส่งคลิปเข้า Telegram เพื่อรออนุมัติแล้ว"
+    },
+    {
+      "status": "approved",
+      "timestamp": "2026-11-03T11:02:29+07:00",
+      "note": "อนุมัติผ่านปุ่มกด Telegram"
+    },
+    {
+      "status": "published",
+      "timestamp": "2026-11-03T11:02:34+07:00",
+      "note": "เผยแพร่สำเร็จผ่านโหมด direct_api"
+    }
+  ],
+  "updated_at": "2026-11-03T11:02:34+07:00",
+  "topic_id": "8",
+  "title": "ฟ้าผ่าที่เดิมซ้ำสองไม่ได้... จริงหรือมั่ว?",
+  "format": "myth_vs_fact",
+  "publish_result": {
+    "mode": "direct_api",
+    "platforms": [
+      "youtube"
+    ],
+    "youtube_url": "https://youtube.com/shorts/t5mz2NfRQW4"
+  }
+}

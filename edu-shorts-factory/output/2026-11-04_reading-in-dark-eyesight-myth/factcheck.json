@@ -1,0 +1,39 @@
+{
+  "results": [
+    {
+      "scene_id": 1,
+      "claim": "Reading in low light does not cause permanent anatomical changes or permanent myopia.",
+      "verdict": "correct",
+      "source_title": "vespavision.ca",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG40SneIEvwBByf200w5jXM2SXfT4Ao2GfkOmdRL8U7uIkCmBEpndT5NveymofA849gD3P2bagB-sQmN605A44ugw4AX39TJ749ZAAmIy5OUTeR_4Wa27d64-hckx-JV5CN1xKibcID4K3g29nBe3dCrKpiJXwtD6oQHSp7aynlwEpXFIW6L7mvmAu1jQa00AwZV_cz2ZFNE_0_",
+      "fix": ""
+    },
+    {
+      "scene_id": 2,
+      "claim": "Low light reading causes temporary eye strain (asthenopia) and dry eyes, not permanent damage.",
+      "verdict": "correct",
+      "source_title": "vespavision.ca",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG40SneIEvwBByf200w5jXM2SXfT4Ao2GfkOmdRL8U7uIkCmBEpndT5NveymofA849gD3P2bagB-sQmN605A44ugw4AX39TJ749ZAAmIy5OUTeR_4Wa27d64-hckx-JV5CN1xKibcID4K3g29nBe3dCrKpiJXwtD6oQHSp7aynlwEpXFIW6L7mvmAu1jQa00AwZV_cz2ZFNE_0_",
+      "fix": ""
+    },
+    {
+      "scene_id": 5,
+      "claim": "Myopia is primarily caused by genetics and prolonged close-up work, especially on screens in indoor environments.",
+      "verdict": "correct",
+      "source_title": "vespavision.ca",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG40SneIEvwBByf200w5jXM2SXfT4Ao2GfkOmdRL8U7uIkCmBEpndT5NveymofA849gD3P2bagB-sQmN605A44ugw4AX39TJ749ZAAmIy5OUTeR_4Wa27d64-hckx-JV5CN1xKibcID4K3g29nBe3dCrKpiJXwtD6oQHSp7aynlwEpXFIW6L7mvmAu1jQa00AwZV_cz2ZFNE_0_",
+      "fix": ""
+    },
+    {
+      "scene_id": 6,
+      "claim": "The 20-20-20 rule (looking 20 feet away for 20 seconds every 20 minutes) helps prevent eye strain.",
+      "verdict": "correct",
+      "source_title": "vespavision.ca",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG40SneIEvwBByf200w5jXM2SXfT4Ao2GfkOmdRL8U7uIkCmBEpndT5NveymofA849gD3P2bagB-sQmN605A44ugw4AX39TJ749ZAAmIy5OUTeR_4Wa27d64-hckx-JV5CN1xKibcID4K3g29nBe3dCrKpiJXwtD6oQHSp7aynlwEpXFIW6L7mvmAu1jQa00AwZV_cz2ZFNE_0_",
+      "fix": ""
+    }
+  ],
+  "analogy_check": "ok",
+  "overall": "pass",
+  "attempt": 1
+}

@@ -1,0 +1,68 @@
+{
+  "title": "วัวกระทิงเกลียดสีแดงจริงหรือ?",
+  "format": "myth_vs_fact",
+  "scenes": [
+    {
+      "id": 1,
+      "narration": "เลิกเชื่อว่าวัวกระทิงเกลียดสีแดง เพราะจริงๆ มันตาบอดสีนี้!",
+      "visual": "Close-up of a bull's eye with a red matador cape blurred in the background, 9:16 vertical aspect ratio.",
+      "emphasis_words": [
+        "เลิกเชื่อ",
+        "ตาบอดสีนี้"
+      ],
+      "claims": [
+        "Bulls are red-green colorblind (dichromacy) and cannot perceive the color red."
+      ]
+    },
+    {
+      "id": 2,
+      "narration": "ดวงตาของวัวไม่มีตัวรับแสงสีแดง ทำให้มันเห็นสีแดงเป็นแค่สีเทาหม่นๆ",
+      "visual": "Split-screen comparison: Left side shows a bright red cape, Right side shows the same cape in dull yellowish-gray, 9:16 vertical aspect ratio.",
+      "emphasis_words": [
+        "ไม่มีตัวรับแสง",
+        "สีเทาหม่นๆ"
+      ],
+      "claims": [
+        "Bulls lack L-cones (red photoreceptors) and see red as yellowish-gray."
+      ]
+    },
+    {
+      "id": 3,
+      "narration": "มันก็เหมือนเราโบกผ้าขี้ริ้วสีเทาใส่สุนัขนั่นแหละ",
+      "visual": "A person waving a dull gray rag in front of a dog, focusing on the movement of the cloth, 9:16 vertical aspect ratio.",
+      "emphasis_words": [
+        "ผ้าขี้ริ้วสีเทา",
+        "สุนัข"
+      ],
+      "claims": [
+        "Bulls react to motion/movement, similar to other domestic animals reacting to moving objects."
+      ]
+    },
+    {
+      "id": 4,
+      "narration": "สิ่งที่ทำให้กระทิงพุ่งชาร์จ คือการสะบัดพริ้วไหวของผืนผ้าต่างหาก",
+      "visual": "A matador aggressively waving a cape, creating rapid whipping motions, 9:16 vertical aspect ratio.",
+      "emphasis_words": [
+        "พุ่งชาร์จ",
+        "สะบัดพริ้วไหว"
+      ],
+      "claims": [
+        "Bulls are provoked to charge by the movement and whipping action of the matador's cape."
+      ]
+    },
+    {
+      "id": 5,
+      "narration": "ดังนั้น ไม่ว่าผ้าจะสีอะไรก็โดนขวิดได้หมด เพราะฉะนั้นเราควร...",
+      "visual": "A bull charging past a waving blue cape, showing color doesn't matter, 9:16 vertical aspect ratio.",
+      "emphasis_words": [
+        "สีอะไรก็โดนขวิด",
+        "เพราะฉะนั้นเราควร"
+      ],
+      "claims": [
+        "Bulls will charge at moving capes of any color, not just red."
+      ]
+    }
+  ],
+  "loop_note": "ประโยคจบในฉากที่ 5 ลงท้ายด้วย 'เพราะฉะนั้นเราควร...' ซึ่งจะเชื่อมโยงเข้ากับคำแรกของฉากที่ 1 'เลิกเชื่อว่าวัวกระทิงเกลียดสีแดง...' ได้อย่างลื่นไหลและเป็นประโยคที่สมบูรณ์เมื่อเล่นวนลูป",
+  "hook_used": "เลิกเชื่อว่าวัวกระทิงเกลียดสีแดง เพราะจริงๆ มันตาบอดสีนี้!"
+}

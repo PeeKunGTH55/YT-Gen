@@ -1,0 +1,36 @@
+﻿[Script Info]
+Title: Edu Shorts Thai Subtitles
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 1
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Tahoma,64,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,2,5,100,100,680,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:02.02,Default,,0,0,0,,{\an5\pos(540,1200)}{\c&H0000D7FF&\fscx108\fscy108}เคยสงสัยไหม{\c&H00FFFFFF&\fscx100\fscy100}ว่าปลาทองใน
+Dialogue: 0,0:00:02.02,0:00:03.67,Default,,0,0,0,,{\an5\pos(540,1200)}ตู้อาจ{\c&H0000D7FF&\fscx108\fscy108}จำหน้าคุณ{\c&H00FFFFFF&\fscx100\fscy100}ได้
+Dialogue: 0,0:00:03.67,0:00:05.14,Default,,0,0,0,,{\an5\pos(540,1200)}นานกว่า{\c&H0000D7FF&\fscx108\fscy108}สามเดือน{\c&H00FFFFFF&\fscx100\fscy100}?
+Dialogue: 0,0:00:05.14,0:00:07.73,Default,,0,0,0,,{\an5\pos(540,1200)}ความเชื่อที่ว่าปลาทอง{\c&H0000D7FF&\fscx108\fscy108}ความจำสั้น{\c&H00FFFFFF&\fscx100\fscy100}แค่
+Dialogue: 0,0:00:07.73,0:00:09.33,Default,,0,0,0,,{\an5\pos(540,1200)}3วินาทีนั้น...ไม่เป็น
+Dialogue: 0,0:00:09.33,0:00:10.70,Default,,0,0,0,,{\an5\pos(540,1200)}ความจริงเลยสักนิด!
+Dialogue: 0,0:00:10.70,0:00:12.91,Default,,0,0,0,,{\an5\pos(540,1200)}งานวิจัยชี้ว่าพวกมันจำได้
+Dialogue: 0,0:00:12.91,0:00:14.51,Default,,0,0,0,,{\an5\pos(540,1200)}นานถึง5เดือนแถมยัง
+Dialogue: 0,0:00:14.51,0:00:15.92,Default,,0,0,0,,{\an5\pos(540,1200)}{\c&H0000D7FF&\fscx108\fscy108}แยกแยะสีและเสียง{\c&H00FFFFFF&\fscx100\fscy100}
+Dialogue: 0,0:00:15.92,0:00:17.96,Default,,0,0,0,,{\an5\pos(540,1200)}ได้ดีพอๆ กับ{\c&H0000D7FF&\fscx108\fscy108}สุนัข{\c&H00FFFFFF&\fscx100\fscy100}แสนรู้
+Dialogue: 0,0:00:17.96,0:00:19.42,Default,,0,0,0,,{\an5\pos(540,1200)}แล้ว{\c&H0000D7FF&\fscx108\fscy108}ทำไม{\c&H00FFFFFF&\fscx100\fscy100}เราถึงยังเชื่อ
+Dialogue: 0,0:00:19.42,0:00:21.15,Default,,0,0,0,,{\an5\pos(540,1200)}เรื่องนี้กันอยู่ล่ะทั้งที่
+Dialogue: 0,0:00:21.15,0:00:22.68,Default,,0,0,0,,{\an5\pos(540,1200)}พวกมัน{\c&H0000D7FF&\fscx108\fscy108}จำเวลาให้อาหาร{\c&H00FFFFFF&\fscx100\fscy100}ได้
+Dialogue: 0,0:00:22.68,0:00:23.68,Default,,0,0,0,,{\an5\pos(540,1200)}แม่นยำขนาดนั้น?
+Dialogue: 0,0:00:23.68,0:00:25.63,Default,,0,0,0,,{\an5\pos(540,1200)}เพราะ{\c&H0000D7FF&\fscx108\fscy108}สมองขนาดจิ๋ว{\c&H00FFFFFF&\fscx100\fscy100}ของพวก
+Dialogue: 0,0:00:25.63,0:00:28.01,Default,,0,0,0,,{\an5\pos(540,1200)}มันถูกประเมินค่าต่ำไปทั้งที่
+Dialogue: 0,0:00:28.01,0:00:30.55,Default,,0,0,0,,{\an5\pos(540,1200)}จริงๆมีระบบความจำที่{\c&H0000D7FF&\fscx108\fscy108}ซับซ้อนมาก{\c&H00FFFFFF&\fscx100\fscy100}
+Dialogue: 0,0:00:30.55,0:00:33.41,Default,,0,0,0,,{\an5\pos(540,1200)}ดังนั้นครั้งต่อไปที่คุณเดินผ่าน
+Dialogue: 0,0:00:33.41,0:00:34.70,Default,,0,0,0,,{\an5\pos(540,1200)}ตู้ปลาแล้วเห็น
+Dialogue: 0,0:00:34.70,0:00:36.00,Default,,0,0,0,,{\an5\pos(540,1200)}มัน{\c&H0000D7FF&\fscx108\fscy108}ว่ายมาหา{\c&H00FFFFFF&\fscx100\fscy100}...
+Dialogue: 0,0:00:36.00,0:00:36.82,Default,,0,0,0,,{\an5\pos(540,1200)}{\c&H0000D7FF&\fscx108\fscy108}ลองถามตัวเอง{\c&H00FFFFFF&\fscx100\fscy100}
+Dialogue: 0,0:00:36.82,0:00:37.50,Default,,0,0,0,,{\an5\pos(540,1200)}ดูสิว่า...

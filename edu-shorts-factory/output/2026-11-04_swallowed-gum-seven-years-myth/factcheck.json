@@ -1,0 +1,63 @@
+{
+  "results": [
+    {
+      "scene_id": 1,
+      "claim": "There is a common myth that swallowed chewing gum stays in the stomach for 7 years.",
+      "verdict": "correct",
+      "source_title": "mayoclinic.org",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDYme9dfH2pLtQgyHpI0Po3ZoKjeD0odFpsPm0kvgfl3fi7E_c_wWrX8MMVc80N_7jUAjKNEjjjKAB28ABoD9C9p-gPVTO2cBaCPAol_4FhZM2s_tjrhH_rDV4y6KAVtr5r6_6Yr3woyVeTWnrHCG3ogPkZI1Eo2pL1_znYQaxCYJFUmxd7EiLYT_Z5i_-rK-6_pOeeCLY3LeobyTGQ8SOXUU=",
+      "fix": ""
+    },
+    {
+      "scene_id": 2,
+      "claim": "The human digestive system cannot digest the synthetic gum base.",
+      "verdict": "correct",
+      "source_title": "kidshealth.org",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHX2aePGwnsW93x76lYaflmtkDpUSBvjEvSgYNQoNTCKyLtBLP24Y-cLtYLVPkxbxVKk67oolOheMtOevXTEx-x5eP3rzE3CzWIJJn_pddkJXlDvv3GaL5zyXzcg8cSaV1uhemLpD9KzFfR_Oo=",
+      "fix": ""
+    },
+    {
+      "scene_id": 3,
+      "claim": "Swallowed gum passes through the digestive tract intact and is excreted within a few days, similar to seeds.",
+      "verdict": "correct",
+      "source_title": "mayoclinic.org",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDYme9dfH2pLtQgyHpI0Po3ZoKjeD0odFpsPm0kvgfl3fi7E_c_wWrX8MMVc80N_7jUAjKNEjjjKAB28ABoD9C9p-gPVTO2cBaCPAol_4FhZM2s_tjrhH_rDV4y6KAVtr5r6_6Yr3woyVeTWnrHCG3ogPkZI1Eo2pL1_znYQaxCYJFUmxd7EiLYT_Z5i_-rK-6_pOeeCLY3LeobyTGQ8SOXUU=",
+      "fix": ""
+    },
+    {
+      "scene_id": 4,
+      "claim": "Stomach acid is highly acidic (pH 1.5-3.5) and can dissolve some metals, but cannot break down synthetic polymers in gum base.",
+      "verdict": "correct",
+      "source_title": "howstuffworks.com",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEEtGsm-OCY8OhZDmtcQTeQseDOY5Bi8kH1MMm-s7AYjfZPusjddecZSpU2zHgvLbm_zHRtPTaPW8B1oi_HEumwSs5On34gDZTxQnbH40d-JpowZS_fxyETHKLsdy29o9oBgmHmuLaalUcdL-_Wl8cNdhYX6tfmeGAeMdFcjnm-K5HpZv_gm3cWDlWK407ZvQ==",
+      "fix": ""
+    },
+    {
+      "scene_id": 5,
+      "claim": "Gum base is made of synthetic polymers like polyisobutylene, which are resistant to digestive enzymes and acid.",
+      "verdict": "correct",
+      "source_title": "howstuffworks.com",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEEtGsm-OCY8OhZDmtcQTeQseDOY5Bi8kH1MMm-s7AYjfZPusjddecZSpU2zHgvLbm_zHRtPTaPW8B1oi_HEumwSs5On34gDZTxQnbH40d-JpowZS_fxyETHKLsdy29o9oBgmHmuLaalUcdL-_Wl8cNdhYX6tfmeGAeMdFcjnm-K5HpZv_gm3cWDlWK407ZvQ==",
+      "fix": ""
+    },
+    {
+      "scene_id": 6,
+      "claim": "Swallowing gum occasionally is generally harmless and does not stay in the body long-term.",
+      "verdict": "correct",
+      "source_title": "mayoclinic.org",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDYme9dfH2pLtQgyHpI0Po3ZoKjeD0odFpsPm0kvgfl3fi7E_c_wWrX8MMVc80N_7jUAjKNEjjjKAB28ABoD9C9p-gPVTO2cBaCPAol_4FhZM2s_tjrhH_rDV4y6KAVtr5r6_6Yr3woyVeTWnrHCG3ogPkZI1Eo2pL1_znYQaxCYJFUmxd7EiLYT_Z5i_-rK-6_pOeeCLY3LeobyTGQ8SOXUU=",
+      "fix": ""
+    },
+    {
+      "scene_id": 7,
+      "claim": "The 7-year myth is a common old wives' tale with no scientific basis.",
+      "verdict": "correct",
+      "source_title": "mayoclinic.org",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDYme9dfH2pLtQgyHpI0Po3ZoKjeD0odFpsPm0kvgfl3fi7E_c_wWrX8MMVc80N_7jUAjKNEjjjKAB28ABoD9C9p-gPVTO2cBaCPAol_4FhZM2s_tjrhH_rDV4y6KAVtr5r6_6Yr3woyVeTWnrHCG3ogPkZI1Eo2pL1_znYQaxCYJFUmxd7EiLYT_Z5i_-rK-6_pOeeCLY3LeobyTGQ8SOXUU=",
+      "fix": ""
+    }
+  ],
+  "analogy_check": "ok",
+  "overall": "pass",
+  "attempt": 1
+}

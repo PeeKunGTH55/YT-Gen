@@ -1,0 +1,68 @@
+{
+  "title": "ดอกทานตะวันหันตามดวงอาทิตย์ตลอดเวลา... จริงหรือเปล่า?",
+  "format": "myth_vs_fact",
+  "scenes": [
+    {
+      "id": 1,
+      "narration": "ทานตะวันไม่ได้หันตามดวงอาทิตย์ตลอดเวลา เลิกเชื่อเรื่องนี้ได้แล้ว!",
+      "visual": "Close-up of a mature sunflower facing away from the sun, dramatic lighting, 9:16 vertical frame.",
+      "emphasis_words": [
+        "ไม่ได้หันตาม",
+        "เลิกเชื่อ"
+      ],
+      "claims": [
+        "Sunflowers do not track the sun throughout their entire life cycle."
+      ]
+    },
+    {
+      "id": 2,
+      "narration": "เฉพาะทานตะวันเด็กเท่านั้นที่หันตามแดดเพื่อช่วยโต",
+      "visual": "Fast time-lapse of young, budding green sunflowers tracking the sun across the sky, 9:16 vertical frame.",
+      "emphasis_words": [
+        "เฉพาะทานตะวันเด็ก",
+        "ช่วยโต"
+      ],
+      "claims": [
+        "Only young sunflowers exhibit heliotropism (tracking the sun) to optimize growth."
+      ]
+    },
+    {
+      "id": 3,
+      "narration": "พอโตเต็มที่ มันจะหยุดหัน เหมือนผู้ใหญ่ที่กระดูกแข็งแรงแล้ว",
+      "visual": "Split screen: A fully grown sunflower standing completely still on the left, a person standing tall and still on the right, 9:16 vertical frame.",
+      "emphasis_words": [
+        "หยุดหัน",
+        "โตเต็มที่"
+      ],
+      "claims": [
+        "Mature sunflowers stop tracking the sun as their circadian rhythm and growth slow down."
+      ]
+    },
+    {
+      "id": 4,
+      "narration": "และจะยืนหันหน้าไปทางทิศตะวันออกถาวรเพื่อรับไออุ่นยามเช้า",
+      "visual": "A vast field of mature sunflowers all facing east towards a beautiful morning sunrise, warm golden light, 9:16 vertical frame.",
+      "emphasis_words": [
+        "ทิศตะวันออกถาวร",
+        "รับไออุ่น"
+      ],
+      "claims": [
+        "Mature sunflowers face permanently east to warm up quickly in the morning, attracting more pollinators."
+      ]
+    },
+    {
+      "id": 5,
+      "narration": "ดังนั้น ถ้าคุณเห็นดอกที่บานเต็มที่แล้วจำไว้เลยว่า...",
+      "visual": "Extreme close-up of a mature sunflower head, camera slowly zooming in to the center, creating a seamless transition loop, 9:16 vertical frame.",
+      "emphasis_words": [
+        "บานเต็มที่",
+        "จำไว้เลยว่า"
+      ],
+      "claims": [
+        "Fully bloomed sunflowers remain stationary."
+      ]
+    }
+  ],
+  "loop_note": "ประโยคจบในฉากที่ 5 'ดังนั้น ถ้าคุณเห็นดอกที่บานเต็มที่แล้วจำไว้เลยว่า...' จะเชื่อมโยงกับประโยคเปิดในฉากที่ 1 'ทานตะวันไม่ได้หันตามดวงอาทิตย์ตลอดเวลา เลิกเชื่อเรื่องนี้ได้แล้ว!' กลายเป็นประโยคที่สมบูรณ์และวนลูปได้อย่างไร้รอยต่อ",
+  "hook_used": "ทานตะวันไม่ได้หันตามดวงอาทิตย์ตลอดเวลา เลิกเชื่อเรื่องนี้ได้แล้ว!"
+}

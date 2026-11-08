@@ -1,0 +1,47 @@
+{
+  "results": [
+    {
+      "scene_id": 1,
+      "claim": "Sunflowers do not track the sun throughout their entire life cycle.",
+      "verdict": "correct",
+      "source_title": "Science (Atamian et al., 2016) via UC Davis",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_G9n3jEy6Kycs49x_zWubZu14hfALR9_o_msGcvEpy_TI2njQ2fpqhRxJh0jCQ0l9vsb9ebuAMlWXHVw6Chy2qRA9QcTqVUb-Qar4VucYJeaJ4d8tHuiM8lNQ4leERhvCiOeag4S4EBfpXT-DjDK_pQ==",
+      "fix": ""
+    },
+    {
+      "scene_id": 2,
+      "claim": "Only young sunflowers exhibit heliotropism (tracking the sun) to optimize growth.",
+      "verdict": "correct",
+      "source_title": "PLOS Biology (Brooks et al., 2023) via UC Davis",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_G9n3jEy6Kycs49x_zWubZu14hfALR9_o_msGcvEpy_TI2njQ2fpqhRxJh0jCQ0l9vsb9ebuAMlWXHVw6Chy2qRA9QcTqVUb-Qar4VucYJeaJ4d8tHuiM8lNQ4leERhvCiOeag4S4EBfpXT-DjDK_pQ==",
+      "fix": ""
+    },
+    {
+      "scene_id": 3,
+      "claim": "Mature sunflowers stop tracking the sun as their circadian rhythm and growth slow down.",
+      "verdict": "correct",
+      "source_title": "Science (Atamian et al., 2016) via UC Davis",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_G9n3jEy6Kycs49x_zWubZu14hfALR9_o_msGcvEpy_TI2njQ2fpqhRxJh0jCQ0l9vsb9ebuAMlWXHVw6Chy2qRA9QcTqVUb-Qar4VucYJeaJ4d8tHuiM8lNQ4leERhvCiOeag4S4EBfpXT-DjDK_pQ==",
+      "fix": ""
+    },
+    {
+      "scene_id": 4,
+      "claim": "Mature sunflowers face permanently east to warm up quickly in the morning, attracting more pollinators.",
+      "verdict": "correct",
+      "source_title": "Science (Atamian et al., 2016) via UC Davis",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_G9n3jEy6Kycs49x_zWubZu14hfALR9_o_msGcvEpy_TI2njQ2fpqhRxJh0jCQ0l9vsb9ebuAMlWXHVw6Chy2qRA9QcTqVUb-Qar4VucYJeaJ4d8tHuiM8lNQ4leERhvCiOeag4S4EBfpXT-DjDK_pQ==",
+      "fix": ""
+    },
+    {
+      "scene_id": 5,
+      "claim": "Fully bloomed sunflowers remain stationary.",
+      "verdict": "correct",
+      "source_title": "Science (Atamian et al., 2016) via UC Davis",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_G9n3jEy6Kycs49x_zWubZu14hfALR9_o_msGcvEpy_TI2njQ2fpqhRxJh0jCQ0l9vsb9ebuAMlWXHVw6Chy2qRA9QcTqVUb-Qar4VucYJeaJ4d8tHuiM8lNQ4leERhvCiOeag4S4EBfpXT-DjDK_pQ==",
+      "fix": ""
+    }
+  ],
+  "analogy_check": "ok",
+  "overall": "pass",
+  "attempt": 1
+}

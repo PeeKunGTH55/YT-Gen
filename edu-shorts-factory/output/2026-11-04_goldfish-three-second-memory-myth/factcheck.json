@@ -1,0 +1,63 @@
+{
+  "results": [
+    {
+      "scene_id": 1,
+      "claim": "Goldfish can remember things for up to several months, including human faces.",
+      "verdict": "correct",
+      "source_title": "livescience.com",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFG5u7es3461hBTvwc8x4eSUG3kmndqTFnX5Gtx2Roe0NZekGqyNQyI3mHo9exJqbxs-NjcgdRGRfL7kathWq27_X7p3OIBhHtK89dgsZtlHsoM4oChlKGfNz_58ZNnzHECjHfQccFtfHp_lg==",
+      "fix": ""
+    },
+    {
+      "scene_id": 2,
+      "claim": "The 3-second memory span of goldfish is a myth.",
+      "verdict": "correct",
+      "source_title": "livescience.com",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFG5u7es3461hBTvwc8x4eSUG3kmndqTFnX5Gtx2Roe0NZekGqyNQyI3mHo9exJqbxs-NjcgdRGRfL7kathWq27_X7p3OIBhHtK89dgsZtlHsoM4oChlKGfNz_58ZNnzHECjHfQccFtfHp_lg==",
+      "fix": ""
+    },
+    {
+      "scene_id": 3,
+      "claim": "Scientific research shows goldfish memory lasts up to 5 months.",
+      "verdict": "correct",
+      "source_title": "livescience.com",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFG5u7es3461hBTvwc8x4eSUG3kmndqTFnX5Gtx2Roe0NZekGqyNQyI3mHo9exJqbxs-NjcgdRGRfL7kathWq27_X7p3OIBhHtK89dgsZtlHsoM4oChlKGfNz_58ZNnzHECjHfQccFtfHp_lg==",
+      "fix": ""
+    },
+    {
+      "scene_id": 3,
+      "claim": "Goldfish can distinguish between different colors and sounds.",
+      "verdict": "correct",
+      "source_title": "livescience.com",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFG5u7es3461hBTvwc8x4eSUG3kmndqTFnX5Gtx2Roe0NZekGqyNQyI3mHo9exJqbxs-NjcgdRGRfL7kathWq27_X7p3OIBhHtK89dgsZtlHsoM4oChlKGfNz_58ZNnzHECjHfQccFtfHp_lg==",
+      "fix": ""
+    },
+    {
+      "scene_id": 4,
+      "claim": "Goldfish can remember and anticipate feeding times.",
+      "verdict": "correct",
+      "source_title": "livescience.com",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFG5u7es3461hBTvwc8x4eSUG3kmndqTFnX5Gtx2Roe0NZekGqyNQyI3mHo9exJqbxs-NjcgdRGRfL7kathWq27_X7p3OIBhHtK89dgsZtlHsoM4oChlKGfNz_58ZNnzHECjHfQccFtfHp_lg==",
+      "fix": ""
+    },
+    {
+      "scene_id": 5,
+      "claim": "Goldfish have complex memory systems despite their small brain size.",
+      "verdict": "correct",
+      "source_title": "livescience.com",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFG5u7es3461hBTvwc8x4eSUG3kmndqTFnX5Gtx2Roe0NZekGqyNQyI3mHo9exJqbxs-NjcgdRGRfL7kathWq27_X7p3OIBhHtK89dgsZtlHsoM4oChlKGfNz_58ZNnzHECjHfQccFtfHp_lg==",
+      "fix": ""
+    },
+    {
+      "scene_id": 6,
+      "claim": "Goldfish can recognize and react to their owners.",
+      "verdict": "correct",
+      "source_title": "livescience.com",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFG5u7es3461hBTvwc8x4eSUG3kmndqTFnX5Gtx2Roe0NZekGqyNQyI3mHo9exJqbxs-NjcgdRGRfL7kathWq27_X7p3OIBhHtK89dgsZtlHsoM4oChlKGfNz_58ZNnzHECjHfQccFtfHp_lg==",
+      "fix": ""
+    }
+  ],
+  "analogy_check": "ok",
+  "overall": "pass",
+  "attempt": 1
+}

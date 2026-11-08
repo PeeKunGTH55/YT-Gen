@@ -1,0 +1,47 @@
+{
+  "results": [
+    {
+      "scene_id": 1,
+      "claim": "Cats purr not only when they are happy, but also when they are injured, stressed, or in pain as a self-soothing mechanism.",
+      "verdict": "correct",
+      "source_title": "Scientific American - Why do cats purr?",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF2Jk-SyzkDN-T7_PwgEHdZPFroxDbZmxBoLCi8E3nqxVoDtj_iZt7KRaWyocDjafRNlGmiOUnXE4debFa6dsWxbX57pg2z13o4bgJiitYXcb-iuM0UA5ysydbHqr3QLm8lGz_B6g==",
+      "fix": ""
+    },
+    {
+      "scene_id": 2,
+      "claim": "Purring is produced by the laryngeal muscles and diaphragm vibrating at a specific frequency.",
+      "verdict": "correct",
+      "source_title": "The Journal of the Acoustical Society of America - The felid purr: A healing mechanism?",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNAsFBtbHxNuJq9sAhj0b5yQd1CCHKv8RQcBxE6d6miWjtuc5DnTu5UJKob29ORy-AyxwI31BP1Hq1hPcAA_WpalPiHuZxKcrwX4oLKz-ZQITvOSUI0k8V7Nv_BJaJRyQBlZtbfDKytNv5TrB20Owpvxi3eeaFc3_Wn4m5QRobXhAiYA6IJmotmeTqHX5Lo2Q8yFLCL3quaZ1hBg4p4wg5",
+      "fix": ""
+    },
+    {
+      "scene_id": 3,
+      "claim": "Cat purr frequencies (between 25 and 150 Hz) have therapeutic effects that can improve bone density and promote tissue healing.",
+      "verdict": "correct",
+      "source_title": "The Journal of the Acoustical Society of America - The felid purr: A healing mechanism?",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESiiKSGOwtgDsUa_8WlJcCpzvoaXL2Plkhp68Rln6Soo4MEhSz7e7aSakr3X1YuSo2rGAF8cm63bzKcQhFnjWJreRfiEXCQXLMmHjzIBW8WQjOTelK93_DECZEfp4FY4jcG9xaI45-adsdkLfYLWz0yTVOrZCUVJ_nlegQog5z8bwDUl6RKTD84G5zg6xkPIQUSroiUVWvBFAoQsxXZrF-w88ELynae676KpEt8U5RU4bc2NQ9bxvMKpwbAHQ=",
+      "fix": ""
+    },
+    {
+      "scene_id": 4,
+      "claim": "Purring triggers the release of endorphins in a cat's brain, which helps reduce pain and manage stress.",
+      "verdict": "correct",
+      "source_title": "Scientific American - Why do cats purr?",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF2Jk-SyzkDN-T7_PwgEHdZPFroxDbZmxBoLCi8E3nqxVoDtj_iZt7KRaWyocDjafRNlGmiOUnXE4debFa6dsWxbX57pg2z13o4bgJiitYXcb-iuM0UA5ysydbHqr3QLm8lGz_B6g==",
+      "fix": ""
+    },
+    {
+      "scene_id": 5,
+      "claim": "Cats use purring to self-heal and calm themselves during illness or trauma.",
+      "verdict": "correct",
+      "source_title": "The Journal of the Acoustical Society of America - The felid purr: A healing mechanism?",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHulG8JmBYqLmF4rEUXC3I4d4LcvVLg40nMibpew3o9TLFujqjcPUU_a0KiDAZZs1SHYx7QDbq3QaL43wcSNdegZhcoVZ9_nJLueXloJfFtSsGqmwe1oSkXWnS981QptPm8HUn1sPIskGPssG1WqtvKk-YU",
+      "fix": ""
+    }
+  ],
+  "analogy_check": "ok",
+  "overall": "pass",
+  "attempt": 1
+}

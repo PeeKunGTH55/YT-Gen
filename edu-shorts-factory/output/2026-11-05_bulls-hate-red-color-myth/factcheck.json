@@ -1,0 +1,47 @@
+{
+  "results": [
+    {
+      "scene_id": 1,
+      "claim": "Bulls are red-green colorblind (dichromacy) and cannot perceive the color red.",
+      "verdict": "correct",
+      "source_title": "Photopigment basis for dichromatic color vision in cows, goats, and sheep (Visual Neuroscience)",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOaRfn4MMfZdlfb38WoqVqgwoZ1D1cEIFdh7M-MFiQXHIG6K9SEJXQNbDTXKI5E1cIJ_x8nPPNxBZe7i6qvyhtzm3BGskK2O7PSE1kF6CoE-jcHU2WGxAgfu884b63KxjvTs06YMRXYzAzr39Ulg==",
+      "fix": ""
+    },
+    {
+      "scene_id": 2,
+      "claim": "Bulls lack L-cones (red photoreceptors) and see red as yellowish-gray.",
+      "verdict": "correct",
+      "source_title": "West Texas A&M University (WTAMU) - Science Questions with Surprising Answers",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHodCOge9dD24e7tOCITXOxmUCTEg3KYOKFVQDIb1E0ixiWWgY_qQSX2rOQJ7EjkrONQsC6N9micwIzHIsNUBqnWWZlEcCScgTa0M1y2VbpnA20BXrc85v1xn5I47nEmTEpDqY_5whmLy1WeyK6aCt6AFdKG2zYZcAOBA0YnxMeRaaB5KABmZrklW7bbTNiYr85sTYHTFLz_XrAa1o=",
+      "fix": ""
+    },
+    {
+      "scene_id": 3,
+      "claim": "Bulls react to motion/movement, similar to other domestic animals reacting to moving objects.",
+      "verdict": "correct",
+      "source_title": "West Texas A&M University (WTAMU) - Science Questions with Surprising Answers",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHodCOge9dD24e7tOCITXOxmUCTEg3KYOKFVQDIb1E0ixiWWgY_qQSX2rOQJ7EjkrONQsC6N9micwIzHIsNUBqnWWZlEcCScgTa0M1y2VbpnA20BXrc85v1xn5I47nEmTEpDqY_5whmLy1WeyK6aCt6AFdKG2zYZcAOBA0YnxMeRaaB5KABmZrklW7bbTNiYr85sTYHTFLz_XrAa1o=",
+      "fix": ""
+    },
+    {
+      "scene_id": 4,
+      "claim": "Bulls are provoked to charge by the movement and whipping action of the matador's cape.",
+      "verdict": "correct",
+      "source_title": "West Texas A&M University (WTAMU) - Science Questions with Surprising Answers",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHodCOge9dD24e7tOCITXOxmUCTEg3KYOKFVQDIb1E0ixiWWgY_qQSX2rOQJ7EjkrONQsC6N9micwIzHIsNUBqnWWZlEcCScgTa0M1y2VbpnA20BXrc85v1xn5I47nEmTEpDqY_5whmLy1WeyK6aCt6AFdKG2zYZcAOBA0YnxMeRaaB5KABmZrklW7bbTNiYr85sTYHTFLz_XrAa1o=",
+      "fix": ""
+    },
+    {
+      "scene_id": 5,
+      "claim": "Bulls will charge at moving capes of any color, not just red.",
+      "verdict": "correct",
+      "source_title": "West Texas A&M University (WTAMU) - Science Questions with Surprising Answers",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHodCOge9dD24e7tOCITXOxmUCTEg3KYOKFVQDIb1E0ixiWWgY_qQSX2rOQJ7EjkrONQsC6N9micwIzHIsNUBqnWWZlEcCScgTa0M1y2VbpnA20BXrc85v1xn5I47nEmTEpDqY_5whmLy1WeyK6aCt6AFdKG2zYZcAOBA0YnxMeRaaB5KABmZrklW7bbTNiYr85sTYHTFLz_XrAa1o=",
+      "fix": ""
+    }
+  ],
+  "analogy_check": "ok",
+  "overall": "pass",
+  "attempt": 1
+}

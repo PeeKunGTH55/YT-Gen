@@ -1,0 +1,47 @@
+{
+  "provider": "tokenme",
+  "total_duration_sec": 23.865,
+  "narration_file": "narration.wav",
+  "scenes": [
+    {
+      "scene_id": 1,
+      "file": "scene_01.wav",
+      "narration": "แมวครางครืดๆ ไม่ใช่เพราะฟิน แต่บางทีมันกำลังเจ็บปางตาย!",
+      "duration_sec": 5.044,
+      "start_sec": 0.0,
+      "end_sec": 5.044
+    },
+    {
+      "scene_id": 2,
+      "file": "scene_02.wav",
+      "narration": "เสียงครืดๆ นี้เกิดจากการสั่นสะเทือนของกล้ามเนื้อกล่องเสียง",
+      "duration_sec": 4.226,
+      "start_sec": 5.044,
+      "end_sec": 9.27
+    },
+    {
+      "scene_id": 3,
+      "file": "scene_03.wav",
+      "narration": "มันทำงานเหมือน 'ปุ่มรีเซ็ต' ร่างกาย ช่วยซ่อมแซมกระดูกและแผลให้หายไวขึ้น",
+      "duration_sec": 5.73,
+      "start_sec": 9.27,
+      "end_sec": 15.0
+    },
+    {
+      "scene_id": 4,
+      "file": "scene_04.wav",
+      "narration": "แถมยังช่วยหลั่งสารเอ็นโดรฟินเพื่อลดความเครียดและบรรเทาความเจ็บปวด",
+      "duration_sec": 4.22,
+      "start_sec": 15.0,
+      "end_sec": 19.22
+    },
+    {
+      "scene_id": 5,
+      "file": "scene_05.wav",
+      "narration": "ดังนั้น ถ้าเห็นน้องครางตอนป่วยหรือบาดเจ็บ จำไว้เลยว่า...",
+      "duration_sec": 4.645,
+      "start_sec": 19.22,
+      "end_sec": 23.865
+    }
+  ]
+}

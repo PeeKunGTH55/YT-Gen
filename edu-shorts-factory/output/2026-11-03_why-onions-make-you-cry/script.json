@@ -1,0 +1,95 @@
+{
+  "title": "ทำไมหั่นหัวหอมแล้วน้ำตาไหล",
+  "format": "why_question",
+  "scenes": [
+    {
+      "id": 1,
+      "narration": "เคยสงสัยไหมว่า หัวหอมไม่มีหัวใจ แต่ทำไมทำให้เราเสียน้ำตาได้ทุกครั้ง",
+      "visual": "A close-up of a person cutting a red onion on a wooden board, tears forming in their eyes.",
+      "emphasis_words": [
+        "ไม่มีหัวใจ",
+        "เสียน้ำตา"
+      ],
+      "claims": [
+        "Onions cause tearing when cut."
+      ]
+    },
+    {
+      "id": 2,
+      "narration": "นั่นเพราะเมื่อเราหั่นหัวหอม เซลล์ของมันจะแตกออก",
+      "visual": "Microscopic 3D animation of onion cells rupturing under a sharp knife blade.",
+      "emphasis_words": [
+        "เซลล์ของมันจะแตกออก"
+      ],
+      "claims": [
+        "Cutting onions ruptures their cellular structure."
+      ]
+    },
+    {
+      "id": 3,
+      "narration": "ปล่อยเอนไซม์มาผสมกับกรดอะมิโน จนเกิดเป็นแก๊สแสบตาพุ่งขึ้นมา",
+      "visual": "Animated chemical molecules of enzymes and amino acids combining to form a gas cloud rising upwards.",
+      "emphasis_words": [
+        "แก๊สแสบตา"
+      ],
+      "claims": [
+        "Enzymes and amino acid sulfoxides in onions react to form syn-propanethial-S-oxide gas."
+      ]
+    },
+    {
+      "id": 4,
+      "narration": "แก๊สนี้เหมือนสเปรย์พริกไทยธรรมชาติที่ลอยเข้าตาเรา",
+      "visual": "Split screen: on the left, gas rising from an onion; on the right, a conceptual illustration of pepper spray mist.",
+      "emphasis_words": [
+        "สเปรย์พริกไทยธรรมชาติ"
+      ],
+      "claims": [
+        "The gas acts as a lachrymatory agent, irritating the eyes similarly to a mild sensory irritant."
+      ]
+    },
+    {
+      "id": 5,
+      "narration": "แล้วรู้ไหมว่า ทำไมการแช่ตู้เย็นก่อนหั่น ถึงช่วยหยุดแก๊สนี้ได้?",
+      "visual": "A hand taking a whole onion out of a modern, brightly lit refrigerator.",
+      "emphasis_words": [
+        "แช่ตู้เย็นก่อนหั่น"
+      ],
+      "claims": [
+        "Chilling onions before cutting is a known method to reduce tearing."
+      ]
+    },
+    {
+      "id": 6,
+      "narration": "เพราะความเย็นจะช่วยชะลอการทำงานของเอนไซม์ให้ช้าลง",
+      "visual": "Animation showing chemical reactions slowing down and freezing inside a cold onion cell.",
+      "emphasis_words": [
+        "ชะลอการทำงาน"
+      ],
+      "claims": [
+        "Cold temperatures slow down the chemical reaction and enzymatic activity that produces the irritating gas."
+      ]
+    },
+    {
+      "id": 7,
+      "narration": "สมองจึงสั่งให้น้ำตาไหลเพื่อล้างแก๊สพิษนี้ออกไป",
+      "visual": "Close-up of an eye with a clean tear rolling down, washing away tiny glowing irritant particles.",
+      "emphasis_words": [
+        "ล้างแก๊สพิษ"
+      ],
+      "claims": [
+        "The brain triggers reflex tears from the lachrymal glands to flush out the irritant from the eyes."
+      ]
+    },
+    {
+      "id": 8,
+      "narration": "ก่อนจะหั่นครั้งต่อไป ลองแช่เย็นดูนะ จะได้ไม่ต้อง...",
+      "visual": "A hand placing a fresh onion into a refrigerator drawer, closing the door smoothly.",
+      "emphasis_words": [
+        "ลองแช่เย็นดู"
+      ],
+      "claims": []
+    }
+  ],
+  "loop_note": "ประโยคสุดท้ายจบที่ 'จะได้ไม่ต้อง...' ซึ่งจะเชื่อมต่อกับประโยคเริ่มต้นของคลิป (Hook) 'เคยสงสัยไหมว่า หัวหอมไม่มีหัวใจ...' ได้ทันที เป็นการต่อประโยคว่า 'จะได้ไม่ต้อง... เคยสงสัยไหมว่า...' ทำให้เกิด Loop ที่ลื่นไหล",
+  "hook_used": "เคยสงสัยไหมว่า หัวหอมไม่มีหัวใจ แต่ทำไมทำให้เราเสียน้ำตาได้ทุกครั้ง"
+}

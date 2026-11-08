@@ -1,0 +1,38 @@
+{
+  "timestamp": "2026-11-04T15:39:37.418852",
+  "clip_folder": "2026-11-02_why-ice-floats-on-water",
+  "total_score": 60,
+  "min_pass_score": 85,
+  "passed": false,
+  "decision": "rejected_by_qc",
+  "breakdown": {
+    "hook_quality": {
+      "score": 0,
+      "max": 30
+    },
+    "fact_confidence": {
+      "score": 35,
+      "max": 35
+    },
+    "duration_pacing": {
+      "score": 10,
+      "max": 20,
+      "duration_sec": 30.93
+    },
+    "asset_integrity": {
+      "score": 15,
+      "max": 15
+    }
+  },
+  "violations": [
+    "Hook ใช้คำต้องห้าม: 'เคยสงสัยไหม' (เสี่ยงคนดูปัดทิ้งสูงมาก)"
+  ],
+  "strengths": [
+    "ไฟล์วิดีโอ ซับไตเติล และ Metadata สมบูรณ์ 100%"
+  ],
+  "recommendations": [
+    "เปลี่ยนประโยคเปิดเป็น Contrast หรือ Shocking Fact ทันที",
+    "ความยาวคลิป 30.9s (สามารถบีบให้สั้นลงเหลือ 22-25s เพื่อดัน Retention เพิ่มได้)",
+    "จำนวนฉาก (7 ฉาก) มากเกินไป แนะนำ 5-6 ฉาก"
+  ]
+}

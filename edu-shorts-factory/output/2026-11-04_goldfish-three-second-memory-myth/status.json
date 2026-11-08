@@ -1,0 +1,52 @@
+{
+  "folder": "2026-11-04_goldfish-three-second-memory-myth",
+  "status": "published",
+  "history": [
+    {
+      "status": "scripted",
+      "timestamp": "2026-11-04T10:35:30+07:00",
+      "note": "สร้างบท 7 ฉาก พร้อมคัดเลือก Hook สำเร็จ"
+    },
+    {
+      "status": "factchecked",
+      "timestamp": "2026-11-04T10:36:31+07:00",
+      "note": "ผ่านการตรวจข้อเท็จจริงในรอบที่ 1"
+    },
+    {
+      "status": "assets_ready",
+      "timestamp": "2026-11-04T10:39:29+07:00",
+      "note": "เตรียมไฟล์เสียงและภาพประกอบครบ 7 ฉาก (provider=nano_banana)"
+    },
+    {
+      "status": "rendered",
+      "timestamp": "2026-11-04T10:42:14+07:00",
+      "note": "เรนเดอร์ final.mp4 (motion=veo) และสร้าง meta.json สำเร็จ"
+    },
+    {
+      "status": "awaiting_approval",
+      "timestamp": "2026-11-04T10:43:11+07:00",
+      "note": "ส่งคลิปเข้า Telegram เพื่อรออนุมัติแล้ว"
+    },
+    {
+      "status": "approved",
+      "timestamp": "2026-11-04T11:00:13+07:00",
+      "note": "อนุมัติผ่านปุ่มกด Telegram"
+    },
+    {
+      "status": "published",
+      "timestamp": "2026-11-04T11:00:25+07:00",
+      "note": "เผยแพร่สำเร็จผ่านโหมด direct_api"
+    }
+  ],
+  "updated_at": "2026-11-04T11:00:25+07:00",
+  "topic_id": "10",
+  "title": "ปลาทองความจำสั้นแค่ 3 วินาทีจริงหรือ?",
+  "format": "myth_vs_fact",
+  "publish_result": {
+    "mode": "direct_api",
+    "platforms": [
+      "youtube"
+    ],
+    "youtube_url": "https://youtube.com/shorts/5a0s2wsABcs"
+  }
+}

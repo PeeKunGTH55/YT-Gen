@@ -1,0 +1,84 @@
+{
+  "title": "อ่านหนังสือในที่มืด ทำให้สายตาสั้นถาวรจริงไหม?",
+  "format": "myth_vs_fact",
+  "scenes": [
+    {
+      "id": 1,
+      "narration": "เคยสงสัยไหมว่า อ่านหนังสือในที่มืด อาจไม่ได้ทำให้สายตาสั้นลง?",
+      "visual": "A person holding a book in a dimly lit room with a warm, soft light source, looking curious.",
+      "emphasis_words": [
+        "อ่านหนังสือในที่มืด",
+        "ไม่ได้ทำให้สายตาสั้นลง"
+      ],
+      "claims": [
+        "Reading in low light does not cause permanent anatomical changes or permanent myopia."
+      ]
+    },
+    {
+      "id": 2,
+      "narration": "ความจริงคือ มันแค่ทำให้กล้ามเนื้อตาทำงานหนักจนล้าชั่วคราวเท่านั้น",
+      "visual": "A close-up of human eyes blinking slowly, with a subtle red glow indicating strain.",
+      "emphasis_words": [
+        "กล้ามเนื้อตา",
+        "ล้าชั่วคราว"
+      ],
+      "claims": [
+        "Low light reading causes temporary eye strain (asthenopia) and dry eyes, not permanent damage."
+      ]
+    },
+    {
+      "id": 3,
+      "narration": "เหมือนเรายกดัมเบลหนักๆ จนแขนล้า แต่แขนเราไม่ได้ยาวขึ้นถาวรซะหน่อย",
+      "visual": "A person lifting a heavy dumbbell, looking exhausted, with a humorous cartoon arm stretching and snapping back.",
+      "emphasis_words": [
+        "ยกดัมเบล",
+        "ไม่ได้ยาวขึ้นถาวร"
+      ],
+      "claims": []
+    },
+    {
+      "id": 4,
+      "narration": "แล้วทำไมบางคนยิ่งโตสายตากลับยิ่งสั้นลงเรื่อยๆ ทั้งที่ไม่ได้อ่านในที่มืด?",
+      "visual": "A teenager putting on thick glasses, looking at a growing chart of eye prescription numbers.",
+      "emphasis_words": [
+        "ยิ่งโตสายตากลับยิ่งสั้นลง"
+      ],
+      "claims": []
+    },
+    {
+      "id": 5,
+      "narration": "เพราะสายตาสั้นเกิดจากพันธุกรรมและพฤติกรรมการจ้องหน้าจอใกล้ๆ เป็นเวลานานต่างหาก",
+      "visual": "A split screen showing DNA helix on one side and a glowing smartphone screen close to a face on the other.",
+      "emphasis_words": [
+        "พันธุกรรม",
+        "จ้องหน้าจอใกล้ๆ"
+      ],
+      "claims": [
+        "Myopia is primarily caused by genetics and prolonged close-up work, especially on screens in indoor environments."
+      ]
+    },
+    {
+      "id": 6,
+      "narration": "การพักสายตาทุกยี่สิบนาทีจึงสำคัญที่สุด เพื่อไม่ให้ตาแห้งและล้าสะสม",
+      "visual": "A digital clock showing '20:00' transitioning to a person looking out a window at green trees.",
+      "emphasis_words": [
+        "พักสายตาทุกยี่สิบนาที",
+        "ล้าสะสม"
+      ],
+      "claims": [
+        "The 20-20-20 rule (looking 20 feet away for 20 seconds every 20 minutes) helps prevent eye strain."
+      ]
+    },
+    {
+      "id": 7,
+      "narration": "ไม่อย่างนั้นคุณอาจต้องกลับมาถามตัวเองอีกครั้งว่า...",
+      "visual": "The person from Scene 1 looking thoughtful, pointing a finger up as if about to ask a question.",
+      "emphasis_words": [
+        "ถามตัวเองอีกครั้ง"
+      ],
+      "claims": []
+    }
+  ],
+  "loop_note": "ประโยคสุดท้ายจบด้วย 'ไม่อย่างนั้นคุณอาจต้องกลับมาถามตัวเองอีกครั้งว่า...' ซึ่งจะเชื่อมต่อกับประโยคเปิดคลิป 'เคยสงสัยไหมว่า อ่านหนังสือในที่มืด อาจไม่ได้ทำให้สายตาสั้นลง?' ได้อย่างต่อเนื่องและเป็นธรรมชาติ",
+  "hook_used": "เคยสงสัยไหมว่า อ่านหนังสือในที่มืด อาจไม่ได้ทำให้สายตาสั้นลง?"
+}

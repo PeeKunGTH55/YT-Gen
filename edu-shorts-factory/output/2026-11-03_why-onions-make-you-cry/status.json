@@ -1,0 +1,52 @@
+{
+  "folder": "2026-11-03_why-onions-make-you-cry",
+  "status": "published",
+  "history": [
+    {
+      "status": "scripted",
+      "timestamp": "2026-11-03T10:01:10+07:00",
+      "note": "สร้างบท 8 ฉาก พร้อมคัดเลือก Hook สำเร็จ"
+    },
+    {
+      "status": "factchecked",
+      "timestamp": "2026-11-03T10:01:49+07:00",
+      "note": "ผ่านการตรวจข้อเท็จจริงในรอบที่ 1"
+    },
+    {
+      "status": "assets_ready",
+      "timestamp": "2026-11-03T10:06:09+07:00",
+      "note": "เตรียมไฟล์เสียงและภาพประกอบครบ 8 ฉาก (provider=nano_banana)"
+    },
+    {
+      "status": "rendered",
+      "timestamp": "2026-11-03T10:09:10+07:00",
+      "note": "เรนเดอร์ final.mp4 (motion=veo) และสร้าง meta.json สำเร็จ"
+    },
+    {
+      "status": "awaiting_approval",
+      "timestamp": "2026-11-03T10:09:16+07:00",
+      "note": "ส่งคลิปเข้า Telegram เพื่อรออนุมัติแล้ว"
+    },
+    {
+      "status": "approved",
+      "timestamp": "2026-11-03T11:00:51+07:00",
+      "note": "อนุมัติผ่านปุ่มกด Telegram"
+    },
+    {
+      "status": "published",
+      "timestamp": "2026-11-03T11:01:01+07:00",
+      "note": "เผยแพร่สำเร็จผ่านโหมด direct_api"
+    }
+  ],
+  "updated_at": "2026-11-03T11:01:01+07:00",
+  "topic_id": "5",
+  "title": "ทำไมหั่นหัวหอมแล้วน้ำตาไหล",
+  "format": "why_question",
+  "publish_result": {
+    "mode": "direct_api",
+    "platforms": [
+      "youtube"
+    ],
+    "youtube_url": "https://youtube.com/shorts/QdY7kP7VOxI"
+  }
+}

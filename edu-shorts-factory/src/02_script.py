@@ -9,7 +9,12 @@ from typing import Any
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 from utils.llm import call_llm_json
-from utils.paths import get_or_create_clip_dir, render_prompt, resolve_clip_dir
+from utils.paths import (
+    get_custom_rules_prompt,
+    get_or_create_clip_dir,
+    render_prompt,
+    resolve_clip_dir,
+)
 from utils.status import read_topics_csv, update_status, write_topics_csv
 
 
@@ -173,7 +178,8 @@ def run_script(
             clip_dir = get_or_create_clip_dir(slug)
 
     # 1. Generate 5 hook variants via 06_hook_variants.md
-    hook_prompt = render_prompt("06_hook_variants.md", title=title)
+    custom_rules = get_custom_rules_prompt()
+    hook_prompt = render_prompt("06_hook_variants.md", title=title) + custom_rules
     hook_data = call_llm_json(
         hook_prompt,
         mock_response=build_mock_hooks(title),
@@ -190,11 +196,14 @@ def run_script(
         winning_hook = hook_data[0].get("hook", initial_hook)
 
     # 2. Generate script via 02_script.md
-    script_prompt = render_prompt(
-        "02_script.md",
-        title=title,
-        format=fmt,
-        hook=winning_hook,
+    script_prompt = (
+        render_prompt(
+            "02_script.md",
+            title=title,
+            format=fmt,
+            hook=winning_hook,
+        )
+        + custom_rules
     )
     script_data = call_llm_json(
         script_prompt,

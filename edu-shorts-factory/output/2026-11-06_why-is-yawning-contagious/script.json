@@ -1,0 +1,68 @@
+{
+  "title": "ทำไมเราถึงหาวตามคนอื่น?",
+  "format": "why_question",
+  "scenes": [
+    {
+      "id": 1,
+      "narration": "แค่อ่านคำว่า \"หาว\" ตอนนี้ ร่างกายคุณก็อยากหาวตามแล้วใช่ไหม?",
+      "visual": "Close-up of a person's mouth yawning widely, vertical 9:16 format, warm lighting.",
+      "emphasis_words": [
+        "หาว",
+        "อยากหาวตาม"
+      ],
+      "claims": [
+        "Yawning can be triggered contagiously just by reading or thinking about it."
+      ]
+    },
+    {
+      "id": 2,
+      "narration": "นี่ไม่ใช่เรื่องบังเอิญ แต่นักวิทยาศาสตร์คาดว่าอาจเกี่ยวข้องกับ 'เซลล์กระจกเงา' ในสมอง",
+      "visual": "3D animation of a human brain with glowing neural networks, focusing on the mirror neuron system.",
+      "emphasis_words": [
+        "ไม่ใช่เรื่องบังเอิญ",
+        "เซลล์กระจกเงา"
+      ],
+      "claims": [
+        "นี่ไม่ใช่เรื่องบังเอิญ แต่นักวิทยาศาสตร์คาดว่าอาจเกี่ยวข้องกับ 'เซลล์กระจกเงา' ในสมอง"
+      ]
+    },
+    {
+      "id": 3,
+      "narration": "มันทำหน้าที่เหมือน 'ไวไฟความรู้สึก' คอยเลียนแบบพฤติกรรมคนตรงหน้า",
+      "visual": "A split screen showing one person yawning on the left, and another person starting to yawn on the right with a glowing WiFi symbol connecting them.",
+      "emphasis_words": [
+        "ไวไฟความรู้สึก",
+        "เลียนแบบ"
+      ],
+      "claims": [
+        "Mirror neurons allow humans to unconsciously mimic the actions of others."
+      ]
+    },
+    {
+      "id": 4,
+      "narration": "หนึ่งในทฤษฎีเชื่อว่า ยิ่งคุณมีความรู้สึกร่วมกับเขามากเท่าไหร่ ก็อาจจะยิ่งหาวตามง่ายขึ้นเท่านั้น",
+      "visual": "Two close friends sitting together, one yawns and the other immediately follows with a warm, empathetic expression.",
+      "emphasis_words": [
+        "ความรู้สึกร่วม",
+        "หาวตามง่าย"
+      ],
+      "claims": [
+        "หนึ่งในทฤษฎีเชื่อว่า ยิ่งคุณมีความรู้สึกร่วมกับเขามากเท่าไหร่ ก็อาจจะยิ่งหาวตามง่ายขึ้นเท่านั้น"
+      ]
+    },
+    {
+      "id": 5,
+      "narration": "ดังนั้น ถ้าตอนนี้คุณเริ่มอ้าปากกว้าง... ก็เพราะ...",
+      "visual": "A person looking directly at the camera, slowly starting to open their mouth to yawn, pointing at the screen.",
+      "emphasis_words": [
+        "อ้าปากกว้าง",
+        "ก็เพราะ"
+      ],
+      "claims": [
+        "The physical act of yawning is highly contagious through visual and auditory cues."
+      ]
+    }
+  ],
+  "loop_note": "ประโยคจบในฉากที่ 5 'ดังนั้น ถ้าตอนนี้คุณเริ่มอ้าปากกว้าง... ก็เพราะ...' จะเชื่อมโยงกลับไปที่ประโยคเปิดในฉากที่ 1 'แค่อ่านคำว่า \"หาว\" ตอนนี้...' ได้อย่างลื่นไหลและทำให้เกิดการวนลูปทันที",
+  "hook_used": "แค่อ่านคำว่า \"หาว\" ตอนนี้ ร่างกายคุณก็อยากหาวตามแล้วใช่ไหม?"
+}

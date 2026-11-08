@@ -1,0 +1,71 @@
+{
+  "results": [
+    {
+      "scene_id": 1,
+      "claim": "Microwaves can heat food while leaving the container relatively cool.",
+      "verdict": "correct",
+      "source_title": "wikipedia.org",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF66v2cZiqhw2Povsrhv5Fx-Md58l_yVIjkCjiUtzTCZRXyPGCuqnV-yBlOfH8HuScB3tvj6XE9jJgoXrJWIeWLc2BtVDzuFYvkmWVmDMnX7zIVXtW5unV4oktWq4J5cZwpkDCfzbsruaMDJw==",
+      "fix": ""
+    },
+    {
+      "scene_id": 2,
+      "claim": "Microwaves use high-frequency radio waves.",
+      "verdict": "correct",
+      "source_title": "wikipedia.org",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF66v2cZiqhw2Povsrhv5Fx-Md58l_yVIjkCjiUtzTCZRXyPGCuqnV-yBlOfH8HuScB3tvj6XE9jJgoXrJWIeWLc2BtVDzuFYvkmWVmDMnX7zIVXtW5unV4oktWq4J5cZwpkDCfzbsruaMDJw==",
+      "fix": ""
+    },
+    {
+      "scene_id": 2,
+      "claim": "These waves target water molecules in the food.",
+      "verdict": "correct",
+      "source_title": "wikipedia.org",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF66v2cZiqhw2Povsrhv5Fx-Md58l_yVIjkCjiUtzTCZRXyPGCuqnV-yBlOfH8HuScB3tvj6XE9jJgoXrJWIeWLc2BtVDzuFYvkmWVmDMnX7zIVXtW5unV4oktWq4J5cZwpkDCfzbsruaMDJw==",
+      "fix": ""
+    },
+    {
+      "scene_id": 3,
+      "claim": "The electromagnetic waves cause water molecules to vibrate and rotate rapidly.",
+      "verdict": "correct",
+      "source_title": "ferriteinc.com",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1H9RBFYhUfS8w73XnwAB8MXtvUiv6UnnyuQupO43oWm03hjMRA1iZMHNCO1umdaPqQvsq7nnkZnxTZPDx0Si-9wFf6MQjGg3HWCJW8Xf7Xb0OeYAyno52dfMv-8x-qvIxLCgfMduPWkOU0V44W3Y=",
+      "fix": ""
+    },
+    {
+      "scene_id": 3,
+      "claim": "Friction between vibrating molecules generates heat.",
+      "verdict": "correct",
+      "source_title": "ferriteinc.com",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1H9RBFYhUfS8w73XnwAB8MXtvUiv6UnnyuQupO43oWm03hjMRA1iZMHNCO1umdaPqQvsq7nnkZnxTZPDx0Si-9wFf6MQjGg3HWCJW8Xf7Xb0OeYAyno52dfMv-8x-qvIxLCgfMduPWkOU0V44W3Y=",
+      "fix": ""
+    },
+    {
+      "scene_id": 4,
+      "claim": "Dry ceramic and glass materials do not contain water molecules and are mostly transparent to microwaves.",
+      "verdict": "correct",
+      "source_title": "rpaulsingh.com",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTW2TyxcQl4VslZrsqO-EF3AhAZdmbvA9ELS3l9GKynAhUek5q5-uL58icXxqKvp6zcQQ0UCouKjOBVy1vZD5BD88qyIUqRLjqK6ie0dZSy7VluBFLO75vORwszJ50klpMVLsmimeM",
+      "fix": ""
+    },
+    {
+      "scene_id": 5,
+      "claim": "Materials without water or polar molecules do not absorb microwave energy and do not heat up directly.",
+      "verdict": "correct",
+      "source_title": "rpaulsingh.com",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTW2TyxcQl4VslZrsqO-EF3AhAZdmbvA9ELS3l9GKynAhUek5q5-uL58icXxqKvp6zcQQ0UCouKjOBVy1vZD5BD88qyIUqRLjqK6ie0dZSy7VluBFLO75vORwszJ50klpMVLsmimeM",
+      "fix": ""
+    },
+    {
+      "scene_id": 6,
+      "claim": "ความร้อนจึงเกิดขึ้นที่โมเลกุลน้ำในอาหารชั้นนอก แล้วค่อยๆ นำความร้อนแผ่กระจายเข้าไปสู่ด้านใน",
+      "verdict": "correct",
+      "source_title": "economictimes.com",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDI7obx-egwtNrtLmRuktv24wdO_HezkJBA3NyTKyL5yFs-4UKRN1jZ6CPPa5dl_I34lH9JjUm9EaPr_YzlCpclY9nh36XJnwD7ExN3fdeZtm7Nlq7BPPDsEXgDS5PeXvHp6Scc1Wceq0hFZM-FyfxNy8aL0LL203jvziipPzNacFR7RW4e1ixj0ddMvFexUe9illPEnrSivJPur0Z8-PUVw49JecYiT0QWXrUGahWCKoXGY5Sr1L-WNomY8794m3jLKXySVC7K1uoBagRJh-_ikYw0jEKN8xK-VAEpOd8Qi0EmEwdrXdknK-R",
+      "fix": ""
+    }
+  ],
+  "analogy_check": "ok",
+  "overall": "pass",
+  "attempt": 3
+}

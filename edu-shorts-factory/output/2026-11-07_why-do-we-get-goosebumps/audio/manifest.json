@@ -1,0 +1,47 @@
+{
+  "provider": "tokenme",
+  "total_duration_sec": 20.267,
+  "narration_file": "narration.wav",
+  "scenes": [
+    {
+      "scene_id": 1,
+      "file": "scene_01.wav",
+      "narration": "เราไม่มีขนหนาเหมือนลิง แต่ทำไมร่างกายยังพยายามตั้งขนให้ฟู?!",
+      "duration_sec": 4.682,
+      "start_sec": 0.0,
+      "end_sec": 4.682
+    },
+    {
+      "scene_id": 2,
+      "file": "scene_02.wav",
+      "narration": "สมองสั่งให้กล้ามเนื้อจิ๋วที่โคนขนหดตัวเพื่อกักเก็บความร้อนเวลาหนาว",
+      "duration_sec": 4.851,
+      "start_sec": 4.682,
+      "end_sec": 9.533
+    },
+    {
+      "scene_id": 3,
+      "file": "scene_03.wav",
+      "narration": "และตอนกลัว มันจะพองตัวเหมือนแมวขู่ศัตรู เพื่อให้เราดูตัวใหญ่ขึ้น",
+      "duration_sec": 5.43,
+      "start_sec": 9.533,
+      "end_sec": 14.963
+    },
+    {
+      "scene_id": 4,
+      "file": "scene_04.wav",
+      "narration": "นี่คือสัญชาตญาณเอาตัวรอดโบราณที่ยังหลงเหลืออยู่",
+      "duration_sec": 3.437,
+      "start_sec": 14.963,
+      "end_sec": 18.4
+    },
+    {
+      "scene_id": 5,
+      "file": "scene_05.wav",
+      "narration": "ซึ่งชวนให้คิดทุกครั้งว่า...",
+      "duration_sec": 1.867,
+      "start_sec": 18.4,
+      "end_sec": 20.267
+    }
+  ]
+}

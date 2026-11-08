@@ -1,0 +1,47 @@
+{
+  "provider": "tokenme",
+  "total_duration_sec": 29.009,
+  "narration_file": "narration.wav",
+  "scenes": [
+    {
+      "scene_id": 1,
+      "file": "scene_01.wav",
+      "narration": "กลิ่นดินหอมๆ ตอนฝนตกใหม่ๆ... ที่แท้มันคือกลิ่นตดของแบคทีเรีย!",
+      "duration_sec": 5.827,
+      "start_sec": 0.0,
+      "end_sec": 5.827
+    },
+    {
+      "scene_id": 2,
+      "file": "scene_02.wav",
+      "narration": "เจ้าสารนี้ชื่อว่า 'จีออสมีน' จะฟุ้งกระจายออกมาทันทีที่เม็ดฝนตกกระทบดินแห้งๆ",
+      "duration_sec": 6.672,
+      "start_sec": 5.827,
+      "end_sec": 12.499
+    },
+    {
+      "scene_id": 3,
+      "file": "scene_03.wav",
+      "narration": "มันจะพุ่งตัวขึ้นฟ้า เหมือนฟองซ่าในน้ำอัดลมตอนเราเปิดขวดเลยล่ะ!",
+      "duration_sec": 4.44,
+      "start_sec": 12.499,
+      "end_sec": 16.939
+    },
+    {
+      "scene_id": 4,
+      "file": "scene_04.wav",
+      "narration": "รู้ไหมว่า จมูกมนุษย์เราไวต่อกลิ่นนี้มาก! แม้เจือจางแค่หนึ่งในล้านล้านส่วน เราก็ยังได้กลิ่น!",
+      "duration_sec": 7.26,
+      "start_sec": 16.939,
+      "end_sec": 24.199
+    },
+    {
+      "scene_id": 5,
+      "file": "scene_05.wav",
+      "narration": "นั่นเลยเป็นเหตุผลว่า พอฝนเริ่มตกปุ๊บ จมูกเราก็พร้อมสูด...",
+      "duration_sec": 4.81,
+      "start_sec": 24.199,
+      "end_sec": 29.009
+    }
+  ]
+}

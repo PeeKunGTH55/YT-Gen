@@ -1,0 +1,63 @@
+{
+  "results": [
+    {
+      "scene_id": 1,
+      "claim": "Ice floats on liquid water.",
+      "verdict": "correct",
+      "source_title": "U.S. Geological Survey (USGS) - Water Density",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtmR7j1c1PDlHn9H8FvQTBlvIjaWqYZFI2bXOp4vfrI_g5ORxac_WuMTj_JxVhFOg4uhR68yL_DXSGQ0bUvxTNkTN5z9qpeuqkP0yefKH9OVkMStbFyvecRCLTNBP0UbWgzd5IPQSDl49iBT-SdPnh4gZ_mtRQkFYMfi-Qjbx8QSel8JHSMBUDskWaXkp6sJU=",
+      "fix": ""
+    },
+    {
+      "scene_id": 2,
+      "claim": "Most solids are denser than their liquid form and sink.",
+      "verdict": "correct",
+      "source_title": "Tec-Science (2019) - Density Anomaly of Water",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQCokyBVqnwt7EJFSP60BqyvJFM6uJPC6uuaktdDbcJXWAxL0b_la-gSwSwUpRZlX5yGpwTCMMluFvpoPYlUWqGHmFez2nf1Gjue5b2htk_uqHo8Sh8S90Zdsj87JWlJ5zQqit47HGHqhJJRdJ1KV_1n0p8QlFiYK3svME37UyPZzHAqfMz-k_PInKUIGjjqY7krmeUJ-gs1EeAAkLDAfiQbnk",
+      "fix": ""
+    },
+    {
+      "scene_id": 3,
+      "claim": "Water expands when it freezes, unlike most other substances.",
+      "verdict": "correct",
+      "source_title": "Tec-Science (2019) - Density Anomaly of Water",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMRj5eSdkQWn5MT-dDthChrHAZo526Yea_Im4DiS6bcdbi7YUQoWmbeIWFbK9w71QWew2nFhyUxmp9ClKPF-LF2cmXLDNYhIzZNnyaL2it337dqm2rUg9D9tSeEqfWKUrzlgwX_PjlfpdWaHh4TqBL8jHHOgQ9k_2ke50bT3uafEJWbe7qqE4hrhu_7FDpJOlFbpaeSBH3VjRVeJtbtrFW3PVZ",
+      "fix": ""
+    },
+    {
+      "scene_id": 4,
+      "claim": "Ice forms a crystalline lattice structure with empty spaces, making it less dense than liquid water.",
+      "verdict": "correct",
+      "source_title": "Tec-Science (2019) - Density Anomaly of Water",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMRj5eSdkQWn5MT-dDthChrHAZo526Yea_Im4DiS6bcdbi7YUQoWmbeIWFbK9w71QWew2nFhyUxmp9ClKPF-LF2cmXLDNYhIzZNnyaL2it337dqm2rUg9D9tSeEqfWKUrzlgwX_PjlfpdWaHh4TqBL8jHHOgQ9k_2ke50bT3uafEJWbe7qqE4hrhu_7FDpJOlFbpaeSBH3VjRVeJtbtrFW3PVZ",
+      "fix": ""
+    },
+    {
+      "scene_id": 5,
+      "claim": "If ice were denser than water, bodies of water would freeze from the bottom up.",
+      "verdict": "correct",
+      "source_title": "Tec-Science (2019) - Density Anomaly of Water",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQCokyBVqnwt7EJFSP60BqyvJFM6uJPC6uuaktdDbcJXWAxL0b_la-gSwSwUpRZlX5yGpwTCMMluFvpoPYlUWqGHmFez2nf1Gjue5b2htk_uqHo8Sh8S90Zdsj87JWlJ5zQqit47HGHqhJJRdJ1KV_1n0p8QlFiYK3svME37UyPZzHAqfMz-k_PInKUIGjjqY7krmeUJ-gs1EeAAkLDAfiQbnk",
+      "fix": ""
+    },
+    {
+      "scene_id": 6,
+      "claim": "Floating ice acts as an insulator, keeping the water below liquid and allowing aquatic life to survive.",
+      "verdict": "correct",
+      "source_title": "Tec-Science (2019) - Density Anomaly of Water",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQCokyBVqnwt7EJFSP60BqyvJFM6uJPC6uuaktdDbcJXWAxL0b_la-gSwSwUpRZlX5yGpwTCMMluFvpoPYlUWqGHmFez2nf1Gjue5b2htk_uqHo8Sh8S90Zdsj87JWlJ5zQqit47HGHqhJJRdJ1KV_1n0p8QlFiYK3svME37UyPZzHAqfMz-k_PInKUIGjjqY7krmeUJ-gs1EeAAkLDAfiQbnk",
+      "fix": ""
+    },
+    {
+      "scene_id": 7,
+      "claim": "The density anomaly of water is crucial for Earth's biosphere.",
+      "verdict": "correct",
+      "source_title": "Tec-Science (2019) - Density Anomaly of Water",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQCokyBVqnwt7EJFSP60BqyvJFM6uJPC6uuaktdDbcJXWAxL0b_la-gSwSwUpRZlX5yGpwTCMMluFvpoPYlUWqGHmFez2nf1Gjue5b2htk_uqHo8Sh8S90Zdsj87JWlJ5zQqit47HGHqhJJRdJ1KV_1n0p8QlFiYK3svME37UyPZzHAqfMz-k_PInKUIGjjqY7krmeUJ-gs1EeAAkLDAfiQbnk",
+      "fix": ""
+    }
+  ],
+  "analogy_check": "ok",
+  "overall": "pass",
+  "attempt": 1
+}

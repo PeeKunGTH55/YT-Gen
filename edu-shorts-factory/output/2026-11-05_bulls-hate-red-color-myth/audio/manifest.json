@@ -1,0 +1,47 @@
+{
+  "provider": "tokenme",
+  "total_duration_sec": 24.266,
+  "narration_file": "narration.wav",
+  "scenes": [
+    {
+      "scene_id": 1,
+      "file": "scene_01.wav",
+      "narration": "เลิกเชื่อว่าวัวกระทิงเกลียดสีแดง เพราะจริงๆ มันตาบอดสีนี้!",
+      "duration_sec": 5.056,
+      "start_sec": 0.0,
+      "end_sec": 5.056
+    },
+    {
+      "scene_id": 2,
+      "file": "scene_02.wav",
+      "narration": "ดวงตาของวัวไม่มีตัวรับแสงสีแดง ทำให้มันเห็นสีแดงเป็นแค่สีเทาหม่นๆ",
+      "duration_sec": 6.151,
+      "start_sec": 5.056,
+      "end_sec": 11.207
+    },
+    {
+      "scene_id": 3,
+      "file": "scene_03.wav",
+      "narration": "มันก็เหมือนเราโบกผ้าขี้ริ้วสีเทาใส่สุนัขนั่นแหละ",
+      "duration_sec": 3.256,
+      "start_sec": 11.207,
+      "end_sec": 14.463
+    },
+    {
+      "scene_id": 4,
+      "file": "scene_04.wav",
+      "narration": "สิ่งที่ทำให้กระทิงพุ่งชาร์จ คือการสะบัดพริ้วไหวของผืนผ้าต่างหาก",
+      "duration_sec": 4.772,
+      "start_sec": 14.463,
+      "end_sec": 19.235
+    },
+    {
+      "scene_id": 5,
+      "file": "scene_05.wav",
+      "narration": "ดังนั้น ไม่ว่าผ้าจะสีอะไรก็โดนขวิดได้หมด เพราะฉะนั้นเราควร...",
+      "duration_sec": 5.031,
+      "start_sec": 19.235,
+      "end_sec": 24.266
+    }
+  ]
+}

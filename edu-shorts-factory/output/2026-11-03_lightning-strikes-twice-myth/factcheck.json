@@ -1,0 +1,55 @@
+{
+  "results": [
+    {
+      "scene_id": 1,
+      "claim": "Skyscrapers get struck by lightning multiple times a year.",
+      "verdict": "correct",
+      "source_title": "National Oceanic and Atmospheric Administration (NOAA) / National Weather Service (NWS)",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFn-hH1e2-Da3t__5gAvRar0Jkc7NpKmv5xtM2lZ7XOgrr7a2PL6pFq2MWaDjoBCScWYYVjmk8PKtNFWnjL-kmC6v1p-RFWB98SPSMgDd0E5UeAyVi8opIIJxwQHzpzYurPgbLdE3ktuRtPCDgcfBfy9tuYzZL7TkNCxdUMcTCZs30P78zdEkRnGouD0G8Et5HdcLhK14gxHJn4hF1299Nzv1u9zUPgSO-M8UJDksECYw==",
+      "fix": ""
+    },
+    {
+      "scene_id": 2,
+      "claim": "The saying 'lightning never strikes twice' is a myth.",
+      "verdict": "correct",
+      "source_title": "NOAA National Weather Service (NWS) - Lightning Myths",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFn-hH1e2-Da3t__5gAvRar0Jkc7NpKmv5xtM2lZ7XOgrr7a2PL6pFq2MWaDjoBCScWYYVjmk8PKtNFWnjL-kmC6v1p-RFWB98SPSMgDd0E5UeAyVi8opIIJxwQHzpzYurPgbLdE3ktuRtPCDgcfBfy9tuYzZL7TkNCxdUMcTCZs30P78zdEkRnGouD0G8Et5HdcLhK14gxHJn4hF1299Nzv1u9zUPgSO-M8UJDksECYw==",
+      "fix": ""
+    },
+    {
+      "scene_id": 3,
+      "claim": "Lightning follows the path of least resistance.",
+      "verdict": "correct",
+      "source_title": "Encyclopaedia Britannica - Lightning physics",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFXIbS6My5UH2cwsuan3OwaKSDI_rNaboU4FMGWmXgWAx5qgVonPDyoBhqofhkdYQIzFGyTfVvtLJQTHmzOjujd5ITKghhCUMdPIeTq9MQXOyhIXFzG8kpIgJNZ2WXtTGF_mtbFhAqMr8j4y0BTvEbrApct-LhY2CITN6pGJ99ozw-Xw7lJ",
+      "fix": ""
+    },
+    {
+      "scene_id": 4,
+      "claim": "The Empire State Building is struck by lightning about 25 times per year on average.",
+      "verdict": "correct",
+      "source_title": "National Oceanic and Atmospheric Administration (NOAA)",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFuU0bDn6_2o81zw7Klp8f1ZWG-BYD6cpWS2ODCJoid3sa1GKezvcCRv4n1Okb1WIW3Lvd1acijPOS4241sUSZ2RMzeHJIcBdD5pnRm-DueD7d6yn0K3ejNu62cZU6bsZ5Y2TAP6We8A2d65uLh5u3yG4C357WTtpj3Cypq8_k3qLbVSd-b-iDBGI51RpHXrNTXyqkrPQ==",
+      "fix": ""
+    },
+    {
+      "scene_id": 5,
+      "claim": "Tall, metallic structures conduct electricity and attract lightning strikes.",
+      "verdict": "correct",
+      "source_title": "National Oceanic and Atmospheric Administration (NOAA) / National Weather Service (NWS)",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFn-hH1e2-Da3t__5gAvRar0Jkc7NpKmv5xtM2lZ7XOgrr7a2PL6pFq2MWaDjoBCScWYYVjmk8PKtNFWnjL-kmC6v1p-RFWB98SPSMgDd0E5UeAyVi8opIIJxwQHzpzYurPgbLdE3ktuRtPCDgcfBfy9tuYzZL7TkNCxdUMcTCZs30P78zdEkRnGouD0G8Et5HdcLhK14gxHJn4hF1299Nzv1u9zUPgSO-M8UJDksECYw==",
+      "fix": ""
+    },
+    {
+      "scene_id": 6,
+      "claim": "Locations previously struck by lightning are often highly susceptible to being struck again.",
+      "verdict": "correct",
+      "source_title": "NOAA National Weather Service (NWS) - Lightning Myths",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFn-hH1e2-Da3t__5gAvRar0Jkc7NpKmv5xtM2lZ7XOgrr7a2PL6pFq2MWaDjoBCScWYYVjmk8PKtNFWnjL-kmC6v1p-RFWB98SPSMgDd0E5UeAyVi8opIIJxwQHzpzYurPgbLdE3ktuRtPCDgcfBfy9tuYzZL7TkNCxdUMcTCZs30P78zdEkRnGouD0G8Et5HdcLhK14gxHJn4hF1299Nzv1u9zUPgSO-M8UJDksECYw==",
+      "fix": ""
+    }
+  ],
+  "analogy_check": "ok",
+  "overall": "pass",
+  "attempt": 1
+}

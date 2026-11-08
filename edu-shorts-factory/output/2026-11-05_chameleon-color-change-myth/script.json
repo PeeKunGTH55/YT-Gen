@@ -1,0 +1,69 @@
+{
+  "title": "กิ้งก่าเปลี่ยนสีเพื่อพรางตัวจากศัตรู... จริงหรือเปล่า?",
+  "format": "myth_vs_fact",
+  "scenes": [
+    {
+      "id": 1,
+      "narration": "ตำราเรียนบอกว่ากิ้งก่าเปลี่ยนสีเพื่อพรางตัว... แต่ความจริงโคตรหักมุม!",
+      "visual": "Close-up of a vibrant green chameleon on a branch, suddenly flashing a bright yellow color, 9:16 vertical shot.",
+      "emphasis_words": [
+        "ตำราเรียน",
+        "พรางตัว",
+        "โคตรหักมุม"
+      ],
+      "claims": [
+        "Chameleons do not primarily change color for camouflage."
+      ]
+    },
+    {
+      "id": 2,
+      "narration": "จริงๆ แล้วพวกมันเปลี่ยนสีเพื่อสื่อสารอารมณ์และปรับอุณหภูมิร่างกายต่างหาก",
+      "visual": "A chameleon turning dark brown in a cool environment, then bright orange when aggressive, split screen, 9:16.",
+      "emphasis_words": [
+        "สื่อสารอารมณ์",
+        "อุณหภูมิร่างกาย"
+      ],
+      "claims": [
+        "Chameleons change color to regulate temperature and communicate social signals or emotions."
+      ]
+    },
+    {
+      "id": 3,
+      "narration": "เหมือนเราใส่เสื้อกันหนาวสีดำตอนแดดจัด หรือหน้าแดงตอนโกรธนั่นแหละ",
+      "visual": "Fast cut to a person wearing a heavy black hoodie sweating under the sun, then blushing red, 9:16.",
+      "emphasis_words": [
+        "เสื้อกันหนาวสีดำ",
+        "หน้าแดง"
+      ],
+      "claims": [
+        "Color change in animals can function similarly to human physiological responses like blushing or wearing dark colors for heat absorption."
+      ]
+    },
+    {
+      "id": 4,
+      "narration": "ผิวหนังมันมีผลึกจิ๋วสะท้อนแสง แค่ขยับช่องว่าง สีก็เปลี่ยนทันที",
+      "visual": "3D animation zooming into chameleon skin showing microscopic nanocrystals (iridophores) shifting spacing, 9:16.",
+      "emphasis_words": [
+        "ผลึกจิ๋วสะท้อนแสง",
+        "ขยับช่องว่าง"
+      ],
+      "claims": [
+        "Chameleons change color by reorganizing a lattice of nanocrystals in their skin cells called iridophores."
+      ]
+    },
+    {
+      "id": 5,
+      "narration": "ดังนั้น ถ้าใครบอกว่ามันเปลี่ยนสีเพื่อซ่อนตัว ให้รู้ไว้เลยว่า...",
+      "visual": "A chameleon looking directly at the camera with one eye rotating, looking smug, 9:16.",
+      "emphasis_words": [
+        "ซ่อนตัว",
+        "ให้รู้ไว้เลยว่า"
+      ],
+      "claims": [
+        "The common belief of camouflage being the primary reason for chameleon color change is a misconception."
+      ]
+    }
+  ],
+  "loop_note": "ประโยคจบในฉากที่ 5 ลงท้ายด้วยคำว่า 'ให้รู้ไว้เลยว่า...' ซึ่งจะเชื่อมโยงกลับไปที่ประโยคเปิดของฉากที่ 1 'ตำราเรียนบอกว่ากิ้งก่าเปลี่ยนสีเพื่อพรางตัว...' ได้อย่างลื่นไหลและทำให้คนดูรู้สึกอยากวนดูซ้ำอีกรอบ",
+  "hook_used": "ตำราเรียนบอกว่ากิ้งก่าเปลี่ยนสีเพื่อพรางตัว... แต่ความจริงโคตรหักมุม!"
+}

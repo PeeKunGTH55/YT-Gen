@@ -1,0 +1,36 @@
+﻿[Script Info]
+Title: Edu Shorts Thai Subtitles
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 1
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Tahoma,64,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,2,5,100,100,680,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:02.00,Default,,0,0,0,,{\an5\pos(540,1200)}เคยสงสัยไหมว่าทำไมตอน
+Dialogue: 0,0:00:02.00,0:00:03.71,Default,,0,0,0,,{\an5\pos(540,1200)}เรา{\c&H0000D7FF&\fscx108\fscy108}นอนหลับ{\c&H00FFFFFF&\fscx100\fscy100}สมองกลับ
+Dialogue: 0,0:00:03.71,0:00:05.71,Default,,0,0,0,,{\an5\pos(540,1200)}{\c&H0000D7FF&\fscx108\fscy108}ทำงานหนัก{\c&H00FFFFFF&\fscx100\fscy100}เกือบทุกส่วน
+Dialogue: 0,0:00:05.71,0:00:07.51,Default,,0,0,0,,{\an5\pos(540,1200)}ความเชื่อที่ว่าเราใช้สมองแค่
+Dialogue: 0,0:00:07.51,0:00:09.63,Default,,0,0,0,,{\an5\pos(540,1200)}{\c&H0000D7FF&\fscx108\fscy108}สิบเปอร์เซ็นต์{\c&H00FFFFFF&\fscx100\fscy100}นั้นเป็นเรื่อง{\c&H0000D7FF&\fscx108\fscy108}โกหก{\c&H00FFFFFF&\fscx100\fscy100}!
+Dialogue: 0,0:00:09.63,0:00:11.76,Default,,0,0,0,,{\an5\pos(540,1200)}จริงๆแล้วสมองเราทำงานตลอดเวลา
+Dialogue: 0,0:00:11.76,0:00:13.52,Default,,0,0,0,,{\an5\pos(540,1200)}เหมือน{\c&H0000D7FF&\fscx108\fscy108}สมาร์ทโฟน{\c&H00FFFFFF&\fscx100\fscy100}ที่เปิดแอ
+Dialogue: 0,0:00:13.52,0:00:14.91,Default,,0,0,0,,{\an5\pos(540,1200)}ปเบื้องหลังไว้เพียบ
+Dialogue: 0,0:00:14.91,0:00:16.32,Default,,0,0,0,,{\an5\pos(540,1200)}แล้วเคยคิดไหมว่าถ้า
+Dialogue: 0,0:00:16.32,0:00:18.33,Default,,0,0,0,,{\an5\pos(540,1200)}เราใช้แค่{\c&H0000D7FF&\fscx108\fscy108}สิบเปอร์เซ็นต์จริง{\c&H00FFFFFF&\fscx100\fscy100}
+Dialogue: 0,0:00:18.33,0:00:19.67,Default,,0,0,0,,{\an5\pos(540,1200)}สมองส่วน{\c&H0000D7FF&\fscx108\fscy108}ที่เหลือ{\c&H00FFFFFF&\fscx100\fscy100}จะ
+Dialogue: 0,0:00:19.67,0:00:20.42,Default,,0,0,0,,{\an5\pos(540,1200)}มีไว้ทำไม?
+Dialogue: 0,0:00:20.42,0:00:22.55,Default,,0,0,0,,{\an5\pos(540,1200)}ผลสแกน{\c&H0000D7FF&\fscx108\fscy108}MRI{\c&H00FFFFFF&\fscx100\fscy100}ยืนยันว่าไม่
+Dialogue: 0,0:00:22.55,0:00:24.88,Default,,0,0,0,,{\an5\pos(540,1200)}ว่าจะขยับนิ้วหรือคิดเลข
+Dialogue: 0,0:00:24.88,0:00:27.01,Default,,0,0,0,,{\an5\pos(540,1200)}สมองแทบทุกส่วนจะสว่าง
+Dialogue: 0,0:00:27.01,0:00:27.92,Default,,0,0,0,,{\an5\pos(540,1200)}วาบขึ้นมา
+Dialogue: 0,0:00:27.92,0:00:29.82,Default,,0,0,0,,{\an5\pos(540,1200)}แม้แต่ตอนที่เราไม่ได้ทำ
+Dialogue: 0,0:00:29.82,0:00:31.39,Default,,0,0,0,,{\an5\pos(540,1200)}อะไรเลยสมองก็ยังใช้
+Dialogue: 0,0:00:31.39,0:00:33.53,Default,,0,0,0,,{\an5\pos(540,1200)}พลังงาน{\c&H0000D7FF&\fscx108\fscy108}ควบคุมร่างกาย{\c&H00FFFFFF&\fscx100\fscy100}อยู่ดี
+Dialogue: 0,0:00:33.53,0:00:36.00,Default,,0,0,0,,{\an5\pos(540,1200)}เพราะสมองทำงาน{\c&H0000D7FF&\fscx108\fscy108}เต็มร้อย{\c&H00FFFFFF&\fscx100\fscy100}ตลอดเวลา
+Dialogue: 0,0:00:36.00,0:00:37.90,Default,,0,0,0,,{\an5\pos(540,1200)}จนทำให้คุณต้องกลับมาถาม
+Dialogue: 0,0:00:37.90,0:00:38.89,Default,,0,0,0,,{\an5\pos(540,1200)}ตัวเองว่า...

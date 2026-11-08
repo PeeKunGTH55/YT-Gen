@@ -1,0 +1,47 @@
+{
+  "provider": "tokenme",
+  "total_duration_sec": 25.423,
+  "narration_file": "narration.wav",
+  "scenes": [
+    {
+      "scene_id": 1,
+      "file": "scene_01.wav",
+      "narration": "ตำราเรียนบอกว่ากิ้งก่าเปลี่ยนสีเพื่อพรางตัว... แต่ความจริงโคตรหักมุม!",
+      "duration_sec": 5.328,
+      "start_sec": 0.0,
+      "end_sec": 5.328
+    },
+    {
+      "scene_id": 2,
+      "file": "scene_02.wav",
+      "narration": "จริงๆ แล้วพวกมันเปลี่ยนสีเพื่อสื่อสารอารมณ์และปรับอุณหภูมิร่างกายต่างหาก",
+      "duration_sec": 4.647,
+      "start_sec": 5.328,
+      "end_sec": 9.975
+    },
+    {
+      "scene_id": 3,
+      "file": "scene_03.wav",
+      "narration": "เหมือนเราใส่เสื้อกันหนาวสีดำตอนแดดจัด หรือหน้าแดงตอนโกรธนั่นแหละ",
+      "duration_sec": 4.543,
+      "start_sec": 9.975,
+      "end_sec": 14.518
+    },
+    {
+      "scene_id": 4,
+      "file": "scene_04.wav",
+      "narration": "ผิวหนังมันมีผลึกจิ๋วสะท้อนแสง แค่ขยับช่องว่าง สีก็เปลี่ยนทันที",
+      "duration_sec": 5.711,
+      "start_sec": 14.518,
+      "end_sec": 20.229
+    },
+    {
+      "scene_id": 5,
+      "file": "scene_05.wav",
+      "narration": "ดังนั้น ถ้าใครบอกว่ามันเปลี่ยนสีเพื่อซ่อนตัว ให้รู้ไว้เลยว่า...",
+      "duration_sec": 5.194,
+      "start_sec": 20.229,
+      "end_sec": 25.423
+    }
+  ]
+}

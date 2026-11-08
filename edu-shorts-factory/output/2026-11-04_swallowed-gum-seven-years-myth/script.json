@@ -1,0 +1,91 @@
+{
+  "title": "กลืนหมากฝรั่งลงท้อง จะอยู่ไปอีก 7 ปีจริงไหม?",
+  "format": "myth_vs_fact",
+  "scenes": [
+    {
+      "id": 1,
+      "narration": "คุณเคยสงสัยไหม ทำไมใครๆ ก็บอกว่าหมากฝรั่งจะอยู่ในท้องเราเจ็ดปี?",
+      "visual": "A close-up of a person looking thoughtful, holding a piece of chewing gum near their mouth.",
+      "emphasis_words": [
+        "สงสัยไหม",
+        "เจ็ดปี"
+      ],
+      "claims": [
+        "There is a common myth that swallowed chewing gum stays in the stomach for 7 years."
+      ]
+    },
+    {
+      "id": 2,
+      "narration": "ความจริงคือ ร่างกายเราย่อยเนื้อยางของหมากฝรั่งไม่ได้ก็จริง",
+      "visual": "3D animation of a human stomach with a glowing piece of chewing gum inside.",
+      "emphasis_words": [
+        "ย่อยไม่ได้"
+      ],
+      "claims": [
+        "The human digestive system cannot digest the synthetic gum base."
+      ]
+    },
+    {
+      "id": 3,
+      "narration": "แต่มันจะถูกขับถ่ายออกมาเหมือนเมล็ดผลไม้ภายในเวลาไม่กี่วัน",
+      "visual": "An illustration of watermelon seeds passing through a simplified digestive tract quickly.",
+      "emphasis_words": [
+        "เมล็ดผลไม้",
+        "ไม่กี่วัน"
+      ],
+      "claims": [
+        "Swallowed gum passes through the digestive tract intact and is excreted within a few days, similar to seeds."
+      ]
+    },
+    {
+      "id": 4,
+      "narration": "แล้วเคยคิดไหมว่า ทำไมน้ำย่อยในกระเพาะที่แรงขนาดละลายโลหะได้ ถึงย่อยยางนี้ไม่ได้?",
+      "visual": "A dramatic close-up of bubbling green stomach acid next to a piece of metal being dissolved.",
+      "emphasis_words": [
+        "ละลายโลหะ",
+        "ย่อยยางไม่ได้"
+      ],
+      "claims": [
+        "Stomach acid is highly acidic (pH 1.5-3.5) and can dissolve some metals, but cannot break down synthetic polymers in gum base."
+      ]
+    },
+    {
+      "id": 5,
+      "narration": "เพราะโครงสร้างโมเลกุลของยางสังเคราะห์ในหมากฝรั่งมันทนทานเป็นพิเศษ",
+      "visual": "A 3D molecular structure of synthetic rubber showing strong chemical bonds.",
+      "emphasis_words": [
+        "ยางสังเคราะห์",
+        "ทนทาน"
+      ],
+      "claims": [
+        "Gum base is made of synthetic polymers like polyisobutylene, which are resistant to digestive enzymes and acid."
+      ]
+    },
+    {
+      "id": 6,
+      "narration": "ดังนั้น สบายใจได้เลยว่ามันไม่ได้อยู่ยาวนานขนาดนั้น",
+      "visual": "A person sighing with relief, smiling, with a checkmark icon appearing on screen.",
+      "emphasis_words": [
+        "สบายใจได้",
+        "ไม่ได้อยู่ยาว"
+      ],
+      "claims": [
+        "Swallowing gum occasionally is generally harmless and does not stay in the body long-term."
+      ]
+    },
+    {
+      "id": 7,
+      "narration": "แต่ก็น่าแปลกนะ ที่ความเชื่อนี้ยังคงถูกส่งต่อกันมาเรื่อยๆ จนทำให้...",
+      "visual": "A vintage-style question mark spinning on a colorful background, transitioning smoothly back to the start.",
+      "emphasis_words": [
+        "น่าแปลกนะ",
+        "ส่งต่อกันมา"
+      ],
+      "claims": [
+        "The 7-year myth is a persistent old wives' tale passed down through generations."
+      ]
+    }
+  ],
+  "loop_note": "ประโยคสุดท้ายจบด้วย 'แต่ก็น่าแปลกนะ ที่ความเชื่อนี้ยังคงถูกส่งต่อกันมาเรื่อยๆ จนทำให้...' ซึ่งจะเชื่อมต่อกับประโยคเริ่มต้นของคลิป 'คุณเคยสงสัยไหม ทำไมใครๆ ก็บอกว่าหมากฝรั่งจะอยู่ในท้องเราเจ็ดปี?' ได้อย่างราบรื่นและเกิด Loop ที่สมบูรณ์แบบ",
+  "hook_used": "คุณเคยสงสัยไหม ทำไมใครๆ ก็บอกว่าหมากฝรั่งจะอยู่ในท้องเราเจ็ดปี?"
+}

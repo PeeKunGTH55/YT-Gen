@@ -5,9 +5,9 @@
 flat vector illustration, soft pastel colors, warm cream and sky blue palette, bold clean outlines, rounded geometric shapes, friendly simple characters, clean minimal background, no text, no letters, no numbers, suitable for all ages
 ```
 
-## Character Description (ตัวละครหลักประจำช่อง)
+## Character Description (ตัวละครหลักประจำช่อง NongSongSai)
 ```text
-a friendly round-faced curious kid character named "Nong Roo" wearing a bright yellow hoodie, round glasses, navy shorts, short dark hair, expressive eyes, consistent proportions
+a friendly round-faced curious kid character named "Nong SongSai" wearing a bright yellow hoodie, round glasses, navy shorts, short dark hair, expressive eyes, consistent proportions
 ```
 
 ## Reference Image (สำหรับโหมด Image-to-Image / Character Reference)
