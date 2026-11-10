@@ -28,6 +28,8 @@ def main() -> None:
     creds = flow.run_local_server(
         port=8080,
         open_browser=True,
+        prompt="consent",
+        access_type="offline",
         authorization_prompt_message="\nหากเบราว์เซอร์ไม่เด้งอัตโนมัติ ให้เปิดลิงก์นี้:\n{url}\n",
         success_message="เชื่อมต่อช่อง YouTube สำเร็จแล้ว! คุณสามารถปิดหน้าต่างนี้ได้เลย",
     )

@@ -133,12 +133,25 @@ def upload_youtube_direct(final_mp4: Path, meta: dict[str, Any]) -> tuple[str, s
         )
 
     from google.oauth2.credentials import Credentials
+    from google.auth.transport.requests import Request
+    from google.auth.exceptions import RefreshError
     from googleapiclient.discovery import build
     from googleapiclient.http import MediaFileUpload
 
     creds = Credentials.from_authorized_user_file(
         str(token_file), ["https://www.googleapis.com/auth/youtube.upload"]
     )
+    if creds and creds.expired and creds.refresh_token:
+        try:
+            creds.refresh(Request())
+            token_file.write_text(creds.to_json(), encoding="utf-8")
+        except RefreshError as exc:
+            raise RuntimeError(
+                f"YouTube OAuth Token หมดอายุหรือถูกเพิกถอน ({exc})\n"
+                f"กรุณารันคำสั่ง 'python src/setup_youtube_auth.py' เพื่อล็อกอินใหม่\n"
+                f"(คำแนะนำ: หากแอปยังอยู่ในสถานะ Testing ใน Google Cloud Console โทเค็นจะหมดอายุทุก 7 วัน แนะนำให้กดปุ่ม 'Publish App' ให้เป็น 'In production')"
+            ) from exc
+
     youtube = build("youtube", "v3", credentials=creds)
 
     channel_cfg = load_yaml("channel.yaml")
@@ -180,7 +193,22 @@ def upload_youtube_direct(final_mp4: Path, meta: dict[str, Any]) -> tuple[str, s
 
     media = MediaFileUpload(str(final_mp4), mimetype="video/mp4", resumable=True)
     req = youtube.videos().insert(part="snippet,status", body=body, media_body=media)
-    resp = req.execute()
+    try:
+        resp = req.execute()
+    except RefreshError as exc:
+        raise RuntimeError(
+            f"YouTube OAuth Token หมดอายุหรือถูกเพิกถอน ({exc})\n"
+            f"กรุณารันคำสั่ง 'python src/setup_youtube_auth.py' เพื่อล็อกอินใหม่\n"
+            f"(คำแนะนำ: หากแอปยังอยู่ในสถานะ Testing ใน Google Cloud Console โทเค็นจะหมดอายุทุก 7 วัน แนะนำให้กดปุ่ม 'Publish App' ให้เป็น 'In production')"
+        ) from exc
+
+    # บันทึก Token ล่าสุดเก็บไว้หากมีการ refresh สำเร็จ
+    try:
+        if creds and creds.valid:
+            token_file.write_text(creds.to_json(), encoding="utf-8")
+    except Exception:
+        pass
+
     video_id = resp.get("id")
 
     return f"https://youtube.com/shorts/{video_id}", scheduled_local_str
