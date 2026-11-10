@@ -1,0 +1,47 @@
+{
+  "provider": "tokenme",
+  "total_duration_sec": 21.725,
+  "narration_file": "narration.wav",
+  "scenes": [
+    {
+      "scene_id": 1,
+      "file": "scene_01.wav",
+      "narration": "ก้นหิ่งห้อยมีสวิตช์ไฟหรือไง ทำไมถึงเปิดปิดแสงได้เองตามใจชอบ?",
+      "duration_sec": 4.805,
+      "start_sec": 0.0,
+      "end_sec": 4.805
+    },
+    {
+      "scene_id": 2,
+      "file": "scene_02.wav",
+      "narration": "จริงๆ มันคือปฏิกิริยาเคมีระหว่างสารลูซิเฟอรินกับออกซิเจน",
+      "duration_sec": 4.855,
+      "start_sec": 4.805,
+      "end_sec": 9.66
+    },
+    {
+      "scene_id": 3,
+      "file": "scene_03.wav",
+      "narration": "ทำงานเหมือนแท่งเรืองแสงที่เราหักเล่นในคอนเสิร์ตเลย",
+      "duration_sec": 3.362,
+      "start_sec": 9.66,
+      "end_sec": 13.022
+    },
+    {
+      "scene_id": 4,
+      "file": "scene_04.wav",
+      "narration": "พวกมันกระพริบไฟเพื่อส่งสัญญาณหาคู่ในความมืด",
+      "duration_sec": 3.178,
+      "start_sec": 13.022,
+      "end_sec": 16.2
+    },
+    {
+      "scene_id": 5,
+      "file": "scene_05.wav",
+      "narration": "แต่ที่น่าทึ่งคือ แสงนี้ไม่มีความร้อนเลยสักนิด จนเราต้องถามว่า...",
+      "duration_sec": 5.525,
+      "start_sec": 16.2,
+      "end_sec": 21.725
+    }
+  ]
+}

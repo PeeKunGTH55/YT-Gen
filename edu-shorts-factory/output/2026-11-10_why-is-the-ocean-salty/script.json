@@ -1,0 +1,69 @@
+{
+  "title": "ทำไมน้ำในมหาสมุทรถึงเค็ม?",
+  "format": "why_question",
+  "scenes": [
+    {
+      "id": 1,
+      "narration": "น้ำฝนจืดสนิท แต่ทำไมพอมารวมกันในทะเลถึงเค็มปี๋?",
+      "visual": "A split-screen showing pure, clear raindrops falling, merging into a deep blue, wavy ocean. 9:16 vertical format.",
+      "emphasis_words": [
+        "น้ำฝนจืดสนิท",
+        "เค็มปี๋"
+      ],
+      "claims": [
+        "Rainwater is fresh, but ocean water is salty."
+      ]
+    },
+    {
+      "id": 2,
+      "narration": "เพราะฝนมีความเป็นกรดอ่อนๆ ค่อยๆ กัดเซาะหินบนบก",
+      "visual": "Close-up of rain falling on mossy rocks, with a subtle dissolving effect showing minerals washing away. 9:16 vertical format.",
+      "emphasis_words": [
+        "กรดอ่อนๆ",
+        "กัดเซาะหิน"
+      ],
+      "claims": [
+        "Rainwater is slightly acidic due to dissolved carbon dioxide",
+        "Acidic rain erodes rocks on land and dissolves minerals."
+      ]
+    },
+    {
+      "id": 3,
+      "narration": "เหมือนเราเอาน้ำล้างเกลือจากก้อนหิน แล้วไหลลงไปสะสมในแอ่งยักษ์",
+      "visual": "A stream of water washing over a salt-crusted rock, flowing down into a vast, deep ocean basin. 9:16 vertical format.",
+      "emphasis_words": [
+        "ล้างเกลือ",
+        "สะสมในแอ่งยักษ์"
+      ],
+      "claims": [
+        "Rivers carry dissolved sodium and chloride ions from land to the ocean."
+      ]
+    },
+    {
+      "id": 4,
+      "narration": "พอน้ำระเหยขึ้นฟ้า เกลือก็ถูกทิ้งไว้ข้างหลังจนเข้มข้นขึ้นเรื่อยๆ",
+      "visual": "Bright sun rays hitting the ocean surface, water vapor rising up like mist, leaving glowing salt minerals in the water. 9:16 vertical format.",
+      "emphasis_words": [
+        "น้ำระเหย",
+        "เกลือถูกทิ้งไว้"
+      ],
+      "claims": [
+        "Water evaporates from the ocean, leaving salts behind, increasing salinity over time."
+      ]
+    },
+    {
+      "id": 5,
+      "narration": "กลายเป็นวัฏจักรที่ทำให้น้ำในมหาสมุทรเค็มจัด ทั้งๆ ที่...",
+      "visual": "Water vapor forming dark rain clouds in the sky, completing the cycle, ready to loop. 9:16 vertical format.",
+      "emphasis_words": [
+        "วัฏจักร",
+        "เค็มจัด"
+      ],
+      "claims": [
+        "The water cycle continuously concentrates salt in the ocean."
+      ]
+    }
+  ],
+  "loop_note": "ประโยคสุดท้ายจบด้วยคำว่า 'ทั้งๆ ที่...' ซึ่งจะเชื่อมโยงกับประโยคเปิดในฉากที่ 1 คือ 'น้ำฝนจืดสนิท...' ได้อย่างราบรื่นและเป็นธรรมชาติเมื่อคลิปเล่นซ้ำ",
+  "hook_used": "น้ำฝนจืดสนิท แต่ทำไมพอมารวมกันในทะเลถึงเค็มปี๋?"
+}

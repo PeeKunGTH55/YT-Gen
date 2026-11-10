@@ -1,0 +1,44 @@
+[
+  {
+    "scene_id": 1,
+    "file": "scene_01.png",
+    "provider": "nano_banana",
+    "visual": "Close-up of a person suddenly holding their temples in pain while holding a colorful ice cream cone, 9:16 vertical shot.",
+    "image_prompt": "Vertical 9:16 illustration, main subject centered in the middle 60% of the frame, keep top 10% and bottom 25% mostly empty background. Character: a friendly round-faced curious kid character named \"Nong SongSai\" wearing a bright yellow hoodie, round glasses, navy shorts, short dark hair, expressive eyes, consistent proportions. Scene action: Close-up of a person suddenly holding their temples in pain while holding a colorful ice cream cone, 9:16 vertical shot.. Style: flat vector illustration, soft pastel colors, warm cream and sky blue palette, bold clean outlines, rounded geometric shapes, friendly simple characters, clean minimal background, no text, no letters, no numbers, suitable for all ages, no text, no letters, no numbers, no watermark, no realistic human faces."
+  },
+  {
+    "scene_id": 2,
+    "file": "scene_02.png",
+    "provider": "nano_banana",
+    "visual": "Macro shot of a scoop of melting ice cream touching the roof of a stylized 3D mouth model, 9:16 vertical shot.",
+    "image_prompt": "Vertical 9:16 illustration, main subject centered in the middle 60% of the frame, keep top 10% and bottom 25% mostly empty background. Character: a friendly round-faced curious kid character named \"Nong SongSai\" wearing a bright yellow hoodie, round glasses, navy shorts, short dark hair, expressive eyes, consistent proportions. Scene action: Macro shot of a scoop of melting ice cream touching the roof of a stylized 3D mouth model, 9:16 vertical shot.. Style: flat vector illustration, soft pastel colors, warm cream and sky blue palette, bold clean outlines, rounded geometric shapes, friendly simple characters, clean minimal background, no text, no letters, no numbers, suitable for all ages, no text, no letters, no numbers, no watermark, no realistic human faces."
+  },
+  {
+    "scene_id": 3,
+    "file": "scene_03.png",
+    "provider": "nano_banana",
+    "visual": "3D animation of red blood vessels rapidly constricting, compared side-by-side with a squeezed garden hose, 9:16 vertical shot.",
+    "image_prompt": "Vertical 9:16 illustration, main subject centered in the middle 60% of the frame, keep top 10% and bottom 25% mostly empty background. Character: a friendly round-faced curious kid character named \"Nong SongSai\" wearing a bright yellow hoodie, round glasses, navy shorts, short dark hair, expressive eyes, consistent proportions. Scene action: 3D animation of red blood vessels rapidly constricting, compared side-by-side with a squeezed garden hose, 9:16 vertical shot.. Style: flat vector illustration, soft pastel colors, warm cream and sky blue palette, bold clean outlines, rounded geometric shapes, friendly simple characters, clean minimal background, no text, no letters, no numbers, suitable for all ages, no text, no letters, no numbers, no watermark, no realistic human faces."
+  },
+  {
+    "scene_id": 4,
+    "file": "scene_04.png",
+    "provider": "nano_banana",
+    "visual": "Stylized 3D brain glowing with red warning lights, representing a panic response, 9:16 vertical shot.",
+    "image_prompt": "Vertical 9:16 illustration, main subject centered in the middle 60% of the frame, keep top 10% and bottom 25% mostly empty background. Character: a friendly round-faced curious kid character named \"Nong SongSai\" wearing a bright yellow hoodie, round glasses, navy shorts, short dark hair, expressive eyes, consistent proportions. Scene action: Stylized 3D brain glowing with red warning lights, representing a panic response, 9:16 vertical shot.. Style: flat vector illustration, soft pastel colors, warm cream and sky blue palette, bold clean outlines, rounded geometric shapes, friendly simple characters, clean minimal background, no text, no letters, no numbers, suitable for all ages, no text, no letters, no numbers, no watermark, no realistic human faces."
+  },
+  {
+    "scene_id": 5,
+    "file": "scene_05.png",
+    "provider": "nano_banana",
+    "visual": "A nervous system animation showing pain signals traveling from the palate up to the forehead, 9:16 vertical shot.",
+    "image_prompt": "Vertical 9:16 illustration, main subject centered in the middle 60% of the frame, keep top 10% and bottom 25% mostly empty background. Character: a friendly round-faced curious kid character named \"Nong SongSai\" wearing a bright yellow hoodie, round glasses, navy shorts, short dark hair, expressive eyes, consistent proportions. Scene action: A nervous system animation showing pain signals traveling from the palate up to the forehead, 9:16 vertical shot.. Style: flat vector illustration, soft pastel colors, warm cream and sky blue palette, bold clean outlines, rounded geometric shapes, friendly simple characters, clean minimal background, no text, no letters, no numbers, suitable for all ages, no text, no letters, no numbers, no watermark, no realistic human faces."
+  },
+  {
+    "scene_id": 6,
+    "file": "scene_06.png",
+    "provider": "nano_banana",
+    "visual": "A person looking at an ice cream spoon hesitantly, preparing to eat it slowly, 9:16 vertical shot.",
+    "image_prompt": "Vertical 9:16 illustration, main subject centered in the middle 60% of the frame, keep top 10% and bottom 25% mostly empty background. Character: a friendly round-faced curious kid character named \"Nong SongSai\" wearing a bright yellow hoodie, round glasses, navy shorts, short dark hair, expressive eyes, consistent proportions. Scene action: A person looking at an ice cream spoon hesitantly, preparing to eat it slowly, 9:16 vertical shot.. Style: flat vector illustration, soft pastel colors, warm cream and sky blue palette, bold clean outlines, rounded geometric shapes, friendly simple characters, clean minimal background, no text, no letters, no numbers, suitable for all ages, no text, no letters, no numbers, no watermark, no realistic human faces."
+  }
+]

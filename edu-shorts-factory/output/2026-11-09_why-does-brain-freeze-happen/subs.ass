@@ -1,0 +1,27 @@
+﻿[Script Info]
+Title: Edu Shorts Thai Subtitles
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 1
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Tahoma,64,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,2,5,100,100,680,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:01.87,Default,,0,0,0,,{\an5\pos(540,1200)}รีบกินไอติมคลายร้อนทีไร
+Dialogue: 0,0:00:01.87,0:00:04.40,Default,,0,0,0,,{\an5\pos(540,1200)}ต้องกุมขมับ{\c&H0000D7FF&\fscx108\fscy108}ปวดจี๊ดขึ้นสมอง{\c&H00FFFFFF&\fscx100\fscy100}ทุกที
+Dialogue: 0,0:00:04.40,0:00:05.46,Default,,0,0,0,,{\an5\pos(540,1200)}{\c&H0000D7FF&\fscx108\fscy108}เพราะสิ่งนี้{\c&H00FFFFFF&\fscx100\fscy100}!
+Dialogue: 0,0:00:05.46,0:00:06.52,Default,,0,0,0,,{\an5\pos(540,1200)}เมื่อ{\c&H0000D7FF&\fscx108\fscy108}ความเย็นจัด{\c&H00FFFFFF&\fscx100\fscy100}
+Dialogue: 0,0:00:06.52,0:00:08.24,Default,,0,0,0,,{\an5\pos(540,1200)}สัมผัส{\c&H0000D7FF&\fscx108\fscy108}เพดานปาก{\c&H00FFFFFF&\fscx100\fscy100}อย่างรวดเร็ว
+Dialogue: 0,0:00:08.24,0:00:11.15,Default,,0,0,0,,{\an5\pos(540,1200)}หลอดเลือดจะ{\c&H0000D7FF&\fscx108\fscy108}หดตัวฉับพลัน{\c&H00FFFFFF&\fscx100\fscy100}เหมือนท่อน้ำ
+Dialogue: 0,0:00:11.15,0:00:12.31,Default,,0,0,0,,{\an5\pos(540,1200)}{\c&H0000D7FF&\fscx108\fscy108}โดนบีบกะทันหัน{\c&H00FFFFFF&\fscx100\fscy100}
+Dialogue: 0,0:00:12.31,0:00:13.96,Default,,0,0,0,,{\an5\pos(540,1200)}สมองจึง{\c&H0000D7FF&\fscx108\fscy108}เข้าใจผิด{\c&H00FFFFFF&\fscx100\fscy100}ว่า
+Dialogue: 0,0:00:13.96,0:00:16.29,Default,,0,0,0,,{\an5\pos(540,1200)}ร่างกายกำลังเผชิญ{\c&H0000D7FF&\fscx108\fscy108}ภัยอันตราย{\c&H00FFFFFF&\fscx100\fscy100}
+Dialogue: 0,0:00:16.29,0:00:18.59,Default,,0,0,0,,{\an5\pos(540,1200)}และส่ง{\c&H0000D7FF&\fscx108\fscy108}สัญญาณเตือน{\c&H00FFFFFF&\fscx100\fscy100}เป็นความ{\c&H0000D7FF&\fscx108\fscy108}ปวดจี๊ด{\c&H00FFFFFF&\fscx100\fscy100}
+Dialogue: 0,0:00:18.59,0:00:19.53,Default,,0,0,0,,{\an5\pos(540,1200)}ที่หน้าผากแทน
+Dialogue: 0,0:00:19.53,0:00:21.84,Default,,0,0,0,,{\an5\pos(540,1200)}จำไว้ว่า{\c&H0000D7FF&\fscx108\fscy108}อย่ากินเร็วเกินไป{\c&H00FFFFFF&\fscx100\fscy100}
+Dialogue: 0,0:00:21.84,0:00:23.41,Default,,0,0,0,,{\an5\pos(540,1200)}{\c&H0000D7FF&\fscx108\fscy108}ไม่งั้นเวลาที่คุณ{\c&H00FFFFFF&\fscx100\fscy100}

@@ -24,6 +24,10 @@ qc:
   fail_fallback: "telegram"    # หากไม่ผ่าน ให้ส่งเข้า Telegram พร้อมเหตุผลให้คนตัดสินใจ (Option 1A)
   strict_factcheck: true       # ตรวจสอบว่าต้องมีแหล่งอ้างอิงและไม่มีข้อมูลผิดพลาด 100% (Option 2)
   focus_on_content: true       # เน้นความถูกต้องของเนื้อหาและกระชับ (Option 4)
+  topic_qc:
+    enabled: true              # เปิดใช้งาน Topic Critic Subagent คัดกรองและอนุมัติหัวข้ออัตโนมัติ
+    min_pass_score: 75         # คะแนนขั้นต่ำของหัวข้อที่จะผ่านเกณฑ์ (0-100)
+    auto_skip_rejected: true   # ปัดตกหัวข้อที่ไม่ผ่านเกณฑ์เป็น 'rejected_by_qc' อัตโนมัติ
   blacklist_hook_phrases:
     - "เคยสงสัยไหม"
     - "คุณเคยสงสัยไหม"

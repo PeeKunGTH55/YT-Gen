@@ -1,0 +1,37 @@
+[
+  {
+    "scene_id": 1,
+    "file": "scene_01.png",
+    "provider": "nano_banana",
+    "visual": "A close-up of a person stepping out into bright sunlight, squinting, with a digital glitch effect overlay on their face.",
+    "image_prompt": "Vertical 9:16 illustration, main subject centered in the middle 60% of the frame, keep top 10% and bottom 25% mostly empty background. Character: a friendly round-faced curious kid character named \"Nong SongSai\" wearing a bright yellow hoodie, round glasses, navy shorts, short dark hair, expressive eyes, consistent proportions. Scene action: A close-up of a person stepping out into bright sunlight, squinting, with a digital glitch effect overlay on their face.. Style: flat vector illustration, soft pastel colors, warm cream and sky blue palette, bold clean outlines, rounded geometric shapes, friendly simple characters, clean minimal background, no text, no letters, no numbers, suitable for all ages, no text, no letters, no numbers, no watermark, no realistic human faces."
+  },
+  {
+    "scene_id": 2,
+    "file": "scene_02.png",
+    "provider": "nano_banana",
+    "visual": "3D medical animation showing the optic nerve and trigeminal nerve running extremely close to each other inside the human brain.",
+    "image_prompt": "Vertical 9:16 illustration, main subject centered in the middle 60% of the frame, keep top 10% and bottom 25% mostly empty background. Character: a friendly round-faced curious kid character named \"Nong SongSai\" wearing a bright yellow hoodie, round glasses, navy shorts, short dark hair, expressive eyes, consistent proportions. Scene action: 3D medical animation showing the optic nerve and trigeminal nerve running extremely close to each other inside the human brain.. Style: flat vector illustration, soft pastel colors, warm cream and sky blue palette, bold clean outlines, rounded geometric shapes, friendly simple characters, clean minimal background, no text, no letters, no numbers, suitable for all ages, no text, no letters, no numbers, no watermark, no realistic human faces."
+  },
+  {
+    "scene_id": 3,
+    "file": "scene_03.png",
+    "provider": "nano_banana",
+    "visual": "Close-up of messy, tangled colorful electrical wires sparking slightly to represent crossed signals.",
+    "image_prompt": "Vertical 9:16 illustration, main subject centered in the middle 60% of the frame, keep top 10% and bottom 25% mostly empty background. Character: a friendly round-faced curious kid character named \"Nong SongSai\" wearing a bright yellow hoodie, round glasses, navy shorts, short dark hair, expressive eyes, consistent proportions. Scene action: Close-up of messy, tangled colorful electrical wires sparking slightly to represent crossed signals.. Style: flat vector illustration, soft pastel colors, warm cream and sky blue palette, bold clean outlines, rounded geometric shapes, friendly simple characters, clean minimal background, no text, no letters, no numbers, suitable for all ages, no text, no letters, no numbers, no watermark, no realistic human faces."
+  },
+  {
+    "scene_id": 4,
+    "file": "scene_04.png",
+    "provider": "nano_banana",
+    "visual": "A person looking up at the sun and sneezing, with a stylized brain graphic flashing in confusion.",
+    "image_prompt": "Vertical 9:16 illustration, main subject centered in the middle 60% of the frame, keep top 10% and bottom 25% mostly empty background. Character: a friendly round-faced curious kid character named \"Nong SongSai\" wearing a bright yellow hoodie, round glasses, navy shorts, short dark hair, expressive eyes, consistent proportions. Scene action: A person looking up at the sun and sneezing, with a stylized brain graphic flashing in confusion.. Style: flat vector illustration, soft pastel colors, warm cream and sky blue palette, bold clean outlines, rounded geometric shapes, friendly simple characters, clean minimal background, no text, no letters, no numbers, suitable for all ages, no text, no letters, no numbers, no watermark, no realistic human faces."
+  },
+  {
+    "scene_id": 5,
+    "file": "scene_05.png",
+    "provider": "nano_banana",
+    "visual": "A glowing DNA double helix rotating slowly, transitioning into a bright sun flare that matches the beginning of Scene 1.",
+    "image_prompt": "Vertical 9:16 illustration, main subject centered in the middle 60% of the frame, keep top 10% and bottom 25% mostly empty background. Character: a friendly round-faced curious kid character named \"Nong SongSai\" wearing a bright yellow hoodie, round glasses, navy shorts, short dark hair, expressive eyes, consistent proportions. Scene action: A glowing DNA double helix rotating slowly, transitioning into a bright sun flare that matches the beginning of Scene 1.. Style: flat vector illustration, soft pastel colors, warm cream and sky blue palette, bold clean outlines, rounded geometric shapes, friendly simple characters, clean minimal background, no text, no letters, no numbers, suitable for all ages, no text, no letters, no numbers, no watermark, no realistic human faces."
+  }
+]

@@ -33,6 +33,7 @@ from utils.paths import (
 from utils.status import read_status, read_topics_csv, update_status, write_topics_csv
 
 mod_01 = importlib.import_module("01_topics")
+mod_topic_qc = importlib.import_module("01_topic_qc_agent")
 mod_02 = importlib.import_module("02_script")
 mod_03 = importlib.import_module("03_factcheck")
 mod_04 = importlib.import_module("04_tts")
@@ -53,6 +54,8 @@ AVAILABLE_VOICES = {
 }
 
 CHAT_HISTORY: list[dict[str, str]] = []
+_GEN_LOCK = threading.Lock()
+_GEN_RUNNING: set[str] = set()
 
 
 def ensure_single_instance() -> None:
@@ -91,11 +94,17 @@ def send_message(
         body["reply_markup"] = reply_markup
     payload = json.dumps(body, ensure_ascii=False).encode("utf-8")
     with tg_client() as client:
-        client.post(
+        r = client.post(
             f"https://api.telegram.org/bot{bot_token}/sendMessage",
             content=payload,
             headers={"Content-Type": "application/json; charset=utf-8"},
         )
+        if r.status_code != 200:
+            # ไม่ raise แต่ต้องเห็นในคอนโซล (สาเหตุกดอนุมัติแล้วเงียบ)
+            print(
+                f"[telegram_bot] sendMessage ล้มเหลว: {r.status_code} {r.text[:300]}",
+                flush=True,
+            )
 
 
 def get_latest_clip_dir() -> Path | None:
@@ -239,6 +248,18 @@ def send_topic_proposal(
 
 
 def get_or_replenish_idea_topics(count: int = 1) -> list[dict[str, str]]:
+    channel_cfg = load_yaml("channel.yaml")
+    topic_qc_enabled = bool(channel_cfg.get("qc", {}).get("topic_qc", {}).get("enabled", True))
+
+    approved_list: list[dict[str, str]] = []
+    if topic_qc_enabled:
+        try:
+            approved_list = mod_topic_qc.get_approved_topics(count=count)
+        except Exception as e:
+            print(f"[telegram_bot] Topic QC error: {e}", flush=True)
+        if approved_list:
+            return approved_list  # ได้ไม่ครบ count ก็คืนเท่าที่ QC อนุมัติ (ห้ามส่งหัวข้อที่ยังไม่ตรวจ)
+
     rows = read_topics_csv()
     available = [r for r in rows if r.get("status", "idea") == "idea"]
     if len(available) < count:
@@ -249,6 +270,12 @@ def get_or_replenish_idea_topics(count: int = 1) -> list[dict[str, str]]:
 
 
 def get_or_replenish_next_idea_topic() -> dict[str, str]:
+    channel_cfg = load_yaml("channel.yaml")
+    topic_qc_enabled = bool(channel_cfg.get("qc", {}).get("topic_qc", {}).get("enabled", True))
+    if topic_qc_enabled:
+        approved, _ = mod_topic_qc.get_next_approved_topic()
+        return approved
+
     topics = get_or_replenish_idea_topics(count=1)
     if topics:
         return topics[0]
@@ -307,6 +334,24 @@ def daily_schedule_worker(bot_token: str, chat_id: str) -> None:
         time.sleep(25)
 
 
+def start_generation_async(bot_token: str, chat_id: str, topic_id: str) -> None:
+    """รัน pipeline ใน thread แยก กัน loop polling ค้าง + กันกดซ้ำหัวข้อเดียวกันซ้ำซ้อน"""
+    tid = str(topic_id)
+    with _GEN_LOCK:
+        if tid in _GEN_RUNNING:
+            send_message(bot_token, chat_id, f"หัวข้อ #{tid} กำลังผลิตอยู่แล้วครับ รออีกสักครู่นะครับ")
+            return
+        _GEN_RUNNING.add(tid)
+
+    def _worker() -> None:
+        try:
+            run_full_generation_for_topic(bot_token, chat_id, tid)
+        finally:
+            with _GEN_LOCK:
+                _GEN_RUNNING.discard(tid)
+
+    threading.Thread(target=_worker, daemon=True).start()
+
 def run_full_generation_for_topic(bot_token: str, chat_id: str, topic_id: str) -> None:
     rows = read_topics_csv()
     target = next((r for r in rows if str(r.get("id")) == str(topic_id)), None)
@@ -352,16 +397,16 @@ def handle_callback(
             json={"callback_query_id": callback_id, "text": f"รับคำสั่ง: {action}"},
         )
 
-    # 1. กดอนุมัติหัวข้อ -> เริ่มสร้างคลิปจริง
+    # 1. กดอนุมัติหัวข้อ -> เริ่มสร้างคลิปจริง (ทำใน thread เพื่อให้บอทยังตอบคลิกอื่นได้)
     if action == "start_topic":
-        run_full_generation_for_topic(bot_token, chat_id, value)
+        start_generation_async(bot_token, chat_id, value)
         return
 
     # 2. กดเปลี่ยนหัวข้อถัดไป -> ข้ามหัวข้อนี้แล้วเสนอหัวข้อถัดไปให้ตรวจใหม่
     if action == "skip_topic":
         rows = read_topics_csv()
         for r in rows:
-            if str(r.get("id")) == str(value) and r.get("status") == "idea":
+            if str(r.get("id")) == str(value) and r.get("status") in ("idea", "approved"):
                 r["status"] = "skipped"
                 break
         write_topics_csv(rows)
@@ -557,6 +602,12 @@ def run_bot_loop() -> None:
                 res = r.json().get("result", [])
                 if res:
                     offset = int(res[-1]["update_id"]) + 1
+                    pending_cb = sum(1 for u in res if "callback_query" in u)
+                    if pending_cb:
+                        print(
+                            f"[telegram_bot] ข้าม callback ค้างจากรอบก่อน {pending_cb} รายการ (กดซ้ำได้)",
+                            flush=True,
+                        )
     except Exception as exc:
         print(f"[telegram_bot] ข้ามการดึง offset เริ่มต้น ({exc})", flush=True)
 
@@ -578,6 +629,7 @@ def run_bot_loop() -> None:
                     cb_id = cb.get("id", "")
                     data = cb.get("data", "")
                     chat_id = str(cb.get("message", {}).get("chat", {}).get("id", allowed_chat))
+                    print(f"[telegram_bot] รับ callback: {data}", flush=True)
                     if ":" in data:
                         try:
                             handle_callback(bot_token, chat_id, cb_id, data)

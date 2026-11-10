@@ -1,0 +1,47 @@
+{
+  "provider": "tokenme",
+  "total_duration_sec": 26.649,
+  "narration_file": "narration.wav",
+  "scenes": [
+    {
+      "scene_id": 1,
+      "file": "scene_01.wav",
+      "narration": "จามตอนเจอแดดไม่ใช่โรคภูมิแพ้ แต่มันคือบั๊กในสมองคุณ!",
+      "duration_sec": 4.356,
+      "start_sec": 0.0,
+      "end_sec": 4.356
+    },
+    {
+      "scene_id": 2,
+      "file": "scene_02.wav",
+      "narration": "มันเรียกว่า Photic Sneeze Reflex เกิดจากเส้นประสาทตาและจมูกอยู่ใกล้กันเกินไป",
+      "duration_sec": 5.918,
+      "start_sec": 4.356,
+      "end_sec": 10.274
+    },
+    {
+      "scene_id": 3,
+      "file": "scene_03.wav",
+      "narration": "พอตาเจอแสงจ้า สัญญาณไฟฟ้าเลยรั่วไปกระตุ้นจมูก เหมือนสายไฟบ้านที่พันกันมั่ว",
+      "duration_sec": 6.402,
+      "start_sec": 10.274,
+      "end_sec": 16.676
+    },
+    {
+      "scene_id": 4,
+      "file": "scene_04.wav",
+      "narration": "สมองเลยเข้าใจผิด สั่งให้คุณจามออกมาทันที ทั้งที่ไม่ได้คันจมูกเลยสักนิด",
+      "duration_sec": 5.47,
+      "start_sec": 16.676,
+      "end_sec": 22.146
+    },
+    {
+      "scene_id": 5,
+      "file": "scene_05.wav",
+      "narration": "อาการนี้ส่งต่อทางพันธุกรรมได้ด้วยนะ ซึ่งเป็นเหตุผลว่าทำไม...",
+      "duration_sec": 4.503,
+      "start_sec": 22.146,
+      "end_sec": 26.649
+    }
+  ]
+}

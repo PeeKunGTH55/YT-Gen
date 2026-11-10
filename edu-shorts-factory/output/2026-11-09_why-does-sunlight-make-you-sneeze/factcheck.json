@@ -1,0 +1,47 @@
+{
+  "results": [
+    {
+      "scene_id": 1,
+      "claim": "Sneezing when looking at bright light is not an allergy, but a neurological phenomenon known as Photic Sneeze Reflex.",
+      "verdict": "correct",
+      "source_title": "National Institutes of Health (NIH)",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHmSGdzkzn1gWe2sUaMXhKZBlIgfhEx4Jgl0_SuvdW4ChRRhh7WgSOzoNhI3aN5ItJZqwa8_fWZReHA2lLf56D07lvfJw2YkGhCXGniW-ih1zb0pTqpiYK1gKtscmOgDbOZeOUCF1Z0oQyHMNc=",
+      "fix": ""
+    },
+    {
+      "scene_id": 2,
+      "claim": "The Photic Sneeze Reflex is caused by the close proximity or cross-talk between the optic nerve and the trigeminal nerve.",
+      "verdict": "correct",
+      "source_title": "Cleveland Clinic Journal of Medicine",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEs8CmDjJ48Ebum8LbqYiieYwY4twha-FnAcgb2YNfTpKd5aN6GdWBvH9g7551qdqKElL8k_Rz2A3WH5sRGgoCls6NMjuCckWJzTqJ9hO4uOIEGUoy4B9xqlUU8HskC9B7QCMPLw8dSQFyL8B-gQ9E=",
+      "fix": ""
+    },
+    {
+      "scene_id": 3,
+      "claim": "Bright light stimulates the optic nerve, and the signal accidentally leaks to the trigeminal nerve, which controls sneezing.",
+      "verdict": "correct",
+      "source_title": "All About Vision",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEGizYHkv1yNs6XTdYzDRFvHmmr-mIHMVvQLy7gnWD0ZtdNIuqUQJ2iP_pnmAZrrMR27axuOrxomBgW4o1vIqJZAsG8vLeUrdeoEz04fz1XRpvf5NEicSqqjmil5dFKeBoiBU84Q5LYFy8TH6a9j3Vn4pp0rkhuHjgN9zu7Vo5tpj4l",
+      "fix": ""
+    },
+    {
+      "scene_id": 4,
+      "claim": "The brain misinterprets the optical signal as an irritation in the nose, triggering a sneeze reflex.",
+      "verdict": "correct",
+      "source_title": "National Institutes of Health (NIH)",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHmSGdzkzn1gWe2sUaMXhKZBlIgfhEx4Jgl0_SuvdW4ChRRhh7WgSOzoNhI3aN5ItJZqwa8_fWZReHA2lLf56D07lvfJw2YkGhCXGniW-ih1zb0pTqpiYK1gKtscmOgDbOZeOUCF1Z0oQyHMNc=",
+      "fix": ""
+    },
+    {
+      "scene_id": 5,
+      "claim": "The photic sneeze reflex is an autosomal dominant genetic trait.",
+      "verdict": "correct",
+      "source_title": "Wikipedia",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHCDCTOUOz9SHIa3hZ6cZMLI2oMCTh6w9D3NG2ar1m2OwoTpqznkT3fMFihI9TeU8RVCd9fWDKUMhCwwUdJQ-kxK0Et9QySdJM8f0l0xIcPNvZAMuHbwIjO5tw7Fe6XNbihclMmkP3ohdYs-0cc",
+      "fix": ""
+    }
+  ],
+  "analogy_check": "ok",
+  "overall": "pass",
+  "attempt": 1
+}

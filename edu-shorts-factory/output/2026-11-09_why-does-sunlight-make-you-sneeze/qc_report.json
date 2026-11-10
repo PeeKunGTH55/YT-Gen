@@ -1,0 +1,35 @@
+{
+  "timestamp": "2026-11-09T11:05:47.243892",
+  "clip_folder": "2026-11-09_why-does-sunlight-make-you-sneeze",
+  "total_score": 100,
+  "min_pass_score": 85,
+  "passed": true,
+  "decision": "approved",
+  "breakdown": {
+    "hook_quality": {
+      "score": 30,
+      "max": 30
+    },
+    "fact_confidence": {
+      "score": 35,
+      "max": 35
+    },
+    "duration_pacing": {
+      "score": 20,
+      "max": 20,
+      "duration_sec": 26.65
+    },
+    "asset_integrity": {
+      "score": 15,
+      "max": 15
+    }
+  },
+  "violations": [],
+  "strengths": [
+    "Hook สั้นกระชับ ไม่มีคำต้องห้าม",
+    "ข้อมูลวิทยาศาสตร์ถูกต้อง 100% พร้อมแหล่งอ้างอิงชัดเจน",
+    "ความยาวคลิปสมบูรณ์แบบ (26.6s) อยู่ใน Sweet Spot สำหรับ Shorts",
+    "ไฟล์วิดีโอ ซับไตเติล และ Metadata สมบูรณ์ 100%"
+  ],
+  "recommendations": []
+}

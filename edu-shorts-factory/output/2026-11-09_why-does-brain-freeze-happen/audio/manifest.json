@@ -1,0 +1,55 @@
+{
+  "provider": "tokenme",
+  "total_duration_sec": 23.413,
+  "narration_file": "narration.wav",
+  "scenes": [
+    {
+      "scene_id": 1,
+      "file": "scene_01.wav",
+      "narration": "รีบกินไอติมคลายร้อนทีไร ต้องกุมขมับปวดจี๊ดขึ้นสมองทุกทีเพราะสิ่งนี้!",
+      "duration_sec": 5.458,
+      "start_sec": 0.0,
+      "end_sec": 5.458
+    },
+    {
+      "scene_id": 2,
+      "file": "scene_02.wav",
+      "narration": "เมื่อความเย็นจัดสัมผัสเพดานปากอย่างรวดเร็ว",
+      "duration_sec": 2.778,
+      "start_sec": 5.458,
+      "end_sec": 8.236
+    },
+    {
+      "scene_id": 3,
+      "file": "scene_03.wav",
+      "narration": "หลอดเลือดจะหดตัวฉับพลัน เหมือนท่อน้ำโดนบีบกะทันหัน",
+      "duration_sec": 4.078,
+      "start_sec": 8.236,
+      "end_sec": 12.314
+    },
+    {
+      "scene_id": 4,
+      "file": "scene_04.wav",
+      "narration": "สมองจึงเข้าใจผิดว่าร่างกายกำลังเผชิญภัยอันตราย",
+      "duration_sec": 3.98,
+      "start_sec": 12.314,
+      "end_sec": 16.294
+    },
+    {
+      "scene_id": 5,
+      "file": "scene_05.wav",
+      "narration": "และส่งสัญญาณเตือนเป็นความปวดจี๊ดที่หน้าผากแทน",
+      "duration_sec": 3.235,
+      "start_sec": 16.294,
+      "end_sec": 19.529
+    },
+    {
+      "scene_id": 6,
+      "file": "scene_06.wav",
+      "narration": "จำไว้ว่าอย่ากินเร็วเกินไป ไม่งั้นเวลาที่คุณ",
+      "duration_sec": 3.884,
+      "start_sec": 19.529,
+      "end_sec": 23.413
+    }
+  ]
+}

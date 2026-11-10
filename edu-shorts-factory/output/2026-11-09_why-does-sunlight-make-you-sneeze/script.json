@@ -1,0 +1,68 @@
+{
+  "title": "ทำไมบางคนมองแดดจ้าแล้วต้องจาม?",
+  "format": "why_question",
+  "scenes": [
+    {
+      "id": 1,
+      "narration": "จามตอนเจอแดดไม่ใช่โรคภูมิแพ้ แต่มันคือบั๊กในสมองคุณ!",
+      "visual": "A close-up of a person stepping out into bright sunlight, squinting, with a digital glitch effect overlay on their face.",
+      "emphasis_words": [
+        "ไม่ใช่โรคภูมิแพ้",
+        "บั๊กในสมอง"
+      ],
+      "claims": [
+        "Sneezing when looking at bright light is not an allergy, but a neurological phenomenon known as Photic Sneeze Reflex."
+      ]
+    },
+    {
+      "id": 2,
+      "narration": "มันเรียกว่า Photic Sneeze Reflex เกิดจากเส้นประสาทตาและจมูกอยู่ใกล้กันเกินไป",
+      "visual": "3D medical animation showing the optic nerve and trigeminal nerve running extremely close to each other inside the human brain.",
+      "emphasis_words": [
+        "Photic Sneeze Reflex",
+        "ใกล้กันเกินไป"
+      ],
+      "claims": [
+        "The Photic Sneeze Reflex is caused by the close proximity or cross-talk between the optic nerve and the trigeminal nerve."
+      ]
+    },
+    {
+      "id": 3,
+      "narration": "พอตาเจอแสงจ้า สัญญาณไฟฟ้าเลยรั่วไปกระตุ้นจมูก เหมือนสายไฟบ้านที่พันกันมั่ว",
+      "visual": "Close-up of messy, tangled colorful electrical wires sparking slightly to represent crossed signals.",
+      "emphasis_words": [
+        "สัญญาณไฟฟ้าเลยรั่ว",
+        "สายไฟบ้านที่พันกัน"
+      ],
+      "claims": [
+        "Bright light stimulates the optic nerve, and the signal accidentally leaks to the trigeminal nerve, which controls sneezing."
+      ]
+    },
+    {
+      "id": 4,
+      "narration": "สมองเลยเข้าใจผิด สั่งให้คุณจามออกมาทันที ทั้งที่ไม่ได้คันจมูกเลยสักนิด",
+      "visual": "A person looking up at the sun and sneezing, with a stylized brain graphic flashing in confusion.",
+      "emphasis_words": [
+        "สมองเลยเข้าใจผิด",
+        "สั่งให้คุณจาม"
+      ],
+      "claims": [
+        "The brain misinterprets the optical signal as an irritation in the nose, triggering a sneeze reflex."
+      ]
+    },
+    {
+      "id": 5,
+      "narration": "อาการนี้ส่งต่อทางพันธุกรรมได้ด้วยนะ ซึ่งเป็นเหตุผลว่าทำไม...",
+      "visual": "A glowing DNA double helix rotating slowly, transitioning into a bright sun flare that matches the beginning of Scene 1.",
+      "emphasis_words": [
+        "ส่งต่อทางพันธุกรรม",
+        "ซึ่งเป็นเหตุผลว่าทำไม"
+      ],
+      "claims": [
+        "The photic sneeze reflex is an autosomal dominant genetic trait."
+      ]
+    }
+  ],
+  "loop_note": "ประโยคสุดท้ายจบด้วย 'ซึ่งเป็นเหตุผลว่าทำไม...' ซึ่งจะเชื่อมโยงกลับไปที่ประโยคเปิดในฉากที่ 1 คือ 'จามตอนเจอแดดไม่ใช่โรคภูมิแพ้ แต่มันคือบั๊กในสมองคุณ!' ได้อย่างลื่นไหลและทำให้คนดูรู้สึกอยากวนดูซ้ำ",
+  "hook_used": "จามตอนเจอแดดไม่ใช่โรคภูมิแพ้ แต่มันคือบั๊กในสมองคุณ!"
+}

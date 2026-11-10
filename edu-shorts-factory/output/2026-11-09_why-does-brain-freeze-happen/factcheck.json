@@ -1,0 +1,55 @@
+{
+  "results": [
+    {
+      "scene_id": 1,
+      "claim": "Brain freeze (sphenopalatine ganglioneuralgia) is triggered by rapid consumption of cold substances.",
+      "verdict": "correct",
+      "source_title": "livescience.com",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1ywiOjQo3CvREursLYooIODGPa1x_wx6ySP1N4VcXmndchqrUNlAmIReKiVGODH8QD1PwGVTqosyu4L4ZN5qyTeKCQXAA6yK5zTcn7iFJt4KC0K86MM0FgZmE5ejfPV4FQAVLK8Jb0PIxYbds5AhKMO3wqw==",
+      "fix": ""
+    },
+    {
+      "scene_id": 2,
+      "claim": "Cold stimulus touches the roof of the mouth (palate).",
+      "verdict": "correct",
+      "source_title": "biologyonline.com",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGGHo9YEbdEEGGU_vR7M93a_F0Iis3pZlQuIuU5C0hpWLt8xtrhbk26b_Fjz-W8uMuEAcXWjeHo-JtV7V1LV-Qcy2yI2n2nW44LMHEGbONsXFIhVbuI2wmJMRcIVr_bImJKBa3B70WzqfMncgeCsYnCXREVZ8AhLybY20Ai6-i4XeRWJA==",
+      "fix": ""
+    },
+    {
+      "scene_id": 3,
+      "claim": "Rapid constriction of blood vessels in the palate occurs as a response to cold.",
+      "verdict": "correct",
+      "source_title": "acibademinternational.com",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDF6n8djZHwBQI7gA3tpsYpSowJ4bXdTQt5QsjJW6V8XVw-wqFvnzj4Em0NQ0IrKm7FWW9s4U9FTyqdNYd3q7Y2jcY3SjaHDzTdp7vGxXKddC4-noybhLDhkBAQeAkPbWaJYxZYfOVmnmM5L7ZOsaV2_nKHaQALSX-Wlnv0e3wPk5c8mmk_4yoPmWSEw653_sHMRNeFd2mOcwX0Q==",
+      "fix": ""
+    },
+    {
+      "scene_id": 4,
+      "claim": "The trigeminal nerve interprets the sudden temperature drop as a threat or pain.",
+      "verdict": "correct",
+      "source_title": "neuroscientificallychallenged.com",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGRB9_LcOrDd0hJG7WWWKf1sxc8EmJVXaVtdN8Z1kPeMr4DOOr5RRR_afTFGDRIGvHbrsasJVxc8laa0EJkfMV6MJZCNRNmGYul9yAtdhlSDeIOT0OizyHjSHfUjkOGDjRyh8sS6kLh_hq0p-I2jbuui38vQHpxPMG4PuEL7rlWs8Sjp-phy7jeUSYNyf4rd87ukNGW5i43NNDBEfa1LtaIvfKsBLZsx8uNnewSCcdcYeUnoH17nD2Oa48Gnhul9mKd6ctiJODJHr1cBW_O5xY9WA---o797JsDRrDJnfY6A8mU6L6V5Ftk7VgRPXjEzEPHImfrBhUfYbKp-ajH5YyJ8eNwBmMbJkN2OikjB9trWG3bvik-cRJmvIrhH0qZY6EUz38OVkNLgw==",
+      "fix": ""
+    },
+    {
+      "scene_id": 5,
+      "claim": "Referred pain is felt in the forehead or temples due to the trigeminal nerve pathway.",
+      "verdict": "correct",
+      "source_title": "amethyst-radiotherapy.co.uk",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHn__A-gx3mbG21rZwl86zZuqAMe9NuaQNcetzqosAdsnSi9xfTh7AzaTL6lf_IDd-VuqjXv_pp-ceKX9RLEMNj0pdaFWqBDpgLppfw-Ych8neaS0lJJD4T8G8x7ajfRC9g4SWDzjm4dPFSKz8b21Hwxht6CIVETvOYxUOcEs7DaOQeeNv3FuV56NlYbvVXNZI8SIFFy5-OjSI=",
+      "fix": ""
+    },
+    {
+      "scene_id": 6,
+      "claim": "Eating cold food slowly prevents brain freeze.",
+      "verdict": "correct",
+      "source_title": "livescience.com",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1ywiOjQo3CvREursLYooIODGPa1x_wx6ySP1N4VcXmndchqrUNlAmIReKiVGODH8QD1PwGVTqosyu4L4ZN5qyTeKCQXAA6yK5zTcn7iFJt4KC0K86MM0FgZmE5ejfPV4FQAVLK8Jb0PIxYbds5AhKMO3wqw==",
+      "fix": ""
+    }
+  ],
+  "analogy_check": "ok",
+  "overall": "pass",
+  "attempt": 1
+}

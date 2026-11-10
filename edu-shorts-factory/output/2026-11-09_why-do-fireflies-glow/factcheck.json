@@ -1,0 +1,47 @@
+{
+  "results": [
+    {
+      "scene_id": 1,
+      "claim": "Fireflies can control the light emission from their abdomen.",
+      "verdict": "correct",
+      "source_title": "the-scientist.com",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGkRqfa4IMJdQMfKDdeynXiw46QjOwgUp1LNqwVWIdOmgYue5sBRBI9S3wTUn2_9N1GYNu_loJ96HkAOTyzFJjyU0SBBXVIbxuUDtg7z-TBE8HkG0AiZTB3IUdN0DbuhIqK90lVHsAgsoMqZxMFkq4Mb4CNZTXkzDhiP3Mcs24rNPwz5OmdLAFc",
+      "fix": ""
+    },
+    {
+      "scene_id": 2,
+      "claim": "Firefly light is produced by a chemical reaction involving luciferin and oxygen.",
+      "verdict": "correct",
+      "source_title": "the-scientist.com",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGkRqfa4IMJdQMfKDdeynXiw46QjOwgUp1LNqwVWIdOmgYue5sBRBI9S3wTUn2_9N1GYNu_loJ96HkAOTyzFJjyU0SBBXVIbxuUDtg7z-TBE8HkG0AiZTB3IUdN0DbuhIqK90lVHsAgsoMqZxMFkq4Mb4CNZTXkzDhiP3Mcs24rNPwz5OmdLAFc",
+      "fix": ""
+    },
+    {
+      "scene_id": 3,
+      "claim": "The chemiluminescence in fireflies is conceptually similar to man-made glow sticks.",
+      "verdict": "correct",
+      "source_title": "nih.gov",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQExDx89BzgOLhNUBy18hEL2L4-z2ebyoNdTkBdbXCONVPHZHB4fCcju4XwAzhIj5Y1jnWSjliMeOqfCQ4cP2K8_4LKA-WIWxqaw3MwK5pN2PxX3adc4s5bAGVW1qTw4iHH0WOY=",
+      "fix": ""
+    },
+    {
+      "scene_id": 4,
+      "claim": "Fireflies use bioluminescent flashes to attract mates.",
+      "verdict": "correct",
+      "source_title": "bugoftheweek.com",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF8a0GN25ToOk5otMaxBcBzPqPVT-rbQyK4Aow5ADxdchCWHA6OqQJJZ0cgoCvhKIHdDfg_hnUJqumCkWn4n6Wihafvism_dc07Af_1s254okkYdsmn_3_zx8s2BO1F9FToVFbi1-VuUf5yk5q4vJWHVJG-QDflU2FX2jD_iaPRxRHDtKZzhSOOUfV2JwZ7wjW6r9ba3YU=",
+      "fix": ""
+    },
+    {
+      "scene_id": 5,
+      "claim": "Firefly light is 'cold light', meaning it produces almost no heat, converting nearly 100% of energy into light.",
+      "verdict": "correct",
+      "source_title": "cbc.ca",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFy3MtC3MaVIzj-e_grcPanfCIFn4PuVFnIDL6QdVKb5dw3wZdAWzzagLd_R6yILo3YgLz0erJOgWvDjVhqfI76VL9NCD5vqpSbQLlZdQlOQErKDyQfRjNZzxTWe3AOBvKfOZHdbbu_ETSs4PlY8kaF2yZ3_e9W9b-_cLJcU1Fg2UdchleYjgpjbg==",
+      "fix": ""
+    }
+  ],
+  "analogy_check": "ok",
+  "overall": "pass",
+  "attempt": 1
+}

@@ -1,0 +1,66 @@
+{
+  "title": "ทำไมก้นหิ่งห้อยถึงมีแสงไฟ?",
+  "format": "why_question",
+  "scenes": [
+    {
+      "id": 1,
+      "narration": "ก้นหิ่งห้อยมีสวิตช์ไฟหรือไง ทำไมถึงเปิดปิดแสงได้เองตามใจชอบ?",
+      "visual": "A close-up vertical 9:16 shot of a firefly on a leaf at night, its abdomen blinking with a bright yellow-green light.",
+      "emphasis_words": [
+        "สวิตช์ไฟ",
+        "เปิดปิดแสง"
+      ],
+      "claims": [
+        "Fireflies can control the light emission from their abdomen."
+      ]
+    },
+    {
+      "id": 2,
+      "narration": "จริงๆ มันคือปฏิกิริยาเคมีระหว่างสารลูซิเฟอรินกับออกซิเจน",
+      "visual": "A 3D CGI animation showing molecules of luciferin reacting with oxygen inside a cell, producing a glowing effect.",
+      "emphasis_words": [
+        "ปฏิกิริยาเคมี",
+        "ลูซิเฟอริน"
+      ],
+      "claims": [
+        "Firefly light is produced by a chemical reaction involving luciferin and oxygen."
+      ]
+    },
+    {
+      "id": 3,
+      "narration": "ทำงานเหมือนแท่งเรืองแสงที่เราหักเล่นในคอนเสิร์ตเลย",
+      "visual": "A hand cracking a neon green glow stick in a dark room, showing it instantly lighting up.",
+      "emphasis_words": [
+        "แท่งเรืองแสง",
+        "คอนเสิร์ต"
+      ],
+      "claims": [
+        "The chemiluminescence in fireflies is conceptually similar to man-made glow sticks."
+      ]
+    },
+    {
+      "id": 4,
+      "narration": "พวกมันกระพริบไฟเพื่อส่งสัญญาณหาคู่ในความมืด",
+      "visual": "Two fireflies on adjacent leaves blinking in a rhythmic pattern, communicating with each other.",
+      "emphasis_words": [
+        "ส่งสัญญาณหาคู่"
+      ],
+      "claims": [
+        "Fireflies use bioluminescent flashes to attract mates."
+      ]
+    },
+    {
+      "id": 5,
+      "narration": "แต่ที่น่าทึ่งคือ แสงนี้ไม่มีความร้อนเลยสักนิด จนเราต้องถามว่า...",
+      "visual": "A close-up of a human finger gently touching a glowing firefly, with a cool blue-green aura, showing no heat emission.",
+      "emphasis_words": [
+        "ไม่มีความร้อน"
+      ],
+      "claims": [
+        "Firefly light is 'cold light', meaning it produces almost no heat, converting nearly 100% of energy into light."
+      ]
+    }
+  ],
+  "loop_note": "ประโยคสุดท้ายจบด้วยคำว่า 'จนเราต้องถามว่า...' ซึ่งจะเชื่อมโยงเข้ากับประโยคเริ่มต้นของคลิป (ฉากที่ 1) 'ก้นหิ่งห้อยมีสวิตช์ไฟหรือไง...' ได้ทันทีอย่างลื่นไหลเมื่อคลิปเล่นซ้ำ",
+  "hook_used": "ก้นหิ่งห้อยมีสวิตช์ไฟหรือไง ทำไมถึงเปิดปิดแสงได้เองตามใจชอบ?"
+}

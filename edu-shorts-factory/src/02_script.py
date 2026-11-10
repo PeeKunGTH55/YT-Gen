@@ -12,6 +12,7 @@ from utils.llm import call_llm_json
 from utils.paths import (
     get_custom_rules_prompt,
     get_or_create_clip_dir,
+    load_yaml,
     render_prompt,
     resolve_clip_dir,
 )
@@ -129,6 +130,15 @@ def select_topic_row(topic_id: str | None, mock: bool = False) -> dict[str, str]
             if str(r.get("id")) == str(topic_id):
                 return r
         raise ValueError(f"ไม่พบ topic_id={topic_id} ใน data/topics.csv")
+
+    channel_cfg = load_yaml("channel.yaml")
+    topic_qc_enabled = bool(channel_cfg.get("qc", {}).get("topic_qc", {}).get("enabled", True))
+
+    if topic_qc_enabled:
+        import importlib
+        mod_topic_qc = importlib.import_module("01_topic_qc_agent")
+        approved_row, log = mod_topic_qc.get_next_approved_topic(mock=mock)
+        return approved_row
 
     for r in rows:
         if r.get("status", "idea") == "idea":

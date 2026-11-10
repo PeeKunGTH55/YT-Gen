@@ -1,0 +1,80 @@
+{
+  "title": "ทำไมกินไอติมเร็วๆ แล้วถึงปวดจี๊ดขึ้นสมอง?",
+  "format": "why_question",
+  "scenes": [
+    {
+      "id": 1,
+      "narration": "รีบกินไอติมคลายร้อนทีไร ต้องกุมขมับปวดจี๊ดขึ้นสมองทุกทีเพราะสิ่งนี้!",
+      "visual": "Close-up of a person suddenly holding their temples in pain while holding a colorful ice cream cone, 9:16 vertical shot.",
+      "emphasis_words": [
+        "ปวดจี๊ดขึ้นสมอง",
+        "เพราะสิ่งนี้"
+      ],
+      "claims": [
+        "Brain freeze (sphenopalatine ganglioneuralgia) is triggered by rapid consumption of cold substances."
+      ]
+    },
+    {
+      "id": 2,
+      "narration": "เมื่อความเย็นจัดสัมผัสเพดานปากอย่างรวดเร็ว",
+      "visual": "Macro shot of a scoop of melting ice cream touching the roof of a stylized 3D mouth model, 9:16 vertical shot.",
+      "emphasis_words": [
+        "ความเย็นจัด",
+        "เพดานปาก"
+      ],
+      "claims": [
+        "Cold stimulus touches the roof of the mouth (palate)."
+      ]
+    },
+    {
+      "id": 3,
+      "narration": "หลอดเลือดจะหดตัวฉับพลัน เหมือนท่อน้ำโดนบีบกะทันหัน",
+      "visual": "3D animation of red blood vessels rapidly constricting, compared side-by-side with a squeezed garden hose, 9:16 vertical shot.",
+      "emphasis_words": [
+        "หดตัวฉับพลัน",
+        "โดนบีบกะทันหัน"
+      ],
+      "claims": [
+        "Rapid constriction of blood vessels in the palate occurs as a response to cold."
+      ]
+    },
+    {
+      "id": 4,
+      "narration": "สมองจึงเข้าใจผิดว่าร่างกายกำลังเผชิญภัยอันตราย",
+      "visual": "Stylized 3D brain glowing with red warning lights, representing a panic response, 9:16 vertical shot.",
+      "emphasis_words": [
+        "เข้าใจผิด",
+        "ภัยอันตราย"
+      ],
+      "claims": [
+        "The trigeminal nerve interprets the sudden temperature drop as a threat or pain."
+      ]
+    },
+    {
+      "id": 5,
+      "narration": "และส่งสัญญาณเตือนเป็นความปวดจี๊ดที่หน้าผากแทน",
+      "visual": "A nervous system animation showing pain signals traveling from the palate up to the forehead, 9:16 vertical shot.",
+      "emphasis_words": [
+        "สัญญาณเตือน",
+        "ปวดจี๊ด"
+      ],
+      "claims": [
+        "Referred pain is felt in the forehead or temples due to the trigeminal nerve pathway."
+      ]
+    },
+    {
+      "id": 6,
+      "narration": "จำไว้ว่าอย่ากินเร็วเกินไป ไม่งั้นเวลาที่คุณ",
+      "visual": "A person looking at an ice cream spoon hesitantly, preparing to eat it slowly, 9:16 vertical shot.",
+      "emphasis_words": [
+        "อย่ากินเร็วเกินไป",
+        "ไม่งั้นเวลาที่คุณ"
+      ],
+      "claims": [
+        "Eating cold food slowly prevents brain freeze."
+      ]
+    }
+  ],
+  "loop_note": "ประโยคจบในฉากที่ 6 'จำไว้ว่าอย่ากินเร็วเกินไป ไม่งั้นเวลาที่คุณ...' จะเชื่อมต่อกับประโยคเปิดในฉากที่ 1 'รีบกินไอติมคลายร้อนทีไร ต้องกุมขมับปวดจี๊ดขึ้นสมองทุกทีเพราะสิ่งนี้!' ได้อย่างราบรื่นเป็นประโยคเดียวกันเมื่อคลิปเล่นซ้ำ",
+  "hook_used": "รีบกินไอติมคลายร้อนทีไร ต้องกุมขมับปวดจี๊ดขึ้นสมองทุกทีเพราะสิ่งนี้!"
+}
